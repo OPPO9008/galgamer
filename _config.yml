@@ -13,8 +13,9 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://game.justcn2.xyz/
-permalink: :year/:month/:day/:title/
+url: http://galgamer.xyz/
+#permalink: :year/:month/:day/:title/
+permalink: article/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
