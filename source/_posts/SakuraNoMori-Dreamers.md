@@ -173,7 +173,7 @@ excerpt: 擁有能看見即將發生的不幸的能力的男主角，吹上慎�
 ## 遊戲 OP 動畫欣賞
 
 動畫來自 Steam。
-<video width="99%" controls="controls" src="https://cdn.akamai.steamstatic.com/steam/apps/256700230/movie_max.webm" type="video/webm" muted> 無法載入 Steam 動畫。   </video>
+<video width="100%" controls="controls" src="https://cdn.akamai.steamstatic.com/steam/apps/256700230/movie_max.webm" type="video/webm" muted preload="metadata"> 無法載入 Steam 動畫。   </video>
 
 ## 遊戲畫面
 
