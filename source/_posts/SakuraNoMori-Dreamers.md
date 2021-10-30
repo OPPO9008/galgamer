@@ -202,9 +202,27 @@ R-18 補丁官網下載連結如下：
 
 https://www.moon-stone.jp/product/ms22/
 
-本站暫無日文原版和破解版資源，
+本站暫無漢化補丁資源，日文原版資源和破解方法如下：
 
-網上搜索關鍵字【160527 MOONSTONE】也許可以找到 BT 種子。
+<details><summary>點此展開</summary>
+
+1. 下載遊戲本體，磁力連結如下
+
+```
+magnet:?xt=urn:btih:0b9fafd5c0b207351ab4dc051c41e88dcd0803b4
+文件名：(18禁ゲーム) [160527] [MOONSTONE] サクラノモリ†ドリーマーズ (mdf+mds+マニュアル+rr3).rar
+```
+
+2. 使用 ISO 虛擬光驅安裝遊戲，如果安裝程序介面出現亂碼導致無法安裝，請使用 Locate Emulator 轉區到日文。
+3. 打開安裝目錄，修改安裝路徑僅包含英文（否則遊戲出現亂碼會無法引用資源文件）。
+4. 下載破解補丁，地址：[anime-sharing 論壇](http://www.anime-sharing.com/forum/torrents-47/5-%E2%9D%80-bought-game%E2%9D%80-%5B160527%5D-%5Bmoonstone%5D-%E3%82%B5%E3%82%AF%E3%83%A9%E3%83%8E%E3%83%A2%E3%83%AA%E2%80%A0%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E3%82%BA-drama-cd-manual-%5Bh-game%5D-%5Bpatch%5D-496365/) ，找到樓主發的附件 Patcher-Build20121001.zip（40.2 KB）進行下載，殺毒軟件可能報毒。
+5. 打開破解補丁，將遊戲主程序 sakura.exe 拖上去進行破解。
+6. 運行破解後的 sakura.exe 開始遊戲。
+7. 如果出現亂碼，按照下圖進行調整或使用轉區軟件。
+![操作說明](../image/SakuraNoMori-Dreamers/settings.webp)
+
+</details>
+
 
 請關注續集 **櫻之杜†凈夢者2**！
 
