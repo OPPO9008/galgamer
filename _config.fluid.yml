@@ -592,7 +592,7 @@ post:
   # Custom content at the bottom of the post page (located above the footer)
   custom:
     enable: true
-    content: '<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="xkljFeCE" data-limit="20" data-dislikes="1" data-outlined="1" data-colorful="1"></script>'
+    content: '<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="s85yRa-y" data-limit="20" data-color="E22F38" data-dislikes="1" data-colorful="1"></script>'
 
   # 文章图片可点击放大
   # Zoom feature of images
