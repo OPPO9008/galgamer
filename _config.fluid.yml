@@ -592,7 +592,18 @@ post:
   # Custom content at the bottom of the post page (located above the footer)
   custom:
     enable: true
-    content: '<script async src="https://comments.app/js/widget.js?3" data-comments-app-website="s85yRa-y" data-limit="20" data-color="E22F38" data-dislikes="1" data-colorful="1"></script>'
+    content: '
+    <h2> 留言區 </h2>
+    <p> 
+    使用 Telegram 帳戶登錄並發表留言——請放心，該留言區由 Telegram 官方提供，我們不會竊取您的 Telegram 信息。
+    </p>
+    <p>
+      歡迎關注 Telegram 頻道
+      <a href="https://t.me/Galgamer_Channel"> @Galgamer_Channel </a>
+    </p>
+    <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="s85yRa-y" data-limit="20" data-color="E22F38" data-dislikes="1" data-colorful="1">
+    </script>
+    '
 
   # 文章图片可点击放大
   # Zoom feature of images
