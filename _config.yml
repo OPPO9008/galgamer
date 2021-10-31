@@ -5,15 +5,15 @@
 # Site
 title: 重樱小学堂
 subtitle: '拉菲酱真是太棒了！'
-description: '我的galgame游戏库'
-keywords: 'galgame下载,Galgame'
+description: '我的 Galgame 游戏库'
+keywords: 'Galgame下载,Galgame'
 author: 小背包
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://galgamer.xyz/
+url: https://galgamer.xyz/
 #permalink: :year/:month/:day/:title/
 permalink: article/:abbrlink.html
 permalink_defaults:

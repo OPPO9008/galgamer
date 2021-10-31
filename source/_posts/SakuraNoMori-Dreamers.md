@@ -1,8 +1,9 @@
 ---
 title: 櫻之杜†凈夢者（一）：遇害的青梅竹馬，夢魘的開始
 keywords: '櫻之杜†凈夢者,樱之社†静梦者,サクラノモリ†ドリーマーズ,MOONSTONE'
-banner_img: '../image/SakuraNoMori-Dreamers/ms22_top02.webp'
+banner_img: ''
 index_img: '../image/SakuraNoMori-Dreamers/header.webp'
+lazyload: false
 tags:
   - 悬疑
   - 惊悚
@@ -19,7 +20,7 @@ excerpt: 擁有能看見即將發生的不幸的能力的男主角，吹上慎�
 
 > 擁有能看見即將發生的不幸的能力的男主角，吹上慎司，發誓要找出至愛的青梅竹馬慘遭殺害的真相。
 
-![櫻之社†凈夢者遊戲封面](../image/SakuraNoMori-Dreamers/ms22_top02.webp)
+![櫻之社†凈夢者遊戲封面](../image/SakuraNoMori-Dreamers/banner.jpg)
 
 
 |      資訊一覽      ||
@@ -172,7 +173,7 @@ excerpt: 擁有能看見即將發生的不幸的能力的男主角，吹上慎�
 ## 遊戲 OP 動畫欣賞
 
 動畫來自 Steam。
-<video width="99%" controls="controls" src="https://cdn.akamai.steamstatic.com/steam/apps/256700230/movie_max.webm" type="video/webm" muted> 無法載入 Steam 動畫。   </video>
+<video width="100%" controls="controls" src="https://cdn.akamai.steamstatic.com/steam/apps/256700230/movie_max.webm" type="video/webm" muted preload="metadata"> 無法載入 Steam 動畫。   </video>
 
 ## 遊戲畫面
 
@@ -191,11 +192,13 @@ excerpt: 擁有能看見即將發生的不幸的能力的男主角，吹上慎�
 <img style="flex:1;border:1px solid;margin:1px;"  src="../image/SakuraNoMori-Dreamers/image-3.webp" />
 </div>
 
+![遊戲封面](../image/SakuraNoMori-Dreamers/ms22_top02.webp)
+
 
 
 ## 資源與下載
 
-<iframe src="https://store.steampowered.com/widget/749520/" frameborder="0" width="646" height="190"></iframe>
+<iframe src="https://store.steampowered.com/widget/749520/" frameborder="0" width="100%" height="200" ></iframe>
 
 Steam 商店爲官方中文版，也有免費試玩版。
 
