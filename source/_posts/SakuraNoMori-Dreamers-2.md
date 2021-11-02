@@ -19,7 +19,7 @@ excerpt: 從殺人魔手中倖存的青梅竹馬，秋津圓香，和男朋友�
 
 `作者：桐遠暮羽`
 
-> 從殺人魔手中倖存的青梅竹馬，秋津圓香，和男朋友慎司一起，幫助身處另一個世界中的櫻之杜†凈夢者小隊總結夢魘。
+> 從殺人魔手中倖存的青梅竹馬，秋津圓香，和男朋友慎司一起，幫助身處另一個世界中的櫻之杜†凈夢者小隊終結夢魘。
 
 ![遊戲封面](../image/SakuraNoMori-Dreamers-2/first-image.jpg)
 
@@ -129,7 +129,6 @@ excerpt: 從殺人魔手中倖存的青梅竹馬，秋津圓香，和男朋友�
 `格言：要永遠在一起喔`
 
  * 穿上衣服感覺像是平胸。
-
 <div style="clear: both;"/>
 
 ### 桐遠暮羽
@@ -143,7 +142,6 @@ excerpt: 從殺人魔手中倖存的青梅竹馬，秋津圓香，和男朋友�
  `格言：和你在一起我就能夠一直幹下去`
 
   * 那當然指的是櫻之杜†凈夢者的大家。
-
 <div style="clear: both;"/>
 
 ### 閑宮真幌
@@ -157,9 +155,8 @@ excerpt: 從殺人魔手中倖存的青梅竹馬，秋津圓香，和男朋友�
  **但是身懷特別好用的技能。**
 
   `格言：這次的戰鬥很哈人喔`
-
  <div style="clear: both;"/>
-
+ 
  ### 衿坂美冬
 
   <img align="left" style="max-height:320px;margin:20px;background-color: transparent;border: none;" src="../image/SakuraNoMori-Dreamers-2/character_detail_illust_05_3.webp">
@@ -171,9 +168,8 @@ excerpt: 從殺人魔手中倖存的青梅竹馬，秋津圓香，和男朋友�
    `格言：我幹，我幹還不行嗎`
 
  * ~~神筆馬良~~
-
  <div style="clear: both;"/>
-
+ 
  ### 吹上初音
 
    <img align="left" style="max-height:320px;margin:20px;background-color: transparent;border: none;" src="../image/SakuraNoMori-Dreamers-2/character_detail_illust_06_2.webp">
@@ -185,7 +181,6 @@ excerpt: 從殺人魔手中倖存的青梅竹馬，秋津圓香，和男朋友�
 `格言：這下我也要來發揮發揮了`
 
  * 不是實妹。
-
  <div style="clear: both;"/>
 
 ## 遊戲畫面（含有 R-18 畫面）
