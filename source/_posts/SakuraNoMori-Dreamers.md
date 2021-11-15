@@ -215,9 +215,9 @@ https://www.moon-stone.jp/product/ms22/
 
 ```
 magnet:?xt=urn:btih:0b9fafd5c0b207351ab4dc051c41e88dcd0803b4
-文件名：(18禁ゲーム) [160527] [MOONSTONE] サクラノモリ†ドリーマーズ (mdf+mds+マニュアル+rr3).rar
 ```
 
+文件名：(18禁ゲーム) [160527] [MOONSTONE] サクラノモリ†ドリーマーズ (mdf+mds+マニュアル+rr3).rar
 2. 使用 ISO 虛擬光驅安裝遊戲，如果安裝程序介面出現亂碼導致無法安裝，請使用 Locate Emulator 轉區到日文。
 3. 打開安裝目錄，修改安裝路徑僅包含英文（否則遊戲出現亂碼會無法引用資源文件）。
 4. 下載破解補丁，地址：[anime-sharing 論壇](http://www.anime-sharing.com/forum/torrents-47/5-%E2%9D%80-bought-game%E2%9D%80-%5B160527%5D-%5Bmoonstone%5D-%E3%82%B5%E3%82%AF%E3%83%A9%E3%83%8E%E3%83%A2%E3%83%AA%E2%80%A0%E3%83%89%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E3%82%BA-drama-cd-manual-%5Bh-game%5D-%5Bpatch%5D-496365/) ，找到樓主發的附件 Patcher-Build20121001.zip（40.2 KB）進行下載，殺毒軟件可能報毒。
@@ -231,5 +231,4 @@ magnet:?xt=urn:btih:0b9fafd5c0b207351ab4dc051c41e88dcd0803b4
 請關注續集 **櫻之杜†凈夢者2**！
 
 續集評測已發佈！「[櫻之杜†凈夢者（二）：鐵道分岔的另一頭，是有你存在的世界](/article/11451)」
-
 
