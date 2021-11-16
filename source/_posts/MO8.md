@@ -246,7 +246,7 @@ Steam 商店爲官方多語言版。
 中文破解版下載：
 
 ```
-magnet:?xt=urn:btih:8fc4c345297429dfaf3e4faf7d6d7280761ed9e7&dn=Memories.Off.Innocent.Fille.CHS
+magnet:?xt=urn:btih:8fc4c345297429dfaf3e4faf7d6d7280761ed9e7
 ```
 
 該種子是從論壇上找的，可能速度較慢，請耐心等待，，，
