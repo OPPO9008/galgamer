@@ -243,9 +243,13 @@ Steam 商店爲官方多語言版。
 
 <br>
 
-本來俺是有中文盜版資源的，但是那個種子已經失傳了，上網搜也沒找到，
+中文破解版下載：
 
-請有緣人提供資源，3Q 謝謝，，，
+```
+magnet:?xt=urn:btih:8fc4c345297429dfaf3e4faf7d6d7280761ed9e7&dn=Memories.Off.Innocent.Fille.CHS
+```
+
+該種子是從論壇上找的，可能速度較慢，請耐心等待，，，
 
 <br>
 
