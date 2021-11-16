@@ -147,7 +147,11 @@ excerpt: '被表妹如月零邀請，回到故鄉如月老宅參加「儀式」�
 
 <details><summary>點此展開 OP 動畫</summary>
 
-<video width="100%" controls="controls" src="https://cdn.cloudflare.steamstatic.com/steam/apps/256756829/movie480.webm" type="video/webm" preload="metadata" muted> 無法載入 Steam 動畫。  </video>
+<video width="100%" controls="controls"  preload="metadata" muted> 
+<source src="https://cdn.cloudflare.steamstatic.com/steam/apps/256756829/movie480.webm" type="video/webm"/>
+<source src="https://cdn.cloudflare.steamstatic.com/steam/apps/256756829/movie480.mp4" type="video/mp4"/>
+<p>無法使用  JavaScript。</p>  
+</video>
 
 動畫來自 Steam。
 </details>
@@ -156,9 +160,7 @@ excerpt: '被表妹如月零邀請，回到故鄉如月老宅參加「儀式」�
 
 霜月はるか - **イノチの灯し方** 
 
-*音訊來自網易雲音樂，自動加載已停用。*
-
-*點擊播放後播放器將通過不安全的 HTTP 連線網易雲音樂服務，請注意音量。*
+*音訊來自網易雲音樂，自動加載已停用，播放時請注意音量。*
 
 <audio controls="" style="width: 100%" preload="none" src="https://music.163.com/song/media/outer/url?id=473403622.mp3" type="audio/mp3"></audio>
 
@@ -202,7 +204,11 @@ excerpt: '被表妹如月零邀請，回到故鄉如月老宅參加「儀式」�
 
 這裏有一個 5 分鐘的試玩實況。
 
-<video width="100%" controls="controls"  src="https://bitbucket.org/sa-ya/my-static/raw/d19e1338d24101adb5cd52d0cf9ffcd235b5f15f/Tsukikage/5min-know.mkv" type="video/mp4" preload="metadata">您的瀏覽器無法播放。</video>
+<video width="100%" controls="controls"  preload="metadata"> 
+<source src="https://bitbucket.org/sa-ya/my-static/raw/d19e1338d24101adb5cd52d0cf9ffcd235b5f15f/Tsukikage/5min-know.mkv" type="video/webm"/>
+<source src="https://bitbucket.org/sa-ya/my-static/raw/4f9e5f20d0c96abd0f71976ab355b0a1c4726f7d/Tsukikage/5min-know.mp4" type="video/mp4"/>
+<p>無法使用  JavaScript。</p>  
+</video>
 
 錄像來自 Bitbucket。
 
