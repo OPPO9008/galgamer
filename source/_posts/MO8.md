@@ -230,8 +230,7 @@ excerpt: '幼時的一場大火將四人玩伴的關係燒得四分五裂。多�
 這裏有一個 8 分鐘的試玩實況。
 
 <video  controls  preload="metadata" width='100%'>
-<source src="https://bitbucket.org/sa-ya/my-static/raw/e099ec0d4b5e58b6eff91c03912c940cb0145a1b/MO8/8min-know.webm" type="video/webm" />
-<source src="https://bitbucket.org/sa-ya/my-static/raw/b9f40f766812d52256e4fc0ad3a75c466e3971df/MO8/8min-know.mp4" type="video/mp4" />
+<source src="https://bitbucket.org/sa-ya/my-static/raw/5774330a11321e24607551bc79aff16e561e662b/MO8/8min-know-h264.mp4" type="video/mp4" />
 <p> To view this video please enable JavaScript</p>
 </video>
 
