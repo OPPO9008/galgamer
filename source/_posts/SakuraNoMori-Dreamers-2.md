@@ -95,7 +95,11 @@ excerpt: 從殺人魔手中倖存的秋津圓香和青梅竹馬的慎司揭開�
 
 歌：電気式華憐音楽集団 
 
-<video width="100%" controls="controls" poster="../image/SakuraNoMori-Dreamers-2/CG6.jpg" src="https://cdn.cloudflare.steamstatic.com/steam/apps/256744846/movie_max.webm" type="video/webm" preload="metadata"> 無法載入 Steam 動畫。  </video>
+<video  controls width='100%' preload="metadata" poster="../image/SakuraNoMori-Dreamers-2/CG6.jpg" >
+<source src="https://cdn.cloudflare.steamstatic.com/steam/apps/256744846/movie_max.webm" type="video/webm"/>
+<source  src="https://cdn.cloudflare.steamstatic.com/steam/apps/256744846/movie480.mp4" type="video/mp4"/>
+<p> To view this video please enable JavaScript</p>
+</video>
 
 動畫來自 Steam。
 

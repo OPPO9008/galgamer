@@ -1,5 +1,5 @@
 function main() {
-    redirectHttps();
+    //redirectHttps();
     redirectNoWWW();
 }
 
