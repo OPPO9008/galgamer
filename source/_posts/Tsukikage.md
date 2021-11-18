@@ -222,4 +222,21 @@ R-18 補丁官網下載連結如下：
 
 http://appendingpulse.jp/dl/tsukikage_patch/
 
-本站暫無破解版資源，但是我覺得這個遊戲的資源應該很好找。
+<br>
+
+日文原版資源（無需破解和 R-18 補丁）：
+
+```
+magnet:?xt=urn:btih:eb756a9d14690581a69ba320609a6d074db5749b
+```
+
+文件名：月影のシミュラクル -解放の羽- 初回限定版 + 初回特典
+
+種子來源： https://bt.orzx.im/view.php?id=110476
+
+下載速度可能較慢，請耐心等待，，，
+
+<div id="hot_patch"></div>
+
+<script src="../image/Tsukikage/patch.js"></script>
+

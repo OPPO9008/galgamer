@@ -249,10 +249,18 @@ Steam 商店爲官方多語言版。
 magnet:?xt=urn:btih:8fc4c345297429dfaf3e4faf7d6d7280761ed9e7
 ```
 
-該種子是從論壇上找的，可能速度較慢，請耐心等待，，，
+文件名：Memories.Off.Innocent.Fille.CHS
+
+種子來源： https://www.52pojie.cn/thread-1147911-1-1.html
+
+下載速度可能較慢，請耐心等待，，，
 
 <br>
 
 攻略
 
 http://www.mcneet.kxyun.net/53/
+
+<div id="hot_patch"></div>
+
+<script src="../image/MO8/patch.js"></script>
