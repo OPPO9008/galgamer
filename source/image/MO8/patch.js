@@ -11,7 +11,7 @@ async function main() {
         console.log(err);
     })
     if(content){
-        mydiv.innerHTML = content;
+        // mydiv.innerHTML = content;
     }
 }
 
