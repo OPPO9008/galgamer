@@ -479,7 +479,7 @@ index:
   # 打开文章的标签方式
   # The browser tag to open the post
   # Available: _blank | _self
-  post_url_target: _self
+  post_url_target: _blank
 
   # 是否显示文章信息（时间、分类、标签）
   # Meta information of post
@@ -603,9 +603,15 @@ post:
       歡迎關注 Telegram 頻道
       <a href="https://telega.one/Galgamer_Channel"> @Galgamer_Channel </a>
     </p>
+    <button id="loadingMsg" class="btn btn-outline-primary" type="button" disabled>
+    <div  class="d-flex align-items-center">
+    <strong>Loading...</strong>
+    <div class="spinner-border m-3" role="status" aria-hidden="true"></div>
+    </div>
+    </button>
+    <script defer src="/js/comments-loading.js" ></script>
     <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="s85yRa-y" data-limit="20" data-color="E22F38" data-dislikes="1" data-colorful="1">
-    </script>
-    '
+    </script>'
 
   # 文章图片可点击放大
   # Zoom feature of images
