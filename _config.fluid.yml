@@ -79,7 +79,7 @@ fun_features:
   # 为 subtitle 添加打字机效果
   # Typing animation for subtitle
   typing:
-    enable: true
+    enable: false
 
     # 打印速度，数字越大越慢
     # Typing speed, the larger the number, the slower
@@ -107,7 +107,7 @@ fun_features:
   # 加载进度条
   # Progress bar when loading
   progressbar:
-    enable: true
+    enable: false
     height_px: 3
     color: "#29d"
     # See: https://github.com/rstacruz/nprogress
@@ -261,7 +261,7 @@ web_analytics:  # 网页访问统计
 # 对页面中的图片和评论插件进行懒加载处理，可见范围外的元素不会提前加载
 # Lazy loading of images and comment plugin on the page
 lazyload:
-  enable: true
+  enable: false
 
   # 加载时的占位图片
   # The placeholder image when loading
