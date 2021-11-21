@@ -19,10 +19,11 @@ function createShareBtn() {
     btn.setAttribute('id', 'shareBtn');
     
     let logo = document.createElement('img');
-    logo.setAttribute('width', '28px');
-    logo.setAttribute('src', '/image/TGLogo.png');
+    logo.setAttribute('width', '20px');
+    logo.setAttribute('src', '/image/TGLogo.svg');
     
     let mText = document.createElement('span');
+    mText.setAttribute('style', 'margin: 4px;');
     mText.innerHTML = '分享';
     
     btn.appendChild(logo);
