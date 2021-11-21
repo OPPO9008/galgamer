@@ -79,7 +79,7 @@ fun_features:
   # 为 subtitle 添加打字机效果
   # Typing animation for subtitle
   typing:
-    enable: true
+    enable: false
 
     # 打印速度，数字越大越慢
     # Typing speed, the larger the number, the slower
@@ -107,7 +107,7 @@ fun_features:
   # 加载进度条
   # Progress bar when loading
   progressbar:
-    enable: true
+    enable: false
     height_px: 3
     color: "#29d"
     # See: https://github.com/rstacruz/nprogress
@@ -261,7 +261,7 @@ web_analytics:  # 网页访问统计
 # 对页面中的图片和评论插件进行懒加载处理，可见范围外的元素不会提前加载
 # Lazy loading of images and comment plugin on the page
 lazyload:
-  enable: true
+  enable: false
 
   # 加载时的占位图片
   # The placeholder image when loading
@@ -428,12 +428,12 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://cdn.jsdelivr.net/gh/OPPO9008/images/hana1.png
+  banner_img: /image/hana1.webp
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
   # Available: 0 - 100
-  banner_img_height: 100
+  banner_img_height: 75
 
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
@@ -479,7 +479,7 @@ index:
   # 打开文章的标签方式
   # The browser tag to open the post
   # Available: _blank | _self
-  post_url_target: _self
+  post_url_target: _blank
 
   # 是否显示文章信息（时间、分类、标签）
   # Meta information of post
@@ -603,9 +603,15 @@ post:
       歡迎關注 Telegram 頻道
       <a href="https://telega.one/Galgamer_Channel"> @Galgamer_Channel </a>
     </p>
+    <button id="loadingMsg" class="btn btn-outline-primary" type="button" disabled>
+    <div  class="d-flex align-items-center">
+    <strong>Loading...</strong>
+    <div class="spinner-border m-3" role="status" aria-hidden="true"></div>
+    </div>
+    </button>
+    <script defer src="/js/comments-loading.js" ></script>
     <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="s85yRa-y" data-limit="20" data-color="E22F38" data-dislikes="1" data-colorful="1">
-    </script>
-    '
+    </script>'
 
   # 文章图片可点击放大
   # Zoom feature of images
@@ -871,7 +877,7 @@ about:
   subtitle:
   avatar: /img/avatar.png
   name: "重樱小学堂"
-  intro: "我的galgame游戏库"
+  intro: "我的 Galgame 游戏库"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
