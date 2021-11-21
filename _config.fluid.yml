@@ -609,7 +609,7 @@ post:
     <div class="spinner-border m-3" role="status" aria-hidden="true"></div>
     </div>
     </button>
-    <script defer src="/js/article_custom.js ></script>
+    <script defer src="/js/article_custom.js" ></script>
     <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="s85yRa-y" data-limit="20" data-color="E22F38" data-dislikes="1" data-colorful="1">
     </script>'
 
