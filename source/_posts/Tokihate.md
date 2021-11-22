@@ -30,7 +30,8 @@ excerpt: ''
 動畫來自 YouTube。
 
 <video controls preload="auto" width='100%' poster="../image/Tokihate/op.jpg">
-<source src="../image/Tokihate/op.mp4" type="video/mp4" />
+<source src="https://bitbucket.org/sa-ya/my-static/raw/1286dcad4850e614f859bf4a8c3ffcb47fa62998/Tokihate/op.mp4" type="video/mp4" />
+<track default src="../image/Tokihate/op.vtt" label="日文">
 <p> To view this video please enable JavaScript</p>
 </video>
 
@@ -50,7 +51,7 @@ excerpt: ''
 
 由於是日文版，我嘗試加了翻譯字幕。
 
-<video controls preload="auto" width='100%' poster="../image/Tokihate/movie.webp">
+<video controls preload="metadata" width='100%' poster="../image/Tokihate/movie.webp">
 <source src="https://bitbucket.org/sa-ya/my-static/raw/a35823475fa2d49885381eb4cbfae443d4e3698f/Tokihate/Tokihate-2.mp4" type="video/mp4" />
 <track default src="../image/Tokihate/tokihate.vtt" label="繁體中文">
 <track src="../image/Tokihate/tokihate-sc.vtt" label="简体中文">
