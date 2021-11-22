@@ -27,8 +27,12 @@ excerpt: ''
 
 ## 遊戲 OP 動畫欣賞
 
-動畫來自 Steam。
+動畫來自 YouTube。
 
+<video controls preload="auto" width='100%' poster="../image/Tokihate/op.jpg">
+<source src="../image/Tokihate/op.mp4" type="video/mp4" />
+<p> To view this video please enable JavaScript</p>
+</video>
 
 
 ## 一句話點評
@@ -46,7 +50,7 @@ excerpt: ''
 
 由於是日文版，我嘗試加了翻譯字幕。
 
-<video  controls  preload="metadata" width='100%'>
+<video controls preload="auto" width='100%' poster="../image/Tokihate/movie.webp">
 <source src="https://bitbucket.org/sa-ya/my-static/raw/a35823475fa2d49885381eb4cbfae443d4e3698f/Tokihate/Tokihate-2.mp4" type="video/mp4" />
 <track default src="../image/Tokihate/tokihate.vtt" label="繁體中文">
 <track src="../image/Tokihate/tokihate-sc.vtt" label="简体中文">
