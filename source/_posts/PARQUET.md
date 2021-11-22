@@ -82,6 +82,11 @@ Brain-machine Interface，简称BMI，是一种连接大脑和机器的技术。
 
 [比邻网盘](https://pan.bilnn.com/s/2WdmsM) 不限速网盘 下载所有分卷到一个文件夹解压 
 
+百度网盘秒传 [秒传使用方法](https://galgamer.xyz/article/48333) 进度条拉最右边有一键复制
 
-
-
+```
+7dbd81f4ae0d15e8d53c5c198bdad5fc#1cb6da55bc98d23a47252e611547bfd2#734003200#Parquet.7z.001
+2d8eee8333209241f38f306da951b8c5#451aff90934b68551579aabe8ce115d6#734003200#Parquet.7z.002
+cc6c2783356a629ea3ed51f471d55349#3764620ae2aeb90d080469328d4c0520#734003200#Parquet.7z.003
+03897efcc4b6c37fe6348906273bce02#fccfdf2dd076efda514d2f06e26311c7#311983461#Parquet.7z.004
+```
