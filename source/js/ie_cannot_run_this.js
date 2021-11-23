@@ -40,7 +40,7 @@ async function chinaCDN(){
                 }
             })
             .catch(function(error){
-                log('China CDN for ' + tag.getAttribute('src') + 'error.');
+                log('China CDN for ' + tag.getAttribute('src') + ' error.');
                 log(error);
             })
             
