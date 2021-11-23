@@ -148,8 +148,8 @@ excerpt: '被表妹如月零邀請，回到故鄉如月老宅參加「儀式」�
 <details><summary>點此展開 OP 動畫</summary>
 
 <video width="100%" controls="controls"  preload="metadata" muted> 
-<source src="https://cdn.cloudflare.steamstatic.com/steam/apps/256756829/movie480.webm" type="video/webm"/>
-<source src="https://cdn.cloudflare.steamstatic.com/steam/apps/256756829/movie480.mp4" type="video/mp4"/>
+<source src="https://cdn.cloudflare.steamstatic.com/steam/apps/256756829/movie480.webm" src-cn="https://media.st.dl.pinyuncloud.com/steam/apps/256756829/movie480.webm" type="video/webm"/>
+<source src="https://cdn.cloudflare.steamstatic.com/steam/apps/256756829/movie480.mp4" src-cn="https://media.st.dl.pinyuncloud.com/steam/apps/256756829/movie480.mp4" type="video/mp4"/>
 <p>無法使用  JavaScript。</p>  
 </video>
 
@@ -205,8 +205,8 @@ excerpt: '被表妹如月零邀請，回到故鄉如月老宅參加「儀式」�
 這裏有一個 5 分鐘的試玩實況。
 
 <video width="100%" controls="controls"  preload="metadata"> 
-<source src="https://bitbucket.org/sa-ya/my-static/raw/d19e1338d24101adb5cd52d0cf9ffcd235b5f15f/Tsukikage/5min-know.mkv" type="video/webm"/>
-<source src="https://bitbucket.org/sa-ya/my-static/raw/4f9e5f20d0c96abd0f71976ab355b0a1c4726f7d/Tsukikage/5min-know.mp4" type="video/mp4"/>
+<source src="https://bitbucket.org/sa-ya/my-static/raw/d19e1338d24101adb5cd52d0cf9ffcd235b5f15f/Tsukikage/5min-know.mkv" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/pm4WKbFw/BMAfvf-dq4xX0rpZiiOJLJtlatl9B3NcoBo4gQJCARI*" type="video/webm"/>
+<source src="https://bitbucket.org/sa-ya/my-static/raw/4f9e5f20d0c96abd0f71976ab355b0a1c4726f7d/Tsukikage/5min-know.mp4" src-cn="adfsdf" type="video/mp4"/>
 <p>無法使用  JavaScript。</p>  
 </video>
 
