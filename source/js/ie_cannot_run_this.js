@@ -18,3 +18,5 @@ async function checkChina () {
 function chinaCDN(){
     // 中國 CDN 加速...
 }
+
+chinaCDN();
