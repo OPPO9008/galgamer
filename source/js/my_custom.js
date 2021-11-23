@@ -24,7 +24,7 @@ function main() {
 
 // type: https://getbootstrap.com/docs/4.6/components/alerts/ primary, dark, etc
 //
-function makeAlert(type, html, forceTop = false){
+function makeAlert(type, html, forceTop){
     // insert here
     let father = document.querySelectorAll(".mask.flex-center")[0];
     father.classList.add("flex-column");
