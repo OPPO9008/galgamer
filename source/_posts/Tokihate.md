@@ -5,9 +5,10 @@ keywords: '仄暗き時の果てより'
 banner_img: '../image/Tokihate/banner.webp'
 index_img: '../image/Tokihate/index.webp'
 tags:
+  - 穿越
   - 恐怖
   - 悬疑
-  - 解谜
+  - 猎奇
   - MOONSTONE
 abbrlink: 67843
 author: 桐遠暮羽
@@ -23,10 +24,10 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 | 資訊一覽     |                                                              |
 | :----------- | :------------------------------------ |
 | **作品名稱**   |  仄暗き時の果てより    |
-| **開發商**   | MOONSTONE（就是做了很多陽間遊戲的那個公司）      |
+| **開發商**   | <span style="color:red">MOONSTONE</span>（就是做了很多陽間遊戲的那個公司） |
 | **編劇**   | 吳（就是寫了很多陽間劇本的老吳）      |
 | **遊戲時長** | 30 小時                     |
-| **類型**     | 恐怖 懸疑 解謎                    |
+| **類型**     | 穿越 恐怖 懸疑 獵奇                 |
 | **難度**     | 中（具有一定數量的分支，但是還好） |
 | **分級**     | R-18（性行爲，血腥，恐怖）      |
 
@@ -243,7 +244,7 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 
 動畫來自 YouTube，由知名諤諤次元歌手 霜月はるか 演唱，
 
-說實話我覺得這首歌挺不錯的。
+我覺得這首歌挺不錯的。
 
 <video controls preload="auto" width='100%' poster="../image/Tokihate/op.webp">
 <source src="https://bitbucket.org/sa-ya/my-static/raw/1286dcad4850e614f859bf4a8c3ffcb47fa62998/Tokihate/op.mp4" type="video/mp4" />
@@ -255,7 +256,11 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 
 ## 一句話點評
 
+因爲我對那些神器魔器屬實不感興趣，所以本作算得上是我玩過的最陽間的遊戲了。遊戲中的故事結構背景廣大，設定繁多，發生的事件之間看似毫無關聯，但是實際上環環相扣。這就使得剛才上文的那些故事簡介，看的人還以爲是生化危機，但是這是遊戲的全貌嗎？只能算是冰山一角。
 
+話說回來，遊戲是陰間了點，但是劇本卻是充滿了編劇老吳的風格，毫不含糊，安排緊湊，我覺得非常有趣。我在前面劇透了序章會出現殭屍狂潮，然而這不影響序章的觀賞性，主角們恐怖緊張的求生之路還是不容錯過。序章已是如此，則正片更令人期待。
+
+寫在最後，所述<span style="color:red">從陰暗的時間盡頭而來</span>，到底是<span style="color:red">誰</span>從陰暗的時間盡頭而來，不如猜猜看。
 
 
 
@@ -310,7 +315,7 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 
 這裏有一個 10 分鐘的試玩實況。
 
-由於只有日文版，我嘗試加了翻譯字幕。
+由於手上只有日文版，我嘗試加了翻譯字幕。
 
 <video controls preload="metadata" width='100%' poster="../image/Tokihate/movie.webp">
 <source src="https://bitbucket.org/sa-ya/my-static/raw/a35823475fa2d49885381eb4cbfae443d4e3698f/Tokihate/Tokihate-2.mp4" type="video/mp4" />
@@ -319,9 +324,34 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 <p> To view this video please enable JavaScript</p>
 </video>
 
-沒騙你吧，陽間吧
+
 
 ## 資源與下載
+
+### 日文原版和破解補丁
+
+遊戲本體
+
+```
+magnet:?xt=urn:btih:36718d1709a58a55fe43a92f31fa10f5afe3cd62
+```
+
+文件名：(18禁ゲーム) [161222] [MOONSTONE] 仄暗き時の果てより (iso+mds+rr3).rar
+
+資源來自 Mikocon 論壇： https://bbs.mikocon.com/thread-27927-1-1.html
+
+破解補丁：進入上述連結的論壇帖子，下載樓主發的附件 「仄暗き時の果てより Crack (Mai).rar」(789.33 KB)，解壓到遊戲目錄的 /data 文件夾。可能會報毒，我已經試過了，應該沒毒。
+
+### 中文版
+
+截至目前，中文版仍未發佈。
+
+但是某個漢化組應該有漢化，我見有群友發過截圖，想玩的話就去諮詢一下那個群友，問要資源。
+
+<a class="btn btn-info" href="tg://resolve?domain=Galgamer&post=157483">直達群友</a>
+
+<br><br>
+
 
 <style>
 .flex-container {
