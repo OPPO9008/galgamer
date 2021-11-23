@@ -184,8 +184,8 @@ excerpt: '幼時的一場大火將四人玩伴的關係燒得四分五裂。多�
 動畫來自 Steam。
 
 <video  controls width='100%' preload="metadata" poster='../image/MO8/movie.webp'>
-<source src="https://cdn.akamai.steamstatic.com/steam/apps/256776535/movie480.webm" type="video/webm"/>
-<source  src="https://cdn.akamai.steamstatic.com/steam/apps/256776535/movie480.mp4" type="video/mp4"/>
+<source src="https://cdn.akamai.steamstatic.com/steam/apps/256776535/movie480.webm" src-cn="https://media.st.dl.pinyuncloud.com/steam/apps/256776535/movie480.webm" type="video/webm"/>
+<source src="https://cdn.akamai.steamstatic.com/steam/apps/256776535/movie480.mp4" src-cn="https://media.st.dl.pinyuncloud.com/steam/apps/256776535/movie480.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
 
@@ -230,7 +230,7 @@ excerpt: '幼時的一場大火將四人玩伴的關係燒得四分五裂。多�
 這裏有一個 8 分鐘的試玩實況。
 
 <video  controls  preload="metadata" width='100%'>
-<source src="https://bitbucket.org/sa-ya/my-static/raw/5774330a11321e24607551bc79aff16e561e662b/MO8/8min-know-h264.mp4" type="video/mp4" />
+<source src="https://bitbucket.org/sa-ya/my-static/raw/5774330a11321e24607551bc79aff16e561e662b/MO8/8min-know-h264.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/gMbWd1So/7e-JWz1RyiXfgrjaSaqaz1lXhkkNkgyifEA2vydKiNs*" type="video/mp4" />
 <p> To view this video please enable JavaScript</p>
 </video>
 
