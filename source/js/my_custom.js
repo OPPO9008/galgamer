@@ -1,6 +1,6 @@
 /* 
- * Naive code by 桐遠暮羽 for Galgamer
- * Add some custom feature
+ * By 桐遠暮羽 for Galgamer
+ * Add some custom features
  * Repo: https://github.com/OPPO9008/galgamer
  */
 
@@ -8,6 +8,63 @@ function main() {
     //redirectHttps();
     redirectNoWWW();
     createShareBtn();
+    
+    if(checkIE()){
+        makeAlert(
+            'warning',
+            '<h4 class="alert-heading">檢測到 IE 瀏覽器！</h4>' + 
+            '<p>該網頁無法在 IE 瀏覽器上正常顯示。<p>' + 
+            '<p class="mb-0">如果你在用 Windows，我可以幫你用 Edge 打開。</p><hr>' + 
+            '<a class="btn btn-info" role="button" href="microsoft-edge:' +
+            window.location + '">使用 Edge</a>',
+            true
+        );
+    }
+}
+
+// type: https://getbootstrap.com/docs/4.6/components/alerts/ primary, dark, etc
+//
+function makeAlert(type, html, forceTop){
+    // insert here
+    let father = document.querySelectorAll(".mask.flex-center")[0];
+    father.classList.add("flex-column");
+    // make alert
+    let bsAlert = document.createElement('div');
+    let mClass = 'alert alert-' + type + ' alert-dismissible fade show mx-0';
+    bsAlert.setAttribute('class', mClass);
+    bsAlert.setAttribute('role', 'alert');
+    bsAlert.innerHTML = html;
+    let closeBtn = document.createElement('button');
+    closeBtn.setAttribute('type', 'button');
+    closeBtn.setAttribute('class', 'close');
+    closeBtn.setAttribute('data-dismiss', 'alert');
+    closeBtn.setAttribute('aria-label', 'Close');
+    closeBtn.innerHTML = '<span aria-hidden="true">&times;</span>';
+    bsAlert.appendChild(closeBtn);
+    
+    $(".mask.flex-center.flex-column").prepend(bsAlert);
+    if(forceTop){
+        setTimeout(function(){window.scrollTo(0, 0);}, 300);
+    }
+}
+
+function checkIE(){
+    var ua = window.navigator.userAgent;
+
+    var msie = ua.indexOf('MSIE ');
+    if (msie > 0) {
+        // IE 10 or older => return version number
+        return parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
+    }
+
+    var trident = ua.indexOf('Trident/');
+    if (trident > 0) {
+        // IE 11 => return version number
+        var rv = ua.indexOf('rv:');
+        return parseInt(ua.substring(rv + 3, ua.indexOf('.', rv)), 10);
+    }
+
+    return false;
 }
 
 // Share to Telegram button
@@ -34,14 +91,18 @@ function createShareBtn() {
     // 按鈕點擊事件
     btn.addEventListener('click', function (e){
         // url and text for TG share
+        
         let url = window.location;
         let title = document.querySelectorAll('meta[property="og:title"]')[0].content;
         let tags = document.querySelectorAll('meta[property="article:tag"]');
         let tagStr = '';
         if(tags.length) {
-            tags.forEach(function (tag){
-                tagStr += '#' + tag.content + ' ';
-            });
+            //tags.forEach(function (tag){
+            //    tagStr += '#' + tag.content + ' ';
+            //});
+            for(let i = 0; i < tags.length; i++){
+                tagStr += '#' + tags[i].content + ' ';
+            }
         }
         let desc = title + '\n' + tagStr;
         //log(url);
@@ -59,7 +120,7 @@ function redirectHttps() {
             log("當前網址有端口，可能處於調試模式，跳過 HTTPS 重定向。")
             return;
         }
-        console.log("You are visiting from insecure HTTP, redirecting")
+        log("You are visiting from insecure HTTP, redirecting")
         let newLocation = 'https://' + window.location.host + window.location.pathname;
         window.location = newLocation;
     }
