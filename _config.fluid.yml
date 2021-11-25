@@ -206,8 +206,14 @@ custom_css:
 
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
-custom_head: '<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-'
+custom_head: ' 
+    <link rel="preconnect" href="https://api.esutg.workers.dev">
+    <link rel="preconnect" href="https://bitbucket.org">
+    <link rel="preconnect" href="https://api.media.atlassian.com">
+    <link rel="preconnect" href="https://cdn.akamai.steamstatic.com">
+    <link rel="preconnect" href="https://cdn.cloudflare.steamstatic.com">
+    <link rel="preconnect" href="https://store.steampowered.com">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>'
 
 # 自定义底部 HTML 内容（位于 footer 上方），注意不要和 `post: custom` 配置冲突
 # Customize the HTML content at the bottom (located above the footer), be careful not to conflict with `post: custom`
