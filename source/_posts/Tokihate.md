@@ -352,9 +352,9 @@ magnet:?xt=urn:btih:36718d1709a58a55fe43a92f31fa10f5afe3cd62
 
 截至目前，中文版仍未發佈。
 
-但是某個漢化組應該有漢化，我見有群友發過截圖，想玩的話就去諮詢一下那個群友，問要資源。
+但是某個漢化組應該有漢化，我看到有群友發了資源，連結如下：
 
-<a class="btn btn-info" href="tg://resolve?domain=Galgamer&post=157483">直達群友</a>
+<a class="btn btn-info" href="tg://resolve?domain=Galgamer&post=160949">直達資源</a>
 
 <br><br>
 
