@@ -1,5 +1,5 @@
 ---
-title: '星光咖啡店與死神之蝶：重開卻被死神抓去打工'
+title: '星光咖啡店與死神之蝶：爲死神賣命的搞笑日常'
 date: 2021-11-29 00:30:00
 keywords: '喫茶ステラと死神の蝶'
 banner_img: '../image/CafeStella/banner.webp'
@@ -235,6 +235,8 @@ excerpt: '玩太多沉痛的 Galgame，大腦要降級啦。今天玩點輕鬆�
    </video>
 </div>
 
+## 遊戲畫面
+
 
 ## 一句話點評
 
@@ -259,6 +261,15 @@ excerpt: '玩太多沉痛的 Galgame，大腦要降級啦。今天玩點輕鬆�
 柚子你的正作什么时候上？？ 
 
 ## 在猶豫是否要下載？
+
+這裏有一個 8 分鐘的試玩實況。
+
+本作的畫面非常精細所以我特別錄製了高清畫質，，，
+
+<video controls preload="metadata" width='100%' poster="../image/CafeStella/movie.webp">
+<source src="https://bitbucket.org/sa-ya/my-static/raw/c2249febf1bc146f7ea69f0e8743f35c6b2c5e67/CafeStella/8-min-know.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/P8d9v4TO/FklcOv0WChVgXIYpN7tqzgv2FCu-0Bf0DOKUk4mv3X8*" type="video/mp4" />
+<p> To view this video please enable JavaScript</p>
+</video>
 
 ## 資源與下載
 
