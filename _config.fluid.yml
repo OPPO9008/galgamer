@@ -438,7 +438,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /image/hana1-hq.webp
+  banner_img: https://cdn.jsdelivr.net/npm/galgame-oss/hana1-hq.webp
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -510,7 +510,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -821,7 +821,7 @@ cusdis:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -833,7 +833,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -863,7 +863,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -881,7 +881,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -904,7 +904,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/default.png
+  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -915,7 +915,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
   banner_img_height: 85
   banner_mask_alpha: 0.3
   subtitle: "Page not found"
@@ -927,7 +927,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
