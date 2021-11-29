@@ -114,7 +114,6 @@ function createShareBtn() {
     btn.addEventListener('click', function (e){
         // url and text for TG share
         
-        let url = window.location;
         let title = document.querySelectorAll('meta[property="og:title"]')[0].content;
         let tags = document.querySelectorAll('meta[property="article:tag"]');
         let tagStr = '';
@@ -126,7 +125,8 @@ function createShareBtn() {
                 tagStr += '#' + tags[i].content + ' ';
             }
         }
-        let desc = title + '\n' + tagStr;
+        let url = title;
+        let desc = tagStr + '\n' + window.location;
         //log(url);
         //log(desc);
         url = encodeURIComponent(url);
