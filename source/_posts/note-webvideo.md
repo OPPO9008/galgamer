@@ -67,6 +67,12 @@ webm, VP9, 720p, 60fps, 長度 1:57, 77 MB, HandBrake 品質 27
 <source  src="https://bitbucket.org/sa-ya/my-static/raw/75d65c961e5366b706c20e50a4ff6be5c65e546e/note-webvideo/op-vp9-cpu-60fps-27.webm" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p></video>
 
+除了上面三個樣本之外，我還做了其他的測試。測試中都表現出 H264 的畫質和體積都優於 VP9。
+
+而且 VP9 的編碼非常緩慢，網上查閱顯示 VP9 的主要用途是 4K 直播，所以不可把 VP9 作爲萬能靈藥。
+
+最後，H264 的編碼器有 Fast medium slow 三種預置，在必要的時候能夠用耐心換來畫質和體積的優化（設爲 Slow）。
+
 ## 3. 結論
 
 樣本不足，無法得出結論。

@@ -20,6 +20,28 @@ function main() {
             true
         );
     }
+    $(document).ready(function(){
+   $('.qualitypick').change(function(){ 
+
+      //Have several videos in file, so have to navigate directly
+      let video = $(this).parent().find("video");
+
+      //Need access to DOM element for some functionality
+      let videoDOM = video.get(0);
+
+      let curtime = videoDOM.currentTime;  //Get Current Time of Video
+      let playing = !videoDOM.paused;
+      //log('query= ' + "source[label=" + this.value + "]");
+      log('The video is going to switch to ' + this.value);
+      let source = video.find("source[label=" + this.value + "]"); //Copy Source
+
+      source.remove();                 //Remove the source from select
+      video.prepend(source);           //Prepend source on top of options
+      videoDOM.load();                    //Reload Video
+      videoDOM.currentTime = curtime;  //Continue from video's stop
+      if(playing) videoDOM.play();                 //Resume video
+   })
+})
 }
 
 // type: https://getbootstrap.com/docs/4.6/components/alerts/ primary, dark, etc
@@ -92,7 +114,6 @@ function createShareBtn() {
     btn.addEventListener('click', function (e){
         // url and text for TG share
         
-        let url = window.location;
         let title = document.querySelectorAll('meta[property="og:title"]')[0].content;
         let tags = document.querySelectorAll('meta[property="article:tag"]');
         let tagStr = '';
@@ -104,7 +125,8 @@ function createShareBtn() {
                 tagStr += '#' + tags[i].content + ' ';
             }
         }
-        let desc = title + '\n' + tagStr;
+        let url = title;
+        let desc = tagStr + '\n' + window.location;
         //log(url);
         //log(desc);
         url = encodeURIComponent(url);

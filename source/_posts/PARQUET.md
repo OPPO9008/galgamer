@@ -4,10 +4,12 @@ tags:
   - 纯爱
   - 科幻
   - 全年龄
+  - 柚子社
 index_img: >-
   https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_7a9916ab678c21a97528e88b2c15ac9b569a7cd3.600x338.jpg?t=1630062956
 abbrlink: 23509
 date: 2021-11-22 13:11:43
+excerpt: 'Brain-machine Interface，这项技术让人类的记忆得以数据化，同时，也创造出了“他”，他的人格由许许多多的记忆拼凑而成。'
 ---
 
 ![PARQUET](https://media.st.dl.pinyuncloud.com/steam/apps/1662840/header.jpg)
