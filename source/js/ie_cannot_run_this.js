@@ -1,4 +1,45 @@
 
+function main(){
+    if (checkPathRoot()){
+        friendLink();
+    }else{
+        chinaCDN();
+    }
+}
+
+// 友情链接加入首页
+function friendLink(){
+    fetch('/links/index.html')
+    .then(function(resp){
+        if(!resp.ok){
+            throw 'friend link not ok!';
+        }else{
+            return resp.text();
+        }
+    })
+    .then(function(data){
+        let parser = new DOMParser();
+        let doc = parser.parseFromString(data, 'text/html');
+        let card = doc.querySelectorAll('#board')[0];
+        
+        card.classList.add("mt-5");
+        //card.setAttribute('id', 'friendLinkCard');
+        let insertText = card.querySelectorAll('.container')[0];
+        let mText = document.createElement('h5');
+        
+        mText.classList.add("ml-4");
+        mText.innerText = "友情链接";
+        insertText.prepend(mText);
+        
+        let father = document.querySelectorAll('.container.nopadding-x-md')[0];
+        
+        let br = document.createElement('br');
+        father.appendChild(br);
+        father.appendChild(card);
+    })
+    .catch(e => console.log(e))
+}
+
 // 這些函數拿出來免得全軍覆沒
 async function checkChina () {
     let country = await fetch("/cdn-cgi/trace")
@@ -64,4 +105,9 @@ function log(text) {
     console.log('[CustomJS]' + datetime + text);
 }
 
-chinaCDN();
+function checkPathRoot(){
+    let result = window.location.pathname === '/' || window.location.pathname ==='/index.html';
+    return result;
+}
+
+main();
