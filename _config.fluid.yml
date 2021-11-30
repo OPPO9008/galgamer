@@ -102,7 +102,7 @@ fun_features:
     # Options: hover | always | touch
     visible: hover
     # Option：§ | # | ❡
-    icon: ""
+    icon: "#"
 
   # 加载进度条
   # Progress bar when loading
@@ -213,7 +213,7 @@ custom_head: '
     <link rel="preconnect" href="https://cdn.akamai.steamstatic.com">
     <link rel="preconnect" href="https://cdn.cloudflare.steamstatic.com">
     <link rel="preconnect" href="https://store.steampowered.com">
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>'
+    <script src="/js/popper.min.js"></script>'
 
 # 自定义底部 HTML 内容（位于 footer 上方），注意不要和 `post: custom` 配置冲突
 # Customize the HTML content at the bottom (located above the footer), be careful not to conflict with `post: custom`
@@ -287,7 +287,7 @@ lazyload:
 
 # 图标库，包含了大量社交类图标，主题依赖的不包含在内，因此可自行修改，详见 https://hexo.fluid-dev.com/docs/icon/
 # Icon library, which includes many social icons, does not include those theme dependent, so your can modify link by yourself. See: https://hexo.fluid-dev.com/docs/en/icon/
-iconfont: //at.alicdn.com/t/font_1736178_kmeydafke9r.css
+iconfont: /css/fluid/iconfont.css
 
 
 #---------------------------
@@ -510,7 +510,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
+  banner_img: /img/default.png
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -821,7 +821,7 @@ cusdis:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
+  banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -833,7 +833,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
+  banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -863,7 +863,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
+  banner_img: /img/default.png
   banner_img_height: 80
   banner_mask_alpha: 0.3
   subtitle:
@@ -881,7 +881,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
+  banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -904,7 +904,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
+  banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -915,7 +915,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
+  banner_img: /img/default.png
   banner_img_height: 85
   banner_mask_alpha: 0.3
   subtitle: "Page not found"
@@ -927,7 +927,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/fluid-dev/hexo-theme-fluid/source/img/default.png
+  banner_img: /img/default.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -940,24 +940,6 @@ links:
       link: "https://nekosc.com/",
       avatar: "https://nekosc.com/favicon.ico"
     }
-    - {
-      title: "Fluid Blog",
-      intro: "主题博客",
-      link: "https://hexo.fluid-dev.com/",
-      avatar: "/img/favicon.png"
-    }
-    - {
-      title: "Fluid Docs",
-      intro: "主题使用指南",
-      link: "https://hexo.fluid-dev.com/docs/",
-      avatar: "/img/favicon.png"
-    }
-    - {
-      title: "Fluid Repo",
-      intro: "主题 GitHub 仓库",
-      link: "https://github.com/fluid-dev/hexo-theme-fluid",
-      avatar: "/img/favicon.png"
-    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
@@ -966,7 +948,7 @@ links:
   # 友链下方自定义区域，支持 HTML，可插入例如申请友链的文字
   # Custom content at the bottom of the links
   custom:
-    enable: true
+    enable: false
     content: '<hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：Fluid</li><li>简介：Fluid 主题官方博客</li><li>链接：https://hexo.fluid-dev.com</li><li>图片：https://hexo.fluid-dev.com/img/favicon.png</li></ul>'
 
   # 评论插件
@@ -1000,11 +982,11 @@ static_prefix:
 
   github_markdown: https://cdn.jsdelivr.net/npm/github-markdown-css@4/
 
-  jquery: https://lib.baomitu.com/jquery/3.0.0/ #https://cdn.jsdelivr.net/npm/jquery@3/dist/
+  jquery: https://cdn.jsdelivr.net/npm/jquery@3/dist/
 
   bootstrap: https://cdn.jsdelivr.net/npm/bootstrap@4/dist/
 
-  highlightjs: https://lib.baomitu.com/highlight.js/10.7.3/ #https://cdn.jsdelivr.net/npm/highlight.js@10/
+  highlightjs: https://cdn.jsdelivr.net/npm/highlight.js@10/
 
   prismjs: https://cdn.jsdelivr.net/npm/prismjs@1/
 
