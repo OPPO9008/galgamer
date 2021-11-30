@@ -80,9 +80,10 @@ Brain-machine Interface，简称BMI，是一种连接大脑和机器的技术。
 柚子你的正作什么时候上？？ 
 
 ## 游戏 下载
-[acg网盘](https://acgngame.cloud/s/4KjTZ) （由于api限制，下载卡住请 暂停几分钟再继续）提取码:rm 解压密码 acgngame
 
-[比邻网盘](https://pan.bilnn.com/s/2WdmsM) 不限速网盘 下载所有分卷到一个文件夹解压 
+<a class="btn" href="https://acgngame.cloud/s/4KjTZ" title="国外网盘">acg网盘下载</a> （由于api限制，下载卡住请 暂停几分钟再继续）提取码:rm 解压密码 acgngame
+
+<a class="btn" href="https://pan.bilnn.com/s/2WdmsM" title="国内网盘">比邻网盘下载</a> 不限速网盘 下载所有分卷到一个文件夹解压 
 
 百度网盘秒传 [秒传使用方法](https://galgamer.xyz/article/48333) 进度条拉最右边有一键复制
 
