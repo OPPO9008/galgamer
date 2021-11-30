@@ -447,7 +447,9 @@ magnet:?xt=urn:btih:c70d2386bef29b55966f459b214c3d8b0537de4d
 
 ### 中文版
 
-沒有中文版！但是應該有漢化組的漢化，具體在哪裏有，請上網搜索或諮詢群友。
+沒有中文版！但是我看到有群友發了漢化補丁，連結如下：
+
+<a class="btn btn-info" href="tg://resolve?domain=Galgamer&post=161772">直達資源</a>
 
 ------
 
