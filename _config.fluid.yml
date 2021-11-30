@@ -915,7 +915,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /image/404.webp
   banner_img_height: 85
   banner_mask_alpha: 0.3
   subtitle: "Page not found"
