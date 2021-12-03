@@ -447,7 +447,15 @@ magnet:?xt=urn:btih:c70d2386bef29b55966f459b214c3d8b0537de4d
 
 ### 中文版
 
-沒有中文版！但是我看到有群友發了漢化補丁，連結如下：
+百度网盘秒传
+
+```
+2ccd4f43cbeecfc9007da3c2ccb3ae40#bc726811854b44fa6411bd4fd448248d#1623056246#星光咖啡馆与死神之蝶.7z.003
+45da70412e797bb13844c2bc2afb0df7#b204e19fa1a2a5e6fc1cd8be8c9cb3b2#2621440000#星光咖啡馆与死神之蝶.7z.002
+5ad1b28a1fc8f43f85f3e4537ac520eb#5c001f3d2e0efb0a9a5384550a6754f6#2621440000#星光咖啡馆与死神之蝶.7z.001
+```
+
+漢化補丁，連結如下：
 
 <a class="btn btn-info" href="tg://resolve?domain=Galgamer&post=161772">直達資源</a>
 
