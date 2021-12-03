@@ -42,20 +42,92 @@ Brain-machine Interface，简称BMI，是一种连接大脑和机器的技术。
 
 ## 游戏 CG
 
-<div class="flexContainer" style="display:flex;">
-<img style="flex:1;border:1px solid;margin:1px;" src="https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_c348dff5917608bad2ff74743c73328668815a4f.jpg"/>
-<img style="flex:1;border:1px solid;margin:1px;"  src="https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_7a9916ab678c21a97528e88b2c15ac9b569a7cd3.jpg" />
+<div id="carouselExampleIndicators-natu" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators-natu" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators-natu" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators-natu" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators-natu" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators-natu" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_c348dff5917608bad2ff74743c73328668815a4f.jpg" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_7a9916ab678c21a97528e88b2c15ac9b569a7cd3.jpg" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_40655d8de77a7a5325fcf20503f4a3cba275e910.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_0c2417cd24464bcf4cc4678c4f144461daa36dc0.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_6dfdacbbc79a4288141168a9e51615cacb63e690.jpg">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_056bc140c91d13ea536637be77567d76779f21b9.jpg">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators-natu" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators-natu" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
-<br/>
-<div class="flexContainer" style="display:flex;">
-<img style="flex:1;border:1px solid;margin:1px;" src="https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_40655d8de77a7a5325fcf20503f4a3cba275e910.jpg"/>
-<img style="flex:1;border:1px solid;margin:1px;"  src="https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_0c2417cd24464bcf4cc4678c4f144461daa36dc0.jpg" />
+<br>
+
+<div id="carouselExampleIndicators-suzu" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators-suzu" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators-suzu" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://npm.elemecdn.com/galgame-oss@1.0.8/Parquet/梨乃9.jpg" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://npm.elemecdn.com/galgame-oss@1.0.8/Parquet/梨乃9-1.jpg" >
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators-suzu" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators-suzu" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
-<br/>
-<div class="flexContainer" style="display:flex;">
-<img style="flex:1;border:1px solid;margin:1px;" src="https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_6dfdacbbc79a4288141168a9e51615cacb63e690.jpg"/>
-<img style="flex:1;border:1px solid;margin:1px;"  src="https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_056bc140c91d13ea536637be77567d76779f21b9.jpg" />
+<br>
+
+<div id="carouselExampleIndicators-suzu" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators-suzu" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators-suzu" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://npm.elemecdn.com/galgame-oss@1.0.8/Parquet/翼4.jpg" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://npm.elemecdn.com/galgame-oss@1.0.8/Parquet/翼4-1.jpg" >
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators-suzu" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators-suzu" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
+<br>
 
 ## 吐槽
 
