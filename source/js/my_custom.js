@@ -94,7 +94,7 @@ function checkIE(){
 function createShareBtn() {
     // 創建這個按鈕
     let btn = document.createElement('a');
-    btn.setAttribute('class', 'btn btn-info btn-sm mr-5');
+    btn.setAttribute('class', 'btn btn-info btn-sm mr-auto');
     btn.setAttribute('role', 'button');
     btn.setAttribute('id', 'shareBtn');
     
