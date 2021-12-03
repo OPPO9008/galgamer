@@ -295,10 +295,10 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
       <img class="d-block w-100" src="../image/Tokihate/cg6.webp">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcUwxU3pXeVNJWW1rMWxBTkdkY3J1TllwM1ZiP2U9N1V0UERO.wedp">
+      <img class="d-block w-100" src="../image/Tokihate/cg7.webp">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcUwxU3pXeVNJWW1rMWR4aXRlakV0RzVtWWRIP2U9aWNwaThl.wedp">
+      <img class="d-block w-100" src="../image/Tokihate/cg8.webp">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
