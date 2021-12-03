@@ -323,8 +323,8 @@ navbar:
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
-    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "about", link: "/article/48333.html", icon: "iconfont icon-user-fill" }
+    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -605,14 +605,7 @@ post:
   custom:
     enable: true
     content: '
-    <h2> 留言區 </h2>
-    <p> 
-    使用 Telegram 帳戶登錄並發表留言——請放心，該留言區由 Telegram 官方提供，我們不會竊取您的 Telegram 信息。
-    </p>
-    <p>
-      歡迎關注 Telegram 頻道
-      <a href="https://telega.one/Galgamer_Channel"> @Galgamer_Channel </a>
-    </p>
+    <h2> 评论区 </h2>
     <button id="loadingMsg" class="btn btn-outline-primary" type="button" disabled>
     <div  class="d-flex align-items-center">
     <strong>Loading...</strong>
@@ -620,8 +613,15 @@ post:
     </div>
     </button>
     <script defer src="/js/article_custom.js"></script>
-    <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="s85yRa-y" data-limit="20" data-color="E22F38" data-dislikes="1" data-colorful="1">
-    </script>'
+    <div id="commentsiframe"></div>
+    <p> 
+    使用您的 Telegram 账户发表评论。您也可以到 <a href="https://comments.app">🔗️官网</a> 去登入。
+    </p>
+    <p>
+      欢迎关注 Telegram 频道
+      <a href="https://telega.one/Galgamer_Channel"> @Galgamer_Channel </a>
+    </p>'
+
 
   # 文章图片可点击放大
   # Zoom feature of images
