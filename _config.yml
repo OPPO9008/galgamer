@@ -34,6 +34,8 @@ i18n_dir: :lang
 skip_render:
      - "**/*.js"
      - "*/*.js"
+     - "*/*.json"
+     - "**/*.json"
      - "*/*.css"
      - "**/*.css"
 
