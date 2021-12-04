@@ -5,8 +5,7 @@
  */
 
 function main() {
-    //redirectHttps();
-    redirectNoWWW();
+
     createShareBtn();
     
     if(checkIE()){
@@ -167,7 +166,7 @@ function log(text) {
                 + currentdate.getHours() + ":"  
                 + currentdate.getMinutes() + ":" 
                 + currentdate.getSeconds() + "] ";
-    console.log('[CustomJS]' + datetime + text);
+    console.log('[Log]' + datetime + text);
 }
 
 main();

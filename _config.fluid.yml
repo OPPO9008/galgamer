@@ -194,8 +194,8 @@ font:
 # 指定自定义 .js 文件路径，支持列表；路径是相对 source 目录，如 /js/custom.js 对应存放目录 source/js/custom.js
 # Specify the path of your custom js file, support list. The path is relative to the source directory, such as `/js/custom.js` corresponding to the directory `source/js/custom.js`
 custom_js: 
-   - /js/ie_cannot_run_this.js
-   - /js/my_custom.js
+   - /js/ie_cannot_run_defer.js
+   - /js/ie_code_defer.js
    
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
@@ -213,7 +213,8 @@ custom_head: '
     <link rel="preconnect" href="https://cdn.akamai.steamstatic.com">
     <link rel="preconnect" href="https://cdn.cloudflare.steamstatic.com">
     <link rel="preconnect" href="https://store.steampowered.com">
-    <script src="/js/popper.min.js"></script>'
+    <script async src="/js/mylib_async.js?1204"></script>
+    <script async src="/js/popper.min.js"></script>'
 
 # 自定义底部 HTML 内容（位于 footer 上方），注意不要和 `post: custom` 配置冲突
 # Customize the HTML content at the bottom (located above the footer), be careful not to conflict with `post: custom`
@@ -612,7 +613,7 @@ post:
     <div class="spinner-border m-3" role="status" aria-hidden="true"></div>
     </div>
     </button>
-    <script defer src="/js/article_custom.js"></script>
+    <script defer src="/js/article_custom.js?1204"></script>
     <div id="commentsiframe"></div>
     <p> 
     使用您的 Telegram 账户发表评论。您也可以到 <a href="https://comments.app">🔗️官网</a> 去登入。

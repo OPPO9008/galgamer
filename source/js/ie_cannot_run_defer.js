@@ -102,7 +102,7 @@ function log(text) {
                 + currentdate.getHours() + ":"  
                 + currentdate.getMinutes() + ":" 
                 + currentdate.getSeconds() + "] ";
-    console.log('[CustomJS]' + datetime + text);
+    console.log('[Log]' + datetime + text);
 }
 
 function checkPathRoot(){
