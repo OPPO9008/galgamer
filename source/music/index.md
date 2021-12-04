@@ -1,8 +1,13 @@
 ---
-title: music
+title: Galgame 金曲
 date: 2021-09-30 21:37:54
-
+tags:
+  - Galgame乐曲收录
+excerpt: '这里收录了文章中出现过的 Galgame 乐曲'
+banner_img: '/music/banner.jpg'
 ---
+
+<img src='banner.jpg' width=0px alt="placeholder"/>
 
 {% raw %}
 
@@ -27,43 +32,21 @@ date: 2021-09-30 21:37:54
           </button>
           <div class="dropdown-menu">
             <a class="dropdown-item" id="neteaseGo">網疑雲</a>
-            <a class="dropdown-item" id="qqGo">QQ 音 Le</a>
+            <a class="dropdown-item" id="qqGo">QQ 音樂</a>
             <a class="dropdown-item" id="kugouGo">酷狗</a>
           </div>
         </div>
     </div>
-    <div class="row my-3">
-        <ul class="list-unstyled" id="playlist">
+    <div class="my-1">
+        <ul class="row list-unstyled" id="playlist">
         
-          <li class="media my-2">
-            <img src="..." class="align-self-center mr-3" alt="...">
-            <a class="media-body" >
-              <h5 class="mt-0 mb-1">歌曲名稱</h5>
-              一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息一些信息
-            </a>
-          </li>
+
           
         </ul>
     </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/cplayer/dist/cplayer.min.js"></script>
-<script defer src="/js/music_page.js"></script>
-<script>
-  let player = new cplayer({
-    element: document.getElementById('mPlayer'),
-    playlist: [
-      {
-        src: '歌曲资源链接...',
-        poster: '封面链接...',
-        name: '歌曲名称...',
-        artist: '歌手名称...',
-        lyric: '歌词...',
-        sublyric: '副歌词，一般为翻译...'
-      }
-    ],
-    big: true
-  })
-</script>
+<script defer src="/js/music_page.js?1204"></script>
 
 {% endraw %}
