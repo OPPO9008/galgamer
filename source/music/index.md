@@ -16,7 +16,7 @@ banner_img: '/music/banner.jpg'
         <div  class="col justify-content-center">
             <div id="mPlayer"></div>
         </div>
-        <div id="detailsCard" class="card col-lg-7 mt-2 text-white bg-dark border-white">
+        <div id="detailsCard" class="card col-lg-7 mt-2 text-white bg-secondary border-white">
           <div class="card-header">
             <strong>Details</strong>
           </div>

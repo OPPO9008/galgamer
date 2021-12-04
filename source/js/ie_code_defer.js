@@ -7,6 +7,7 @@
 function main() {
 
     createShareBtn();
+    createNewBadge();//before 2022
     
     if(checkIE()){
         makeAlert(
@@ -87,6 +88,24 @@ function checkIE(){
     }
 
     return false;
+}
+
+function createNewBadge(){
+    let date = new Date();
+    if(date.getFullYear() < 2022){
+        // <span class="badge badge-danger ml-auto d-lg-none">New</span>
+        let badge = document.createElement('span');
+        badge.setAttribute('class', 'badge badge-danger');
+        badge.innerText = 'New';
+        let navLink = document.querySelectorAll('a[href="/music/"].nav-link')[0];
+        navLink.prepend(badge);
+        
+        let badge2 = document.createElement('span');
+        badge2.setAttribute('class', 'badge badge-danger ml-auto d-lg-none');
+        badge2.innerText = 'New';
+        let navBtn = document.getElementById('navbar-toggler-btn');
+        navBtn.parentNode.insertBefore(badge2, navBtn);
+    }
 }
 
 // Share to Telegram button

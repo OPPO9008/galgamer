@@ -38,8 +38,7 @@ function showBetaAlert(){
     makeAlert(
         'success',
         '<h4 class="alert-heading">Beta 版</h4>' + 
-        '<p class="mb-0">代碼隨便寫的，希望能用 : D</p><hr>' + 
-        '<a class="btn-sm btn-success" data-dismiss="alert" role="button">滋瓷</a>',
+        '<p class="mb-0">收錄了已有的 Galgame 樂曲</p>',
         false
     );
 }
