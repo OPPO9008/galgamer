@@ -10,6 +10,9 @@ tags:
   - 奇幻
   - 纯爱
   - MOONSTONE
+categories:
+  - [R-18]
+  - [青梅竹马]
 abbrlink: 56863
 author: 桐遠暮羽
 date: 2021-10-29 22:08:44
