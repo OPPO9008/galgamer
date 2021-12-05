@@ -47,6 +47,6 @@ banner_img: '/music/banner.jpg'
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/cplayer/dist/cplayer.min.js"></script>
-<script defer src="/js/music_page.js?1204"></script>
+<script defer src="/js/music_page.js?1205"></script>
 
 {% endraw %}
