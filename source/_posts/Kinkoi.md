@@ -1,5 +1,5 @@
 ---
-title: '金輝戀曲四重奏：庶民的我徹底敗壞貴族學校風紀'
+title: '金輝戀曲四重奏：庶民的我敗壞貴族學校風紀'
 date: 2021-12-5 00:30:00
 keywords: 'kinkoi, 金輝戀曲四重奏'
 banner_img: '../image/Kinkoi/banner.webp'
@@ -23,7 +23,7 @@ excerpt: '輟學的男高中生，央路，劫持了正在逛街的北歐皇家�
 
 
 
-| 資訊一覽     |                                                              |
+| 資訊一覽     |                 |
 | :----------- | :------------------------------------ |
 | **開發商**   | SAGA PLANETS（我第一次玩他家遊戲）|
 | **遊戲時長** | 40 小時                     |
@@ -221,134 +221,140 @@ Caminal le<br>Pultaia<br>Sortilège<br>Sisua
    </video>
 </div>
 
-## 遊戲畫面
+## 屏幕截圖
 
-<div id="carouselExampleIndicators-kan" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-kan" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-kan" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators-screen" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators-screen" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators-screen" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators-screen" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/CafeStella/cg/kan_02.webp" >
+      <img class="d-block w-100" src="../image/Kinkoi/screenshots/1.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/kan_05.webp" >
+      <img class="d-block w-100" src="../image/Kinkoi/screenshots/2.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../image/Kinkoi/screenshots/3.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../image/Kinkoi/screenshots/4.webp" >
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-kan" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-kan" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
 <br>
 
-<div id="carouselExampleIndicators-natu" class="carousel slide" data-ride="carousel">
+## CG
+
+<div id="carouselExampleIndicators-cg" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-natu" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-natu" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-natu" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators-cg" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators-cg" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators-cg" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators-cg" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators-cg" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators-cg" data-slide-to="5"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/CafeStella/cg/natu_01.webp" >
+      <img class="d-block w-100" src="../image/Kinkoi/cg/1.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/natu_02.webp" >
+      <img class="d-block w-100" src="../image/Kinkoi/cg/2.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/natu_05.webp">
+      <img class="d-block w-100" src="../image/Kinkoi/cg/3.webp">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../image/Kinkoi/cg/4.webp">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../image/Kinkoi/cg/5.webp">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../image/Kinkoi/cg/6.webp">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-natu" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators-cg" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-natu" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleIndicators-cg" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
 <br>
 
-<div id="carouselExampleIndicators-nozo" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators-hcg" class="carousel slide" data-ride="false" data-interval="false">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-nozo" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-nozo" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-nozo" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/CafeStella/cg/nozo_02.webp" >
+      <img class="d-block w-100" src="../image/Kinkoi/hcg/1.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/nozo_04.webp" >
+      <img class="d-block w-100" src="../image/Kinkoi/hcg/2.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/nozo_08.webp">
+      <img class="d-block w-100" src="../image/Kinkoi/hcg/3.webp">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../image/Kinkoi/hcg/4.webp">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-nozo" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators-hcg" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-nozo" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleIndicators-hcg" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
 <br>
 
-<div id="carouselExampleIndicators-mei" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators-qcg" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-mei" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-mei" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-mei" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/CafeStella/cg/mei_01.webp" >
+      <img class="d-block w-100" src="../image/Kinkoi/qcg/1.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/mei_02.webp" >
+      <img class="d-block w-100" src="../image/Kinkoi/qcg/2.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/mei_06.webp">
+      <img class="d-block w-100" src="../image/Kinkoi/qcg/3.webp">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../image/Kinkoi/qcg/4.webp">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-mei" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators-qcg" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-mei" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
-
-<div id="carouselExampleIndicators-suzu" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-suzu" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-suzu" data-slide-to="1"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/CafeStella/cg/suzu_01.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/suzu_02.webp" >
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-suzu" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-suzu" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleIndicators-qcg" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -357,28 +363,50 @@ Caminal le<br>Pultaia<br>Sortilège<br>Sisua
 
 ## 一句話點評
 
+<div class="row align-items-center">
+  <p class="col" style="font-size:200%;">這遊戲好！好就好在：</p>
+  <img class="align-right ml-auto bg-transparent" width="150px" src="../image/Kinkoi/yes.webp" alt=""></img>
+</div>
 
+ * 有公主給男主撐腰，在貴族學校爲所欲爲
+ * 學校只上半天課，然後全是社團活動
+ * 女主角們愛就是愛，恨就是恨，不矯揉做作，不 PUA
+ * 搞笑，很難繃得住
+ * 猝不及防就開始 3P 
+ 
+<div class="row align-items-center">
+  <p class="col" style="font-size:200%;">這遊戲垃圾，他垃圾在：</p>
+  <img class="align-right ml-auto bg-transparent" width="150px" src="../image/Kinkoi/no.webp" alt=""></img>
+</div>
 
+ * 男主角身爲高中生卻不好好唸書
+ * H 和玩法太多，敗壞學校風紀
+ * 最終隱藏結局令人過於胃疼
+ * 男主角的生活令人嫉妒
 
 ## 在猶豫是否要下載？
 
-這裏有一個 8 分鐘的試玩實況。
+<div class="alert alert-success" role="alert">
+  <p class="alert-heading" style="font-size:150%;">內卷！</p>
+  <p class="mb-0">這遊戲 CG 有 2k 分辨率，誇張</p>
+</div>
 
-本作的畫面非常精細所以我特別錄製了高清畫質，，，
+試玩 10 分鐘
 
-劇情大意是青梅竹馬來叫你起床，順便煮早餐。
-
-<video controls preload="auto" width='100%' poster="../image/CafeStella/movie.webp">
-<source src="https://bitbucket.org/sa-ya/my-static/raw/c2249febf1bc146f7ea69f0e8743f35c6b2c5e67/CafeStella/8-min-know.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/P8d9v4TO/FklcOv0WChVgXIYpN7tqzgv2FCu-0Bf0DOKUk4mv3X8*" type="video/mp4" />
+<video controls preload="auto" width='100%'>
+<source src="https://bitbucket.org/sa-ya/my-static/raw/2e7e511571f4604653e2553eb43bfb1f0a032375/Kinkoi/kinkoi-1k-2.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/zZWAwPSq/B4ltoyh3GAMWkA-NtqQixWlwzUvAj8lV05771MZ4kb0*" type="video/mp4" />
 <p> To view this video please enable JavaScript</p>
 </video>
 
 ## 資源與下載
 
-### 日文原版
+<iframe src="https://store.steampowered.com/widget/1277940/" frameborder="0" width="100%" height="200"></iframe>
 
+Steam 商店爲官方多語言版。
 
+破解版？先在 Steam 上購買安裝，把遊戲文件備份之後退款，然後使用 Goldberg SteamEmu 進行免 Steam 補丁即可。
 
+### 全年齡版
 
-### 中文版
+在 Play 商店上面有，不好玩，別玩
 
