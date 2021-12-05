@@ -7,6 +7,9 @@ index_img: '../image/MO8/header.webp'
 lazyload: false
 tags:
   - 冒险
+categories:
+  - [全年龄]
+  - [学园]
 abbrlink: 24763
 author: 相葉詞乃
 excerpt: '幼時的一場大火將四人玩伴的關係燒得四分五裂。多年後，身處事件中心的男主角成爲了交換生，玩伴四人組即將再會。'
