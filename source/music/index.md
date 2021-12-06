@@ -13,10 +13,10 @@ banner_img: '/music/banner.jpg'
 
 <div class="container">
     <div class="row">
-        <div  class="col justify-content-center">
+        <div class="col-xs-12 col-sm-5 mt-2 col" style="max-width:450px">
             <div id="mPlayer"></div>
         </div>
-        <div id="detailsCard" class="card col-lg-7 mt-2 text-white bg-secondary border-white">
+        <div id="detailsCard" class="col-xs-12 card col-sm-7 col-md-6 mt-2 mx-3 text-white bg-secondary border-white">
           <div class="card-header">
             <strong>Details</strong>
           </div>
