@@ -5,6 +5,55 @@ function main(){
     }else{
         chinaCDN();
     }
+    createShareBtn();
+    createNewBadge();//before 2022
+}
+
+// Share to Telegram button
+function createShareBtn() {
+    // 創建這個按鈕
+    let btn = document.createElement('a');
+    btn.setAttribute('class', 'btn btn-info btn-sm mr-auto');
+    btn.setAttribute('role', 'button');
+    btn.setAttribute('id', 'shareBtn');
+    
+    let logo = document.createElement('img');
+    logo.setAttribute('width', '20px');
+    logo.setAttribute('src', '/image/TGlogo.svg');
+    
+    let mText = document.createElement('span');
+    mText.setAttribute('style', 'margin: 4px;');
+    mText.innerHTML = '分享';
+    
+    btn.appendChild(logo);
+    btn.appendChild(mText);
+    // 按鈕插入頁面
+    let insertTo = document.getElementById('navbar-toggler-btn');
+    insertTo.parentNode.insertBefore(btn, insertTo);
+    // 按鈕點擊事件
+    btn.addEventListener('click', function (e){
+        // url and text for TG share
+        
+        let title = document.querySelectorAll('meta[property="og:title"]')[0].content;
+        let tags = document.querySelectorAll('meta[property="article:tag"]');
+        let tagStr = '';
+        if(tags.length) {
+            //tags.forEach(function (tag){
+            //    tagStr += '#' + tag.content + ' ';
+            //});
+            for(let i = 0; i < tags.length; i++){
+                tagStr += '#' + tags[i].content + ' ';
+            }
+        }
+        let url = title;
+        let desc = tagStr + '\n' + window.location;
+        //nielog(url);
+        //nielog(desc);
+        url = encodeURIComponent(url);
+        desc = encodeURIComponent(desc);
+        // TG call
+        window.location = 'tg://msg_url?url=' + url + '&text=' + desc;
+    });
 }
 
 // 友情链接加入首页
@@ -45,13 +94,13 @@ async function checkChina () {
     let country = await fetch("/cdn-cgi/trace")
     .then(resp => resp.text())
     .then(resp => resp.match('loc=(.*)\n')[1])
-    .catch(error => log(error))
+    .catch(error => nielog(error))
     
     if(country === 'CN'){
-        //log('China!');
+        //nielog('China!');
         return true;
     }else{
-        //log('Not China!');
+        //nielog('Not China!');
         return false;
     }
 }
@@ -59,7 +108,7 @@ async function checkChina () {
 async function chinaCDN(){
     // 中國 CDN 加速...
     if(await checkChina()){
-        log('It is China...');
+        nielog('It is China...');
         let needCDN = document.querySelectorAll('[src-cn]');
         
         needCDN.forEach(function(tag){
@@ -70,21 +119,21 @@ async function chinaCDN(){
             })
             .then(resp => resp.json())
             .then(function(data){
-                   if(data["status"] === 200 && data["length"] > 1024){
+                   if(data["status"] === 200 && data["length"] > 1024000){
 
-                    log('China CDN for ' + tag.getAttribute('src') + ' seems ok, size: ' + data["length"]);
+                    nielog('China CDN for ' + tag.getAttribute('src') + ' seems ok, size: ' + data["length"]);
                     // do some replace src stuff
                     tag.setAttribute('src-origin', tag.getAttribute('src'))
                     tag.setAttribute('src', tag.getAttribute('src-cn'));
                     // done!
                    }else{
                     //something goes wrone, skip this tag
-                    log('China CDN for ' + tag.getAttribute('src') + ' error, resp not ok.');
+                    nielog('China CDN for ' + tag.getAttribute('src') + ' error, resp not ok.');
                     console.log(data);
                    }
             })
             .catch(function(error){
-                log('China CDN for ' + tag.getAttribute('src') + ' error.');
+                nielog('China CDN for ' + tag.getAttribute('src') + ' error.');
                 console.log(error.stack);
             })
             .finally(() => {
@@ -96,18 +145,36 @@ async function chinaCDN(){
     }
 }
 
-function log(text) {
+function nielog(text) {
     let currentdate = new Date(); 
     let datetime = "[" +  
                 + currentdate.getHours() + ":"  
                 + currentdate.getMinutes() + ":" 
                 + currentdate.getSeconds() + "] ";
-    console.log('[Log]' + datetime + text);
+    console.log('[nielog]' + datetime + text);
 }
 
 function checkPathRoot(){
     let result = window.location.pathname === '/' || window.location.pathname ==='/index.html';
     return result;
+}
+
+function createNewBadge(){
+    let date = new Date();
+    if(date.getFullYear() < 2022){
+        // <span class="badge badge-danger ml-auto d-lg-none">New</span>
+        let badge = document.createElement('span');
+        badge.setAttribute('class', 'badge badge-danger');
+        badge.innerText = 'New';
+        let navLink = document.querySelectorAll('a[href="/music/"].nav-link')[0];
+        navLink.prepend(badge);
+        
+        let badge2 = document.createElement('span');
+        badge2.setAttribute('class', 'badge badge-danger ml-auto d-lg-none');
+        badge2.innerText = 'New';
+        let navBtn = document.getElementById('navbar-toggler-btn');
+        navBtn.parentNode.insertBefore(badge2, navBtn);
+    }
 }
 
 main();

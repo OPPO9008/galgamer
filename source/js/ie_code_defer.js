@@ -5,9 +5,6 @@
  */
 
 function main() {
-
-    createShareBtn();
-    createNewBadge();//before 2022
     
     if(checkIE()){
         makeAlert(
@@ -32,8 +29,8 @@ function main() {
 
           let curtime = videoDOM.currentTime;  //Get Current Time of Video
           let playing = !videoDOM.paused;
-          //log('query= ' + "source[label=" + this.value + "]");
-          log('The video is going to switch to ' + this.value);
+          //ielog('query= ' + "source[label=" + this.value + "]");
+          ielog('The video is going to switch to ' + this.value);
           let source = video.find("source[label=" + this.value + "]"); //Copy Source
 
           source.remove();                 //Remove the source from select
@@ -90,78 +87,15 @@ function checkIE(){
     return false;
 }
 
-function createNewBadge(){
-    let date = new Date();
-    if(date.getFullYear() < 2022){
-        // <span class="badge badge-danger ml-auto d-lg-none">New</span>
-        let badge = document.createElement('span');
-        badge.setAttribute('class', 'badge badge-danger');
-        badge.innerText = 'New';
-        let navLink = document.querySelectorAll('a[href="/music/"].nav-link')[0];
-        navLink.prepend(badge);
-        
-        let badge2 = document.createElement('span');
-        badge2.setAttribute('class', 'badge badge-danger ml-auto d-lg-none');
-        badge2.innerText = 'New';
-        let navBtn = document.getElementById('navbar-toggler-btn');
-        navBtn.parentNode.insertBefore(badge2, navBtn);
-    }
-}
 
-// Share to Telegram button
-function createShareBtn() {
-    // 創建這個按鈕
-    let btn = document.createElement('a');
-    btn.setAttribute('class', 'btn btn-info btn-sm mr-auto');
-    btn.setAttribute('role', 'button');
-    btn.setAttribute('id', 'shareBtn');
-    
-    let logo = document.createElement('img');
-    logo.setAttribute('width', '20px');
-    logo.setAttribute('src', '/image/TGLogo.svg');
-    
-    let mText = document.createElement('span');
-    mText.setAttribute('style', 'margin: 4px;');
-    mText.innerHTML = '分享';
-    
-    btn.appendChild(logo);
-    btn.appendChild(mText);
-    // 按鈕插入頁面
-    let insertTo = document.getElementById('navbar-toggler-btn');
-    insertTo.parentNode.insertBefore(btn, insertTo);
-    // 按鈕點擊事件
-    btn.addEventListener('click', function (e){
-        // url and text for TG share
-        
-        let title = document.querySelectorAll('meta[property="og:title"]')[0].content;
-        let tags = document.querySelectorAll('meta[property="article:tag"]');
-        let tagStr = '';
-        if(tags.length) {
-            //tags.forEach(function (tag){
-            //    tagStr += '#' + tag.content + ' ';
-            //});
-            for(let i = 0; i < tags.length; i++){
-                tagStr += '#' + tags[i].content + ' ';
-            }
-        }
-        let url = title;
-        let desc = tagStr + '\n' + window.location;
-        //log(url);
-        //log(desc);
-        url = encodeURIComponent(url);
-        desc = encodeURIComponent(desc);
-        // TG call
-        window.location = 'tg://msg_url?url=' + url + '&text=' + desc;
-    });
-}
 
 function redirectHttps() {
     if(window.location.protocol == 'http:'){
         if(window.location.port){
-            log("當前網址有端口，可能處於調試模式，跳過 HTTPS 重定向。")
+            ielog("當前網址有端口，可能處於調試模式，跳過 HTTPS 重定向。")
             return;
         }
-        log("You are visiting from insecure HTTP, redirecting")
+        ielog("You are visiting from insecure HTTP, redirecting")
         let newLocation = 'https://' + window.location.host + window.location.pathname;
         window.location = newLocation;
     }
@@ -169,23 +103,23 @@ function redirectHttps() {
 
 function redirectNoWWW() {
     if(window.location.host == 'www.galgamer.xyz'){
-        log('帶 www 的網址無法載入留言區，需要重定向。');
+        ielog('帶 www 的網址無法載入留言區，需要重定向。');
         let newLocation = 'https://galgamer.xyz' + window.location.pathname;
         window.location = newLocation;
         return;
     }
     if(window.location.host != 'galgamer.xyz'){
-        log('This URL host seems not belong to the official website.');
+        ielog('This URL host seems not belong to the official website.');
     }
 }
 
-function log(text) {
+function ielog(text) {
     let currentdate = new Date(); 
     let datetime = "[" +  
                 + currentdate.getHours() + ":"  
                 + currentdate.getMinutes() + ":" 
                 + currentdate.getSeconds() + "] ";
-    console.log('[Log]' + datetime + text);
+    console.log('[ielog]' + datetime + text);
 }
 
 main();

@@ -6,12 +6,12 @@ let myInterval;
 myInterval = setInterval(function() {
     
     if (document.querySelectorAll('iframe[id*=comments-app]')[0]) {
-        log('comments widget found');
+        alog('comments widget found');
         clearInterval(myInterval); 
         
         let widget = document.querySelectorAll('iframe[id*=comments-app]')[0];
         widget.onload = function() {
-            log('comments widget loaded.')
+            alog('comments widget loaded.')
             loadingMsg.style.display = 'none';
         };
     } else {
@@ -31,6 +31,15 @@ if(getDark()){
     comment_script.setAttribute('data-dark', '1');
 }
 insertDiv.appendChild(comment_script);
+
+function alog(text) {
+    let currentdate = new Date(); 
+    let datetime = "[" +  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes() + ":" 
+                + currentdate.getSeconds() + "] ";
+    console.log('[article]' + datetime + text);
+}
 /* 
 <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="s85yRa-y" data-limit="20" data-color="E22F38" data-dislikes="1" data-colorful="1">
 </script>

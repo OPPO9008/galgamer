@@ -90,9 +90,10 @@ function setupGoBtn(){
     neteaseGo.addEventListener('click', function(ev){
         let neteaseid = allMusic[nowPlaying].netease;
         if(neteaseid){
+            insertToast('success', '正在調用網易雲', 3000);
             window.location = "orpheus://song/" + neteaseid;
         }else{
-            alert('網疑雲沒有這首歌');
+            insertToast('danger', '網疑雲沒有這首歌', 3000);
         }
     })
     //qqmusic://qq.com/media/playSonglist?p=
@@ -110,13 +111,14 @@ function setupGoBtn(){
                 "action": "play"
             }
             let params = JSON.stringify(obj);
+            insertToast('success', '正在調用 QQ 音樂', 3000);
             window.location = "qqmusic://qq.com/media/playSonglist?p=" + encodeURIComponent(params);
         }else{
-            alert('QQ 音樂沒有這首歌');
+            insertToast('danger', 'QQ 音樂沒有這首歌', 3000);
         }
     })
     kugouGo.addEventListener('click', function(ev){
-        alert('無法調用酷狗音樂。');
+        insertToast('danger', '無法打開酷狗音樂', 3000);
     })
 }
 
@@ -165,40 +167,6 @@ function makePlaylistItem(index){
     return mediaEl;
 }
 
-function removeFadeOut( el, speed ) {
-    var seconds = speed/1000;
-    el.style.transition = "opacity "+seconds+"s ease";
-
-    el.style.opacity = 0;
-    setTimeout(function() {
-        el.parentNode.removeChild(el);
-    }, speed);
-}
-
-function insertToast(type, data, last){
-    //<div id="mytoast" class="fixed-bottom bg-success text-light col-lg-4 col-md-10 col-sm-9 w-75 mx-auto py-2 my-2 rounded-lg">testtesttest</div>
-    let old = document.getElementById('mytoast');
-    let deley = 0;
-    if(old){
-        removeFadeOut(old, 500);
-        deley = 500;
-    }
-    setTimeout(function() {
-        let toast = document.createElement('div')
-        toast.setAttribute('id', 'mytoast');
-        toast.setAttribute('class', 'border border-light fixed-bottom text-light col-lg-4 col-md-10 col-sm-9 w-75 mx-auto py-2 my-2 rounded-lg' + ' bg-' + type);
-        toast.innerHTML = data;
-        // 進入
-        toast.style.transition = "opacity 0.5s ease";
-        toast.style.opacity = 0;
-        document.body.appendChild(toast);
-        toast.style.opacity = 100;
-        // 消失
-        setTimeout(function() {
-            removeFadeOut(toast, 500);
-        }, last);
-    }, deley);
-}
 
 function buildPlaylist(){
     for (let i = 0; i < allMusic.length; i++){
@@ -223,7 +191,7 @@ function updatePage(index){
     let title = document.querySelectorAll('meta[property="og:title"]')[0];
     title.content = allMusic[index].name + ' - ' + allMusic[index].artist;
     document.title = allMusic[index].name + ' - ' + allMusic[index].artist;
-    insertToast('dark', 'Now Playing: <strong>' + allMusic[index].name + '</strong>', 1750);
+    insertToast('info', 'Now Playing: <strong>' + allMusic[index].name + '</strong>', 2000);
     if(doNotNavigate){
         doNotNavigate = false;
     }else{
