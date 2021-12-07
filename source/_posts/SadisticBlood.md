@@ -4,10 +4,10 @@ date: 2021-12-7 00:30:00
 keywords: '和泉萬夜, 上田メタヲ, Black_Cyc, SaDistic BlooD'
 index_img: '../image/SadisticBlood/index.webp'
 tags:
-  - 獵奇 
+  - 猎奇 
   - 百合 
   - NTR
-  - 觸手
+  - 触手
 categories:
   - [R-18, R-18G]
 abbrlink: 19351
@@ -15,7 +15,7 @@ author: '木衛一'
 excerpt: '吸血鬼情侶園原由奈和七瀨靜羽逃入人工島，在吸血鬼獵人和生化兵的追獵下艱難求存。'
 ---
 
-`（群友投稿）作者：木衛一`
+`作者：木衛一`
 
 吸血鬼情侶園原由奈和七瀨靜羽逃入人工島，在吸血鬼獵人和生化兵的追獵下艱難求存。
 
@@ -335,3 +335,7 @@ R-18G 慎滑
 ## 資源與下載
 
 請看評論區。
+
+<script>
+insertToast('success', '✒️️本文来自群友投稿', 3000);
+</script>

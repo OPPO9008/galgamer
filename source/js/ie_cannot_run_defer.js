@@ -19,7 +19,7 @@ function createShareBtn() {
     
     let logo = document.createElement('img');
     logo.setAttribute('width', '20px');
-    logo.setAttribute('src', '/image/TGlogo.svg');
+    logo.setAttribute('src', '/image/TGLogo.svg');
     
     let mText = document.createElement('span');
     mText.setAttribute('style', 'margin: 4px;');
