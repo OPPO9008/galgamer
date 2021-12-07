@@ -302,7 +302,7 @@ Caminal le<br>Pultaia<br>Sortilège<br>Sisua
     <li data-target="#carouselExampleIndicators-hcg" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators-hcg" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators-hcg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -334,7 +334,7 @@ Caminal le<br>Pultaia<br>Sortilège<br>Sisua
     <li data-target="#carouselExampleIndicators-qcg" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators-qcg" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators-qcg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
