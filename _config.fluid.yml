@@ -213,7 +213,7 @@ custom_head: '
     <link rel="preconnect" href="https://store.steampowered.com">
     <script async src="/js/mylib_async.js?1204"></script>
     <script async src="/js/popper.min.js"></script>
-    <script defer src="/js/ie_cannot_run_defer.js"></script>
+    <script defer src="/js/ie_cannot_run_defer.js?1207"></script>
     <script defer src="/js/ie_code_defer.js"></script>
     '
 
