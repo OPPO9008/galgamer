@@ -16,13 +16,15 @@ let playerEl;
 let doNotNavigate = false;
 
 async function main(){
-    showBetaAlert();
+    //showBetaAlert();
     allMusic = await getAllMusic();
     initPlayer();
     buildPlaylist();
     setupGoBtn();
     
-    if(getIdByUrl()){
+    // Find ID from URL
+    let id = parseInt(getIdByUrl());
+    if(id >= 0 && id < allMusic.length){
         doNotNavigate = true;
         switchTo(reverseL(getIdByUrl()), true);
     }else{
