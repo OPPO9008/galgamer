@@ -107,10 +107,10 @@ Brain-machine Interface，简称BMI，是一种连接大脑和机器的技术。
 </div>
 <br>
 
-<div id="carouselExampleIndicators-suzu" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators-aa" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-suzu" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-suzu" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators-aa" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators-aa" data-slide-to="1"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -120,11 +120,11 @@ Brain-machine Interface，简称BMI，是一种连接大脑和机器的技术。
       <img class="d-block w-100" src="https://npm.elemecdn.com/galgame-oss@1.0.8/Parquet/翼4-1.jpg" >
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-suzu" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators-aa" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-suzu" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleIndicators-aa" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
