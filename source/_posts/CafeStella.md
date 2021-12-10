@@ -458,6 +458,12 @@ magnet:?xt=urn:btih:c70d2386bef29b55966f459b214c3d8b0537de4d
 5ad1b28a1fc8f43f85f3e4537ac520eb#5c001f3d2e0efb0a9a5384550a6754f6#2621440000#星光咖啡馆与死神之蝶.7z.001
 ```
 
+onedrive下载
+
+<a class="btn btn-info" href="https://luohua-my.sharepoint.com/:u:/g/personal/kaban_luohua_onmicrosoft_com/ER0rEWouvBFBudISuDB3TgcB1HL9TFjTw4ZwNxU8nRxMEg?e=gWvLYR"> 分卷1</a>	<a class="btn btn-info" href="https://luohua-my.sharepoint.com/:u:/g/personal/kaban_luohua_onmicrosoft_com/EYtEeRFm6dBEoQMHXU_h6g8Bjhds3G9dNx7b16W0wUa5Yg?e=qkr1Ss">分卷2</a>	<a class="btn btn-info" href="https://luohua-my.sharepoint.com/:u:/g/personal/kaban_luohua_onmicrosoft_com/EQd3dWkHM5xHkrvetKc6GTUBLjcg7hgRPN350inb0yKNvw?e=sW8wb3">分卷3</a>
+
+分卷解压请放在一个文件夹解压
+
 漢化補丁，連結如下：
 
 ```
