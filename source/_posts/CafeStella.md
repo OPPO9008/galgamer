@@ -425,7 +425,7 @@ excerpt: '玩太多沉痛的 Galgame，大腦要降級啦。今天玩點輕鬆�
 
 劇情大意是青梅竹馬來叫你起床，順便煮早餐。
 
-<video controls preload="auto" width='100%' poster="../image/CafeStella/movie.webp">
+<video controls preload="metadata" width='100%' poster="../image/CafeStella/movie.webp">
 <source src="https://bitbucket.org/sa-ya/my-static/raw/c2249febf1bc146f7ea69f0e8743f35c6b2c5e67/CafeStella/8-min-know.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/P8d9v4TO/FklcOv0WChVgXIYpN7tqzgv2FCu-0Bf0DOKUk4mv3X8*" type="video/mp4" />
 <p> To view this video please enable JavaScript</p>
 </video>
