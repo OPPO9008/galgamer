@@ -213,7 +213,6 @@ custom_head: '
     <link rel="preconnect" href="https://store.steampowered.com">
     <script async src="/js/mylib_async.js?1204"></script>
     <script async src="/js/popper.min.js"></script>
-    <script defer src="/js/ie_cannot_run_defer.js?1207"></script>
     <script defer src="/js/ie_code_defer.js"></script>
     '
 
@@ -609,14 +608,14 @@ post:
     enable: true
     content: '
     <h2> 评论区 </h2>
+    <script defer src="/js/article_custom.js?1204"></script>
+    <div id="commentsiframe"></div>
     <button id="loadingMsg" class="btn btn-outline-primary" type="button" disabled>
     <div  class="d-flex align-items-center">
     <strong>Loading...</strong>
     <div class="spinner-border m-3" role="status" aria-hidden="true"></div>
     </div>
     </button>
-    <script defer src="/js/article_custom.js?1204"></script>
-    <div id="commentsiframe"></div>
     <p> 
     使用您的 Telegram 账户发表评论。您也可以到 <a href="https://comments.app">🔗️官网</a> 去登入。
     </p>
