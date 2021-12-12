@@ -249,7 +249,7 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 
 我覺得這首歌挺不錯的。
 
-<video controls preload="auto" width='100%' poster="../image/Tokihate/op.webp">
+<video controls preload="metadata" width='100%' poster="../image/Tokihate/op.webp">
 <source src="https://bitbucket.org/sa-ya/my-static/raw/41f475e91b0a7782a63abf540eea2463176ff456/Tokihate/op-2.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/WXKlNmt9/Pk6MrRTkfBOFeBE4Zi-BnJIQSnmF6LnL3_LYT9jpvew*" type="video/mp4" />
 <track default src="../image/Tokihate/op.vtt" label="日文">
 <p> To view this video please enable JavaScript</p>
