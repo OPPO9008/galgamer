@@ -1,5 +1,5 @@
 ---
-title: '在月之彼方再相逢：如果有後悔藥的話能否再次見到你'
+title: '在月之彼方再相逢：吃下這顆後悔藥，讓我再次見到你
 date: 2021-12-14 00:30:00
 keywords: "在月之彼方再相逢, 月の彼方で逢いましょう, つきかな, tone work's"
 banner_img: '../image/Tsukikana/banner.webp'
@@ -15,14 +15,14 @@ categories:
   - [社会]
 abbrlink: 95620
 author: 'Sakura Rain'
-excerpt: '高中二年生，黑野奏汰，在還沒弄清楚自己的心意、該選擇哪個女孩子之前，收到了來自未來的信息，「你會後悔的。」'
+excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的人是誰，弄不清楚心意的自己——「你會後悔的」'
 ---
 
 `作者：Sakura Rain`
 
 ## At A Glance
 
-高中二年生，黑野奏汰，在還沒弄清楚自己的心意、該選擇哪個女孩子之前，收到了來自未來的信息，「你會後悔的。」
+25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的人是誰，弄不清楚心意的自己——「你會後悔的」
 
 ![Cover](../image/Tsukikana/cover.jpg)
 
