@@ -1,2 +1,24 @@
 https://hexo-ci2.pages.dev/
   X-Robots-Tag: noindex
+  
+/
+  Link: <https://cdn.jsdelivr.net/npm/galgame-oss/hana1-hq.webp>; rel="prefetch"
+  
+/article/48333*
+  Link: </img/default.png>; rel="prefetch"
+  
+/categories/
+  Link: </img/default.png>; rel="prefetch"
+  
+/archives/
+  Link: </img/default.png>; rel="prefetch"
+  
+/tags/
+  Link: </img/default.png>; rel="prefetch"
+  
+/music
+  Link: </music/banner.jpg>; rel="prefetch"
+  
+  
+/article/9668.html
+  Link: <https://media.st.dl.pinyuncloud.com/steam/apps/1506980/ss_7893e988701cc075e7187d12aaf945f2aa998606.1920x1080.jpg>; rel="prefetch"
