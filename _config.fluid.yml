@@ -403,6 +403,7 @@ footer:
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
     <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    <a href="https://icp.gov.moe/?keyword=20211970" target="_blank">萌ICP备20211970号</a>
   '
 
   # 展示网站的 PV、UV 统计数
@@ -418,7 +419,7 @@ footer:
     # 页面显示的文本，{}是数字的占位符（必须包含)，下同
     # Displayed text, {} is a placeholder for numbers (must be included), the same below
     pv_format: "总访问量 {} 次"
-    uv_format: "总访客数 {} 人"
+    uv_format: "总lsp数 {} 人"
 
   # 国内大陆服务器的备案信息
   # For Chinese mainland website policy, other areas keep disable
