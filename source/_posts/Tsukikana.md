@@ -284,25 +284,25 @@ Misaki Kanna
 <div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Tsukikana/scn/1.webp" >
+      <img class="d-block w-100" loading="auto" src="../image/Tsukikana/scn/1.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tsukikana/scn/2.webp" >
+      <img class="d-block w-100" loading="lazy" src="../image/Tsukikana/scn/2.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tsukikana/scn/3.webp" >
+      <img class="d-block w-100" loading="lazy" src="../image/Tsukikana/scn/3.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tsukikana/scn/4.webp" >
+      <img class="d-block w-100" loading="lazy" src="../image/Tsukikana/scn/4.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tsukikana/scn/5.webp" >
+      <img class="d-block w-100" loading="lazy" src="../image/Tsukikana/scn/5.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tsukikana/scn/6.webp" >
+      <img class="d-block w-100" loading="lazy" src="../image/Tsukikana/scn/6.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tsukikana/scn/7.webp" >
+      <img class="d-block w-100" loading="lazy" src="../image/Tsukikana/scn/7.webp" >
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
@@ -369,7 +369,7 @@ magnet:?xt=urn:btih:5AD08C2DD6DAC8925940CEAD8A550448DC7CC324&tr=http://sukebei.t
 
 資源來自 [anime-sharing 論壇](http://www.anime-sharing.com/forum/torrents-47/5-%E2%9D%80velka-bought-game%E2%9D%80-%5B190628%5D-%5Btone-works%5D-%E6%9C%88%E3%81%AE%E5%BD%BC%E6%96%B9%E3%81%A7%E9%80%A2%E3%81%84%E3%81%BE%E3%81%97%E3%82%87%E3%81%86-%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88-original-soundtrack-%5Bh-game%5D-838224/)。
 
-如果想玩日文原版，則按照以下方法進行破解地區驗證和 DVD 驗證。
+**如果想玩日文原版，則按照以下方法進行破解地區驗證和 DVD 驗證。**
 
  1. 安裝遊戲，路徑全部改爲英文
  2. 刪除遊戲文件夾內的 reg.ini
@@ -380,10 +380,11 @@ magnet:?xt=urn:btih:5AD08C2DD6DAC8925940CEAD8A550448DC7CC324&tr=http://sukebei.t
  7. 將 `0x22AE98` 處的 `0F 85 D2` 改成 `E9 D3 00`
  8. 大功告成！
 
-
-如果想玩漢化版，直接將下面的漢化補丁複製到遊戲目錄運行即可。
+**如果想玩漢化版，直接將下面的漢化補丁複製到遊戲目錄運行即可。**
 
 <a class="btn btn-info" href="tg://resolve?domain=Galgamer&post=164629">群友發的漢化補丁</a>
+
+刪除遊戲文件夾內的 reg.ini。
 
 <script>
 window.addEventListener('DOMContentLoaded', function() {
