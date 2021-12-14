@@ -113,7 +113,7 @@ excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的�
 }
 </style>
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/1.webp" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/1.webp" loading="lazy" class="card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -130,7 +130,7 @@ excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的�
 </div>
 
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/2.webp" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/2.webp" loading="lazy" class="card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -148,7 +148,7 @@ excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的�
 
 </style>
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/3.webp" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/3.webp" loading="lazy" class="card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -165,7 +165,7 @@ excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的�
 </div>
 
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/4.webp" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/4.webp" loading="lazy" class="card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -182,7 +182,7 @@ excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的�
 </div>
 
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/5.webp" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/5.webp" loading="lazy" class="card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -200,7 +200,7 @@ Misaki Kanna
 </div>
 
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/6.webp" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/6.webp" loading="lazy" class="card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -218,7 +218,7 @@ Misaki Kanna
 </div>
 
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/7.webp" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/7.webp" loading="lazy" class="card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -236,7 +236,7 @@ Misaki Kanna
 </div>
 
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/8.webp" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/8.webp" loading="lazy" class="card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -263,19 +263,21 @@ Misaki Kanna
 
 我很喜歡這些畫風
 
-![](../image/Tsukikana/cg/1.webp)
+<p><img src="../image/Tsukikana/cg/1.webp" loading="lazy"/></p>
 
-![](../image/Tsukikana/cg/2.webp)
+<p><img src="../image/Tsukikana/cg/2.webp" loading="lazy"/></p>
 
-![](../image/Tsukikana/cg/3.webp)
+<p><img src="../image/Tsukikana/cg/3.webp" loading="lazy"/></p>
 
-![](../image/Tsukikana/cg/4.webp)
+<p><img src="../image/Tsukikana/cg/4.webp" loading="lazy"/></p>
 
-![](../image/Tsukikana/cg/5.webp)
+<p><img src="../image/Tsukikana/cg/5.webp" loading="lazy"/></p>
 
-![](../image/Tsukikana/cg/6.webp)
+<p><img src="../image/Tsukikana/cg/6.webp" loading="lazy"/></p>
 
-![](../image/Tsukikana/cg/7.webp)
+<p><img src="../image/Tsukikana/cg/7.webp" loading="lazy"/></p>
+
+<p><img src="../image/Tsukikana/rain-spec.webp" loading="lazy" alt="Rein Special"/></p>
 
 ## 屏幕截圖
 
