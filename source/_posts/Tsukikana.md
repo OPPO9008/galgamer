@@ -1,6 +1,6 @@
 ---
 title: '在月之彼方再相逢：吃下這顆後悔藥，讓我再次見到你'
-date: 2021-12-14 00:30:00
+date: 2021-12-15 00:30:00
 keywords: "在月之彼方再相逢, 月の彼方で逢いましょう, つきかな, tone work's"
 banner_img: '../image/Tsukikana/banner.webp'
 index_img: '../image/Tsukikana/index.webp'
@@ -371,6 +371,8 @@ magnet:?xt=urn:btih:5AD08C2DD6DAC8925940CEAD8A550448DC7CC324&tr=http://sukebei.t
 
 **如果想玩日文原版，則按照以下方法進行破解地區驗證和 DVD 驗證。**
 
+網上下載的破解補丁可能有病毒，不如你自己來破解。
+
  1. 安裝遊戲，路徑全部改爲英文
  2. 刪除遊戲文件夾內的 reg.ini
  3. 使用 010editor 或者別的二進制編輯器打開 SiglusEngine.exe
@@ -378,7 +380,7 @@ magnet:?xt=urn:btih:5AD08C2DD6DAC8925940CEAD8A550448DC7CC324&tr=http://sukebei.t
  5. 將 `0x22AD0F` 處的 `0F 85 B1` 改成 `E9 B2 00`
  6. 將 `0x22ADCD` 處的 `0F 85 BE` 改成 `E9 BF 00`
  7. 將 `0x22AE98` 處的 `0F 85 D2` 改成 `E9 D3 00`
- 8. 大功告成！
+ 8. 點保存，大功告成！
 
 **如果想玩漢化版，直接將下面的漢化補丁複製到遊戲目錄運行即可。**
 
