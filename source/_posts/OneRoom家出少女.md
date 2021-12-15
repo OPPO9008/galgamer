@@ -61,7 +61,6 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 可以讓你重新迴歸生活<br>
 <mark>因此究竟要不要讓她借宿這件事</mark><br>
 <mark>希望你好好考慮</mark><br>
-
 </p>
 </div>
 </div>
@@ -81,11 +80,13 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 從校服上看應該是貴族女高的學生<br>
 最近，她正在離家出走，希望能到你家借宿七天<br>
 與之相對應的，她願意回報，即使是以肉體的形式<br>
-<mark>看得出來，她身上有很多難言之隱。想要進一步的了解她，就需要更進一步的交流。<\mark><br>
+<mark>看得出來，她身上有很多難言之隱。<br>
+<mark>想要進一步的了解她，就需要更進一步的交流.<br>
 </p>
 </div>
 </div>
 </div>
+
 
 
 <br><br>
@@ -186,7 +187,7 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 
 不過我隱隱約約的感覺，女主角是男主公司前社長的女兒。
 
-
+<br>
 
 至於立繪和cg，可以說是非常優秀了。
 
@@ -198,7 +199,7 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 
 相信一定可以滿足玩家的慾望。
 
-
+<br>
 
 通過下面的下載鏈接下載遊戲本體後，
 
@@ -217,7 +218,7 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 這裏有一個 6 分鐘的試玩。
 
 <video controls preload="metadata" width='100%'>
-<source src="https://bitbucket.org/phobosloreal/galvideo/raw/b11ba8df167067b8ba770cd618a1724012f0b1f0/1room/1Room%202021-12-15%2015-55-21-1.mp4" type="video/m4v"/>
+<source src="https://bitbucket.org/phobosloreal/galvideo/raw/b11ba8df167067b8ba770cd618a1724012f0b1f0/1room/1Room%202021-12-15%2015-55-21-1.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
 
