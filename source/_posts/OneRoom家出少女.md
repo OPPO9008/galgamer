@@ -226,7 +226,15 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 
 ## 資源與下載
 
-請看評論區。
+原資源來自：ryuugames
+
+https://www.ryuugames.com/eng-1room-iede-shoujo-free-download/
+
+頁面内自帶下載鏈接和密碼，密碼為ryuugames.com。
+
+游戲可選擇中日英三語，在option内選擇相應語言即可。
+
+[mega 網盤點此]https://mega.nz/file/FvwXkaxT#7aK-D19Mnga0He1cL0YItLym2n9R--PJbjwHecPlKB0
 
 <script>
 insertToast('success', '✒️️本文来自群友投稿', 3000);
