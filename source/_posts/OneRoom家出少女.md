@@ -90,6 +90,50 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 
 <br><br>
 
+## 遊戲截圖
+
+<div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators-screen" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators-screen" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators-screen" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators-screen" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators-screen" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators-screen" data-slide-to="5"></li>
+
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../image/1room/cg/cg1.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../image/1room/cg/cg2.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../image/1room/cg/cg3.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../image/1room/cg/cg4.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../image/1room/cg/cg5.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../image/1room/cg/cg6.webp" >
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<br>
+
 ## CG
 
 <div id="carouselExampleIndicators-cg" class="carousel slide" data-ride="false" data-interval="false">
@@ -102,19 +146,19 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/1room/cg/cg1.webp" >
+      <img class="d-block w-100" src="../image/1room/cg/cg7.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg2.webp" >
+      <img class="d-block w-100" src="../image/1room/cg/cg8.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg3.webp">
+      <img class="d-block w-100" src="../image/1room/cg/cg9.webp">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg4.webp">
+      <img class="d-block w-100" src="../image/1room/cg/cg10.webp">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg5.webp">
+      <img class="d-block w-100" src="../image/1room/cg/cg11.webp">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators-cg" role="button" data-slide="prev">
@@ -127,16 +171,8 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
   </a>
 </div>
 
+
 <br>
-
-
-
-## 介紹動畫
-
-<video controls preload="metadata" width='100%'>
-<source src="" type="video/mp4"/>
-<p> To view this video please enable JavaScript</p>
-</video>
 
 
 ## 簡評
