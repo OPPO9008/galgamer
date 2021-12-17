@@ -193,7 +193,7 @@ font:
 
 # 指定自定义 .js 文件路径，支持列表；路径是相对 source 目录，如 /js/custom.js 对应存放目录 source/js/custom.js
 # Specify the path of your custom js file, support list. The path is relative to the source directory, such as `/js/custom.js` corresponding to the directory `source/js/custom.js`
-custom_js: ''
+custom_js: '/js/cdn.js'
    
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
@@ -219,7 +219,9 @@ custom_head: '
 
 # 自定义底部 HTML 内容（位于 footer 上方），注意不要和 `post: custom` 配置冲突
 # Customize the HTML content at the bottom (located above the footer), be careful not to conflict with `post: custom`
-custom_html: ''
+custom_html: '
+<div id="mycdn"></div>
+'
 
 # 网页访问统计
 # Analysis of website visitors
@@ -402,7 +404,7 @@ footer:
   content: '
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a><br/>
     <a href="https://icp.gov.moe/?keyword=20211970" target="_blank">萌ICP备20211970号</a>
   '
 
