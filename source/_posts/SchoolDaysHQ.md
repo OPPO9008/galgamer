@@ -214,7 +214,11 @@ Galgamer 聖誕節特別篇，聖誕節快樂！
 <p> To view this video please enable JavaScript</p>
 </video>
 
-// TODO OP ED 收錄
+本作 OP 和 ED 已收錄到 Galgame 金曲，
+
+OP <a href='/music/?id=8' target='_blank'>🔗️Still I Love You\~みつめるよりは幸せ\~</a>（新窗口打開）
+
+ED <a href='/music/?id=9' target='_blank'>🔗️あなたが…いない</a>（新窗口打開）
 
 ## 一句話點評
 
