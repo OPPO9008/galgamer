@@ -1,9 +1,9 @@
 ---
-title: 'Blog Note 2：簡單好用的寫作小技巧'
+title: 'Blog Note 2：簡單好用的排版小技巧'
 date: 2000-12-30 00:30:00
 keywords: 'HTML'
 banner_img: ''
-index_img: '../image/note-snipset/index.jpg'
+index_img: '../image/note-snipset/index.png'
 tags:
   - 笔记
 abbrlink: 20003
@@ -13,7 +13,7 @@ excerpt: '你可以對這篇文章進行隨意抄襲'
 
 爲了讓文章更加的豐富多彩，我將用過的一些代碼片段，步驟等放在這裏，需要時可隨意 CV，，，
 
-![](../image/note-snipset/index.jpg)
+![](../image/note-snipset/index.png)
 
 注意，寫文章要腳踏實地地組織文字，這裏的技巧不過是錦上添花。
 
@@ -108,7 +108,7 @@ excerpt: '你可以對這篇文章進行隨意抄襲'
 
 ### 視頻畫質切換菜單
 
-在 mylib-async.js 實現
+在 mylib_async.js 實現
 
 <div class='vidcontainer'>
    <select class='qualitypick' autocomplete='off'>
@@ -140,32 +140,32 @@ excerpt: '你可以對這篇文章進行隨意抄襲'
 
 ### Galgame 路線圖
 
-在 mylib-async.js 實現
+在 mylib_async.js 實現
 
 <div class="route-map">
     <x-row start-from="3">
-        <x-col src="../image/SchoolDaysHQ/map/0-3.webp"/>
-        <x-col src="../image/SchoolDaysHQ/map/0-4.webp"/>
-        <x-col src="../image/SchoolDaysHQ/map/0-5.webp"/>
+        <x-col src="../image/note-snipset/map/0-3.webp"/>
+        <x-col src="../image/note-snipset/map/0-4.webp"/>
+        <x-col src="../image/note-snipset/map/0-5.webp"/>
     </x-row>
     <x-row>
-        <x-col src="../image/SchoolDaysHQ/map/1-0.webp"/ default>
-        <x-col src="../image/SchoolDaysHQ/map/1-1.webp"/>
-        <x-col src="../image/SchoolDaysHQ/map/1-2.webp"/>
-        <x-col src="../image/SchoolDaysHQ/map/1-3.webp"/>
-        <x-col src="../image/SchoolDaysHQ/map/1-4.webp"/>
-        <x-col src="../image/SchoolDaysHQ/map/1-5.webp"/>
+        <x-col src="../image/note-snipset/map/1-0.webp"/ default>
+        <x-col src="../image/note-snipset/map/1-1.webp"/>
+        <x-col src="../image/note-snipset/map/1-2.webp"/>
+        <x-col src="../image/note-snipset/map/1-3.webp"/>
+        <x-col src="../image/note-snipset/map/1-4.webp"/>
+        <x-col src="../image/note-snipset/map/1-5.webp"/>
     </x-row>
     <x-row start-from="2">
-        <x-col src="../image/SchoolDaysHQ/map/2-2.webp"/>
-        <x-col src="../image/SchoolDaysHQ/map/2-3.webp"/>
-        <x-col src="../image/SchoolDaysHQ/map/2-4.webp"/>
-        <x-col src="../image/SchoolDaysHQ/map/2-5.webp"/>
+        <x-col src="../image/note-snipset/map/2-2.webp"/>
+        <x-col src="../image/note-snipset/map/2-3.webp"/>
+        <x-col src="../image/note-snipset/map/2-4.webp"/>
+        <x-col src="../image/note-snipset/map/2-5.webp"/>
     </x-row>
     <x-row start-from="3">
-        <x-col src="../image/SchoolDaysHQ/map/3-3.webp"/>
-        <x-col src="../image/SchoolDaysHQ/map/3-4.webp"/>
-        <x-col src="../image/SchoolDaysHQ/map/3-5.webp"/>
+        <x-col src="../image/note-snipset/map/3-3.webp"/>
+        <x-col src="../image/note-snipset/map/3-4.webp"/>
+        <x-col src="../image/note-snipset/map/3-5.webp"/>
     </x-row>
     <p> JavaScript 錯誤，無法顯示路線圖</p>
 </div>
@@ -278,58 +278,141 @@ text-outline-black {
 
 外星語言 HTML 隨便寫點
 
-## 1. 編碼格式和參數
+### 字體變大
 
-寫在前面：這裏測試的所有視頻我覺得看上去都一樣，在小窗上觀看更是如此。在視頻源並不是那麼高清的時候，可以合理地犧牲畫質來換取傳送效率。
+<p style="font-size:250%">你好</p>
 
-測試用的視頻是 Sakura No Mori 2 的 OP 動畫，先放兩個 steam 上的源。
+```
+<p style="font-size:250%">你好</p>
+```
 
-webm, VP8, 1080p, 長度 2:04, 87 MB。
+### 醒目提示框 
 
-<video  controls width='100%' preload="metadata"  >
-<source src="https://cdn.cloudflare.steamstatic.com/steam/apps/256744846/movie_max.webm" type="video/webm"/>
-<p> To view this video please enable JavaScript</p></video>
+<div class="alert alert-success" role="alert">
+  <p class="alert-heading" style="font-size:150%;">內卷！</p>
+  <p class="mb-0">這遊戲 CG 有 2k 分辨率，誇張</p>
+</div>
 
-mp4, H264, 1080p, 長度 2:04, 88 MB。
+```
+<div class="alert alert-success" role="alert">
+  <p class="alert-heading" style="font-size:150%;">內卷！</p>
+  <p class="mb-0">這遊戲 CG 有 2k 分辨率，誇張</p>
+</div>
+```
 
-<video  controls width='100%' preload="metadata"  >
-<source  src="https://cdn.cloudflare.steamstatic.com/steam/apps/256744846/movie_max.mp4" type="video/mp4"/>
-<p> To view this video please enable JavaScript</p></video>
+### 點擊以後跳出新窗口打開的連結
 
-遊戲本身是 720p，因此把 OP 嗯力編碼成 1080p 意義不大，而且這兩個視頻觀感上就像是 720p。
+<a href="/music/" target="_blank">🔗️Galgame 金曲</a>
 
-瀏覽器在遇到此類視頻時，先會加載其元數據，拿到元數據後才能夠顯示進度，並且加載視頻本體。
+target="_blank" 是重點。
 
-若是元數據不在文件的一開頭，則瀏覽器就必須要到處試探，發出多個請求直到找到元數據的位置，從而導致加載困難或者加載失敗。這就是 HandBrake 中要啟用 mp4 文件的「對 web 優化」選項的必要性。
+```
+<a href="/music/" target="_blank">🔗️Galgame 金曲</a>
+```
 
-## 2. 檔案格式
+### 插入 Steam
 
-mp4, H264, 720p, 60fps, 長度 1:57, 28 MB, HandBrake 品質 27, 對 web 優化
+<iframe src="https://store.steampowered.com/widget/1277940/" frameborder="0" width="100%" height="200"></iframe>
 
-<video  controls width='100%' preload="metadata"  >
-<source  src="https://bitbucket.org/sa-ya/my-static/raw/75d65c961e5366b706c20e50a4ff6be5c65e546e/note-webvideo/op-h264-cpu-27.mp4" type="video/mp4"/>
-<p> To view this video please enable JavaScript</p></video>
+```
+<iframe src="https://store.steampowered.com/widget/遊戲的 ID/" frameborder="0" width="100%" height="200"></iframe>
+```
 
-mp4, H264, 720p, 30fps, 長度 1:57, 57 MB, HandBrake 品質 21, 對 web 優化
+## 2. JS 小技巧
 
-<video  controls width='100%' preload="metadata"  >
-<source  src="https://bitbucket.org/sa-ya/my-static/raw/75d65c961e5366b706c20e50a4ff6be5c65e546e/note-webvideo/op-h264-cpu-30fps-21.mp4" type="video/mp4"/>
-<p> To view this video please enable JavaScript</p></video>
+### 召喚 Toast
 
-webm, VP9, 720p, 60fps, 長度 1:57, 77 MB, HandBrake 品質 27
+在 mylib_async.js 實現
 
-<video  controls width='100%' preload="metadata"  >
-<source  src="https://bitbucket.org/sa-ya/my-static/raw/75d65c961e5366b706c20e50a4ff6be5c65e546e/note-webvideo/op-vp9-cpu-60fps-27.webm" type="video/mp4"/>
-<p> To view this video please enable JavaScript</p></video>
+<script>
+function t(){insertToast('success', '你好', 3000);}
+</script>
 
-除了上面三個樣本之外，我還做了其他的測試。測試中都表現出 H264 的畫質和體積都優於 VP9。
+<a href="javascript:;" class="btn btn-info" onclick="t()">召喚 Toast</a>
 
-而且 VP9 的編碼非常緩慢，網上查閱顯示 VP9 的主要用途是 4K 直播，所以不可把 VP9 作爲萬能靈藥。
+```
+insertToast('success', 'HTML 內容', 顯示毫秒);
+```
 
-最後，H264 的編碼器有 Fast medium slow 三種預置，在必要的時候能夠用耐心換來畫質和體積的優化（設爲 Slow）。
+### 設置背景圖片
 
-## 3. 結論
+<script>
+function b(){
+    let target = document.querySelectorAll('.row.nomargin-x')[0];
+    target.style['background'] = "url('../image/Tsukikana/night.webp') no-repeat fixed center";
+    target.style['background-size'] = 'cover';
+    let board = document.getElementById('board');
+    board.style['background-color'] = 'rgba(20, 20, 40, 0.80)';
+    // 強制暗色模式
+    setInterval(() => document.documentElement.setAttribute('data-user-color-scheme', 'dark'), 1000);
+    insertToast('dark', '已啟用暗色模式', 2000);
+}
+</script>
 
-樣本不足，無法得出結論。
+<a href="javascript:;" class="btn btn-info" onclick="b()">測試一下</a>
 
-但是俺會傾向使用 H264, MP4, 品質 25-30, 爲 web 優化。
+文章最後插入
+
+```
+window.addEventListener('DOMContentLoaded', function() {
+    // 設置背景
+    let target = document.querySelectorAll('.row.nomargin-x')[0];
+    target.style['background'] = "url('../image/Tsukikana/night.webp') no-repeat fixed center";
+    target.style['background-size'] = 'cover';
+    // 設置透明度
+    let board = document.getElementById('board');
+    board.style['background-color'] = 'rgba(20, 20, 40, 0.80)';
+    // 強制暗色模式
+    setInterval(() => document.documentElement.setAttribute('data-user-color-scheme', 'dark'), 1000);
+    insertToast('dark', '已啟用暗色模式', 2000);
+});
+```
+
+## 3. 新增 Galgame 金曲
+
+請看 /music/music.json
+
+格式
+
+```
+[
+    obj,
+    obj,
+    obj,
+    obj
+]
+```
+
+obj 的格式是
+
+```
+{
+    "name": "Never forget",
+    "artist": "電気式華憐音楽集団",
+    "src": "音樂文件.mp3",
+    "poster": "專輯封面.jpg",
+    "lyric": "[00:13.27]見上げた刹那に振り....",
+    "details": "簡短的說明... <a href='/article/56863.html' target='_blank'>🔗️查看文章</a>",
+    "game": "來自的遊戲",
+    "netease": 網易雲音樂的 ID, 
+    "qq": "QQ 音樂的 ID",
+    "kugou": ""
+}
+```
+
+把這個插入到 json 的最底下，注意不要漏逗號，不要寫錯，寫完自己測試一下
+
+## 4. 如何壓縮視頻
+
+安裝 HandBrake 軟件，打開以後把要壓縮的視頻拖進去，然後
+
+![](../image/note-snipset/hb1.jpg)
+
+![](../image/note-snipset/hb2.jpg)
+
+![](../image/note-snipset/hb3.jpg)
+
+### 如何上傳視頻
+
+懂得都董
+
