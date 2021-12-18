@@ -19,6 +19,7 @@ function main(){
         }
         createShareBtn();
         createNewBadge();//before 2022
+        showCDN();
     });
 }
 
@@ -537,7 +538,7 @@ function nielog(text) {
                 + currentdate.getHours() + ":"  
                 + currentdate.getMinutes() + ":" 
                 + currentdate.getSeconds() + "] ";
-    console.log('[nielog]' + datetime + text);
+    console.log('[mylib]' + datetime + text);
 }
 
 function checkPathRoot(){
@@ -561,6 +562,51 @@ function createNewBadge(){
         let navBtn = document.getElementById('navbar-toggler-btn');
         navBtn.parentNode.insertBefore(badge2, navBtn);
     }
+}
+
+async function showCDN(){
+    let cdns = {
+    "AMS": "Cloudflare 阿姆斯特丹",
+    "HKG": "Cloudflare 香港",
+    "MFM": "Cloudflare 澳门",
+    "BKK": "Cloudflare 曼谷",
+    "TPE": "Cloudflare 台北",
+    "NRT": "Cloudflare 东京",
+    "KIX": "Cloudflare 大阪",
+    "ICN": "Cloudflare 仁川",
+    "LHR": "Cloudflare 伦敦",
+    "SIN": "Cloudflare 新加坡",
+    "CDG": "Cloudflare 巴黎",
+    "FRA": "Cloudflare 法兰克福",
+    "KUL": "Cloudflare 马来西亚",
+    "LAX": "Cloudflare 洛杉矶",
+    "SJC": "Cloudflare 圣何塞",
+    "KBP": "Cloudflare 乌克兰",
+    "PRG": "Cloudflare 布拉格",
+    "DME": "Cloudflare 莫斯科",
+    "TSN": "百度云 天津滨海",
+    "WUH": "百度云 武汉天河",
+    "NGB": "百度云 宁波栎社",
+    "SZV": "百度云 苏州光福",
+    "XIY": "百度云 西安咸阳"
+    }
+    let trace = await fetch("/cdn-cgi/trace")
+    .then(function(resp){
+        if (resp.ok)return resp.text();
+    })
+    .catch(error=>nielog(error))
+
+    if (trace) {
+        let sip = trace.match('ip=(.*)\n')[1];
+        let colo = trace.match('colo=(.*)\n')[1];
+
+        if(colo in cdns){
+            colo = cdns[colo];
+        }
+        let mycdn = document.getElementById('mycdn');
+        mycdn.innerText = 'CDN location: ' + colo + '\n' + 'Current IP: ' + sip;
+        if (sip.includes(':'))mycdn.innerText += '\nIPv6 Enabled';
+    } 
 }
 
 main();
