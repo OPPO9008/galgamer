@@ -37,6 +37,8 @@ excerpt: '吸血鬼情侶園原由奈和七瀨靜羽逃入人工島，在吸血�
 千咲楽鎮是一個平靜的人工島，僅僅依靠一座橋梁和主大陸相連。
 這也許可以成爲我們漫長逃亡生活的盡頭，抱著這樣的想法，她們鬆懈下來。
 
+![](../image/SadisticBlood/illust1.webp)
+
 滿月之夜，吸血鬼性欲最旺盛的時刻，在豪宅的大床上，她們極盡纏綿。
 可就在這時，僕人的人頭被丟盡房間，而後立刻爆炸。
 
@@ -198,7 +200,7 @@ Alice 是絕對的力量派，只願意服從比自己强的人。<br>
     <li data-target="#carouselExampleIndicators-screen" data-slide-to="3"></li>
     <li data-target="#carouselExampleIndicators-screen" data-slide-to="4"></li>
     <li data-target="#carouselExampleIndicators-screen" data-slide-to="5"></li>
-    
+
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -270,6 +272,8 @@ R-18G 慎滑
   </a>
 </div>
 <br>
+
+![特典](../image/SadisticBlood/spec1.webp)
 
 ## 介紹動畫
 

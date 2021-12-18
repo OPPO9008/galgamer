@@ -425,7 +425,7 @@ excerpt: '玩太多沉痛的 Galgame，大腦要降級啦。今天玩點輕鬆�
 
 劇情大意是青梅竹馬來叫你起床，順便煮早餐。
 
-<video controls preload="auto" width='100%' poster="../image/CafeStella/movie.webp">
+<video controls preload="metadata" width='100%' poster="../image/CafeStella/movie.webp">
 <source src="https://bitbucket.org/sa-ya/my-static/raw/c2249febf1bc146f7ea69f0e8743f35c6b2c5e67/CafeStella/8-min-know.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/P8d9v4TO/FklcOv0WChVgXIYpN7tqzgv2FCu-0Bf0DOKUk4mv3X8*" type="video/mp4" />
 <p> To view this video please enable JavaScript</p>
 </video>
@@ -457,6 +457,12 @@ magnet:?xt=urn:btih:c70d2386bef29b55966f459b214c3d8b0537de4d
 45da70412e797bb13844c2bc2afb0df7#b204e19fa1a2a5e6fc1cd8be8c9cb3b2#2621440000#星光咖啡馆与死神之蝶.7z.002
 5ad1b28a1fc8f43f85f3e4537ac520eb#5c001f3d2e0efb0a9a5384550a6754f6#2621440000#星光咖啡馆与死神之蝶.7z.001
 ```
+
+onedrive下载
+
+<a class="btn btn-info" href="https://dl.galgamer.xyz/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.001"> 分卷1</a>	<a class="btn btn-info" href="https://dl.galgamer.xyz/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.002">分卷2</a>	<a class="btn btn-info" href="https://dl.galgamer.xyz/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.003">分卷3</a>
+
+分卷解压请放在一个文件夹解压
 
 漢化補丁，連結如下：
 
