@@ -2,7 +2,7 @@
 title: 'Blog Note 3：萌新的第一次 Galgame 破解'
 date: 2000-12-20 00:30:00
 keywords: 'SiglusEngine, Crack, Cheat Engine'
-banner_img: '../image/note-sigluscrack/banner.png'
+banner_img: '../image/note-sigluscrack/banner.webp'
 index_img: '../image/note-sigluscrack/index.webp'
 tags:
   - 笔记
