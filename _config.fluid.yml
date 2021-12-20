@@ -211,7 +211,7 @@ custom_head: '
     <link rel="preconnect" href="https://cdn.akamai.steamstatic.com">
     <link rel="preconnect" href="https://cdn.cloudflare.steamstatic.com">
     <link rel="preconnect" href="https://media.st.dl.pinyuncloud.com">
-    <link rel="preconnect" href="https://npm.elemecdn.com">
+    <link rel="preconnect" href="https://unpkg.zhimg.com">
     <script async src="/js/mylib_async.js?1204"></script>
     <script async src="/js/popper.min.js"></script>
     <script defer src="/js/ie_code_defer.js"></script>
