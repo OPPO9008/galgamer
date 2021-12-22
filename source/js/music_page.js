@@ -182,7 +182,10 @@ function setDetailsCard(){
 }
 
 function switchTo(index, notPlay){
-    if (nowPlaying === index)return;
+    if (nowPlaying === index){
+        playerEl.play();
+        return;
+    };
     playerEl.to(index);
     if(!notPlay)playerEl.play();
 }
