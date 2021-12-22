@@ -986,13 +986,13 @@ static_prefix:
 
   anchor: https://unpkg.zhimg.com/anchor-js@4/
 
-  github_markdown: https://unpkg.zhimg.com/github-markdown-css@4/
+  github_markdown: https://cdn.jsdelivr.net/npm/github-markdown-css@4/
 
   jquery: https://unpkg.zhimg.com/jquery@3/dist/
 
   bootstrap: https://unpkg.zhimg.com/bootstrap@4/dist/
 
-  highlightjs: https://unpkg.zhimg.com/highlight.js@10/
+  highlightjs: https://cdn.jsdelivr.net/npm//highlight.js@10/
 
   prismjs: https://unpkg.zhimg.com/prismjs@1/
 
