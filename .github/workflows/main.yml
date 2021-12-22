@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Build and Deploy
-        uses: OPPO9008/hexo-deploy-github-pages-action@master # 使用专门部署 Hexo 到 GitHub pages 的 action
+        uses: theme-keep/hexo-deploy-github-pages-action@master # 使用专门部署 Hexo 到 GitHub pages 的 action
         env:
           PERSONAL_TOKEN: ${{ secrets.work }} # secret 名
           PUBLISH_REPOSITORY: OPPO9008/sites # 公共仓库，格式：GitHub 用户名/仓库名
