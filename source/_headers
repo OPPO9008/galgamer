@@ -1,6 +1,6 @@
 https://:project.pages.dev/
   X-Robots-Tag: noindex
-  
+   
 /img/*
   Cache-Control: public, max-age=604800, s-maxage=43200
   
