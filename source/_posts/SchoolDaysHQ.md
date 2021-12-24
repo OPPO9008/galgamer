@@ -183,8 +183,6 @@ Galgamer 聖誕節特別篇，聖誕節快樂！
 
 ## CG
 
-<p><img src="" alt="" width="" height="" loading="lazy" class="img-lazy"/></p>
-
 <p><img class="img-lazy" loading="lazy" src="../image/SchoolDaysHQ/scn/01.webp" width="1280" height="720"/></p>
 
 <p><img class="img-lazy" loading="lazy" src="../image/SchoolDaysHQ/scn/02.webp" width="1280" height="720"/></p>
