@@ -1,0 +1,9 @@
+/* 懶加載的圖片設定其高度爲自動 */
+img.img-lazy {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    background-image: url('../image/loading.svg');
+    background-repeat: no-repeat;
+    background-position: center
+}
