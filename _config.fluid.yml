@@ -9,7 +9,7 @@
 # Guide: https://hexo.fluid-dev.com/docs/en/guide/
 # You can get more detailed help from the guide
 #---------------------------
-
+ 
 
 #---------------------------
 # 全局
@@ -187,7 +187,7 @@ color:
 # Font
 font:
   font_size: 16px
-  font_family:
+  font_family: "'Noto sans', 'Noto sans TC', 'Noto sans SC', 'Noto sans JP', sans-serif "
   letter_spacing: 0.02em
   code_font_size: 85%
 
@@ -199,7 +199,7 @@ custom_js: ''
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css: 
- #  - /css/bs-icons.css
+   - /css/fonts.css
  #  - /css/bootstrap-toaster.css
 
 # 自定义 <head> 节点中的 HTML 内容
@@ -211,7 +211,10 @@ custom_head: '
     <link rel="preconnect" href="https://cdn.akamai.steamstatic.com">
     <link rel="preconnect" href="https://cdn.cloudflare.steamstatic.com">
     <link rel="preconnect" href="https://media.st.dl.pinyuncloud.com">
-    <link rel="preconnect" href="https://unpkg.zhimg.com">
+    <link rel="preconnect" href="https://store.steampowered.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&family=Noto+Sans+SC&family=Noto+Sans+TC&family=Noto+Serif&family=Noto+Serif+JP&family=Noto+Serif+SC&family=Noto+Serif+TC&display=swap" rel="stylesheet">
     <script async src="/js/mylib_async.js?1204"></script>
     <script async src="/js/popper.min.js"></script>
     <script defer src="/js/ie_code_defer.js"></script>
@@ -443,7 +446,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://unpkg.zhimg.com/galgame-oss/hana1-hq.webp
+  banner_img: /image/hana1-hq.webp
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -624,7 +627,7 @@ post:
     </p>
     <p>
       欢迎关注 Telegram 频道
-      <a href="https://telega.one/Galgamer_Channel"> @Galgamer_Channel </a>
+      <a href="https://telega.one/Galgamer_Channel"> 🔗️@Galgamer_Channel </a>
     </p>'
 
 
@@ -984,44 +987,44 @@ static_prefix:
   internal_css: /css
   internal_img: /img
 
-  anchor: https://unpkg.zhimg.com/anchor-js@4/
+  anchor: https://cdn.jsdelivr.net/npm/anchor-js@4/
 
   github_markdown: https://cdn.jsdelivr.net/npm/github-markdown-css@4/
 
-  jquery: https://unpkg.zhimg.com/jquery@3/dist/
+  jquery: https://cdn.jsdelivr.net/npm/jquery@3/dist/
 
-  bootstrap: https://unpkg.zhimg.com/bootstrap@4/dist/
+  bootstrap: https://cdn.jsdelivr.net/npm/bootstrap@4/dist/
 
-  highlightjs: https://cdn.jsdelivr.net/npm//highlight.js@10/
+  highlightjs: https://cdn.jsdelivr.net/npm/highlight.js@10/
 
-  prismjs: https://unpkg.zhimg.com/prismjs@1/
+  prismjs: https://cdn.jsdelivr.net/npm/prismjs@1/
 
-  tocbot: https://unpkg.zhimg.com/tocbot@4/dist/
+  tocbot: https://cdn.jsdelivr.net/npm/tocbot@4/dist/
 
-  typed: https://unpkg.zhimg.com/typed.js@2/lib/
+  typed: https://cdn.jsdelivr.net/npm/typed.js@2/lib/
 
-  fancybox: https://unpkg.zhimg.com/@fancyapps/fancybox@3/dist/
+  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/
 
-  nprogress: https://unpkg.zhimg.com/nprogress@0/
+  nprogress: https://cdn.jsdelivr.net/npm/nprogress@0/
 
-  mathjax: https://unpkg.zhimg.com/mathjax@3/es5/
+  mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/
 
-  katex: https://unpkg.zhimg.com/katex@0/dist/
+  katex: https://cdn.jsdelivr.net/npm/katex@0/dist/
 
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
 
-  clipboard: https://unpkg.zhimg.com/clipboard@2/dist/
+  clipboard: https://cdn.jsdelivr.net/npm/clipboard@2/dist/
 
-  mermaid: https://unpkg.zhimg.com/mermaid@8/dist/
+  mermaid: https://cdn.jsdelivr.net/npm/mermaid@8/dist/
 
-  valine: https://unpkg.zhimg.com/valine@1/dist/
+  valine: https://cdn.jsdelivr.net/npm/valine@1/dist/
 
-  waline: https://unpkg.zhimg.com/@waline/client@1/dist/
+  waline: https://cdn.jsdelivr.net/npm/@waline/client@1/dist/
 
-  gitalk: https://unpkg.zhimg.com/gitalk@1/dist/
+  gitalk: https://cdn.jsdelivr.net/npm/gitalk@1/dist/
 
-  disqusjs: https://unpkg.zhimg.com/disqusjs@1/dist/
+  disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/
 
-  twikoo: https://unpkg.zhimg.com/twikoo@1/dist/
+  twikoo: https://cdn.jsdelivr.net/npm/twikoo@1/dist/
 
   hint: /lib/hint/

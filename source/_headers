@@ -1,6 +1,12 @@
-https://hexo-ci2.pages.dev/
+https://:project.pages.dev/
   X-Robots-Tag: noindex
+   
+/img/*
+  Cache-Control: public, max-age=604800, s-maxage=43200
   
+/image/*
+  Cache-Control: public, max-age=604800, s-maxage=43200
+
 /
   Link: <https://unpkg.zhimg.com/galgame-oss/hana1-hq.webp>; rel="prefetch" as="image"
   
