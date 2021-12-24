@@ -113,7 +113,7 @@ excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的�
 }
 </style>
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/1.webp" width="1030" height="1100 "style="width:100%; height:auto;" loading="lazy" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/1.webp" width="1030" height="1100" loading="lazy" class="img-lazy card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -130,7 +130,7 @@ excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的�
 </div>
 
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/2.webp" width="1030" height="1100 "style="width:100%; height:auto;" loading="lazy" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/2.webp" width="1030" height="1100" loading="lazy" class="img-lazy card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -148,7 +148,7 @@ excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的�
 
 </style>
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/3.webp" width="1030" height="1100 "style="width:100%; height:auto;" loading="lazy" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/3.webp" width="1030" height="1100 " loading="lazy" class="img-lazy card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -165,7 +165,7 @@ excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的�
 </div>
 
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/4.webp" width="1030" height="1100 "style="width:100%; height:auto;" loading="lazy" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/4.webp" width="1030" height="1100 " loading="lazy" class="img-lazy card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -182,7 +182,7 @@ excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的�
 </div>
 
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/5.webp" width="1030" height="1100 "style="width:100%; height:auto;" loading="lazy" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/5.webp" width="1030" height="1100" loading="lazy" class="img-lazy card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -200,7 +200,7 @@ Misaki Kanna
 </div>
 
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/6.webp" width="1030" height="1100 "style="width:100%; height:auto;" loading="lazy" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/6.webp" width="1030" height="1100 " loading="lazy" class="img-lazy card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -218,7 +218,7 @@ Misaki Kanna
 </div>
 
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/7.webp" width="1030" height="1100 "style="width:100%; height:auto;" loading="lazy" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/7.webp" width="1030" height="1100 " loading="lazy" class="img-lazy card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -236,7 +236,7 @@ Misaki Kanna
 </div>
 
 <div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/8.webp" width="1030" height="1100 "style="width:100%; height:auto;" loading="lazy" class="card-img bg-transparent">
+<img src="../image/Tsukikana/chars/8.webp" width="1030" height="1100 " loading="lazy" class="img-lazy card-img bg-transparent">
 <div class="card-img-overlay">
 <div class="position-absolute" style="bottom:0;right:0">
 <h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
@@ -263,46 +263,46 @@ Misaki Kanna
 
 我很喜歡這些畫風
 
-<p><img src="../image/Tsukikana/cg/1.webp" width="1200" height="675 "style="width:100%; height:auto;" loading="lazy"/></p>
+<p><img src="../image/Tsukikana/cg/1.webp" width="1200" height="675" loading="lazy" class="img-lazy"/></p>
 
-<p><img src="../image/Tsukikana/cg/2.webp" width="1200" height="675 "style="width:100%; height:auto;" loading="lazy"/></p>
+<p><img src="../image/Tsukikana/cg/2.webp" width="1200" height="675" loading="lazy" class="img-lazy"/></p>
 
-<p><img src="../image/Tsukikana/cg/3.webp" width="1200" height="675 "style="width:100%; height:auto;" loading="lazy"/></p>
+<p><img src="../image/Tsukikana/cg/3.webp" width="1200" height="675" loading="lazy" class="img-lazy"/></p>
 
-<p><img src="../image/Tsukikana/cg/4.webp" width="1200" height="675 "style="width:100%; height:auto;" loading="lazy"/></p>
+<p><img src="../image/Tsukikana/cg/4.webp" width="1200" height="675" loading="lazy" class="img-lazy"/></p>
 
-<p><img src="../image/Tsukikana/cg/5.webp" width="1200" height="675 "style="width:100%; height:auto;" loading="lazy"/></p>
+<p><img src="../image/Tsukikana/cg/5.webp" width="1200" height="675" loading="lazy" class="img-lazy"/></p>
 
-<p><img src="../image/Tsukikana/cg/6.webp" width="1200" height="675 "style="width:100%; height:auto;" loading="lazy"/></p>
+<p><img src="../image/Tsukikana/cg/6.webp" width="1200" height="675" loading="lazy" class="img-lazy"/></p>
 
-<p><img src="../image/Tsukikana/cg/7.webp" width="1200" height="675 "style="width:100%; height:auto;" loading="lazy"/></p>
+<p><img src="../image/Tsukikana/cg/7.webp" width="1200" height="675" loading="lazy" class="img-lazy"/></p>
 
-<p><img src="../image/Tsukikana/rain-spec.webp" width="1029" height="1099 "style="width:100%; height:auto;" loading="lazy" alt="Rein Special"/></p>
+<p><img src="../image/Tsukikana/rain-spec.webp" width="1029" height="1099" loading="lazy" alt="Rein Special" class="img-lazy"/></p>
 
 ## 屏幕截圖
 
 <div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" loading="auto" width="1920" height="1080 "style="width:100%; height:auto;" src="../image/Tsukikana/scn/1.webp" >
+      <img class="d-block w-100 img-lazy" loading="auto" width="1920" height="1080 " src="../image/Tsukikana/scn/1.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" loading="lazy" width="1920" height="1080 "style="width:100%; height:auto;" src="../image/Tsukikana/scn/2.webp" >
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080 " src="../image/Tsukikana/scn/2.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" loading="lazy" width="1920" height="1080 "style="width:100%; height:auto;" src="../image/Tsukikana/scn/3.webp" >
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080 " src="../image/Tsukikana/scn/3.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" loading="lazy" width="1920" height="1080 "style="width:100%; height:auto;" src="../image/Tsukikana/scn/4.webp" >
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080 " src="../image/Tsukikana/scn/4.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" loading="lazy" width="1920" height="1080 "style="width:100%; height:auto;" src="../image/Tsukikana/scn/5.webp" >
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080 " src="../image/Tsukikana/scn/5.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" loading="lazy" width="1920" height="1080 "style="width:100%; height:auto;" src="../image/Tsukikana/scn/6.webp" >
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080 " src="../image/Tsukikana/scn/6.webp" >
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" loading="lazy" width="1920" height="1080 "style="width:100%; height:auto;" src="../image/Tsukikana/scn/7.webp" >
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080 " src="../image/Tsukikana/scn/7.webp" >
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
