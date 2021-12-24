@@ -282,7 +282,7 @@ class RouteMap {
         imgRow.appendChild(imgDiv);
         
         let mImg = document.createElement('img');
-        mImg.setAttribute('class', 'image-fluid');
+        mImg.setAttribute('class', 'image-fluid img-lazy');
         mImg.setAttribute('onclick', 'return false');
         imgDiv.appendChild(mImg);
         this.imageDOM = mImg;
@@ -433,7 +433,7 @@ function createShareBtn() {
             }
         }
         let url = title;
-        let desc = tagStr + '\n' + window.location;
+        let desc = tagStr + '\n🔗️' + window.location;
         //nielog(url);
         //nielog(desc);
         url = encodeURIComponent(url);
@@ -604,7 +604,7 @@ async function showCDN(){
             colo = cdns[colo];
         }
         let mycdn = document.getElementById('mycdn');
-        mycdn.innerText = 'CDN location: ' + colo + '\n' + 'Current IP: ' + sip;
+        mycdn.innerText = 'CDN Location: ' + colo + '\n' + 'Current IP: ' + sip;
         if (sip.includes(':'))mycdn.innerText += '\nIPv6 Enabled';
     } 
 }

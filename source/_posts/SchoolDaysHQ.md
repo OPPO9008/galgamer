@@ -21,7 +21,7 @@ Galgamer 聖誕節特別篇，聖誕節快樂！
 
 活潑可愛的少女**西園寺世界**，決定幫助同班同學**伊藤誠**追求隔壁班的女神**桂言葉**，沒想到自己卻深陷其中。
 
-![Cover](../image/SchoolDaysHQ/homebg.jpg)
+<p><img src="../image/SchoolDaysHQ/homebg.jpg" alt="Cover" width="950" height="600" loading="lazy" class="img-lazy"/></p>
 
 | 資訊一覽     |                 |
 | :----------- | :----------------------- |
@@ -47,7 +47,7 @@ Galgamer 聖誕節特別篇，聖誕節快樂！
 
 誠哥並不相信傳聞中的魔法真的靈驗，但是他還是偷偷拍下了桂言葉的照片。
 
-![偷拍](../image/SchoolDaysHQ/shot.webp)
+<p><img src="../image/SchoolDaysHQ/shot.webp" alt="偷拍" width="800" height="452" loading="lazy" class="img-lazy"/></p>
 
 然而誠哥剛來到學校，手機壁紙上的言葉就<br class="d-md-none">火速暴露給了新同桌，西園寺世界。
 
@@ -57,7 +57,7 @@ Galgamer 聖誕節特別篇，聖誕節快樂！
 
 世界提議道。
 
-![](../image/SchoolDaysHQ/sekai-help.webp)
+<p><img src="../image/SchoolDaysHQ/sekai-help.webp" alt="" width="1064" height="600" loading="lazy" class="img-lazy"/></p>
 
 新同桌如此熱情，讓誠哥覺得很疑惑。<br class="d-md-none">但是他還是接受了提議，於是屬於三人的戀愛冒險開始了。
 
@@ -171,37 +171,39 @@ Galgamer 聖誕節特別篇，聖誕節快樂！
 
 **其他角色**
 
-<img class="mx-0 my-2 rounded" width=100px src="../image/SchoolDaysHQ/chars/1.webp"/>
-<img class="mx-0 my-2 rounded" width=100px src="../image/SchoolDaysHQ/chars/2.webp"/>
-<img class="mx-0 my-2 rounded" width=100px src="../image/SchoolDaysHQ/chars/3.webp"/>
-<img class="mx-0 my-2 rounded" width=100px src="../image/SchoolDaysHQ/chars/4.webp"/>
-<img class="mx-0 my-2 rounded" width=100px src="../image/SchoolDaysHQ/chars/5.webp"/>
-<img class="mx-0 my-2 rounded" width=100px src="../image/SchoolDaysHQ/chars/6.webp"/>
-<img class="mx-0 my-2 rounded" width=100px src="../image/SchoolDaysHQ/chars/7.webp"/>
-<img class="mx-0 my-2 rounded" width=100px src="../image/SchoolDaysHQ/chars/8.webp"/>
-<img class="mx-0 my-2 rounded" width=100px src="../image/SchoolDaysHQ/chars/9.webp"/>
+<img class="mx-0 my-2 rounded" loading="lazy" width=100px height=117px src="../image/SchoolDaysHQ/chars/1.webp"/>
+<img class="mx-0 my-2 rounded" loading="lazy" width=100px height=117px src="../image/SchoolDaysHQ/chars/2.webp"/>
+<img class="mx-0 my-2 rounded" loading="lazy" width=100px height=117px src="../image/SchoolDaysHQ/chars/3.webp"/>
+<img class="mx-0 my-2 rounded" loading="lazy" width=100px height=117px src="../image/SchoolDaysHQ/chars/4.webp"/>
+<img class="mx-0 my-2 rounded" loading="lazy" width=100px height=117px src="../image/SchoolDaysHQ/chars/5.webp"/>
+<img class="mx-0 my-2 rounded" loading="lazy" width=100px height=117px src="../image/SchoolDaysHQ/chars/6.webp"/>
+<img class="mx-0 my-2 rounded" loading="lazy" width=100px height=117px src="../image/SchoolDaysHQ/chars/7.webp"/>
+<img class="mx-0 my-2 rounded" loading="lazy" width=100px height=117px src="../image/SchoolDaysHQ/chars/8.webp"/>
+<img class="mx-0 my-2 rounded" loading="lazy" width=100px height=117px src="../image/SchoolDaysHQ/chars/9.webp"/>
 
 ## CG
 
-<p><img src="../image/SchoolDaysHQ/scn/01.webp" width="1280" height="720" style="width:100%; height:auto;"/></p>
+<p><img src="" alt="" width="" height="" loading="lazy" class="img-lazy"/></p>
 
-<p><img src="../image/SchoolDaysHQ/scn/02.webp" width="1280" height="720" style="width:100%; height:auto;"/></p>
+<p><img class="img-lazy" loading="lazy" src="../image/SchoolDaysHQ/scn/01.webp" width="1280" height="720"/></p>
 
-<p><img src="../image/SchoolDaysHQ/scn/04.webp" width="1280" height="720" style="width:100%; height:auto;"/></p>
+<p><img class="img-lazy" loading="lazy" src="../image/SchoolDaysHQ/scn/02.webp" width="1280" height="720"/></p>
 
-<p><img src="../image/SchoolDaysHQ/scn/05.webp" width="1280" height="720" style="width:100%; height:auto;"/></p>
+<p><img class="img-lazy" loading="lazy" src="../image/SchoolDaysHQ/scn/04.webp" width="1280" height="720"/></p>
 
-<p><img src="../image/SchoolDaysHQ/scn/06.webp" width="1280" height="720" style="width:100%; height:auto;"/></p>
+<p><img class="img-lazy" loading="lazy" src="../image/SchoolDaysHQ/scn/05.webp" width="1280" height="720"/></p>
 
-<p><img src="../image/SchoolDaysHQ/scn/07.webp" width="1280" height="720" style="width:100%; height:auto;"/></p>
+<p><img class="img-lazy" loading="lazy" src="../image/SchoolDaysHQ/scn/06.webp" width="1280" height="720"/></p>
 
-<p><img src="../image/SchoolDaysHQ/scn/08.webp" width="1280" height="720" style="width:100%; height:auto;"/></p>
+<p><img class="img-lazy" loading="lazy" src="../image/SchoolDaysHQ/scn/07.webp" width="1280" height="720"/></p>
 
-<p><img src="../image/SchoolDaysHQ/scn/09.webp" width="1280" height="720" style="width:100%; height:auto;"/></p>
+<p><img class="img-lazy" loading="lazy" src="../image/SchoolDaysHQ/scn/08.webp" width="1280" height="720"/></p>
 
-![](../image/SchoolDaysHQ/wall2.webp)
+<p><img class="img-lazy" loading="lazy" src="../image/SchoolDaysHQ/scn/09.webp" width="1280" height="720"/></p>
 
-![](../image/SchoolDaysHQ/wall3.webp)
+<p><img class="img-lazy" loading="lazy" src="../image/SchoolDaysHQ/wall2.webp" width="640" height="960"/></p>
+
+<p><img class="img-lazy" loading="lazy" src="../image/SchoolDaysHQ/wall3.webp" width="640" height="960"/></p>
 
 爆血的 CG 請自己打出來，我就不放了，，，
 

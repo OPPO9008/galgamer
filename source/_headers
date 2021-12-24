@@ -2,10 +2,17 @@ https://:project.pages.dev/
   X-Robots-Tag: noindex
    
 /img/*
-  Cache-Control: public, max-age=604800, s-maxage=43200
+  Cache-Control: public, max-age=604800
   
 /image/*
-  Cache-Control: public, max-age=604800, s-maxage=43200
+  Cache-Control: public, max-age=604800
+  
+/js/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+/css/*
+  Cache-Control: public, max-age=0, must-revalidate
+
 
 /
   Link: <https://unpkg.zhimg.com/galgame-oss/hana1-hq.webp>; rel="prefetch" as="image"

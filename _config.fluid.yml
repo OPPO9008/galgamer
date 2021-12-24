@@ -187,7 +187,7 @@ color:
 # Font
 font:
   font_size: 16px
-  font_family: "'Noto sans', 'Noto sans TC', 'Noto sans SC', 'Noto sans JP', sans-serif "
+  font_family: "'Noto sans', 'Noto sans SC', 'Noto sans TC', 'Noto sans JP', sans-serif "
   letter_spacing: 0.02em
   code_font_size: 85%
 
@@ -200,6 +200,7 @@ custom_js: ''
 # The usage is the same as custom_js
 custom_css: 
    - /css/fonts.css
+   - /css/img_lazyload.css
  #  - /css/bootstrap-toaster.css
 
 # 自定义 <head> 节点中的 HTML 内容
@@ -214,8 +215,8 @@ custom_head: '
     <link rel="preconnect" href="https://store.steampowered.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&family=Noto+Sans+SC&family=Noto+Sans+TC&family=Noto+Serif&family=Noto+Serif+JP&family=Noto+Serif+SC&family=Noto+Serif+TC&display=swap" rel="stylesheet">
-    <script async src="/js/mylib_async.js?1204"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP:wght@300&family=Noto+Sans+SC:wght@300&family=Noto+Sans+TC:wght@300&family=Noto+Serif&family=Noto+Serif+JP&family=Noto+Serif+SC&family=Noto+Serif+TC&display=swap" rel="stylesheet">
+    <script async src="/js/mylib_async.js?1225"></script>
     <script async src="/js/popper.min.js"></script>
     <script defer src="/js/ie_code_defer.js"></script>
     '
