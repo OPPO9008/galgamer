@@ -15,7 +15,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://galgamer.xyz/
+url: https://galgamer.eu.org/
 #permalink: :year/:month/:day/:title/
 permalink: article/:abbrlink.html
 permalink_defaults:
