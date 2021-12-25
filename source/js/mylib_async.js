@@ -4,7 +4,7 @@
 
 function main(){
     //redirectHttps();
-    redirectNoWWW();
+    //redirectNoWWW();
     docReady(function() {
         // DOM is loaded and ready for manipulation here
         if (checkPathRoot()){

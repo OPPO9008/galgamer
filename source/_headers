@@ -8,10 +8,10 @@ https://:project.pages.dev/
   Cache-Control: public, max-age=604800
   
 /js/*
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, no-cache
 
 /css/*
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, no-cache
 
 
 /
