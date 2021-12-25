@@ -460,7 +460,7 @@ magnet:?xt=urn:btih:c70d2386bef29b55966f459b214c3d8b0537de4d
 
 onedrive下载
 
-<a class="btn btn-info" href="https://dl.galgamer.xyz/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.001"> 分卷1</a>	<a class="btn btn-info" href="https://dl.galgamer.xyz/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.002">分卷2</a>	<a class="btn btn-info" href="https://dl.galgamer.xyz/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.003">分卷3</a>
+<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.001"> 分卷1</a>	<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.002">分卷2</a>	<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.003">分卷3</a>
 
 分卷解压请放在一个文件夹解压
 
