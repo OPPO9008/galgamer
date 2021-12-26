@@ -2,7 +2,7 @@ https://:project.pages.dev/
   X-Robots-Tag: noindex
   
 /playground/1G.gzip
-  content-type: image/jpeg
+  content-type: text/*
   Content-Encoding: gzip
    
 /img/*
