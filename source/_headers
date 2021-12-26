@@ -3,7 +3,6 @@ https://:project.pages.dev/
   
 /playground/1G.gzip
   Content-Encoding: gzip
-  Content-Type: text/html; charset=UTF-8
    
 /img/*
   Cache-Control: public, max-age=604800
