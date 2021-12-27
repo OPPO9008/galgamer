@@ -27,7 +27,11 @@ comment_script.setAttribute('data-limit', '20');
 comment_script.setAttribute('data-color', 'E22F38');
 comment_script.setAttribute('data-dislikes', '1');
 comment_script.setAttribute('data-colorful', '1');
-if(getDark()){
+
+let mhtml = document.querySelectorAll('[data-user-color-scheme]')[0];
+let result = mhtml.getAttribute('data-user-color-scheme');
+
+if(result === 'dark'){
     comment_script.setAttribute('data-dark', '1');
 }
 insertDiv.appendChild(comment_script);
