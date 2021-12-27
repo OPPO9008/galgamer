@@ -347,17 +347,17 @@ magnet:?xt=urn:btih:36718d1709a58a55fe43a92f31fa10f5afe3cd62
 
 文件名：(18禁ゲーム) [161222] [MOONSTONE] 仄暗き時の果てより (iso+mds+rr3).rar
 
-資源來自 Mikocon 論壇： https://bbs.mikocon.com/thread-27927-1-1.html
+資源來自 Mikocon 論壇：🔗️https://bbs.mikocon.com/thread-27927-1-1.html
 
 破解補丁：進入上述連結的論壇帖子，下載樓主發的附件 「仄暗き時の果てより Crack (Mai).rar」(789.33 KB)，解壓到遊戲目錄的 /data 文件夾。可能會報毒，我已經試過了，應該沒毒。
 
 ### 中文版
 
-截至目前，中文版仍未發佈。
+官方中文版已發佈到 [🔗️HIKARI FIELD 商城](https://store.hikarifield.co.jp/shop/honoguraki)，你也可以直接在這裏下載：[🔗️前往 Telegram 討論組](tg://resolve?domain=Galgamer&post=165835)
 
-但是某個漢化組應該有漢化，我看到有群友發了資源，連結如下：
+下面是“默示漢化組”（群友說是機翻漢化組）的非官方漢化版：
 
-<a class="btn btn-info" href="tg://resolve?domain=Galgamer&post=160949">直達資源</a>
+[🔗️前往 Telegram 討論組](tg://resolve?domain=Galgamer&post=160949)
 
 <br><br>
 
