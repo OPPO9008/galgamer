@@ -123,7 +123,7 @@ excerpt: 從殺人魔手中倖存的秋津圓香和青梅竹馬的慎司揭開�
 還有，本作的 ED **さくら雫** 也是世界名曲，我是真喜歡電氣華憐的歌。
 
 <video controls width='100%' preload="metadata">
-<source src="https://bitbucket.org/sa-ya/my-static/raw/96fea2e8391e89fa19507b9905e167924b1e3ad6/SakuraNoMori-Dreamers-2/Sakura-2-Ed-Sakurashizuku-1.mp4" type="video/mp4"/>
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/SakuraNoMori-Dreamers-2/Sakura-2-Ed-Sakurashizuku-1.mp4" type="video/mp4"/>
 </video>
 
 ## 登場人物
