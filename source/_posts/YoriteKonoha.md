@@ -147,7 +147,7 @@ excerpt: '在紅葉紛飛之地 和有尾巴，有耳朵的少女們 展開的 �
 ## 遊戲 OP
 
 <video controls preload="metadata" width='100%' poster="../image/YoriteKonoha/movie.webp">
-      <source src="https://bitbucket.org/sa-ya/my-static/raw/543f1be81aefed6535e8cbd039136ebcf9bc9ee0/YoriteKonoha/ykop-2.mp4" type="video/mp4">
+      <source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/YoriteKonoha/ykop-2.mp4" type="video/mp4">
 <p> To view this video please enable JavaScript</p>
 </video>
 
@@ -224,7 +224,7 @@ excerpt: '在紅葉紛飛之地 和有尾巴，有耳朵的少女們 展開的 �
 有一個十分鐘的試玩（沒有小動物出現，建議快進）
 
 <video controls preload="metadata" width='100%'>
-<source src="https://bitbucket.org/sa-ya/my-static/raw/543f1be81aefed6535e8cbd039136ebcf9bc9ee0/YoriteKonoha/10min-know.mp4" type="video/mp4">
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/YoriteKonoha/10min-know.mp4" type="video/mp4">
 <p> To view this video please enable JavaScript</p>
 </video>
 
