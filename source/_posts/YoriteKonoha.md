@@ -1,5 +1,5 @@
 ---
-title: '緣染此葉、化爲戀紅：你喜歡小動物，對吧'
+title: '緣染此葉、化爲戀紅：獻給喜歡小動物的你'
 date: 2021-12-28 00:30:00
 keywords: "縁りて此の葉は紅に, Lump of Sugar"
 banner_img: '../image/YoriteKonoha/trans.webp'
@@ -37,7 +37,7 @@ excerpt: '在紅葉紛飛之地 和有尾巴，有耳朵的少女們 展開的 �
 這個世界上生存着兩個種族，
 一種是擁有獸耳和尾巴的「幻夷」，
 另一種是人類，
-二者從幾百年前就共同生活。
+二者從幾百年前就已經共同生活。
 
 男主角，清司，和妹妹兩人搬家回到了老家，
 那是一個紅葉紛飛的，衆多幻夷生活在此的古都。
@@ -147,7 +147,7 @@ excerpt: '在紅葉紛飛之地 和有尾巴，有耳朵的少女們 展開的 �
 ## 遊戲 OP
 
 <video controls preload="metadata" width='100%' poster="../image/YoriteKonoha/movie.webp">
-      <source src="https://bitbucket.org/sa-ya/my-static/raw/543f1be81aefed6535e8cbd039136ebcf9bc9ee0/YoriteKonoha/ykop-2.mp4" type="video/mp4">
+      <source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/YoriteKonoha/ykop-2.mp4" type="video/mp4">
 <p> To view this video please enable JavaScript</p>
 </video>
 
@@ -224,7 +224,7 @@ excerpt: '在紅葉紛飛之地 和有尾巴，有耳朵的少女們 展開的 �
 有一個十分鐘的試玩（沒有小動物出現，建議快進）
 
 <video controls preload="metadata" width='100%'>
-<source src="https://bitbucket.org/sa-ya/my-static/raw/543f1be81aefed6535e8cbd039136ebcf9bc9ee0/YoriteKonoha/10min-know.mp4" type="video/mp4">
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/YoriteKonoha/10min-know.mp4" type="video/mp4">
 <p> To view this video please enable JavaScript</p>
 </video>
 
