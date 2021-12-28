@@ -949,6 +949,24 @@ links:
       link: "https://nekosc.com/",
       avatar: "https://nekosc.com/favicon.ico"
     }
+    - {
+      title: "谷歌搜索",
+      intro: "把 Galgame 名字打進去馬上就能找到遊戲的神奇網站",
+      link: "https://www.google.com.hk/",
+      avatar: "https://www.google.cn/favicon.ico"
+    }
+    - {
+      title: "真・蒸汽平臺",
+      intro: "什麼遊戲都能買到的境外勢力商店",
+      link: "https://store.steampowered.com/",
+      avatar: "https://store.steampowered.com/favicon.ico"
+    }
+    - {
+      title: "光之領域",
+      intro: "號稱要把美少女遊戲文化推向世界的不自量力日本發行商",
+      link: "https://store.hikarifield.co.jp/",
+      avatar: "https://hikarifield.co.jp/images/hfu_logo.png"
+    }
 
 
   # 当成员头像加载失败时，替换为指定图片
@@ -959,7 +977,15 @@ links:
   # Custom content at the bottom of the links
   custom:
     enable: true
-    content: '<hr><p>在频道留言申请加入我的友链，请按如下格式提供信息：</p><ul><li>博客名：Fluid</li><li>简介：Fluid 主题官方博客</li><li>链接：https://hexo.fluid-dev.com</li><li>图片：https://hexo.fluid-dev.com/img/favicon.png</li></ul>'
+    content: '
+    <hr>
+    <p>在频道留言申请加入我的友链，请按如下格式提供信息：</p>
+    <ul>
+    <li>网站名称：MOONSTONE</li>
+    <li>简介：PC 游戏制作商 MOONSTONE 官方网站</li>
+    <li>链接：https://www.moon-stone.jp/</li>
+    <li>图标：https://www.moon-stone.jp/favicon.ico</li>
+    </ul>'
 
   # 评论插件
   # Comment plugin
