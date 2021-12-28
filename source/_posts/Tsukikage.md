@@ -219,8 +219,7 @@ excerpt: '被表妹如月零邀請，回到故鄉如月老宅參加「儀式」�
 這裏有一個 5 分鐘的試玩實況。
 
 <video width="100%" controls="controls"  preload="metadata"> 
-<source src="https://bitbucket.org/sa-ya/my-static/raw/d19e1338d24101adb5cd52d0cf9ffcd235b5f15f/Tsukikage/5min-know.mkv" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/pm4WKbFw/BMAfvf-dq4xX0rpZiiOJLJtlatl9B3NcoBo4gQJCARI*" type="video/webm"/>
-<source src="https://bitbucket.org/sa-ya/my-static/raw/4f9e5f20d0c96abd0f71976ab355b0a1c4726f7d/Tsukikage/5min-know.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/lmB48dcb/Px6uB8AlWA-4iv0ERUsC6Fph-aDOehv4Jbuq9PKx8nk*" type="video/mp4"/>
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Tsukikage/5min-know.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/lmB48dcb/Px6uB8AlWA-4iv0ERUsC6Fph-aDOehv4Jbuq9PKx8nk*" type="video/mp4"/>
 <p>無法使用  JavaScript。</p>  
 </video>
 

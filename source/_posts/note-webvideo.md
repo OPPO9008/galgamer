@@ -52,19 +52,19 @@ mp4, H264, 1080p, 長度 2:04, 88 MB。
 mp4, H264, 720p, 60fps, 長度 1:57, 28 MB, HandBrake 品質 27, 對 web 優化
 
 <video  controls width='100%' preload="metadata"  >
-<source  src="https://bitbucket.org/sa-ya/my-static/raw/75d65c961e5366b706c20e50a4ff6be5c65e546e/note-webvideo/op-h264-cpu-27.mp4" type="video/mp4"/>
+<source  src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/note-webvideo/op-h264-cpu-27.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p></video>
 
 mp4, H264, 720p, 30fps, 長度 1:57, 57 MB, HandBrake 品質 21, 對 web 優化
 
 <video  controls width='100%' preload="metadata"  >
-<source  src="https://bitbucket.org/sa-ya/my-static/raw/75d65c961e5366b706c20e50a4ff6be5c65e546e/note-webvideo/op-h264-cpu-30fps-21.mp4" type="video/mp4"/>
+<source  src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/note-webvideo/op-h264-cpu-30fps-21.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p></video>
 
 webm, VP9, 720p, 60fps, 長度 1:57, 77 MB, HandBrake 品質 27
 
 <video  controls width='100%' preload="metadata"  >
-<source  src="https://bitbucket.org/sa-ya/my-static/raw/75d65c961e5366b706c20e50a4ff6be5c65e546e/note-webvideo/op-vp9-cpu-60fps-27.webm" type="video/mp4"/>
+<source  src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/note-webvideo/op-vp9-cpu-60fps-27.webm" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p></video>
 
 除了上面三個樣本之外，我還做了其他的測試。測試中都表現出 H264 的畫質和體積都優於 VP9。

@@ -255,7 +255,7 @@ Misaki Kanna
 動畫來自 YouTube
 
 <video controls preload="metadata" width='100%' poster="../image/Tsukikana/movie.webp">
-      <source src="https://bitbucket.org/sa-ya/my-static/raw/eaced2bf32ba63bc54e080a6bfe733c10980bf4d/Tsukikana/op.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/mYg1NbCw/7qRp5BZJPffWUS6jsu57HFj3Z2V-Pp-ZPAw3W3LEXx0*" type="video/mp4">
+      <source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Tsukikana/op.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/mYg1NbCw/7qRp5BZJPffWUS6jsu57HFj3Z2V-Pp-ZPAw3W3LEXx0*" type="video/mp4">
 <p> To view this video please enable JavaScript</p>
 </video>
 
@@ -342,7 +342,7 @@ tone work's 家的遊戲，都是長篇系列，<br class="d-md-none">之前我�
 試玩錄像在此。
 
 <video controls preload="metadata" width='100%'>
-      <source src="https://bitbucket.org/sa-ya/my-static/raw/eaced2bf32ba63bc54e080a6bfe733c10980bf4d/Tsukikana/13min-know.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/6Wnp9dtg/0YDi2QOHgmcG7E3YO9Zk7vsdvPIIjypaZssF5__KGE8*" type="video/mp4">
+      <source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Tsukikana/13min-know.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/6Wnp9dtg/0YDi2QOHgmcG7E3YO9Zk7vsdvPIIjypaZssF5__KGE8*" type="video/mp4">
 <p> To view this video please enable JavaScript</p>
 </video>
 
