@@ -394,7 +394,7 @@ Caminal le<br>Pultaia<br>Sortilège<br>Sisua
 試玩 10 分鐘
 
 <video controls preload="metadata" width='100%'>
-<source src="https://bitbucket.org/sa-ya/my-static/raw/2e7e511571f4604653e2553eb43bfb1f0a032375/Kinkoi/kinkoi-1k-2.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/zZWAwPSq/B4ltoyh3GAMWkA-NtqQixWlwzUvAj8lV05771MZ4kb0*" type="video/mp4" />
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Kinkoi/kinkoi-1k-2.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/zZWAwPSq/B4ltoyh3GAMWkA-NtqQixWlwzUvAj8lV05771MZ4kb0*" type="video/mp4" />
 <p> To view this video please enable JavaScript</p>
 </video>
 

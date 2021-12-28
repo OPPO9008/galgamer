@@ -210,7 +210,7 @@ Galgamer 聖誕節特別篇，聖誕節快樂！
 官方沒給我自己錄的
 
 <video controls preload="metadata" width='100%' poster="../image/SchoolDaysHQ/movie.webp">
-      <source src="https://bitbucket.org/sa-ya/my-static/raw/29a6aa88e668c12e9b777b916567d3c6bbaf5e34/SchoolDaysHQ/SDHQ-OP.mp4" type="video/mp4">
+      <source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/SchoolDaysHQ/SDHQ-OP.mp4" type="video/mp4">
 <p> To view this video please enable JavaScript</p>
 </video>
 
@@ -250,7 +250,7 @@ ED <a href='/music/?id=9' target='_blank'>🔗️あなたが…いない</a>（
 試玩錄像在此，建議開 1.25 倍速觀看。
 
 <video controls preload="metadata" width='100%'>
-      <source src="https://bitbucket.org/sa-ya/my-static/raw/29a6aa88e668c12e9b777b916567d3c6bbaf5e34/SchoolDaysHQ/SchooldaysHQ.mp4" type="video/mp4">
+      <source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/SchoolDaysHQ/SchooldaysHQ.mp4" type="video/mp4">
 <p> To view this video please enable JavaScript</p>
 </video>
 

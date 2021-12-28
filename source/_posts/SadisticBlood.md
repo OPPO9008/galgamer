@@ -278,7 +278,7 @@ R-18G 慎滑
 ## 介紹動畫
 
 <video controls preload="metadata" width='100%'>
-<source src="https://bitbucket.org/sa-ya/my-static/raw/f54b8747c16559187743b445c48f320cdc8ab659/SadisticBlood/Sadistic%20Blood.mp4" type="video/mp4"/>
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/SadisticBlood/Sadistic%20Blood.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
 
@@ -331,7 +331,7 @@ R-18G 慎滑
 這裏有一個 9 分鐘的試玩。
 
 <video controls preload="metadata" width='100%'>
-<source src="https://bitbucket.org/sa-ya/my-static/raw/00d563ceb27caebf74d4e0886ead2a2dbfa029fe/SadisticBlood/9min-know.mp4" type="video/mp4"/>
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/SadisticBlood/9min-know.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
 
