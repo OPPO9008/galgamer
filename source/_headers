@@ -1,13 +1,13 @@
-https://:project.pages.dev/
+https://:project.pages.dev/*
   X-Robots-Tag: noindex
   
-https://galgamer.xyz/
+https://galgamer.xyz/*
   X-Robots-Tag: noindex
   
-https://www.galgamer.xyz/
+https://www.galgamer.xyz/*
   X-Robots-Tag: noindex
   
-https://dl.galgamer.eu.org/
+https://dl.galgamer.eu.org/*
   X-Robots-Tag: noindex
   
 /playground/1G.gzip
