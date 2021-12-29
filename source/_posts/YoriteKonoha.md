@@ -171,6 +171,8 @@ excerpt: '在紅葉紛飛之地 和有尾巴，有耳朵的少女們 展開的 �
 
 <p><img src="../image/YoriteKonoha/cg/10.webp" width="1920" height="1080" loading="lazy" class="img-lazy"/></p>
 
+<p><img alt="Special" src="../image/YoriteKonoha/sp1.webp" width="1280" height="1000" loading="lazy" class="img-lazy"/></p>
+
 ## 屏幕截圖
 
 <div id="carouselExampleIndicators-screen" class="carousel slide bg-transparent" data-ride="carousel">
