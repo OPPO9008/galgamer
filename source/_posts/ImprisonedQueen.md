@@ -4,16 +4,15 @@ date: 2021-12-30 00:30:00
 keywords: '台灣，BananaKing，香蕉王,Imprisoned Queen'
 index_img: '../image/ImprisonedQueen/index.webp'
 tags:
-
   - 口交 
   - 凌辱
   - 女王
   - 調教
-    categories:
+categories:
   - [R-18，SLG]
-    abbrlink: 19031
-    author: '木衛一'
-    excerpt: '調教亡國女王莎恩‧凱特成爲戰勝國諾恩的公用性奴隸'
+abbrlink: 19031
+author: '木衛一'
+excerpt: '調教亡國女王莎恩‧凱特成爲戰勝國諾恩的公用性奴隸'
 ---
 `作者：木衛一`
 
