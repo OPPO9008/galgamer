@@ -1,6 +1,6 @@
 ---
-title: 'OneRoom 家出少女：SLG版撿到女高中生'
-date: 2021-12-12 17:30:00
+title: 'OneRoom 家出少女：SLG 版撿到女高中生'
+date: 2021-12-16 00:30:00
 keywords: 'Akari Blast!, 石原愛依莉, まるく, パルティア教団, SLG'
 index_img: '../image/1room/1.webp'
 tags:
@@ -20,7 +20,7 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 
 社畜程序员车站捡到女子高中生
 
-
+![Poster](../image/1room/1.jpg)
 
 | 資訊一覽     |                      |
 | :----------- | :------------------- |
@@ -39,7 +39,7 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 西西弗斯式無止境的工作逐漸開始磨去你生活的意志……
 這時，一個綺麗動人的少女卻闖進你的生活
 
-![Cover](../image/1room/2.webp)
+![](../image/1room/2.webp)
 
 "叔叔可以收留我......到下周六早上吗？"
 她會成為你生活的新希望嗎？
@@ -47,24 +47,17 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 
 ## 登場人物
 
-<div class="row">
-<div class="col-md-8 col-lg-5">
-</div>
-<div class="col-lg-7 col-md-11">
-<div class="row row-cols-1">
-<p class="col mx-2 my-2">
-    你:<br>
-被女高中生叫做叔叔的你<br>
-是一個早出晚歸的社畜公務員<br>
-最近，漸漸的因為工作壓力而失去生活的信心<br>
-被芹澤夕搭訕這件事彷彿是一個契機<br>
-可以讓你重新迴歸生活<br>
-<mark>因此究竟要不要讓她借宿這件事</mark><br>
-<mark>希望你好好考慮</mark><br>
-</p>
-</div>
-</div>
-</div>
+<p style="font-size:150%">你:</p>
+
+被女高中生叫做叔叔的你
+是一個早出晚歸的社畜公務員
+最近，漸漸的因為工作壓力而失去生活的信心
+被芹澤夕搭訕這件事彷彿是一個契機
+可以讓你重新迴歸生活
+
+<mark>因此究竟要不要讓她借宿這件事</mark>
+<mark>希望你好好考慮</mark>
+
 
 <br><br>
 
@@ -88,52 +81,21 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 </div>
 
 
-
-<br><br>
-
 ## 遊戲截圖
 
-<div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="5"></li>
 
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/1room/cg/cg1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg3.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg4.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg5.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg6.webp" >
-    </div>
-  </div>
+<p><img loading="lazy" src="../image/1room/cg/cg1.webp" /></p>
 
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+<p><img loading="lazy" src="../image/1room/cg/cg2.webp" /></p>
+
+<p><img loading="lazy" src="../image/1room/cg/cg3.webp" /></p>
+
+<p><img loading="lazy" src="../image/1room/cg/cg4.webp" /></p>
+
+<p><img loading="lazy" src="../image/1room/cg/cg5.webp" /></p>
+
+<p><img loading="lazy" src="../image/1room/cg/cg6.webp" /></p>
+
 
 ## CG
 
@@ -222,8 +184,6 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 <p> To view this video please enable JavaScript</p>
 </video>
 
-
-
 ## 資源與下載
 
 原資源來自：ryuugames
@@ -234,7 +194,7 @@ https://www.ryuugames.com/eng-1room-iede-shoujo-free-download/
 
 游戲可選擇中日英三語，在option内選擇相應語言即可。
 
-[mega 網盤點此]https://mega.nz/file/FvwXkaxT#7aK-D19Mnga0He1cL0YItLym2n9R--PJbjwHecPlKB0
+[mega 網盤點此](https://mega.nz/file/FvwXkaxT#7aK-D19Mnga0He1cL0YItLym2n9R--PJbjwHecPlKB0)
 
 <script>
 insertToast('success', '✒️️本文来自群友投稿', 3000);
