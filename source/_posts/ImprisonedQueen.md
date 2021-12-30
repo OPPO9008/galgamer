@@ -3,6 +3,7 @@ date: 2021-12-30 00:30:00
 keywords: '台灣，BananaKing，香蕉王,Imprisoned Queen'
 index_img: '../image/ImprisonedQueen/index.webp'
 tags:
+
   - 口交 
   - 凌辱
   - 女王
@@ -17,7 +18,7 @@ excerpt: '調教亡國女王莎恩‧凱特成爲戰勝國諾恩的公用性奴�
 
 亡國女王莎恩‧凱特身陷囹圄。為保國民安危，她在貴族薩克遜調教下心甘情願成爲性奴隸。
 
-![Cover](../image/ImprisonedQueen/cover.jpg)
+![Cover](../image/ImprisonedQueen/cover.webp)
 
 | 資訊一覽     |                 |
 | :----------- | :------------------------------------ |
@@ -232,12 +233,18 @@ CG和立繪水準的話，還算過眼
 這裏有一個簡短的試玩。
 
 <video controls preload="metadata" width='100%'>
-<source src="" type="video/mp4"/>
+<source src="https://bitbucket.org/phobosloreal/galvideo/raw/df3fdb2007b39fc1800a96a11178675adf699f34/ImprisonedQueen/Game%202021-12-30%2013-58-48-1.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
 
 
 ## 資源與下載
+
+steam上有售
+
+也可以在琉璃神社下載
+
+https://t.me/liuli_link/1707?comment=4318
 
 
 <script>
