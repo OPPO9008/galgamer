@@ -1,5 +1,5 @@
 # 重樱小学堂
-https://galgamer.xyz/
+https://galgamer.eu.org/
 
  * 游戏评测+精选cg
 
@@ -13,7 +13,7 @@ https://galgamer.xyz/
 
 ## 投稿方式
 
-嫌以下步骤麻烦？直接把写好的 word 发给管理员，，，
+嫌以下步骤麻烦？直接把写好的 word 发给管理员，然后管理员会指导你生成 md，，，
 
 
 

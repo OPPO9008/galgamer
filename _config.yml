@@ -15,7 +15,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://galgamer.xyz/
+url: https://galgamer.eu.org/
 #permalink: :year/:month/:day/:title/
 permalink: article/:abbrlink.html
 permalink_defaults:
@@ -99,11 +99,12 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
+include: 
+  - '_headers'
 exclude:
 ignore:
 
-# Extensions
+# Extensions 
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: fluid #hexo-theme-matery #landscape

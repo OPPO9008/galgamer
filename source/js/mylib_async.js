@@ -4,7 +4,7 @@
 
 function main(){
     //redirectHttps();
-    redirectNoWWW();
+    //redirectNoWWW();
     docReady(function() {
         // DOM is loaded and ready for manipulation here
         if (checkPathRoot()){
@@ -282,7 +282,7 @@ class RouteMap {
         imgRow.appendChild(imgDiv);
         
         let mImg = document.createElement('img');
-        mImg.setAttribute('class', 'image-fluid');
+        mImg.setAttribute('class', 'image-fluid img-lazy');
         mImg.setAttribute('onclick', 'return false');
         imgDiv.appendChild(mImg);
         this.imageDOM = mImg;
@@ -433,7 +433,7 @@ function createShareBtn() {
             }
         }
         let url = title;
-        let desc = tagStr + '\n' + window.location;
+        let desc = tagStr + '\n🔗️' + window.location;
         //nielog(url);
         //nielog(desc);
         url = encodeURIComponent(url);
@@ -458,20 +458,26 @@ function friendLink(){
         let doc = parser.parseFromString(data, 'text/html');
         let card = doc.querySelectorAll('#board')[0];
         
-        card.classList.add("mt-5");
+        //card.classList.add("mt-5");
         //card.setAttribute('id', 'friendLinkCard');
         let insertText = card.querySelectorAll('.container')[0];
+        insertText.classList.add("mt-5");
         let mText = document.createElement('h5');
         
         mText.classList.add("ml-4");
         mText.innerText = "友情链接";
         insertText.prepend(mText);
         
-        let father = document.querySelectorAll('.container.nopadding-x-md')[0];
+        //let father = document.querySelectorAll('.container.nopadding-x-md')[0];
         
-        let br = document.createElement('br');
-        father.appendChild(br);
-        father.appendChild(card);
+        //let br = document.createElement('br');
+        //father.appendChild(br);
+        //father.appendChild(card);
+        let father = document.querySelectorAll('#board')[0];
+        
+        //let br = document.createElement('br');
+        //father.appendChild(br);
+        father.appendChild(insertText);
     })
     .catch(e => console.log(e))
 }
@@ -604,7 +610,7 @@ async function showCDN(){
             colo = cdns[colo];
         }
         let mycdn = document.getElementById('mycdn');
-        mycdn.innerText = 'CDN location: ' + colo + '\n' + 'Current IP: ' + sip;
+        mycdn.innerText = 'CDN Location: ' + colo + '\n' + 'Current IP: ' + sip;
         if (sip.includes(':'))mycdn.innerText += '\nIPv6 Enabled';
     } 
 }

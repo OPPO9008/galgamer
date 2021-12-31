@@ -233,17 +233,12 @@ excerpt: '玩太多沉痛的 Galgame，大腦要降級啦。今天玩點輕鬆�
 
 都是萌萌人，，，
 
-<div class='vidcontainer'>
-   <select class='qualitypick' autocomplete='off'>
-      <option selected>低畫質</option>
-      <option>高畫質</option>
-   </select>
-   <video controls preload="metadata" width='100%' poster="../image/CafeStella/op.webp">
-      <source label="低畫質" src="https://bitbucket.org/sa-ya/my-static/raw/5bf816c9df4af8ab2e57fbbe9f3eb61d6e4063d4/CafeStella/op-480.mp4" type="video/mp4">
-      <source label="高畫質"   src="https://bitbucket.org/sa-ya/my-static/raw/5bf816c9df4af8ab2e57fbbe9f3eb61d6e4063d4/CafeStella/op.mp4" type="video/mp4" >
+
+<video controls preload="metadata" width='100%' poster="../image/CafeStella/op.webp">
+  <source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/CafeStella/op.mp4" type="video/mp4" >
 <p> To view this video please enable JavaScript</p>
-   </video>
-</div>
+</video>
+
 
 ## 遊戲畫面
 
@@ -426,7 +421,7 @@ excerpt: '玩太多沉痛的 Galgame，大腦要降級啦。今天玩點輕鬆�
 劇情大意是青梅竹馬來叫你起床，順便煮早餐。
 
 <video controls preload="metadata" width='100%' poster="../image/CafeStella/movie.webp">
-<source src="https://bitbucket.org/sa-ya/my-static/raw/c2249febf1bc146f7ea69f0e8743f35c6b2c5e67/CafeStella/8-min-know.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/P8d9v4TO/FklcOv0WChVgXIYpN7tqzgv2FCu-0Bf0DOKUk4mv3X8*" type="video/mp4" />
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/CafeStella/8-min-know.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/P8d9v4TO/FklcOv0WChVgXIYpN7tqzgv2FCu-0Bf0DOKUk4mv3X8*" type="video/mp4" />
 <p> To view this video please enable JavaScript</p>
 </video>
 
@@ -460,7 +455,7 @@ magnet:?xt=urn:btih:c70d2386bef29b55966f459b214c3d8b0537de4d
 
 onedrive下载
 
-<a class="btn btn-info" href="https://dl.galgamer.xyz/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.001"> 分卷1</a>	<a class="btn btn-info" href="https://dl.galgamer.xyz/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.002">分卷2</a>	<a class="btn btn-info" href="https://dl.galgamer.xyz/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.003">分卷3</a>
+<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.001"> 分卷1</a>	<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.002">分卷2</a>	<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.003">分卷3</a>
 
 分卷解压请放在一个文件夹解压
 

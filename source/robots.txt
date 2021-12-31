@@ -6,4 +6,4 @@ Allow: /categories/
 Allow: /tags/
 Allow: /about/
 
-Sitemap: https://galgamer.xyz/sitemap.xml
+Sitemap: https://galgamer.eu.org/sitemap.xml

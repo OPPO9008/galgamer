@@ -1,0 +1,14 @@
+/* 懶加載的圖片設定其高度爲自動 */
+/* 只能用在填滿左右兩側寬度的圖片！！！ */
+/* 意思是文字圖片左右擺在一起的別亂用，，， */
+img.img-lazy {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    min-width: 100px;
+    background-color: transparent;
+    background-image: url('../image/mona-loading.webp');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center
+}
