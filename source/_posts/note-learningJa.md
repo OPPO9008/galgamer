@@ -3,23 +3,23 @@ title: 'Blog Note 4：面向 Galgamer 的日語學習路線'
 date: 2000-11-30 00:30:00
 keywords: '日語, Japanese, Learning'
 banner_img: ''
-index_img: '../image/note-learningJa/sakura.webp'
+index_img: '../image/note-learningJa/index.webp'
 tags:
    - 笔记
 abbrlink: 20006
 author: '桐遠暮羽'
-excerpt: '[寒假學習計劃] 不再被語言所束縛，這是成爲自由且無可阻擋的 Galgamer 之路。'
+excerpt: '不再被語言所束縛，這是成爲自由且無可阻擋的 Galgamer 之路。'
 ---
 
 `作者: 桐遠暮羽`
 
 *不再被語言所束縛，這是成爲自由且無可阻擋的 Galgamer 之路。*
 
-<p><img src="../image/note-learningJa/sakura.jpg" width="1280" height="905" loading="lazy" class="img-lazy"/></p>
+<p><img alt="Poster" src="../image/note-learningJa/cover.jpg" width="1280" height="720" loading="lazy" class="img-lazy"/></p>
 
-<img class="bg-transparent mx-1 my-1" src="https://img.shields.io/badge/同行評審-Pending-critical" type="image/svg" onclick="return false" />
+<img class="bg-transparent mx-1 my-1" src="https://img.shields.io/badge/同行評審-Passing-success" type="image/svg" onclick="return false" loading="lazy"/>
 
-<img class="bg-transparent mx-1 my-1" src="https://img.shields.io/badge/長文-預警-success" type="image/svg" onclick="return false" />
+<img class="bg-transparent mx-1 my-1" src="https://img.shields.io/badge/長文-預警-blueviolet" type="image/svg" onclick="return false"  loading="lazy"/>
 
 | 資訊一覽     |                 |
 | :----------- | :----------------------- |
@@ -47,10 +47,6 @@ excerpt: '[寒假學習計劃] 不再被語言所束縛，這是成爲自由且�
 
 最後那個班我全蹺掉了。
 
-並且在 [🔗2019 年 6 月 9 日](https://ja.wikipedia.org/wiki/2019%E5%B9%B46%E6%9C%889%E6%97%A5%E9%A6%99%E6%B8%AF%E9%80%83%E4%BA%A1%E7%8A%AF%E6%9D%A1%E4%BE%8B%E6%94%B9%E6%AD%A3%E6%A1%88%E5%8F%8D%E5%AF%BE%E3%83%87%E3%83%A2) 晚上，開始了我自己的 Galgamer 式日語學習之路。
-
-<br class="d-md-none">
-...
 
 ## 在我們開始之前...
 
@@ -69,6 +65,8 @@ excerpt: '[寒假學習計劃] 不再被語言所束縛，這是成爲自由且�
   2.    一本 **五十音圖抄寫練習冊** 或者 **日語字帖**
 
         用來抄寫，跟讀，背誦，以便快速，牢固地記憶五十音。
+        
+        <p><img alt="能寫就行" src="../image/note-learningJa/books/chars.webp" width="683" height="542" loading="lazy" class="img-lazy"/></p>
 
         五十音是一切的基礎，待會還會細說。
 
@@ -79,8 +77,10 @@ excerpt: '[寒假學習計劃] 不再被語言所束縛，這是成爲自由且�
         用來成爲日語中級高手的必備教材。故事劇情以商業爲主，但是牠涵蓋了所有日常用語，所以還算好用。待會還會細說。
 
         人教版的玩意，買二手，買盜版都可以，不怕良心不安。
+        
+        <p><img alt="新標準日本語" src="../image/note-learningJa/books/textbook.webp" width="1280" height="960" loading="lazy" class="img-lazy"/></p>
 
-        **注意：**請務必購買紙質書，而不是電子書。買了，牠的存在就會不停地提醒你快點學習日語；而如果不買，你可能永遠都不會開始。
+        **注意：**請務必購買紙質書，不要使用電子書學習。買了，牠的存在就會不停地提醒你快點學習日語；而如果不買，你可能永遠都不會開始。
 
         <br>
 
@@ -93,6 +93,8 @@ excerpt: '[寒假學習計劃] 不再被語言所束縛，這是成爲自由且�
   5.    兩本 紙張可以方便地取出裝回的 **活頁本**
 
         一本用來記錄你的筆記，一本用來做 新標準日本語教材 的課後習題。
+        
+        <p><img alt="活頁本" src="../image/note-learningJa/books/note.webp" width="1280" height="960" loading="lazy" class="img-lazy"/></p>
 
         <br>
 
@@ -130,9 +132,7 @@ excerpt: '[寒假學習計劃] 不再被語言所束縛，這是成爲自由且�
 
 **Galgame 將成爲你的日語老師，你將可以從 Galgame 中繼續學到大量的原汁原味的表達，接觸到許多你沒見過的詞彙，語法乃至日本文化；你將逐漸熟悉各種日語會話中的語氣，遣詞造句。**
 
-<p style="font-size: 175%">
 你將被 Galgame 帶着前進，而不是繼續痛苦地在不知何時爲盡頭的道路上摸索。
-</p>
 
 
 ### 目標 
@@ -223,7 +223,7 @@ excerpt: '[寒假學習計劃] 不再被語言所束縛，這是成爲自由且�
 
 恭喜你，你已經幹爛所有日語初級課程，並且應該掌握了日語的大致語法框架，你會發現你可以讀懂一些生肉漫畫和一些 Galgame 了（大約 60%），你正在向日語中級高手的大門邁進。
 
-雖然但是，這個階段還不能直接觀看動畫或者日劇，你會覺得他們說話超級快，還沒搞清楚他說的是那個詞之前整句話都過去了，而且 Galgame 語音可能要多次播放才能聽清楚。
+雖然但是，這個階段還不能直接觀看動畫或者日劇，你會覺得他們說話超級快，還沒搞清楚他說的是哪個詞之前整句話都過去了，而且 Galgame 語音可能要多次播放才能聽清楚。
 
 
 
@@ -237,7 +237,7 @@ excerpt: '[寒假學習計劃] 不再被語言所束縛，這是成爲自由且�
 
 但是你現在已經成功站在了這裏，你離中級高手已經很近了！請進入 日語中級高手 養成階段，，，
 
-Python 或者是 Java 之類的語言，只需要學習一次語法，接下來就能一勞永逸地讀懂所有代碼。
+如果是電腦上的編程語言，只需要學習一次語法，接下來就能一勞永逸地讀懂所有代碼。
 但是日語不是這樣的，學完初級日語的所有語法的框架，還不夠，在框架之外還有很多特殊情況，習慣用法等零散的東西。
 中級日語的學習，就是對上述零散的表達方法的積累，就像在沙灘上撿貝殼🐚️，在這個階段多年的諤次元薰陶會再一次成爲你的好朋友。
 
@@ -327,16 +327,20 @@ Python 或者是 Java 之類的語言，只需要學習一次語法，接下來�
 遊戲本體
 
 ```
-magnet
+magnet:?xt=urn:btih:d716c886a3101910c25bbd3c37d868aac9511792
 ```
 
-文件名：
+文件名：銀色、遥か 初回版 + 予約特典 + Sofmap特典 + ボーカルソング + 認証回避
+
+如果種子有問題，就上網找漢化版「銀色、遙遠」，然後遊玩裏面的日文版。
 
 <hr>
 
 這個遊戲你將從初中開始陪伴女主角們，直到長大成人，去往遠方。所以日常用語肯定不會少，另外沒有陰間劇情，用詞肯定不會偏，而且語音語速適中容易聽懂，實在是適合聯繫的好材料。
 
-遊玩的時候擺一臺手機在旁邊，打開谷歌，隨時準備查詢。
+劇中有加拿大人，所以她們故意講小兒科日語我會亂說？
+
+遊玩的時候擺一隻手機在旁邊，打開谷歌，隨時準備查詢。
 然後不要點太快，要聽清楚語音，快速掃一眼句子，嘗試對生詞進行猜測。
 如果你無法讀懂一條句子，就使用手機查詢那個卡住你理解的生詞，一般谷歌搜索第一第二條都是日本 goo 或者 weblio 詞典的結果，點進去看日文解釋。
 注意：嘗試用日文理解日文，不要直接使用谷歌翻譯。
@@ -368,7 +372,7 @@ A: 不需要拘泥於太生僻的單詞，在通讀每一課的課文的時候�
 **Q: 我累了！我不想玩生肉了！玩生肉好累，不如漢化！**
 A: 不再被語言所束縛，這是成爲自由且無可阻擋的 Galgamer 之路。
 
-**Q: 你的計劃就是在放屁！**
+**Q: 你的計劃是在共三小！**
 **Q: 你在騙錢！**
 A: 😅
 
@@ -410,5 +414,11 @@ Galgame 玩的越多，在你背後堆成的貝殼之山就越高，
 
 ## 寫在最後
 
+本文已經很長了，謝謝你能看到這裏。
 
+如果你也是 Galgamer，我很樂意和你討論 Galgame 和日語學習；
+
+但是如果你是批小將、紅衛兵，或者是站在自由、開放價值觀的對立面的人，
+或者是沒把仇日的出廠設置洗掉，認爲學日語是“師夷長技以制夷”的人，
+那請別稱自己爲 Galgamer，並且容我親切地對你全家進行一個問候。
 
