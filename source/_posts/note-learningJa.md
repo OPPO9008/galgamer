@@ -13,9 +13,11 @@ excerpt: '[寒假學習計劃] 不再被語言所束縛，這是成爲自由且�
 
 `作者: 桐遠暮羽`
 
-不再被語言所束縛，這是成爲自由且無可阻擋的 Galgamer 之路。
+*不再被語言所束縛，這是成爲自由且無可阻擋的 Galgamer 之路。*
 
 <p><img src="../image/note-learningJa/sakura.jpg" width="1280" height="905" loading="lazy" class="img-lazy"/></p>
+
+<img class="bg-transparent mx-1 my-1" src="https://img.shields.io/badge/%E5%90%8C%E8%A1%8C%E8%A9%95%E5%AF%A9-Failed-critical" type="image/svg" onclick="return false" />
 
 | 資訊一覽     |                 |
 | :----------- | :----------------------- |
@@ -52,7 +54,7 @@ excerpt: '[寒假學習計劃] 不再被語言所束縛，這是成爲自由且�
 
 要事先準備好一些東西。
 
-  1.    多年餓次元文化的薰陶。
+  1.    **多年餓次元文化的薰陶**
   
         多年諤次元文化的薰陶給你帶來了甚麼？你有沒有曾經覺得自己聽到動漫女孩一開口，似乎就已經從她的語氣和用詞猜到了她接下來要說甚麼，抱着甚麼樣的心情？
 
@@ -131,15 +133,15 @@ excerpt: '[寒假學習計劃] 不再被語言所束縛，這是成爲自由且�
 </p>
 
 
-### 目標
+### 目標 
 
 說到這裏，我覺得應該給自己設定一個甚麼目標，已經呼之欲出了。
 
-第一步，先自己進行勤奮地自學，直到能夠讀懂 Galgame 劇情，能理解劇中人物的心理，此時，已經對日語的整體架構和語法規則有了較好的掌握。
+第一步，先自己進行勤奮地自學，直到能夠大概讀懂 Galgame 劇情，雖然有生詞不是很懂，但是查查就沒問題。此時，已經對日語的整體架構和語法規則有了較好的掌握。(1m ~ 2m)
 
-第二步，降低自學的精度，打開 Galgame 生肉，讓遊戲帶着你走。此時，你已完全掌握日語，剩下的提高空間只是繼續積累沒見過的詞彙和表達方法。
+第二步，降低通過書本自學的強度，打開 Galgame 生肉，在遊戲中高強度練習閱讀和聽力，高強度積累新的詞彙和表達。你會發現能看懂的東西越來越多。(4m ~ 5m)
 
-
+最後，扔掉課本，去挑戰複雜的 Galgame。
 
 ### Stage 0 - 五十音圖（耗時 5d ~ 7d）
 
@@ -215,11 +217,94 @@ excerpt: '[寒假學習計劃] 不再被語言所束縛，這是成爲自由且�
 
 <p><img src="../image/note-learningJa/contents2/3.webp" width="750" height="1125" loading="lazy" class="img-lazy"/></p>
 
-恭喜你，你已經幹爛所有日語初級課程，並且應該掌握了日語的大致語法框架，你會發現你可以讀懂一些生肉漫畫和一些 Galgame 了（大約 70%），你正在向日語中級高手的大門邁進。
-
 別忘了完成書末的 N4 考試題。
 
-### Stage 3 - 日語中級高手 養成階段 （每課耗時 3h）
+恭喜你，你已經幹爛所有日語初級課程，並且應該掌握了日語的大致語法框架，你會發現你可以讀懂一些生肉漫畫和一些 Galgame 了（大約 60%），你正在向日語中級高手的大門邁進。
+
+雖然但是，這個階段還不能直接觀看動畫或者日劇，你會覺得他們說話超級快，還沒搞清楚他說的是那個詞之前整句話都過去了，而且 Galgame 語音可能要多次播放才能聽清楚。
+
+
+
+### Stage 3 - 日語中級高手 養成階段 （中級課文 每課耗時 3h）
+
+看到這裏就有讀者要罵人了。說好的 Galgamer 之路呢？前面都是叫人在當做題家，一點 Galgame 都沒提到！
+
+我很抱歉，，，但是這是事實，在 Galgame 中學習就像是站在巨人的肩膀上，但是若是境界不到，你還無法夠到那巨人的肩膀。
+你需要先成爲一個高手——至少是中級高手，才能到達能用 Galgame 學習的水平。
+因此對初級日語的硬啃是必經之路。
+
+但是你現在已經成功站在了這裏，你離中級高手已經很近了！請進入 日語中級高手 養成階段，，，
+
+Python 或者是 Java 之類的語言，只需要學習一次語法，接下來就能一勞永逸地讀懂所有代碼。
+但是日語不是這樣的，學完初級日語的所有語法的框架，還不夠，在框架之外還有很多特殊情況，習慣用法等零散的東西。
+中級日語的學習，就是對上述零散的表達方法的積累，就像在沙灘上撿貝殼🐚️，在這個階段多年的諤次元薰陶會再一次成爲你的好朋友。
+
+中級日語課本就是這樣一本貝殼書，當然 Galgame 也一樣，因此在這個階段，我建議對着課本和 Galgame 生肉同時學習。
+
+先來看一下中級日語的課本結構。中級的上下冊共有 32 課，其中每一課中是長這樣的。
+
+<div id="carouselExampleIndicators-one" class="carousel slide bg-transparent" data-ride="carousel">
+  <ol class="carousel-indicators ">
+    <li class="bg-dark" data-target="#carouselExampleIndicators-one" data-slide-to="0" class="active"></li>
+    <li class="bg-dark" data-target="#carouselExampleIndicators-one" data-slide-to="1"></li>
+    <li class="bg-dark" data-target="#carouselExampleIndicators-one" data-slide-to="2"></li>
+    <li class="bg-dark" data-target="#carouselExampleIndicators-one" data-slide-to="3"></li>
+    <li class="bg-dark" data-target="#carouselExampleIndicators-one" data-slide-to="4"></li>
+    <li class="bg-dark" data-target="#carouselExampleIndicators-one" data-slide-to="5"></li>
+    <li class="bg-dark" data-target="#carouselExampleIndicators-one" data-slide-to="6"></li>
+    <li class="bg-dark" data-target="#carouselExampleIndicators-one" data-slide-to="7"></li>
+    <li class="bg-dark" data-target="#carouselExampleIndicators-one" data-slide-to="8"></li>
+    <li class="bg-dark" data-target="#carouselExampleIndicators-one" data-slide-to="9"></li>
+  </ol>
+  <div class="carousel-inner bg-transparent">
+    <div class="carousel-item active">
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1600" height="1125" src="../image/note-learningJa/2-2/0.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1600" height="1125" src="../image/note-learningJa/2-2/1.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1600" height="1125" src="../image/note-learningJa/2-2/2.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1600" height="1125" src="../image/note-learningJa/2-2/3.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1600" height="1125" src="../image/note-learningJa/2-2/4.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1600" height="1125" src="../image/note-learningJa/2-2/5.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1600" height="1125" src="../image/note-learningJa/2-2/6.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1600" height="1125" src="../image/note-learningJa/2-2/7.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1600" height="1125" src="../image/note-learningJa/2-2/8.webp" >
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-lazy" loading="lazy" width="1600" height="1125" src="../image/note-learningJa/2-2/9.webp" >
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators-one" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators-one" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+有沒有感覺中級課文超級長？一節更比兩節長，這就是給中級高手的試煉，呵呵。
+
+目錄和大綱沒有特別明顯的知識點框架（都是零散的貝殼），我就不放了。
+
+接下來講講 Galgame 怎麼玩，，，
+
+
 
 ## 小結
 
