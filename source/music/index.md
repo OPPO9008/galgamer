@@ -4,7 +4,7 @@ date: 2021-09-30 21:37:54
 tags:
   - Galgame乐曲收录
 excerpt: '这里收录了文章中出现过的 Galgame 乐曲'
-banner_img: '/music/banner.jpg'
+banner_img: '/image/music/banner.jpg'
 ---
 
 <img src='banner.jpg' width=0px alt="placeholder"/>
