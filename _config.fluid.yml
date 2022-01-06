@@ -620,7 +620,7 @@ post:
     <button id="loadingMsg" class="btn btn-outline-primary" type="button" disabled>
     <div  class="d-flex align-items-center">
     <strong>Loading...</strong>
-    <div class="spinner-border m-3" role="status" aria-hidden="true"></div>
+    <img src="/image/mona-loading.webp" class="bg-transparent"/>
     </div>
     </button>
     <p> 
