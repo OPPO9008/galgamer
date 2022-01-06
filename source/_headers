@@ -10,6 +10,12 @@ https://www.galgamer.xyz/*
 https://dl.galgamer.eu.org/*
   X-Robots-Tag: noindex
   
+https://galgamer.eu.org/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  
+https://*.galgamer.eu.org/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  
 /playground/1G.gzip
   Content-Encoding: gzip
    
