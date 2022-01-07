@@ -7,7 +7,7 @@ excerpt: '这里收录了文章中出现过的 Galgame 乐曲'
 banner_img: '/image/music/banner.jpg'
 ---
 
-<img src='banner.jpg' width=0px alt="placeholder"/>
+<img src='/image/music/banner.jpg' width=0px alt="placeholder"/>
 
 {% raw %}
 
