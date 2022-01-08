@@ -9,10 +9,11 @@ tags:
   - 搞笑
   - 纯爱
   - 人生
+  - 校园
+  - 社会
 categories:
   - [R-18]
-  - [学园]
-  - [社会]
+  - [tone work's]
 abbrlink: 95620
 author: 'Sakura Rain'
 excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的人是誰，弄不清楚心意的自己——「你會後悔的」'

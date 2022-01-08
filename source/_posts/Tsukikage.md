@@ -8,9 +8,10 @@ lazyload: false
 tags:
   - 悬疑
   - 奇幻
+  - 青梅竹马
 categories:
   - [R-18]
-  - [青梅竹马]
+  - [Applique]
 abbrlink: 00030
 author: 如月零
 excerpt: '被表妹如月零邀請，回到故鄉如月老宅參加「儀式」的男主角，卯月誠一，在儀式上遭遇了一個看上去和如月零長得一模一樣的活人偶。'

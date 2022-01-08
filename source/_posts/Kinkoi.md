@@ -7,9 +7,10 @@ index_img: '../image/Kinkoi/index.webp'
 tags:
   - 搞笑
   - 拔作
+  - 校园
 categories:
   - [R-18]
-  - [学园]
+  - [SAGA PLANETS]
 abbrlink: 70134
 author: 'Caminal le Pultaia Sortilège Sisua'
 excerpt: '輟學的男高中生，央路，劫持了正在逛街的北歐皇家公主，然後被十萬個皇家禁衛軍騎士追殺。'

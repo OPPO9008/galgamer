@@ -8,9 +8,10 @@ tags:
   - 搞笑
   - 兽耳
   - 奇幻
+  - 妹妹
 categories:
   - [R-18]
-  - [妹妹]
+  - [Lump of Sugar]
 abbrlink: 20005
 author: '和羽'
 excerpt: '在紅葉紛飛之地 和有尾巴，有耳朵的少女們 展開的 超越種族的 和風戀愛故事，，，'
