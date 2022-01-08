@@ -3,9 +3,10 @@ title: NEKOPARA 第一人称射击系列
 tags:
   - 废萌
   - 动态
-categories:
-  - R-18
   - 兽耳
+categories:
+  - [R-18]
+  - [NEKO WORKs]
 keywords: 'NEKOPARA,猫娘乐园'
 index_img: 'https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/main.mix.webp'
 excerpt: 水無月嘉祥与可爱猫娘的后宫

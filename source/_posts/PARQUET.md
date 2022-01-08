@@ -3,10 +3,9 @@ title: PARQUET
 tags:
   - 纯爱
   - 科幻
-  - 全年龄
-  - 柚子社
 categories:
   - [全年龄]
+  - [柚子社]
 index_img: >-
   https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_7a9916ab678c21a97528e88b2c15ac9b569a7cd3.600x338.jpg?t=1630062956
 abbrlink: 23509
