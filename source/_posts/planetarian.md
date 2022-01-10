@@ -22,7 +22,7 @@ excerpt: '滿天的繁星正在等待大家的到來……'
 <div style="text-align: center;"><font color=#dbeefa>這裏有無論何時都不會消失，美麗的無窮光輝</font></div>
 <div style="text-align: center;"><font color=#dbeefa>漫天繁星在等待您的到來”</font></div>
 
-![Poster](../image/planetarian/cover.webp)
+![Poster](../image/planetarian/cover.jpg)
 
 | 資訊一覽     |                  |
 |:--------:|:---------------- |
