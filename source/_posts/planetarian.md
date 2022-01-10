@@ -18,7 +18,7 @@ excerpt: '在世界的廢墟中，滿天的繁星仍在等待大家的到來…�
 
 `作者: Patchouli Knowledge`
 
-<p class="text-center" style="font-size: 125%">“歡迎光臨星象館<br>這裏有無論何時都不會消失，美麗的無窮光輝<br>漫天繁星在等待您的到來”</p>
+<p class="text-center" style="font-size: 125%">“歡迎光臨星象館<br>這裏有無論何時都不會消失，<br class="d-md-none">美麗的無窮光輝<br>漫天繁星在等待您的到來”</p>
 
 ![Poster](../image/planetarian/title.jpg)
 
@@ -147,4 +147,3 @@ window.addEventListener('DOMContentLoaded', function() {
 setInterval(() => document.documentElement.setAttribute('data-user-color-scheme', 'dark'), 500);
 });
 </script>
-
