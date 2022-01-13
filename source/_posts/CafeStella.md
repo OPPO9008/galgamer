@@ -441,6 +441,7 @@ magnet:?xt=urn:btih:c70d2386bef29b55966f459b214c3d8b0537de4d
 
 遊戲有升級補丁，記得下載最新的來安裝。[點此前往官網](http://www.yuzu-soft.com/products/stella/download.html) 下載可能要翻牆。
 
+如果想玩中文 請配合這個漢化補丁使用 [🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=77)
 
 
 ### 中文版
@@ -459,13 +460,6 @@ onedrive下载
 
 分卷解压请放在一个文件夹解压
 
-漢化補丁，連結如下：
-
-```
-eb51f9ab1933b3a83f233c86417ab0d4#730b559b553b6e22a643f168f7aa70b5#1227294223#【弥生月汉化组&天之圣杯汉化组】《喫茶ステラと死神の蝶》汉化补丁.7z
-```
-
-<a class="btn btn-info" href="tg://resolve?domain=Galgamer&post=161772">直達資源</a>
 
 ------
 
