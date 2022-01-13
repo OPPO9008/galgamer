@@ -353,11 +353,12 @@ magnet:?xt=urn:btih:36718d1709a58a55fe43a92f31fa10f5afe3cd62
 
 ### 中文版
 
-官方中文版已發佈到 [🔗️HIKARI FIELD 商城](https://store.hikarifield.co.jp/shop/honoguraki)，你也可以直接在這裏下載：[🔗️前往 Telegram 討論組](tg://resolve?domain=Galgamer&post=165835)
+官方中文版已發佈到 [🔗️HIKARI FIELD 商城](https://store.hikarifield.co.jp/shop/honoguraki)，
+你也可以直接在這裏下載：[🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=82)
 
 下面是“默示漢化組”（群友說是機翻漢化組）的非官方漢化版：
 
-[🔗️前往 Telegram 討論組](tg://resolve?domain=Galgamer&post=160949)
+[🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=83)
 
 <br><br>
 

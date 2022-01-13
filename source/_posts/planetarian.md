@@ -122,9 +122,9 @@ excerpt: '在世界的廢墟中，滿天的繁星仍在等待大家的到來…�
 
 Steam 經常打折且折後價格還可以考慮購入，喜歡Key社作品的千萬不能錯過。
 
-群友發的游戲資源：[🔗️前往 Telegram 討論組](tg://resolve?domain=Galgamer&post=175578)
+群友發的游戲資源：[🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=78)
 
-群友發的OST資源：[🔗️前往 Telegram 討論組](tg://resolve?domain=Galgamer&post=175590)
+群友發的OST資源：[🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=79)
 
 
 <style>
