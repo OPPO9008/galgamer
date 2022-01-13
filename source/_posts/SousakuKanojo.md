@@ -16,9 +16,7 @@ excerpt: ''
 
 ## At A Glance
 
-在紅葉紛飛之地和有尾巴，有耳朵的少女們一起展開超越種族的和風戀愛故事吧！
-
-<p><img alt="Cover" src="../image/YoriteKonoha/cover.jpg" width="1280" height="700" loading="lazy" class="img-lazy"/></p>
+<p><img alt="Cover" src="../image/SousakuKanojo/cover.jpg" width="1280" height="700" loading="lazy" class="img-lazy"/></p>
 
 
 | 資訊一覽     |                 |
@@ -34,9 +32,9 @@ excerpt: ''
 
 
 
-## 登場人物
+## 登場 JK 們的 大腿鑑賞
 
-
+<p><img src="../image/YoriteKonoha/cg/2.webp" width="1920" height="1080" loading="lazy" class="img-lazy"/></p>
 
 ### 其他人物
 
@@ -47,11 +45,6 @@ excerpt: ''
       <source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/YoriteKonoha/ykop-2.mp4" type="video/mp4">
 <p> To view this video please enable JavaScript</p>
 </video>
-
-## JK 大腿 鑑賞
-
-<p><img src="../image/YoriteKonoha/cg/2.webp" width="1920" height="1080" loading="lazy" class="img-lazy"/></p>
-
 
 
 ## 屏幕截圖
@@ -78,23 +71,58 @@ excerpt: ''
   </a>
 </div>
 
-## 一句話點評
-
+<hr>
 <div class="row align-items-center">
   <p class="col" style="font-size:200%;">這遊戲好！好就好在：</p>
   <img class="align-right ml-auto bg-transparent" width="150px" src="../image/Kinkoi/yes.webp" alt=""></img>
 </div>
 
+## 推薦理由（無劇透）
+
+一眼看過去，覺得這個畫風有點違和，不太習慣？
+但是玩了一會兒習慣了以後，才會體會到它的精妙之處喔！
+你看，她們的眼睛就像寶石一樣閃閃發亮，多樣的面部細微表情，
+無論是歡樂😆、驚訝😲、羞恥😳，還是嘲諷🙄、戲謔😏、鄙視😒，
+還有流暢應景的肢體動作，都非常傳神，非常可愛！
+
+而且，本作製作組還給每一位女主角準備了 6 套衣服，
+隨着季節、環境的變化，她們還能散發出不同的魅力！
+（有些裙子短到我害怕她們感冒 我會亂說？）
+
+創作女友不是拔作，王道校園生活的共通線有 8 章，之後才是真正談戀愛的個人線。
+和其他循序漸進刷好感度，再戀愛的 Gal 不同，
+劇中一上來就發生各種狂暴意外把男主和女主們捲入戀愛漩渦之中，
+明明還沒啥好感度，戀愛 Flag 卻立了起來，什麼感覺？
+然後各種無厘頭事件把就像把男主的生活綁上過山車，
+處處體現了製作組絞盡腦汁想要搞笑的小心思。
+
+你問我爲甚麼知道？因爲我玩的時候繃爆！繃爆！！真繃不住啦！！！
+
+就如劇中所述，生活中充滿了煩惱的玩家們，會更偏愛輕鬆愉快的作品。
+而本作就是這樣的一劑優秀的幽默猛藥。
+
+## 觀後感（有劇透）
+
+無法顯示劇透內容，因爲您還沒遊玩該遊戲。
 
 
 ## 在猶豫是否要下載？
 
-有一個十分鐘的試玩（沒有小動物出現，建議快進）
+有一個十分鐘的試玩，翻譯是我自己加的
 
 <video controls preload="metadata" width='100%'>
 <source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/YoriteKonoha/10min-know.mp4" type="video/mp4">
 <p> To view this video please enable JavaScript</p>
 </video>
+
+## 生肉閱讀難度
+
+本作沒有漢化，如果不想等漢化組，你可以嘗試。
+
+|     |   所需日語級別              |
+| :----------- | :------------------------------------ |
+| **看懂 75%**   | 日語中級高手 |
+| **看懂 95%** | 日語高手 - 中級摘帽      |
 
 ## 資源與下載
 
@@ -147,6 +175,6 @@ target.style['background-size'] = 'cover';
 document.documentElement.setAttribute('data-user-color-scheme', 'dark');
 window.addEventListener('DOMContentLoaded', function() {
 
-    
+​    
 });
 </script>
