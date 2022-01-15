@@ -18,8 +18,9 @@ function main(){
             })
         }
         createShareBtn();
-        createNewBadge();//before 2022
+        //createNewBadge();//before 2022
         showCDN();
+        videoWatchDog();
     });
 }
 
@@ -156,6 +157,7 @@ async function insertToast(type, data, last){
     setTimeout(function() {
         removeFadeOut(toast, 500);
     }, last);
+    return toast;
 }
 
 class RouteMap {
@@ -613,6 +615,53 @@ async function showCDN(){
         mycdn.innerText = 'CDN Location: ' + colo + '\n' + 'Current IP: ' + sip;
         if (sip.includes(':'))mycdn.innerText += '\nIPv6 Enabled';
     } 
+}
+
+function videoWatchDog(){
+    let videos = document.querySelectorAll('video');
+    videos.forEach(function(video){
+        video.addEventListener('error', function(ev){
+            let target = ev.target || ev.srcElement;
+            mlog('event error!');
+            // 儲存 原本的視頻地址
+            if(!target.getAttribute('origin-src')){
+                target.setAttribute('origin-src', target.currentSrc);
+            }
+            // 儲存 播放進度
+            let cTime = target.currentTime;
+            // 防止緩存，製造一個新地址
+            let newSrc = target.getAttribute('origin-src') + "?t=" + Date.now();
+            // 消除那些 <source，改用 src，這是不得已做出的犧牲，，，
+            let srcTags = target.getElementsByTagName('source');
+            for (let oneTag of srcTags) {
+                target.removeChild(oneTag);
+            }
+            // 插入 新地址
+            target.setAttribute('src', newSrc);
+            target.load();
+            target.play();
+            target.currentTime = cTime;
+            // 彈出一個 提示
+            let cSec = parseInt(cTime);
+            let minutes = Math.floor(cSec / 60);
+            let seconds = cSec % 60;
+            let tData = '正在載入視頻，您已經觀看到 ' + minutes + ' 分 ' +  seconds + ' 秒.';
+            let tHtml = `
+            <div class="d-flex align-items-center">
+                <div class="mr-2 spinner-border text-primary" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <strong>` + tData + `</strong>
+            </div>`
+            
+            insertToast('primary', tHtml, 99000);
+            // 消除提示
+            target.addEventListener('playing', function(){
+                let toast = document.getElementById('mytoast');
+                removeFadeOut(toast, 500);
+            }, {once : true});
+        })
+    })
 }
 
 main();
