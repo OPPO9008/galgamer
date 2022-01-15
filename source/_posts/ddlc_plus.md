@@ -119,7 +119,7 @@ date: 2022-01-14 00:30:00
 
 <div class="slide">
 <p>
-<strong>莫妮卡(monika)</strong><br><br>
+<strong>莫妮卡(Monika)</strong><br><br>
 其他角色都认为莫妮卡非常聪明，<br>
 自信且擅长运动，<br>
 她通常被描绘成成熟和努力的女孩<br><br>
@@ -253,7 +253,7 @@ Just Monika
 ### 音乐
 
 也是ddlc粉丝包OST
-列取一首我最喜欢的『your reality』
+列取一首我最喜欢的『Your Reality』
 
 <audio preload="metadata" style="width: 100%" src="https://bitbucket.org/sa-ya/g-golden/raw/d6be326f4196cb7c86775e64461a185af21c27e8/DDLC_Plus/Your%20Reality%20(Credits).mp3" controls="controls">
 </audio>
@@ -294,7 +294,7 @@ Just Monika
 游戏还有许多其他内容,如攻略,彩蛋,解密等, 可参考 [🔗️DDLC wiki](https://doki-doki-literature-club.fandom.com/wiki/Doki_Doki_Literature_Club_Wiki) 来查看更多,
 [🔗️中文wiki](https://wiki.monika.love)
 
-[連結Monika's twitter](https://twitter.com/lilmonix3)
+[🔗️Monika's twitter](https://twitter.com/lilmonix3)
 
 ### 附单选题(可多选)
 
