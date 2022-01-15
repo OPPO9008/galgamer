@@ -10,7 +10,7 @@ banner_img: ''
 {% raw %}
 
 <video id="test" controls preload="metadata" width='100%'>
-      <source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Tsukikana/13min-know.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/6Wnp9dtg/0YDi2QOHgmcG7E3YO9Zk7vsdvPIIjypaZssF5__KGE8*" type="video/mp4">
+      <source src="https://github.com/OPPO9008/galgamer/releases/download/20220115/SousakuKanojo-1080.mp4" type="video/mp4">
 <p> To view this video please enable JavaScript</p>
 </video>
 
