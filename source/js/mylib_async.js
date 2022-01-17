@@ -645,7 +645,7 @@ function videoWatchDog(){
             let cSec = parseInt(cTime);
             let minutes = Math.floor(cSec / 60);
             let seconds = cSec % 60;
-            let tData = '正在載入視頻，您已經觀看到 ' + minutes + ' 分 ' +  seconds + ' 秒.';
+            let tData = '正在載入視頻，<br class="d-md-none">您已經觀看到 ' + minutes + ' 分 ' +  seconds + ' 秒.';
             let tHtml = `
             <div class="d-flex align-items-center">
                 <div class="mr-2 spinner-border text-primary" role="status">
