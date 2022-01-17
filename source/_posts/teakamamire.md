@@ -307,7 +307,7 @@ cv:君島りさ<br>
 ## ED
 
 <video controls preload="metadata" width='100%'>
-<source src="" type="video/mp4"/>
+<source src="https://bitbucket.org/phobosloreal/galvideo/raw/6291574b6bfe79ed57ef5c077e883aad7363b3c6/teakamamire/ed.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
 
@@ -358,10 +358,10 @@ http://akabeesoft3.com/products/teakamamire/
 
 ## 還在猶豫是否下載？
 
-這裏有一個  分鐘的試玩。
+這裏有一個 8分鐘的試玩。
 
 <video controls preload="metadata" width='100%'>
-<source src="" type="video/mp4"/>
+<source src="https://bitbucket.org/phobosloreal/galvideo/raw/6291574b6bfe79ed57ef5c077e883aad7363b3c6/teakamamire/%E8%A2%AB%E9%BB%91%E6%9A%97%E6%B4%97%E7%A4%BC%E7%9A%84%E5%A4%A9%E4%BD%BF-1.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
 
