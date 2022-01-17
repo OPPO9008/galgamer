@@ -12,7 +12,7 @@ banner_img: ''
 
 {% raw %}
 
-<video id="test" controls preload="metadata" width='100%' src="https://github.com/Yamabuki-bakery/static/releases/download/0117/vocal.Part2.50.rar0.mp4" type="video/mp4" poster="movie-part2.webp" style="border-radius:25px">
+<video id="test" controls preload="metadata" width='100%' src="https://github.com/Yamabuki-bakery/static/releases/download/0117/fixed-50.mpart" type="video/mp4" poster="movie-part2.webp" style="border-radius:25px">
 <p> To view this video please enable JavaScript</p>
 </video>
 
