@@ -3,11 +3,12 @@ title: '被黑暗洗禮的天使：被現實污穢的偶像之路'
 date: 2022-1-17 00:30:00
 keywords: '和泉萬夜, AKABEiSOFT2, AKABEiSOFT3, 花澤さくら, 秋空もみぢ, 砂丘太'
 index_img: '../image/teakamamire/index.webp'
+banner_img: '../image/teakamamire/banner.webp'
 tags:
   - idol 
   - 拔作
-  - 公車
-  - 枕營業
+  - 公交车
+  - 枕营业
 categories:
   - [R-18]
 abbrlink: 79351
@@ -226,8 +227,10 @@ excerpt: '少女逐夢演藝圈，一步步踏入潛規則的深淵，無法回�
             <img width="869" height="2412" loading="lazy" src="../image/teakamamire/chars/1.webp"/>
         </div>
         <div class="textbox col-7 col-lg-8">
-            <span style="font-size:170%">
+            <span class="font-serif" style="font-size:170%">
+                <strong><em>
                 <span style="color: #d2037a">如</span>月 嶺衣奈
+                </em></strong>
             </span>
             <br>cv: 花澤さくら
             <hr class="my-1">
@@ -246,8 +249,10 @@ excerpt: '少女逐夢演藝圈，一步步踏入潛規則的深淵，無法回�
             <img width="969" height="2401" loading="lazy"  src="../image/teakamamire/chars/2.webp"/>
         </div>
         <div class="textbox col-7 col-lg-8">
-            <span style="font-size:170%">
+            <span class="font-serif" style="font-size:170%">
+                <strong><em>
                 <span style="color: #d2037a">ア</span>ンリ
+                </em></strong>
             </span>
             <br>cv: 君島りさ
             <hr class="my-1">
@@ -350,7 +355,7 @@ excerpt: '少女逐夢演藝圈，一步步踏入潛規則的深淵，無法回�
 
 ## ED
 
-<video controls preload="metadata" width='100%'>
+<video controls preload="metadata" width='100%' poster="../image/teakamamire/movie-op.webp">
 <source src="https://bitbucket.org/phobosloreal/galvideo/raw/6291574b6bfe79ed57ef5c077e883aad7363b3c6/teakamamire/ed.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
@@ -409,7 +414,7 @@ http://akabeesoft3.com/products/teakamamire/
 
 這裏有一個 8分鐘的試玩。
 
-<video controls preload="metadata" width='100%'>
+<video controls preload="metadata" width='100%' poster="../image/teakamamire/movie.webp">
 <source src="https://bitbucket.org/phobosloreal/galvideo/raw/6291574b6bfe79ed57ef5c077e883aad7363b3c6/teakamamire/%E8%A2%AB%E9%BB%91%E6%9A%97%E6%B4%97%E7%A4%BC%E7%9A%84%E5%A4%A9%E4%BD%BF-1.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
@@ -417,11 +422,9 @@ http://akabeesoft3.com/products/teakamamire/
 
 ## 資源與下載
 
-電報下載地址：
+下載地址：[🔗️前往 Telegram 頻道](tg://resolve?domain=phobolo&post=10)
 
-https://t.me/phobolo/10
-
-先安裝本體，再覆蓋安裝補丁
+先安裝本體，再覆蓋安裝補丁。
 
 <script>
 insertToast('success', '✒️️本文来自群友投稿', 3000);
