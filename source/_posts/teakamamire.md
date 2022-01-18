@@ -241,7 +241,76 @@ cv:君島りさ<br>
 
 <br><br>
 
-
+<style>
+#chars .row {
+    background-color: transparent;
+    vertical-align: bottom;
+    margin-top: 10px
+}
+#chars .imgbox {
+    max-width:40%;
+    min-width:33%;
+    min-height: 450px;
+    max-height: 550px;
+    position:relative;
+    top:0px;
+    left:0px;
+    overflow-y: hidden;
+    overflow-x: visible;
+}
+#chars .imgbox img{
+    background-color: rgba(0, 0, 0, 0);
+    width: auto;
+    height: auto;
+    max-height: 700px;
+    max-width: 100%;
+    position:absolute;
+    top:0px;
+    align: center;
+}
+</style>
+<div id="chars" class="rounded">
+    <div class="row align-items-center">
+        <div class="imgbox col-sm-5 col-lg-4">
+            <img width="869" height="2412" loading="lazy" src="../image/teakamamire/chars/1.webp"/>
+        </div>
+        <div class="textbox col-7 col-lg-8">
+            <span style="font-size:170%">
+                <span style="color: #d2037a">如</span>月 嶺衣奈
+            </span>
+            <br>cv: 花澤さくら
+            <hr class="my-1">
+            <mark>出道一年的新偶像</mark><br>
+            爲了實現成爲偶像的夢想而從鄉下老家來到東京的女孩<br>
+            雖然姿貌端麗勤修苦練，但卻遲遲不能出頭，處境窘迫到了一個月都接不到一項工作的程度<br>
+            性格好强的她不願意一事無成的回到老家，於是懇求製作人的幫助<br>
+            製作人卻理所當然的暗示嶺衣奈通過枕營業或説潛規則來討好大人物<br>
+            接受了自己只能靠獻上肉體來追求夢想這一事實，天使被黑暗污穢了<br>
+            高管，攝影師，電視劇投資人，主持人，會場主辦方......嶺衣奈一一用身體賄賂，希冀對方的垂愛<br>
+            <mark>然而，以色事人，色衰愛馳。深陷其中的嶺衣奈，她的命運又將落向何方？</mark>
+        </div>
+    </div>
+<hr>
+    <div class="row align-items-center">
+        <div class="imgbox col-sm-5 col-lg-4">
+            <img width="969" height="2401" loading="lazy"  src="../image/teakamamire/chars/2.webp"/>
+        </div>
+        <div class="textbox col-7 col-lg-8">
+            <span style="font-size:170%">
+                <span style="color: #d2037a">ア</span>ンリ
+            </span>
+            <br>cv: 君島りさ
+            <hr class="my-1">
+            <mark>和嶺衣奈同一事務所的人氣偶像</mark><br>
+            一个對枕營業樂在其中的享乐主义者。<br>
+            對於通過枕營業獲取工作機會這件事絲毫不覺羞愧<br>
+            相反還十分享受和各式各樣人性交的過程<br>
+            <mark>她不知廉恥的樣子讓嶺衣奈深感厭惡<br>
+            但她靠身體換來的資源卻又讓嶺衣奈艷羡不已<br></mark>
+        </div>
+    </div>
+<hr>
+</div>
 
 ## 遊戲截圖
 
