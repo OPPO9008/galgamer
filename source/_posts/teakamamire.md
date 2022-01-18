@@ -112,7 +112,6 @@ excerpt: '少女逐夢演藝圈，一步步踏入潛規則的深淵，無法回�
         <img class="img-fluid" src="../image/teakamamire/appraise/3.webp"/>
     </div>
 </div>
-
 多年以後當初的枕營業丑闻曝光，岭衣奈自杀。
 嶺衣奈的兒子和自己的父亲做了DNA鉴定，结果证明自己并非父亲亲生，
 于是决心杀死那些改变了母亲的男人。
@@ -120,7 +119,6 @@ excerpt: '少女逐夢演藝圈，一步步踏入潛規則的深淵，無法回�
 少年给父亲留下了一封信:
 
 <blockquote id="letter">
-
 <strong>给父亲：</strong>
 
 突然来信，十分抱歉。 
@@ -192,53 +190,6 @@ excerpt: '少女逐夢演藝圈，一步步踏入潛規則的深淵，無法回�
 
 ## 登場人物
 
-<div class="row">
-<div class="col-md-8 col-lg-5">
-<img class="bg-transparent img-fluid" src="../image/teakamamire/chars/1.webp"></img>
-</div>
-<div class="col-lg-7 col-md-11">
-<div class="row row-cols-1">
-<img class="col bg-dark border border-danger my-2" src="../image/teakamamire/chars/1name.webp" style="max-width:250px"></img>
-<p class="col mx-2 my-2">
-cv:花澤さくら<br>
-<mark>出道一年的新偶像</mark><br>
-爲了實現成爲偶像的夢想而從鄉下老家來到東京的女孩<br>
-雖然姿貌端麗勤修苦練，但卻遲遲不能出頭，處境窘迫到了一個月都接不到一項工作的程度<br>
-性格好强的她不願意一事無成的回到老家，於是懇求製作人的幫助<br>
-製作人卻理所當然的暗示嶺衣奈通過枕營業或説潛規則來討好大人物<br>
-接受了自己只能靠獻上肉體來追求夢想這一事實，天使被黑暗污穢了<br>
-高管，攝影師，電視劇投資人，主持人，會場主辦方......嶺衣奈一一用身體賄賂，希冀對方的垂愛<br>
-<mark>然而，以色事人，色衰愛馳。深陷其中的嶺衣奈，她的命運又將落向何方？</mark>
-</p>
-</div>
-</div>
-</div>
-
-
-
-<br><br>
-
-<div class="row">
-<div class="col-md-7 col-lg-4">
-<img class="bg-transparent img-fluid" src="../image/teakamamire/chars/2.webp"></img>
-</div>
-<div class="col-lg-7 col-md-11">
-<div class="row row-cols-1">
-<img class="col bg-dark border border-danger my-2" src="../image/teakamamire/chars/2name.webp" style="max-width:250px"></img>
-<p class="col mx-2 my-2">
-cv:君島りさ<br>
-<mark>和嶺衣奈同一事務所的人氣偶像</mark><br>
-一个對枕營業樂在其中的享乐主义者。<br>
-對於通過枕營業獲取工作機會這件事絲毫不覺羞愧<br>
-相反還十分享受和各式各樣人性交的過程<br>
-<mark>她不知廉恥的樣子讓嶺衣奈深感厭惡<br>
-    但她靠身體換來的資源卻又讓嶺衣奈艷羡不已<br></mark>
-</p>
-</div>
-</div>
-</div>
-
-
 <br><br>
 
 <style>
@@ -282,7 +233,7 @@ cv:君島りさ<br>
             <hr class="my-1">
             <mark>出道一年的新偶像</mark><br>
             爲了實現成爲偶像的夢想而從鄉下老家來到東京的女孩<br>
-            雖然姿貌端麗勤修苦練，但卻遲遲不能出頭，處境窘迫到了一個月都接不到一項工作的程度<br>
+            雖然姿貌端麗勤修苦練卻遲遲不能出頭，處境窘迫到了一個月都接不到一項工作的程度<br>
             性格好强的她不願意一事無成的回到老家，於是懇求製作人的幫助<br>
             製作人卻理所當然的暗示嶺衣奈通過枕營業或説潛規則來討好大人物<br>
             接受了自己只能靠獻上肉體來追求夢想這一事實，天使被黑暗污穢了<br>
@@ -467,13 +418,17 @@ http://akabeesoft3.com/products/teakamamire/
 
 ## 資源與下載
 
+電報下載地址：
 
+https://t.me/phobolo/10
+
+先安裝本體，再覆蓋安裝補丁
 
 <script>
 insertToast('success', '✒️️本文来自群友投稿', 3000);
 </script>
-
 <!--- 摺疊部分的邊框樣式 --->
+
 <style>
 details {
     border: 1px solid #aaa;
