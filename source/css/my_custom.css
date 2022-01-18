@@ -16,3 +16,9 @@ img.img-lazy {
 .font-serif {
   font-family: 'Noto Serif', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif JP', sans-serif;
 } 
+
+/* 給圖層描邊，僅限用在透明背景的圖片！！請抄襲這裏的代碼手動設定不是直接用 class */
+img.layer-border {
+     -webkit-filter: drop-shadow(5px 5px 0px #aaa) drop-shadow(-5px -5px 0px #aaa) drop-shadow(5px -5px 0px #aaa) drop-shadow(-5px 5px 0px #aaa);
+    filter: drop-shadow(5px 5px 0px #aaa) drop-shadow(-5px -5px 0px #aaa) drop-shadow(5px -5px 0px #aaa) drop-shadow(-5px 5px 0px #aaa);
+}
