@@ -376,7 +376,7 @@ magnet:?xt=urn:btih:5AD08C2DD6DAC8925940CEAD8A550448DC7CC324&tr=http://sukebei.t
 
 **如果想玩漢化版，直接將下面的漢化補丁複製到遊戲目錄運行即可。**
 
-<a class="btn btn-info" href="tg://resolve?domain=Galgamer&post=164629">群友發的漢化補丁</a>
+[🔗️群友發的漢化補丁](tg://resolve?domain=KiritouKureha&post=88)
 
 刪除遊戲文件夾內的 reg.ini。
 

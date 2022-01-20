@@ -18,8 +18,9 @@ function main(){
             })
         }
         createShareBtn();
-        createNewBadge();//before 2022
+        //createNewBadge();//before 2022
         showCDN();
+        videoWatchDog();
     });
 }
 
@@ -156,6 +157,7 @@ async function insertToast(type, data, last){
     setTimeout(function() {
         removeFadeOut(toast, 500);
     }, last);
+    return toast;
 }
 
 class RouteMap {
@@ -613,6 +615,107 @@ async function showCDN(){
         mycdn.innerText = 'CDN Location: ' + colo + '\n' + 'Current IP: ' + sip;
         if (sip.includes(':'))mycdn.innerText += '\nIPv6 Enabled';
     } 
+}
+
+/* HTML 視頻看門狗，用來當視頻爆 error 的時候自動重啓加載。
+   對於濫用 GitHub 或者 bitbucket 存儲視頻的五分鐘連結有效期
+   有幫助。
+*/
+function videoWatchDog(){
+    /* 如果一個視頻短時間爆了很多錯誤，那可能真的有問題了 */
+    /* 應該停止重試。 */
+    function shouldRetry(videoEl){
+        let errCount = parseInt(videoEl.getAttribute('error-count'));
+        if (!errCount){
+            // 說明是第一次出錯，應該先新增那個屬性
+            videoEl.setAttribute('error-count', '1');
+            videoEl.setAttribute('last-error', '' + parseInt(Date.now()/1000));
+            return true;
+        }
+        // 表示不是第一次出錯了，先看看是否是第五次。
+        if (errCount === 5){
+            return false;
+            // 達到了最大上限
+        }
+        // 如果小於五次，則看看上次出錯是甚麼時候。
+        let lastErr = parseInt(videoEl.getAttribute('last-error'));
+        // 如果距離已經超過五秒，則表示偶發錯誤，應該清零所有計數器。
+        if (parseInt(Date.now()/1000) - lastErr > 5){
+            videoEl.setAttribute('error-count', '');
+            videoEl.setAttribute('last-error', '');
+            return true;
+        }
+        // 否則，我們應該給計數器 + 1
+        let newCount = errCount + 1;
+        videoEl.setAttribute('error-count', '' + newCount);
+        videoEl.setAttribute('last-error', '' + parseInt(Date.now()/1000));
+        return true; // 並且允許重試
+    }
+    
+    // 錯誤處理器函數
+    function handleErr(ev){
+        let target = ev.target || ev.srcElement || ev;
+        mlog('event error!');
+        // 如果超過最大嘗試次數，則作罷。
+        if(!shouldRetry(target)){
+            mlog('Too much error, cannot retry!');
+            target.removeEventListener('error', handleErr);
+            let tHtml = `
+            <h3>⚠️️ERROR!</h3>
+            <hr>
+            該視頻無法正常播放，可能是因爲視頻服務器或者網路發生了故障。
+            `
+            insertToast('danger', tHtml, 15000);
+            return;
+        }
+        // 儲存 原本的視頻地址
+        if(!target.getAttribute('origin-src')){
+            target.setAttribute('origin-src', target.currentSrc);
+        }
+        // 儲存 播放進度
+        let cTime = target.currentTime;
+        // 防止緩存，製造一個新地址
+        let newSrc = target.getAttribute('origin-src') + "?t=" + Date.now();
+        // 消除那些 <source，改用 src，這是不得已做出的犧牲，，，
+        let srcTags = target.getElementsByTagName('source');
+        for (let oneTag of srcTags) {
+            target.removeChild(oneTag);
+        }
+        // 插入 新地址
+        target.setAttribute('src', newSrc);
+        target.load();
+        target.play();
+        target.currentTime = cTime;
+        // 彈出一個 提示
+        let cSec = parseInt(cTime);
+        let minutes = Math.floor(cSec / 60);
+        let seconds = cSec % 60;
+        let tData = '正在載入視頻，<br class="d-md-none">您已經觀看到 ' + minutes + ' 分 ' +  seconds + ' 秒.';
+        let tHtml = `
+        <div class="d-flex align-items-center">
+            <div class="mr-2 spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <strong>` + tData + `</strong>
+        </div>`
+        
+        insertToast('primary', tHtml, 99000);
+        // 消除提示
+        target.addEventListener('playing', function(){
+            let toast = document.getElementById('mytoast');
+            removeFadeOut(toast, 500);
+        }, {once : true});
+    }
+    
+    let videos = document.querySelectorAll('video');
+    videos.forEach(function(video){
+        // beta 版：如果某些視頻一開始就出錯，我們應該重試一下他。
+        if(video.error){
+            mlog('該視頻一上來就出錯，應該重試。');
+            handleErr(video);
+        }
+        video.addEventListener('error', handleErr);
+    })
 }
 
 main();

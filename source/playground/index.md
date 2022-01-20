@@ -3,11 +3,20 @@ title: 試驗場
 date: 2021-09-30 21:37:54
 tags:
   - 試驗場
-excerpt: ''
+excerpt: '敬請欣賞三小時東方同人音樂歌單。'
 banner_img: ''
 ---
 
+敬請欣賞三小時東方同人音樂歌單。
+總大小 370MB，濫用 GitHub 存視頻急先鋒，，，
+
 {% raw %}
+
+<video id="test" controls preload="metadata" width='100%' src="https://github.com/Yamabuki-bakery/static/releases/download/0117/fixed-50.mpart" type="video/mp4" poster="movie-part2.webp" style="border-radius:25px">
+<p> To view this video please enable JavaScript</p>
+</video>
+
+<hr>
 
 <div class="route-map">
     <x-row start-from="3">

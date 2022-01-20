@@ -1,0 +1,24 @@
+/* 懶加載的圖片設定其高度爲自動 */
+/* 只能用在填滿左右兩側寬度的圖片！！！ */
+/* 意思是文字圖片左右擺在一起的別亂用，，， */
+img.img-lazy {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    min-width: 100px;
+    background-color: transparent;
+    background-image: url('../image/mona-loading.webp');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center
+}
+/* 特指需要 Serif 字體的地方 */
+.font-serif {
+  font-family: 'Noto Serif', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif JP', sans-serif;
+} 
+
+/* 給圖層描邊，僅限用在透明背景的圖片！！請抄襲這裏的代碼手動設定不是直接用 class */
+img.layer-border {
+     -webkit-filter: drop-shadow(5px 5px 0px #aaa) drop-shadow(-5px -5px 0px #aaa) drop-shadow(5px -5px 0px #aaa) drop-shadow(-5px 5px 0px #aaa);
+    filter: drop-shadow(5px 5px 0px #aaa) drop-shadow(-5px -5px 0px #aaa) drop-shadow(5px -5px 0px #aaa) drop-shadow(-5px 5px 0px #aaa);
+}

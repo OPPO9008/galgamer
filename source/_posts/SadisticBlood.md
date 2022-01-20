@@ -339,7 +339,7 @@ R-18G 慎滑
 
 ## 資源與下載
 
-請看評論區。
+[🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=95)
 
 <script>
 insertToast('success', '✒️️本文来自群友投稿', 3000);
