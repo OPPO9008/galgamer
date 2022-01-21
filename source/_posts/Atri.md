@@ -21,7 +21,7 @@ excerpt: '誰不想擁有一個高性能超級機器人呢？'
 
 <p class="text-center" style="font-size: 125%">“我要完成主人最後的命令！<br>在那之前，<br class="d-md-none">我要成爲夏生先生的腿！”</p>
 
-![Poster](../image/Atri/post.webp)
+![Poster](../image/Atri/post.jpg)
 
 | 資訊一覽     |                  |
 |:--------:|:---------------- |
@@ -34,15 +34,21 @@ excerpt: '誰不想擁有一個高性能超級機器人呢？'
 ## 故事梗概
 
 海面擴張，陸地流失，沒有戰爭也沒有其他劇烈的自然災害。這就是一個緩慢邁向滅亡的平靜年代……
+
 因爲事故失去一條腿的男主夏生隱居在海面的鄉鎮。爲了償還地質學家祖母的債務，和神必討債人凱瑟琳合作潛入海底來到祖母的倉庫尋找祖母的遺產以抵押還債。
+
 潛入海底後，在祖母的倉庫發現一個神必裝置，酷似棺材的裝置中竟撈出一個美少女機器人。
 打撈上岸後，機器人理所當然的將男主認作主人。
+
 『我要成爲夏生先生的腿！』這個感情豐富，看起來萬能又什麼都不會的蘿蔔子說到。
 在這日漸沉沒的世界，少年和蘿蔔子的夏日物語就此拉開帷幕……
+
 ![PV](../image/Atri/pv.webp)
+
 ## 登場人物
 
 ### 亞托莉（cv：赤尾 光）
+
 <div class="row">
 <div class="col-4">
 <img class="bg-transparent" src="../image/Atri/img_atri.webp" style="max-height:700px"/>
@@ -53,6 +59,7 @@ excerpt: '誰不想擁有一個高性能超級機器人呢？'
 </div>
 
 ### 斑鳩 夏生（無 CV）
+
 <div class="row">
 <div class="col-4">
 <img class="bg-transparent" src="../image/Atri/img_natsuki.webp" style="max-height:700px"/>
@@ -63,6 +70,7 @@ excerpt: '誰不想擁有一個高性能超級機器人呢？'
 </div>
 
 ### 神白 水菜萌（cv：高橋 未奈美）
+
 <div class="row">
 <div class="col-4">
 <img class="bg-transparent" src="../image/Atri/img_minamo.webp" style="max-height:700px"/>
@@ -73,6 +81,7 @@ excerpt: '誰不想擁有一個高性能超級機器人呢？'
 </div>
 
 ### 野島 龍司（cv：細谷 佳正）
+
 <div class="row">
 <div class="col-4">
 <img class="bg-transparent" src="../image/Atri/img_ryuji.webp" style="max-height:700px"/>
@@ -83,6 +92,7 @@ excerpt: '誰不想擁有一個高性能超級機器人呢？'
 </div>
 
 ### 凱瑟琳（cv：日笠 陽子）
+
 <div class="row">
 <div class="col-4">
 <img class="bg-transparent" src="../image/Atri/img_catherine.webp" style="max-height:700px"/>
@@ -93,6 +103,7 @@ excerpt: '誰不想擁有一個高性能超級機器人呢？'
 </div>
 
 ### 名波 凜凜花（cv：春野 杏）
+
 <div class="row">
 <div class="col-4">
 <img class="bg-transparent" src="../image/Atri/img_ririka.webp" style="max-height:700px"/>
@@ -106,12 +117,10 @@ excerpt: '誰不想擁有一個高性能超級機器人呢？'
 
 動畫來自被牆的 steam
 
-<div class="col-lg-9 col-auto">
 <video  controls width='100%' preload="metadata" poster='../image/Atri/pv.webp'>
 <source src="https://cdn.akamai.steamstatic.com/steam/apps/256778282/movie480.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
-</div>
 
 
 ## 簡評
@@ -189,13 +198,19 @@ excerpt: '誰不想擁有一個高性能超級機器人呢？'
 
 Steam 經常打折且折後價格基本爲史低51可以考慮購入。
 
-群友發的游戲資源：[🔗️前往 Telegram 討論組](tg://resolve?domain=Galgamer&post=182384)
+遊戲本體：
 
-群友發的磁力鏈接：🔗️<a class="magnet" id="a_magnet" href="magnet:?xt=urn:btih:9d5e7a2978d819e402cc79e5ca3f5915dfe465eb">magnet:?xt=urn:btih:9d5e7a2978d819e402cc79e5ca3f5915dfe465eb</a>
+```
+magnet:?xt=urn:btih:9d5e7a2978d819e402cc79e5ca3f5915dfe465eb
+```
+
+或者：[🔗️前往 Telegram 討論組](tg://resolve?domain=Galgamer&post=182384)
 
 群友發的OST資源：[🔗️前往 Telegram 討論組](tg://resolve?domain=Galgamer&post=182395)
 
-群友發的stickers：[🔗️前往 Telegram](https://t.me/addstickers/atriatri)
+群友發的 stickers：[🔗️查看 Telegram 貼紙](tg://addstickers?set=atriatri)
+
+
 <style>
 body {
     background: url('../image/Atri/background.webp') no-repeat fixed center;
