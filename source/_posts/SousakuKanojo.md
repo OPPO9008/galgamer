@@ -51,7 +51,15 @@ excerpt: '普通的 JK 普通地魅力四射，但是魅力能射殺人的 才�
 </style>
 
 
-`作者：桐遠暮羽`
+`作者：桐羽（簡稱桐遠暮羽）`
+<code id="mail"></code>
+<script>
+let a = "a@galg";
+let b = 'Kirih';
+let c = 'amer.'
+let d = 'eu.org'
+document.getElementById('mail').innerHTML = b + a + c + d;
+</script>
 
 <img src="../image/SousakuKanojo/tg_preview.jpg" loading="lazy" class="d-none"/>
 
