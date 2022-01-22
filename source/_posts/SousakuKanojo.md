@@ -780,7 +780,7 @@ ul.closetimg > li.active { /* 抄襲 */
 ### 其他人物
 
 <details>
-  <summary>點此查看</summary>
+  <summary>點此展開</summary>
 
 <img class="mx-0 my-1 rounded" loading="lazy" width=200px height=80px src="../image/SousakuKanojo/chars/others/1.webp"/>
 <img class="mx-0 my-1 rounded" loading="lazy" width=200px height=80px src="../image/SousakuKanojo/chars/others/2.webp"/>
@@ -811,7 +811,7 @@ ul.closetimg > li.active { /* 抄襲 */
 ## H 場景
 
 <details>
-  <summary>點此查看（R-18 內容）</summary>
+  <summary>點此展開（R-18 內容）</summary>
 
   <p>
     <img alt="HCG0" src="../image/SousakuKanojo/hcg/0.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
