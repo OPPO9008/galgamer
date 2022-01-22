@@ -214,7 +214,7 @@ custom_head: '
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="/css/fonts.css?v=1229" rel="stylesheet">
-    <link href="/css/my_custom.css?v=0118" rel="stylesheet">
+    <link href="/css/my_custom.css?v=0122" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP:wght@300&family=Noto+Sans+SC:wght@300&family=Noto+Sans+TC:wght@300&family=Noto+Serif&family=Noto+Serif+JP&family=Noto+Serif+SC&family=Noto+Serif+TC&display=swap" rel="stylesheet">
     <script src="/js/mylib_async.js?v=0118"></script>
     <script src="/js/popper.min.js"></script>
