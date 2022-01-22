@@ -106,15 +106,7 @@ excerpt: '普通的 JK 普通地魅力四射，但是魅力能射殺人的 才�
 
 把男主角徹底捲進 強制譜寫創作青春樂章 的無厘頭日常之中。
 
-## 登場 JK 鑑賞
-
-<p class="d-md-none">
-  JK 博物館 爲電腦版打造。。請使用電腦版打開本文，，，
-</p>
-
-<p class="d-none d-md-block">
-  前方魔鬼排版，，，
-</p>
+## 登場人物
 
 <!--- 前方 CSS 災難現場 --->
 
@@ -142,17 +134,17 @@ excerpt: '普通的 JK 普通地魅力四射，但是魅力能射殺人的 才�
   width: 95vw;
   max-width: 1600px;
   min-height: 1000px;
-  
+
   left: 50%; /* 往右半個父元素的寬度，再往左自己的半個寬度 */
   box-sizing: border-box;
   transform: translateX(-50%);
   border-radius: 20px;
-  
+
   box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
   background-color: var(--chara-card-color);
-  
+
   margin-bottom: 20px;
-  
+
   overflow: hidden;
 }
 .chara-card::before { /* 插入背景用 */
@@ -162,7 +154,7 @@ excerpt: '普通的 JK 普通地魅力四射，但是魅力能射殺人的 才�
 
   background-size: 250px;
   background-repeat: repeat;
-  
+
   transform: rotate(45deg) translateZ(0); 
 /*  animation: rotating 2s steps(10) infinite; */
 }
@@ -199,7 +191,7 @@ excerpt: '普通的 JK 普通地魅力四射，但是魅力能射殺人的 才�
 .chara-card .closet .closet-list { /* 人物 換裝和名字區域 */
   position: relative;
   left: 30px;
-  
+
   max-height: 1600px;
   height: calc(95vw * 0.55 * 1.9);
 }
@@ -237,10 +229,10 @@ ul.closetimg > li.active { /* 抄襲 */
   padding: 35px 38px 35px 35px;
   border: 3px solid var(--post-text-color);
   /*margin-right: 1rem;*/
-  z-index: -1;
+  z-index: 0;
   left: 0px;
   top: 50px;
-  
+
   display: inline-block;
   text-align: center;
 }
@@ -389,14 +381,23 @@ ul.closetimg > li.active { /* 抄襲 */
     font-family: inherit;
   }
 }
-
 </style>
+
+### JK 鑑賞
+
+<p class="d-md-none">
+  JK 博物館 爲電腦版打造。。請使用電腦版打開本文，，，
+</p>
+
+<p class="d-none d-md-block">
+  前方魔鬼排版，，，
+</p>
 
 <div class="chara-card aisa">
 <div class="chara-area container-fluid">
   <div class="row justify-content-between"> <!--- 人物名字，一言出道 --->
     <div class="col-auto">
-      <h3> 青梅竹馬 </h3>
+      <!-- <h3> 青梅竹馬 </h3> -->
     </div>
     <div class="chara-ataglance col-auto text-right font-serif font-weight-bold font-italic d-md-none">
       <p>無論季節，<br class="d-md-none">全劇裙子最短的人。</p>
@@ -493,7 +494,7 @@ ul.closetimg > li.active { /* 抄襲 */
   <div class="chara-area container-fluid">
     <div class="row justify-content-between"> <!--- 人物名字，一言出道 --->
       <div class="col-auto">
-        <h3> 桐葉 </h3>
+        <!-- <h3> 桐葉 </h3> -->
       </div>
       <div class="chara-ataglance col-auto text-right font-serif font-weight-bold font-italic d-md-none">
         <p>非常傲嬌的<br class="d-md-none">同級生</p>
@@ -505,7 +506,7 @@ ul.closetimg > li.active { /* 抄襲 */
           <div class="closet col-12">
             <div class="char-name font-serif"><!-- 顯示名字那個框 -->
               <div class="name-text"> 桐葉 </div>
-              <!-- <div class="name-comment font-italic"> 彩瀬 逢桜 </div> -->
+              <div class="name-comment font-italic"> 同級生 </div>
             </div>
             <a class="d-md-none position-absolute change-cloth btn btn-info mb-0" target-id="kiriCloset" style="bottom: 10px; left: 10px; z-index: 2;">👚 換衣服</a>
             <div class="closet-list"><!-- 換裝區域 -->
@@ -589,7 +590,7 @@ ul.closetimg > li.active { /* 抄襲 */
   <div class="chara-area container-fluid">
     <div class="row justify-content-between"> <!--- 人物名字，一言出道 --->
       <div class="col-auto">
-        <h3> 妹妹【偽】 </h3>
+        <!-- <h3> 妹妹【偽】 </h3> -->
       </div>
       <div class="chara-ataglance col-auto text-right font-serif font-weight-bold font-italic d-md-none">
         <p>你的可愛害羞表妹。</p>
@@ -681,7 +682,7 @@ ul.closetimg > li.active { /* 抄襲 */
   <div class="chara-area container-fluid">
     <div class="row justify-content-between"> <!--- 人物名字，一言出道 --->
       <div class="col-auto">
-        <h3> 學姐 </h3>
+        <!-- <h3> 學姐 </h3> -->
       </div>
       <div class="chara-ataglance col-auto text-right font-serif font-weight-bold font-italic d-md-none">
         <p>天然呆系<br class="d-md-none">學姐</p>
@@ -815,7 +816,7 @@ ul.closetimg > li.active { /* 抄襲 */
   <p>
     <img alt="HCG0" src="../image/SousakuKanojo/hcg/0.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
   </p>
-  
+
   <p>
     <img alt="HCG1" src="../image/SousakuKanojo/hcg/1.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
   </p>
