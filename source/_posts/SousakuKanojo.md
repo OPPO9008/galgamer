@@ -822,11 +822,11 @@ ul.closetimg > li.active { /* 抄襲 */
   </p>
 
   <p>
-    <img alt="HCG1" src="../image/SousakuKanojo/hcg/2.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+    <img alt="HCG2" src="../image/SousakuKanojo/hcg/2.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
   </p>
 
   <p>
-    <img alt="HCG1" src="../image/SousakuKanojo/hcg/3.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+    <img alt="HCG3" src="../image/SousakuKanojo/hcg/3.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
   </p>
 
 </details>
