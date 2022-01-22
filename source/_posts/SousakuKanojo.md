@@ -1,7 +1,7 @@
 ---
-title: '創作女友的戀愛方程式：和不普通的 JK 談戀愛是否有公式？'
+title: '創作女友的戀愛方程式：跟別樣的 JK 談戀愛也能套公式？'
 date: 2022-01-25 00:30:00
-keywords: "創作彼女的恋愛公式,創作彼女の恋愛公式,AinoLinks,有葉"
+keywords: "創作彼女的恋愛公式, 創作彼女の恋愛公式, AinoLinks, 有葉"
 banner_img: '../image/SousakuKanojo/trans.webp'
 index_img: '../image/SousakuKanojo/index.webp'
 tags:
@@ -880,6 +880,7 @@ ul.closetimg > li.active { /* 抄襲 */
 ## 在猶豫是否要下載？
 
 有一個十分鐘的試玩，翻譯是我自己加的
+它的 BGM 也很好聽
 
 <div class='vidcontainer'>
   <select class='qualitypick' autocomplete='off'>
