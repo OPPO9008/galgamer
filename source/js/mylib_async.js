@@ -21,6 +21,13 @@ function main(){
         //createNewBadge();//before 2022
         showCDN();
         videoWatchDog();
+        // 頁面排版: 中英之間增加空格
+        pangu.spacingElementByTagName('p');
+        pangu.spacingElementByTagName('h1');
+        pangu.spacingElementByTagName('h2');
+        pangu.spacingElementByTagName('h3');
+        pangu.spacingElementByTagName('table');
+        pangu.spacingElementByTagName('li');
     });
 }
 
