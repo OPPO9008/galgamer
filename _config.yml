@@ -20,8 +20,8 @@ url: https://galgamer.eu.org/
 permalink: article/:abbrlink.html
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -38,6 +38,7 @@ skip_render:
      - "**/*.json"
      - "*/*.css"
      - "**/*.css"
+     - "googlee3ee1f3c37f3a3df.html"
 
 # Writing
 new_post_name: :title.md # File name of new posts
