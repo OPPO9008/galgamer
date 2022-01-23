@@ -56,9 +56,11 @@ excerpt: '普通的 JK 普通地魅力四射，但是魅力能射殺人的 才�
 <script>
 let a = "a@galg";
 let b = 'Kirih';
-let c = 'amer.'
-let d = 'eu.org'
-document.getElementById('mail').innerHTML = b + a + c + d;
+let c = 'amer.';
+let d = 'eu.org';
+let e = document.getElementById('mail');
+e.innerHTML = b + a + c + d;
+//e.addEventListener('click', () => window.location = 'mailto:' + b + a + c + d);
 </script>
 
 <img src="../image/SousakuKanojo/tg_preview.jpg" loading="lazy" class="d-none"/>
@@ -485,8 +487,8 @@ ul.closetimg > li.active { /* 抄襲 */
 </div><!-- end chara card -->
 
 
-**桐遠暮羽注：**
-請問，你要對陪伴多年的甜心女孩進行一個穿刺，會懷著怎樣的心情？
+**桐羽注：**
+請問，如果你要對陪伴多年的甜心女孩進行一個穿刺，你會懷著怎樣的心情？
 我和青梅竹馬關係非常疏遠，所以希望有相關經驗的朋友講給我聽，好奇
 
 <p>
@@ -879,7 +881,7 @@ ul.closetimg > li.active { /* 抄襲 */
 
 ## 在猶豫是否要下載？
 
-有一個十分鐘的試玩，翻譯是我自己加的
+有一個試玩錄像，翻譯是我自己加的
 它的 BGM 也很好聽
 
 <div class='vidcontainer'>
