@@ -419,7 +419,7 @@ function createShareBtn() {
     
     let mText = document.createElement('span');
     mText.setAttribute('style', 'margin: 4px;');
-    mText.innerHTML = '分享';
+    mText.innerHTML = '分享<span class="d-none d-md-inline d-lg-none">到 TG</span><span class="d-none d-lg-inline">到 Telegram</span>';
     
     btn.appendChild(logo);
     btn.appendChild(mText);

@@ -199,7 +199,8 @@ custom_js: ''
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css: 
- #  - /css/bootstrap-toaster.css
+   - /css/my_custom.css
+   - /css/fonts.css
 
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
@@ -212,8 +213,6 @@ custom_head: '
     <link rel="preconnect" href="https://media.st.dl.pinyuncloud.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="/css/fonts.css?v=1229" rel="stylesheet">
-    <link href="/css/my_custom.css?v=0122" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP:wght@300&family=Noto+Sans+SC:wght@300&family=Noto+Sans+TC:wght@300&family=Noto+Serif&family=Noto+Serif+JP&family=Noto+Serif+SC&family=Noto+Serif+TC&display=swap" rel="stylesheet">
     <script src="/js/pangu.min.js"></script>
     <script src="/js/mylib_async.js?v=0123"></script>
