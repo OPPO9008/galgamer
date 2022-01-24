@@ -150,7 +150,5 @@ hexo.extend.tag.register("template", ([name, ...args], content) => {
   const fn = jsx.fromString(`({ ${args.join(", ")} }) => ${raw}`, {
     factory: "ce",
   });
-  return `<script>docReady(() => {
-  defineCustomElement(${JSON.stringify(name)}, ${fn});
-})</script>`;
+  return `<script>docReady(()=>defineCustomElement(${JSON.stringify(name)}, ${fn}))</script>`;
 }, { ends: true });
