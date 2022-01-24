@@ -18,6 +18,14 @@ function parseName(name) {
     return ret
   }
 }
+function processChildren(target, children = []) {
+  for (const child of children) {
+    if (child == null || typeof child == "boolean") continue;
+    if (Array.isArray(child)) processChildren(target, child);
+    else if (child instanceof HTMLElement) target.appendChild(child);
+    else target.appendChild(document.createTextNode("" + child));
+  }
+}
 function ce(name = "div", attr = {}, children = []) {
   const ret = typeof name == "string" ? parseName(name) : name;
   for (const key in attr) {
@@ -31,6 +39,8 @@ function ce(name = "div", attr = {}, children = []) {
           for (const name in value) ret.classList.toggle(toDash(name), !!value[name]);
       } else if (key == "style")
         for (const name in value) ret.style.setProperty(toDash(name), value[name]);
+    } else if (key == "html") {
+      ret.innerHTML = attr[key];
     } else {
       ret.setAttribute(key, "" + attr[key]);
     }
@@ -38,7 +48,7 @@ function ce(name = "div", attr = {}, children = []) {
   if (typeof children == "string")
     ret.innerHTML = children;
   else
-    for (const child of children) ret.appendChild(typeof child == "string" ? document.createTextNode(child) : child);
+    processChildren(ret, children)
   return ret;
 }
 function attrs(target, base = {}) {
@@ -56,60 +66,3 @@ function defineCustomElement(name, cb) {
     if (ret) this.replaceWith(ret);
   } });
 }
-defineCustomElement("x-gallery", ({ xid, html }) => {
-  const ref = "#" + xid;
-  const arr = html.split("\n").map(x => x.trim());
-  return ce("div.carousel.slide", { id: xid, data: { ride: "carousel" } }, [
-    ce("ol.carousel-indicators", {}, arr.map((_, i) =>
-      ce("li", { data: { target: ref, slideTo: i }, class: { active: i == 0 } })
-    )),
-    ce("div.carousel-inner", {}, arr.map((src, i) =>
-      ce("div", { class: { carouselItem: true, active: i == 0 } }, [ce("img", { class: "d-block w-100", src })])
-    )),
-    ce("a.carousel-control-prev", { href: ref, role: "botton", data: { slide: "prev" } }, [
-      ce("span.carousel-control-prev-icon")
-    ]),
-    ce("a.carousel-control-next", { href: ref, role: "botton", data: { slide: "next" } }, [
-      ce("span.carousel-control-next-icon")
-    ]),
-  ]);
-});
-defineCustomElement("steam-player", function({ steamid, cdn }) {
-  const base = `https://${cdn}/steam/apps/${steamid}/movie`;
-  const poster = `${base}.293x165.jpg`;
-  return ce("div.vidcontainer", {}, [
-    ce("select.qualitypick", { autocomplete: "off" }, [
-      ce("option", { selected: "selected" }, ["低畫質"]),
-      ce("option", {}, ["高畫質"])
-    ]),
-    ce("video", { controls: "controls", preload: "metadata", width: '100%', poster }, [
-      ce("source", { label: "低畫質", src: `${base}480_vp9.webm`, type: "video/webm" }),
-      ce("source", { label: "低畫質", src: `${base}480.webm`, type: "video/webm" }),
-      ce("source", { label: "低畫質", src: `${base}480.mp4`, type: "video/mp4" }),
-      ce("source", { label: "高畫質", src: `${base}_max_vp9.webm`, type: "video/webm" }),
-      ce("source", { label: "高畫質", src: `${base}_max.webm`, type: "video/webm" }),
-      ce("source", { label: "高畫質", src: `${base}_max.mp4`, type: "video/mp4" }),
-    ])
-  ]);
-});
-defineCustomElement("x-ruby", ({ title, html }) => ce("ruby", { title }, [
-  ce("span", {}, html),
-  ce("rp", {}, ["("]),
-  ce("rt", {}, [title]),
-  ce("rp", {}, [")"]),
-]));
-defineCustomElement("steam-widget", ({ id }) => ce("iframe", {
-  src: `https://store.steampowered.com/widget/${id}/`,
-  loading: "lazy",
-  frameborder: "0",
-  style: { width: "100%", height: "200px" }
-}));
-defineCustomElement("itch-widget", ({ id }) => ce("iframe", {
-  src: `https://itch.io/embed/${id}/`,
-  loading: "lazy",
-  frameborder: "0",
-  style: { width: "100%", height: "177px" }
-}));
-defineCustomElement("telegram-channel", ({ post, domain = "KiritouKureha", html }) => ce("a", {
-  href: `tg://resolve?domain=${domain}&post=${post}`
-}, [html]));
