@@ -208,159 +208,41 @@ Caminal le<br>Pultaia<br>Sortilège<br>Sisua
 
 本作 OP『Golden Mission』已經收錄進 <a href="/music/?id=7" target="_blank">🔗️Galgame 金曲</a>
 
-<div class='vidcontainer'>
-   <select class='qualitypick' autocomplete='off'>
-      <option selected>480p</option>
-      <option>1080p</option>
-   </select>
-   <video controls preload="metadata" width='100%' poster="../image/Kinkoi/op.jpg">
-      <source label="480p" src="https://cdn.akamai.steamstatic.com/steam/apps/256817690/movie480_vp9.webm" type="video/webm">
-      <source label="480p" src="https://cdn.akamai.steamstatic.com/steam/apps/256817690/movie480.mp4" type="video/mp4">
-      <source label="1080p" src="https://cdn.akamai.steamstatic.com/steam/apps/256817690/movie_max_vp9.webm" type="video/webm">
-      <source label="1080p"   src="https://cdn.akamai.steamstatic.com/steam/apps/256817690/movie_max.mp4" type="video/mp4" >
-<p> To view this video please enable JavaScript</p>
-   </video>
-</div>
+{% steam_player 256817690 %}
 
 ## 屏幕截圖
 
-<div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/3.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/4.webp" >
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery screen %}
+../image/Kinkoi/screenshots/1.webp
+../image/Kinkoi/screenshots/2.webp
+../image/Kinkoi/screenshots/3.webp
+../image/Kinkoi/screenshots/4.webp
+{% endgallery %}
 
 ## CG
 
-<div id="carouselExampleIndicators-cg" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="5"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Kinkoi/cg/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/cg/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/cg/3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/cg/4.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/cg/5.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/cg/6.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-cg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-cg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery cg %}
+../image/Kinkoi/cg/1.webp
+../image/Kinkoi/cg/2.webp
+../image/Kinkoi/cg/3.webp
+../image/Kinkoi/cg/4.webp
+../image/Kinkoi/cg/5.webp
+../image/Kinkoi/cg/6.webp
+{% endgallery %}
 
-<div id="carouselExampleIndicators-hcg" class="carousel slide" data-ride="false" data-interval="false">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Kinkoi/hcg/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/hcg/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/hcg/3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/hcg/4.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-hcg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-hcg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery hcg %}
+../image/Kinkoi/hcg/1.webp
+../image/Kinkoi/hcg/2.webp
+../image/Kinkoi/hcg/3.webp
+../image/Kinkoi/hcg/4.webp
+{% endgallery %}
 
-<div id="carouselExampleIndicators-qcg" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Kinkoi/qcg/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/qcg/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/qcg/3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/qcg/4.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-qcg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-qcg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery qcg %}
+../image/Kinkoi/qcg/1.webp
+../image/Kinkoi/qcg/2.webp
+../image/Kinkoi/qcg/3.webp
+../image/Kinkoi/qcg/4.webp
+{% endgallery %}
 
 ## 一句話點評
 
@@ -401,7 +283,7 @@ Caminal le<br>Pultaia<br>Sortilège<br>Sisua
 
 ## 資源與下載
 
-<iframe src="https://store.steampowered.com/widget/1277940/" frameborder="0" width="100%" height="200"></iframe>
+{% steam_widget 1277940 %}
 
 Steam 商店爲官方多語言版。
 

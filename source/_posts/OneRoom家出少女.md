@@ -100,43 +100,13 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 
 ## CG
 
-<div id="carouselExampleIndicators-cg" class="carousel slide" data-ride="false" data-interval="false">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/1room/cg/cg7.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg8.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg9.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg10.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg11.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-cg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-cg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-<br>
+{% gallery cgs %}
+../image/1room/cg/cg7.webp
+../image/1room/cg/cg8.webp
+../image/1room/cg/cg9.webp
+../image/1room/cg/cg10.webp
+../image/1room/cg/cg11.webp
+{% endgallery %}
 
 ## 簡評
 

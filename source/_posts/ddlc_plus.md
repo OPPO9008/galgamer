@@ -313,13 +313,13 @@ Just Monika
 
 ### 正版资源
 
-<iframe src="https://store.steampowered.com/widget/1388880/" frameborder="0" width="100%" height="200"></iframe>
+{% steam_widget 1388880 %}
 
 其他平台在 [🔗️官方网站](https://ddlc.plus/buy)
 
 ### 已破解
 
-[🔗️前往 Telegram 频道](tg://resolve?domain=KiritouKureha&post=96)
+{% telegram_channel 96 %}
 
 [🔗️毒盘](https://pan.baidu.com/s/1dtSnU-8Ukhs8Qv1N4BH1hQ)
 

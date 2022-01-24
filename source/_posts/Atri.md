@@ -117,11 +117,7 @@ excerpt: '誰不想擁有一個高性能超級機器人呢？'
 
 動畫來自被牆的 steam
 
-<video  controls width='100%' preload="metadata" poster='../image/Atri/pv.webp'>
-<source src="https://cdn.akamai.steamstatic.com/steam/apps/256778282/movie480.mp4" type="video/mp4"/>
-<p> To view this video please enable JavaScript</p>
-</video>
-
+{% steam_player 256778282 %}
 
 ## 簡評
 
@@ -158,43 +154,16 @@ excerpt: '誰不想擁有一個高性能超級機器人呢？'
 
 ## CG鑑賞
 
-<div id="carouselExampleIndicators-cg" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Atri/cg_01.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Atri/cg_02.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Atri/cg_03.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Atri/cg_04.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-cg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-cg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
-
-
+{% gallery cgs %}
+../image/Atri/cg_01.webp
+../image/Atri/cg_02.webp
+../image/Atri/cg_03.webp
+../image/Atri/cg_04.webp
+{% endgallery %}
 
 ## 資源下載
 
-<iframe src="https://store.steampowered.com/widget/1230140/" frameborder="0" width="100%" height="200"></iframe>
+{% steam_widget 1230140 %}
 
 Steam 經常打折且折後價格基本爲史低51可以考慮購入。
 

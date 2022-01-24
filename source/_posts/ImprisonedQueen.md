@@ -95,81 +95,23 @@ excerpt: '調教亡國女王莎恩‧凱特成爲戰勝國諾恩的公用性奴�
 
 ## 遊戲截圖
 
-<div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/ImprisonedQueen/scn/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/ImprisonedQueen/scn/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/ImprisonedQueen/scn/3.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/ImprisonedQueen/scn/4.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/ImprisonedQueen/scn/5.webp" >
-    </div>
-  </div>
-
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery screen %}
+../image/ImprisonedQueen/scn/1.webp
+../image/ImprisonedQueen/scn/2.webp
+../image/ImprisonedQueen/scn/3.webp
+../image/ImprisonedQueen/scn/4.webp
+../image/ImprisonedQueen/scn/5.webp
+{% endgallery %}
 
 ## CG
 
-<div id="carouselExampleIndicators-cg" class="carousel slide" data-ride="false" data-interval="false">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/ImprisonedQueen/cg/cg1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/ImprisonedQueen/cg/cg2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/ImprisonedQueen/cg/cg3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/ImprisonedQueen/cg/cg4.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/ImprisonedQueen/cg/cg5.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-cg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-cg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
-
+{% gallery cg %}
+../image/ImprisonedQueen/cg/cg1.webp
+../image/ImprisonedQueen/cg/cg2.webp
+../image/ImprisonedQueen/cg/cg3.webp
+../image/ImprisonedQueen/cg/cg4.webp
+../image/ImprisonedQueen/cg/cg5.webp
+{% endgallery %}
 
 ## 簡評
 
@@ -233,7 +175,7 @@ CG和立繪水準的話，還算過眼
 
 steam上有售
 
-<iframe src="https://store.steampowered.com/widget/1528550/" frameborder="0" width="100%" height="200"></iframe>
+{% steam_widget 1528550 %}
 
 也可以在琉璃神社下載
 
