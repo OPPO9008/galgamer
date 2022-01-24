@@ -193,41 +193,13 @@ excerpt: '玩太多沉痛的 Galgame，大腦要降級啦。今天玩點輕鬆�
 
 人物插畫
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/CafeStella/chars/a1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/chars/a2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/chars/a3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/chars/a4.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/chars/a5.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery characters %}
+../image/CafeStella/chars/a1.webp
+../image/CafeStella/chars/a2.webp
+../image/CafeStella/chars/a3.webp
+../image/CafeStella/chars/a4.webp
+../image/CafeStella/chars/a5.webp
+{% endgallery %}
 
 ## 遊戲 OP 動畫欣賞
 
@@ -247,23 +219,23 @@ excerpt: '玩太多沉痛的 Galgame，大腦要降級啦。今天玩點輕鬆�
 ../image/CafeStella/cg/kan_05.webp
 {% endgallery %}
 {% gallery natu %}
-../image/CafeStella/cg/kan_01.webp
-../image/CafeStella/cg/kan_02.webp
-../image/CafeStella/cg/kan_05.webp
+../image/CafeStella/cg/natu_01.webp
+../image/CafeStella/cg/natu_02.webp
+../image/CafeStella/cg/natu_05.webp
 {% endgallery %}
 {% gallery nozo %}
-../image/CafeStella/cg/kan_02.webp
-../image/CafeStella/cg/kan_04.webp
-../image/CafeStella/cg/kan_08.webp
+../image/CafeStella/cg/nozo_02.webp
+../image/CafeStella/cg/nozo_04.webp
+../image/CafeStella/cg/nozo_08.webp
 {% endgallery %}
 {% gallery mei %}
-../image/CafeStella/cg/kan_01.webp
-../image/CafeStella/cg/kan_02.webp
-../image/CafeStella/cg/kan_06.webp
+../image/CafeStella/cg/mei_01.webp
+../image/CafeStella/cg/mei_02.webp
+../image/CafeStella/cg/mei_06.webp
 {% endgallery %}
 {% gallery suzu %}
-../image/CafeStella/cg/kan_01.webp
-../image/CafeStella/cg/kan_02.webp
+../image/CafeStella/cg/suzu_01.webp
+../image/CafeStella/cg/suzu_02.webp
 {% endgallery %}
 
 ## 一句話點評
