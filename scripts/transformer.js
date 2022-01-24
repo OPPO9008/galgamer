@@ -77,7 +77,7 @@ hexo.extend.tag.register("script_defer", (_args, content) =>
     .replace(/<script>/gi, "<script>docReady(() => {")
     .replace(/<\/script>/gi, "});</script>"), { ends: true });
 
-hexo.extend.tag.register("custom_element", ([name, ...args], content) => {
+hexo.extend.tag.register("template", ([name, ...args], content) => {
   const raw = content.replace(/%{/g, "{{").replace(/}%/g, "}}");
   const fn = jsx.fromString(`({ ${args.join(", ")} }) => ${raw}`, {
     factory: "ce",
