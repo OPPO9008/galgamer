@@ -1,7 +1,7 @@
 ---
-title: '創作女友的戀愛方程式：跟別樣的 JK 談戀愛也能套公式？'
+title: '創作女友的戀愛方程式：和不尋常的 JK 談戀愛也能套公式？'
 date: 2022-01-25 00:30:00
-keywords: "創作彼女的恋愛公式, 創作彼女の恋愛公式, AinoLinks, 有葉"
+keywords: "创作彼女的恋爱公式, 創作彼女的恋愛公式, 創作彼女の恋愛公式, AinoLinks, 有葉"
 banner_img: '../image/SousakuKanojo/trans.webp'
 index_img: '../image/SousakuKanojo/index.webp'
 tags:
@@ -394,10 +394,6 @@ ul.closetimg > li.active { /* 抄襲 */
 </style>
 
 ### JK 鑑賞
-
-<p class="d-md-none">
-  JK 博物館 爲電腦版打造。。請使用電腦版打開本文，，，
-</p>
 
 <p class="d-none d-md-block">
   前方魔鬼排版，，，
