@@ -174,7 +174,7 @@ magnet:?xt=urn:btih:c7667e49bd8d7d6d788917084983ebf59254af63
 
 文件名：[201127] [hibiki works] 水蓮と紫苑
 
-汉化补丁：[🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=80)
+汉化补丁：{% telegram_channel 80 %}
 
 来自好像被抓又好像没被抓的 机翻屋汉化组
 

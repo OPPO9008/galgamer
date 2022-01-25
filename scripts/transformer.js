@@ -22,12 +22,12 @@ hexo.extend.tag.register(
 
 /** telegram_channel
  * 电报消息引用
- * 用法：{% telegram_channel <地址里的数字id> %}
+ * 用法：{% telegram_channel <地址里的数字id> <domain 可选> %}
  */
 hexo.extend.tag.register(
   "telegram_channel",
-  ([id]) =>
-    `<a href="tg://resolve?domain=KiritouKureha&post=${id}">🔗️前往 Telegram 頻道</a>`,
+  ([id, domain = "KiritouKureha"]) =>
+    `<a href="tg://resolve?domain=${domain}&post=${id}">🔗️前往 Telegram 頻道</a>`,
 );
 
 /** twitter
@@ -57,7 +57,6 @@ hexo.extend.tag.register(
   "ruby",
   ([text, ruby]) => `<ruby>${text}<rp>(</rp><rt>${ruby}</rt><rp>)</rp></ruby>`,
 );
-
 
 /** steam_player
  * Steam 视频播放器
@@ -89,8 +88,9 @@ hexo.extend.tag.register(
  * 一行一个图片地址
  * {% endgallery %}
  */
-hexo.extend.tag.register("gallery", ([id = "carousel"], content) => {
+hexo.extend.tag.register("gallery", ([id = "cgs"], content) => {
   const arr = content.split("\n").map((x) => x);
+  id = `carousel-${id}`;
   let indicators = "";
   let inner = "";
   let active = " active";
@@ -150,5 +150,25 @@ hexo.extend.tag.register("template", ([name, ...args], content) => {
   const fn = jsx.fromString(`({ ${args.join(", ")} }) => ${raw}`, {
     factory: "ce",
   });
-  return `<script>docReady(()=>defineCustomElement(${JSON.stringify(name)}, ${fn}))</script>`;
+  return `<script>docReady(()=>defineCustomElement(${
+    JSON.stringify(name)
+  }, ${fn}))</script>`;
 }, { ends: true });
+
+/** contribution
+ * 自动弹出✒️️本文来自群友投稿的toast
+ */
+hexo.extend.tag.register(
+  "contribution",
+  () =>
+    `<script>docReady(() => insertToast('success', '✒️️本文来自群友投稿', 3000))</script>`,
+);
+
+/** force_dark_mode
+ * 自动暗色模式
+ */
+hexo.extend.tag.register(
+  "force_dark_mode",
+  () =>
+    `<script>docReady(() => { setInterval(() => document.documentElement.setAttribute('data-user-color-scheme', 'dark'), 1000); insertToast('dark', '已啟用暗色模式', 2000); })</script>`,
+);

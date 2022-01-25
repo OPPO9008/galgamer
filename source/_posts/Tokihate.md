@@ -215,32 +215,11 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 
 人物的印象插畫
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Tokihate/chars/chara01_illust.webp" alt="Komako">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/chars/chara02_illust.webp" alt="Yunna">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/chars/chara03_illust.webp" alt="Eri">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery character %}
+../image/Tokihate/chars/chara01_illust.webp
+../image/Tokihate/chars/chara02_illust.webp
+../image/Tokihate/chars/chara03_illust.webp
+{% endgallery %}
 
 
 ## 遊戲 OP 動畫欣賞
@@ -275,46 +254,17 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 
 ## 遊戲畫面（含有 R-18 畫面）
 
-<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="5"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Tokihate/cg2.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg5.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg6.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg7.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg8.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-<br>
+{% gallery cgs %}
+../image/Tokihate/cg1.webp
+../image/Tokihate/cg2.webp
+../image/Tokihate/cg3.webp
+../image/Tokihate/cg4.webp
+../image/Tokihate/cg5.webp
+../image/Tokihate/cg6.webp
+../image/Tokihate/cg7.webp
+../image/Tokihate/cg8.webp
+../image/Tokihate/cg9.webp
+{% endgallery %}
 
 海報
 
@@ -354,11 +304,11 @@ magnet:?xt=urn:btih:36718d1709a58a55fe43a92f31fa10f5afe3cd62
 ### 中文版
 
 官方中文版已發佈到 [🔗️HIKARI FIELD 商城](https://store.hikarifield.co.jp/shop/honoguraki)，
-你也可以直接在這裏下載：[🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=82)
+你也可以直接在這裏下載：{% telegram_channel 82 %}
 
 下面是“默示漢化組”（群友說是機翻漢化組）的非官方漢化版：
 
-[🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=83)
+{% telegram_channel 83 %}
 
 <br><br>
 

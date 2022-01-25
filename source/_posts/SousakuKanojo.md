@@ -926,7 +926,7 @@ magnet:?xt=urn:btih:c71a43b132fbb8b7e40d0cd8ebf8bb665a2f1a95
 
 文件名：1139361
 
-或者從琉璃神社下載：[🔗️前往 Telegram 頻道](tg://resolve?domain=liuli_link&post=1778)
+或者從琉璃神社下載：{% telegram_channel 1778 liuli_link %}
 
 <style>
 :root {
@@ -958,13 +958,6 @@ magnet:?xt=urn:btih:c71a43b132fbb8b7e40d0cd8ebf8bb665a2f1a95
 }
 </style>
 <script>
-let target = document.querySelectorAll('.row.nomargin-x')[0];
-//target.style['background'] = "url('../image/YoriteKonoha/bg2.webp') no-repeat fixed center";
-//target.style['background-size'] = 'cover';
-//document.documentElement.setAttribute('data-user-color-scheme', 'dark');
-window.addEventListener('DOMContentLoaded', function() {
-
-});
 // 換衣服按鈕支持
 let changeBtns = document.querySelectorAll('.change-cloth');
 changeBtns.forEach(function(aBtn){
