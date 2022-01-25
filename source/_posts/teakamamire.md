@@ -365,9 +365,7 @@ http://akabeesoft3.com/products/teakamamire/
 
 先安裝本體，再覆蓋安裝補丁。
 
-<script>
-insertToast('success', '✒️️本文来自群友投稿', 3000);
-</script>
+{% contribution %}
 <!--- 摺疊部分的邊框樣式 --->
 
 <style>

@@ -167,6 +167,4 @@ https://www.ryuugames.com/eng-1room-iede-shoujo-free-download/
 
 [mega 網盤點此](https://mega.nz/file/FvwXkaxT#7aK-D19Mnga0He1cL0YItLym2n9R--PJbjwHecPlKB0)
 
-<script>
-insertToast('success', '✒️️本文来自群友投稿', 3000);
-</script>
+{% contribution %}

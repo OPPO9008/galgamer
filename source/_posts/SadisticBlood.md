@@ -281,6 +281,4 @@ R-18G 慎滑
 
 {% telegram_channel 95 %}
 
-<script>
-insertToast('success', '✒️️本文来自群友投稿', 3000);
-</script>
+{% contribution %}

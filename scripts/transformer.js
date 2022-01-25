@@ -152,3 +152,5 @@ hexo.extend.tag.register("template", ([name, ...args], content) => {
   });
   return `<script>docReady(()=>defineCustomElement(${JSON.stringify(name)}, ${fn}))</script>`;
 }, { ends: true });
+
+hexo.extend.tag.register("contribution", () => `<script>docReady(() => insertToast('success', '✒️️本文来自群友投稿', 3000))</script>`)

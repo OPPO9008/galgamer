@@ -182,6 +182,4 @@ steam上有售
 🔗️https://telega.one/liuli_link/1707?comment=4318
 
 
-<script>
-insertToast('success', '✒️️本文来自群友投稿', 3000);
-</script>
+{% contribution %}
