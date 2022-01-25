@@ -194,12 +194,7 @@ excerpt: '少女逐夢演藝圈，一步步踏入潛規則的深淵，無法回�
 <br><br>
 
 <style>
-#chars .row {
-    background-color: transparent;
-    vertical-align: bottom;
-    margin-top: 10px
-}
-#chars .imgbox {
+.sp-character .imgbox {
     max-width:40%;
     min-width:33%;
     min-height: 450px;
@@ -210,7 +205,7 @@ excerpt: '少女逐夢演藝圈，一步步踏入潛規則的深淵，無法回�
     overflow-y: hidden;
     overflow-x: visible;
 }
-#chars .imgbox img{
+.sp-character .imgbox img{
     background-color: rgba(0, 0, 0, 0);
     width: auto;
     height: auto;
@@ -220,52 +215,50 @@ excerpt: '少女逐夢演藝圈，一步步踏入潛規則的深淵，無法回�
     top:0px;
     align: center;
 }
+.sp-name {
+    font-size: 170%;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+}
+.sp-name:first-letter {
+    color: #d2037a
+}
 </style>
-<div id="chars" class="rounded">
-    <div class="row align-items-center">
-        <div class="imgbox col-sm-5 col-lg-4">
-            <img width="869" height="2412" loading="lazy" src="../image/teakamamire/chars/1.webp"/>
-        </div>
-        <div class="textbox col-7 col-lg-8">
-            <span class="font-serif" style="font-size:170%">
-                <strong><em>
-                <span style="color: #d2037a">如</span>月 嶺衣奈
-                </em></strong>
-            </span>
-            <br>cv: 花澤さくら
-            <hr class="my-1">
-            <mark>出道一年的新偶像</mark><br>
-            爲了實現成爲偶像的夢想而來到東京的女孩<br>
-            雖然姿貌端麗勤修苦練卻遲遲不能出頭，處境窘迫到了一個月都接不到一項工作的程度<br>
-            性格好强的她不願意一事無成的回到老家，於是懇求製作人的幫助<br>
-            製作人卻理所當然的暗示嶺衣奈通過枕營業來討好大人物<br>
-            接受了自己只能靠獻上肉體來追求夢想這一事實，嶺衣奈用身體賄賂大人物，希冀對方的垂愛<br>
-            <mark>然而，以色事人，色衰愛馳。深陷其中的嶺衣奈，她的命運又將落向何方？</mark>
-        </div>
+{% template sp-character name no cv width height html %}
+<div class="sp-character row align-items-center">
+    <div class="imgbox col-sm-5 col-lg-4">
+        <img width={width} height={height} loading="lazy" src={`../image/teakamamire/chars/${no}.webp`}/>
     </div>
-<hr>
-    <div class="row align-items-center">
-        <div class="imgbox col-sm-5 col-lg-4">
-            <img width="969" height="2401" loading="lazy"  src="../image/teakamamire/chars/2.webp"/>
-        </div>
-        <div class="textbox col-7 col-lg-8">
-            <span class="font-serif" style="font-size:170%">
-                <strong><em>
-                <span style="color: #d2037a">ア</span>ンリ
-                </em></strong>
-            </span>
-            <br>cv: 君島りさ
-            <hr class="my-1">
-            <mark>和嶺衣奈同一事務所的人氣偶像</mark><br>
-            一个對枕營業樂在其中的享乐主义者。<br>
-            對於通過枕營業獲取工作機會這件事絲毫不覺羞愧<br>
-            相反還十分享受和各式各樣人性交的過程<br>
-            <mark>她不知廉恥的樣子讓嶺衣奈深感厭惡<br>
-            但她靠身體換來的資源卻又讓嶺衣奈艷羡不已<br></mark>
-        </div>
+    <div class="textbox col-7 col-lg-8">
+        <span class="font-serif sp-name">{name}</span>
+        <br />cv: {cv}
+        <hr class="my-1"/>
+        <span html={html} />
     </div>
-<hr>
 </div>
+{% endtemplate %}
+
+<sp-character no=1 width="869" height="2412" name="如月 嶺衣奈" cv="花澤さくら">
+    <mark>出道一年的新偶像</mark><br>
+    爲了實現成爲偶像的夢想而來到東京的女孩<br>
+    雖然姿貌端麗勤修苦練卻遲遲不能出頭，處境窘迫到了一個月都接不到一項工作的程度<br>
+    性格好强的她不願意一事無成的回到老家，於是懇求製作人的幫助<br>
+    製作人卻理所當然的暗示嶺衣奈通過枕營業來討好大人物<br>
+    接受了自己只能靠獻上肉體來追求夢想這一事實，嶺衣奈用身體賄賂大人物，希冀對方的垂愛<br>
+    <mark>然而，以色事人，色衰愛馳。深陷其中的嶺衣奈，她的命運又將落向何方？</mark>
+</sp-character>
+
+<hr>
+
+<sp-character no=2 width="969" height="2401" name="アンリ" cv="君島りさ">
+    <mark>和嶺衣奈同一事務所的人氣偶像</mark><br>
+    一个對枕營業樂在其中的享乐主义者。<br>
+    對於通過枕營業獲取工作機會這件事絲毫不覺羞愧<br>
+    相反還十分享受和各式各樣人性交的過程<br>
+    <mark>她不知廉恥的樣子讓嶺衣奈深感厭惡<br>
+    但她靠身體換來的資源卻又讓嶺衣奈艷羡不已<br></mark>
+</sp-character>
 
 ## 遊戲截圖
 
