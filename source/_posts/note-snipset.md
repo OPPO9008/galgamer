@@ -308,26 +308,26 @@ target="_blank" 是重點。
 {% template my-template html title name color %}
 <div style=%{ backgroundColor: color, padding: "20px", borderRadius: "10px", marginBottom: "10px" }% title={title}>
   <dl>
-  <dt>html: </dt>
-  <dd>{html}</dd>
-  <dt>title: </dt>
-  <dd>{title}</dd>
-  <dt>name: </dt>
-  <dd>{name}</dd>
+    <dt>html: </dt>
+    <dd>{html}</dd>
+    <dt>title: </dt>
+    <dd>{title}</dd>
+    <dt>name: </dt>
+    <dd>{name}</dd>
   </dl>
 </div>
 {% endtemplate %}
 
 ```
 {% template my-template html title name color %}
-<div style=%{ backgroundColor: color }% title={title}>
+<div style=%{ backgroundColor: color, padding: "20px", borderRadius: "10px", marginBottom: "10px" }% title={title}>
   <dl>
-  <dt>html: </dt>
-  <dd>{html}</dd>
-  <dt>title: </dt>
-  <dd>{title}</dd>
-  <dt>name: </dt>
-  <dd>{name}</dd>
+    <dt>html: </dt>
+    <dd>{html}</dd>
+    <dt>title: </dt>
+    <dd>{title}</dd>
+    <dt>name: </dt>
+    <dd>{name}</dd>
   </dl>
 </div>
 {% endtemplate %}
