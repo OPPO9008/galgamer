@@ -162,3 +162,12 @@ hexo.extend.tag.register(
   () =>
     `<script>docReady(() => insertToast('success', '✒️️本文来自群友投稿', 3000))</script>`,
 );
+
+/** force_dark_mode
+ * 自动暗色模式
+ */
+hexo.extend.tag.register(
+  "force_dark_mode",
+  () =>
+    `<script>docReady(() => { setInterval(() => document.documentElement.setAttribute('data-user-color-scheme', 'dark'), 1000); insertToast('dark', '已啟用暗色模式', 2000); })</script>`,
+);

@@ -305,17 +305,3 @@ magnet:?xt=urn:btih:245d4f68096bd3e02790eb6c5a718c98955bd42b&dn=School%20Days%20
  * 使用路線圖跳轉來嘗試不同的選項
  * 看攻略
  * 多存檔以免遊戲卡死
-
-
-<script>
-window.addEventListener('DOMContentLoaded', function() {
-    return;
-    let target = document.querySelectorAll('.row.nomargin-x')[0];
-    target.style['background'] = "url('../image/Tsukikana/night.webp') no-repeat fixed center";
-    target.style['background-size'] = 'cover';
-    let board = document.getElementById('board');
-    board.style['background-color'] = 'rgba(20, 20, 40, 0.80)';
-    setInterval(() => document.documentElement.setAttribute('data-user-color-scheme', 'dark'), 1000);
-    insertToast('dark', '已啟用暗色模式', 2000);
-});
-</script>

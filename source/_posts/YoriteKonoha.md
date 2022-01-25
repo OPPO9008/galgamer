@@ -258,14 +258,10 @@ magnet:?xt=urn:btih:af11de1152608edc668ee6e286094371837727f5
   --navbar-bg-color: #c46243;
   --navbar-text-color: #d0d0d0;
 }
-</style>
-<script>
-let target = document.querySelectorAll('.row.nomargin-x')[0];
-target.style['background'] = "url('../image/YoriteKonoha/bg2.webp') no-repeat fixed center";
-target.style['background-size'] = 'cover';
-document.documentElement.setAttribute('data-user-color-scheme', 'dark');
-window.addEventListener('DOMContentLoaded', function() {
 
-    
-});
-</script>
+body {
+  background: url('../image/YoriteKonoha/bg2.webp') no-repeat fixed center;
+  background-size: cover;
+}
+</style>
+{% force_dark_mode %}

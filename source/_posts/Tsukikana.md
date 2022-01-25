@@ -356,14 +356,15 @@ magnet:?xt=urn:btih:5AD08C2DD6DAC8925940CEAD8A550448DC7CC324&tr=http://sukebei.t
 
 刪除遊戲文件夾內的 reg.ini。
 
-<script>
-window.addEventListener('DOMContentLoaded', function() {
-    let target = document.querySelectorAll('.row.nomargin-x')[0];
-    target.style['background'] = "url('../image/Tsukikana/night.webp') no-repeat fixed center";
-    target.style['background-size'] = 'cover';
-    let board = document.getElementById('board');
-    board.style['background-color'] = 'rgba(20, 20, 40, 0.80)';
-    setInterval(() => document.documentElement.setAttribute('data-user-color-scheme', 'dark'), 1000);
-    insertToast('dark', '已啟用暗色模式', 2000);
-});
-</script>
+<style>
+  body {
+    background: url(../image/Tsukikana/night.webp) no-repeat fixed center;
+    background-size: cover;
+  }
+
+  #board {
+    background-color: rgba(20, 20, 40, 0.80)
+  }
+</style>
+
+{% force_dark_mode %}

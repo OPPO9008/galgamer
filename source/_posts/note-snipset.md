@@ -40,87 +40,29 @@ excerpt: '你可以對這篇文章進行隨意抄襲'
 
 詳細 https://getbootstrap.com/docs/4.0/components/carousel/
 
-<div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/3.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/4.webp" >
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery screen %}
+../image/Kinkoi/screenshots/1.webp
+../image/Kinkoi/screenshots/2.webp
+../image/Kinkoi/screenshots/3.webp
+../image/Kinkoi/screenshots/4.webp
+{% endgallery %}
 
-寫法：注意 id 必須唯一，此處爲 carouselExampleIndicators-screen，若要修改出現的地方全都要修改。
+寫法：注意 id 必須唯一，此處爲 screen。
 
 ```
-<div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/3.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/4.webp" >
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery screen %}
+../image/Kinkoi/screenshots/1.webp
+../image/Kinkoi/screenshots/2.webp
+../image/Kinkoi/screenshots/3.webp
+../image/Kinkoi/screenshots/4.webp
+{% endgallery %}
 ```
 
 ### 視頻畫質切換菜單
 
 在 mylib_async.js 實現
 
-<div class='vidcontainer'>
-   <select class='qualitypick' autocomplete='off'>
-      <option selected>480p</option>
-      <option>1080p</option>
-   </select>
-   <video controls preload="metadata" width='100%' poster="../image/Kinkoi/op.jpg">
-      <source label="480p" src="https://cdn.akamai.steamstatic.com/steam/apps/256817690/movie480.mp4" type="video/mp4">
-      <source label="1080p" src="https://cdn.akamai.steamstatic.com/steam/apps/256817690/movie_max.mp4" type="video/mp4" >
-<p> To view this video please enable JavaScript</p>
-   </video>
-</div>
+{% steam_player 256817690 %}
 
 用法：請直接抄，放置多個 src
 
@@ -136,6 +78,12 @@ excerpt: '你可以對這篇文章進行隨意抄襲'
 <p> To view this video please enable JavaScript</p>
    </video>
 </div>
+```
+
+Steam 视频请用
+
+```
+{% steam_player 256744067 %}
 ```
 
 ### Galgame 路線圖
@@ -312,10 +260,84 @@ target="_blank" 是重點。
 
 ### 插入 Steam
 
-<iframe src="https://store.steampowered.com/widget/1277940/" frameborder="0" width="100%" height="200"></iframe>
+{% steam_widget 1277940 %}
 
 ```
-<iframe src="https://store.steampowered.com/widget/遊戲的 ID/" frameborder="0" width="100%" height="200"></iframe>
+{% steam_widget 1277940 %}
+```
+
+### 插入 Itch
+
+{% itch_widget 257861 %}
+
+```
+{% itch_widget 257861 %}
+```
+
+### 設置背景圖片
+
+文章最後插入
+
+```
+<style>
+  body {
+    background: url(../image/Tsukikana/night.webp) no-repeat fixed center;
+    background-size: cover;
+  }
+
+  // 背景透明
+  #board {
+    background-color: rgba(20, 20, 40, 0.80)
+  }
+</style>
+<!-- 暗色模式 -->
+{% force_dark_mode %}
+```
+
+### 元素模板
+
+适用于大量重复的html结构（例如人物），可以大幅度减少重复内容
+
+<my-template title="标题1" name="名字1" color="#EF767A">
+这是内容 红色
+</my-template>
+<my-template title="标题2" name="名字2" color="#6457A6">
+这是内容 蓝色
+</my-template>
+
+{% template my-template html title name color %}
+<div style=%{ backgroundColor: color, padding: "20px", borderRadius: "10px", marginBottom: "10px" }% title={title}>
+  <dl>
+  <dt>html: </dt>
+  <dd>{html}</dd>
+  <dt>title: </dt>
+  <dd>{title}</dd>
+  <dt>name: </dt>
+  <dd>{name}</dd>
+  </dl>
+</div>
+{% endtemplate %}
+
+```
+{% template my-template html title name color %}
+<div style=%{ backgroundColor: color }% title={title}>
+  <dl>
+  <dt>html: </dt>
+  <dd>{html}</dd>
+  <dt>title: </dt>
+  <dd>{title}</dd>
+  <dt>name: </dt>
+  <dd>{name}</dd>
+  </dl>
+</div>
+{% endtemplate %}
+
+<my-template title="标题1" name="名字1" color="red">
+这是内容 红色
+</my-template>
+<my-template title="标题2" name="名字2" color="green">
+这是内容 绿色
+</my-template>
 ```
 
 ## 2. JS 小技巧
@@ -332,40 +354,6 @@ function t(){insertToast('success', '你好', 3000);}
 
 ```
 insertToast('success', 'HTML 內容', 顯示毫秒);
-```
-
-### 設置背景圖片
-
-<script>
-function b(){
-    let target = document.querySelectorAll('.row.nomargin-x')[0];
-    target.style['background'] = "url('../image/Tsukikana/night.webp') no-repeat fixed center";
-    target.style['background-size'] = 'cover';
-    let board = document.getElementById('board');
-    board.style['background-color'] = 'rgba(20, 20, 40, 0.80)';
-    // 強制暗色模式
-    setInterval(() => document.documentElement.setAttribute('data-user-color-scheme', 'dark'), 1000);
-    insertToast('dark', '已啟用暗色模式', 2000);
-}
-</script>
-
-<a href="javascript:;" class="btn btn-info" onclick="b()">測試一下</a>
-
-文章最後插入
-
-```
-window.addEventListener('DOMContentLoaded', function() {
-    // 設置背景
-    let target = document.querySelectorAll('.row.nomargin-x')[0];
-    target.style['background'] = "url('../image/Tsukikana/night.webp') no-repeat fixed center";
-    target.style['background-size'] = 'cover';
-    // 設置透明度
-    let board = document.getElementById('board');
-    board.style['background-color'] = 'rgba(20, 20, 40, 0.80)';
-    // 強制暗色模式
-    setInterval(() => document.documentElement.setAttribute('data-user-color-scheme', 'dark'), 1000);
-    insertToast('dark', '已啟用暗色模式', 2000);
-});
 ```
 
 ## 3. 新增 Galgame 金曲
