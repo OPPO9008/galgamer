@@ -58,7 +58,6 @@ hexo.extend.tag.register(
   ([text, ruby]) => `<ruby>${text}<rp>(</rp><rt>${ruby}</rt><rp>)</rp></ruby>`,
 );
 
-
 /** steam_player
  * Steam 视频播放器
  * 用法：{% steam_player <地址里的数字 id> <cdn 可留空> %}
@@ -150,7 +149,16 @@ hexo.extend.tag.register("template", ([name, ...args], content) => {
   const fn = jsx.fromString(`({ ${args.join(", ")} }) => ${raw}`, {
     factory: "ce",
   });
-  return `<script>docReady(()=>defineCustomElement(${JSON.stringify(name)}, ${fn}))</script>`;
+  return `<script>docReady(()=>defineCustomElement(${
+    JSON.stringify(name)
+  }, ${fn}))</script>`;
 }, { ends: true });
 
-hexo.extend.tag.register("contribution", () => `<script>docReady(() => insertToast('success', '✒️️本文来自群友投稿', 3000))</script>`)
+/** contribution
+ * 自动弹出✒️️本文来自群友投稿的toast
+ */
+hexo.extend.tag.register(
+  "contribution",
+  () =>
+    `<script>docReady(() => insertToast('success', '✒️️本文来自群友投稿', 3000))</script>`,
+);
