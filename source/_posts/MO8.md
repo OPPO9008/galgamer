@@ -76,111 +76,87 @@ excerpt: '幼時的一場大火將四人玩伴的關係燒得四分五裂。多�
 
 ## 登場人物
 
+{% template sp-character no name html %}
+<div class="sp-character">
+  <img src={`../image/MO8/chars/${no}.webp`}/>
+  <h3 id={name}>{name}</h3>
+  <p html={html}></p>
+</div>
+{% endtemplate %}
+
 <style>
-#swipe {
-    width: 100%;
-    height: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space:nowrap;
-}
-#swipe  .slide {
-    display: inline-block;
-}
-#swipe  .slide img {
-    max-height: 500px;
-    background-color: transparent;
-    border: none;
-    }
-#swipe  p {
-   margin-right: 30px;
-   display: inline-block;
-}
+  .sp-character-container {
+    display: grid;
+    gap: 10px;
+  }
+  .sp-character {
+    display: grid;
+    grid-template:
+      "name pic" auto
+      "desc pic" 1fr / 1fr 40%;
+  }
+  .sp-character > img,
+  .sp-character > .fancybox {
+    grid-area: pic;
+  }
+  .sp-character > h3 {
+    grid-area: name;
+  }
+  .sp-character > p {
+    grid-area: desc;
+  }
 </style>
-<div id="swipe">
-<div class="slide">
-        <img src="../image/MO8/chars/1.webp"/>
-    </div>
-    <div class="slide">
-<p>
-<strong>嘉神川 諾艾爾</strong><br><br>
-日法混血兒，<br>
-無論是以前，還是就讀於女子高中的現在，<br>
-她始终彷徨无措。<br>
-養了一隻小流浪貓。<br><br>
-有時候會講法語，<em>請自備法語字典。</em>
-</p>
-    </div>
-<div class="slide">
-        <img src="../image/MO8/chars/2.webp"/>
-    </div>
-    <div class="slide">
-<p>
-<strong>三城 柚莉</strong><br><br>
-玩伴四人組之一<br>
-三兄妹中的二姐<br>
-運動全能，精力充沛，記憶力超羣，<br>
-在學校內人氣很高。<br><br>
-<em>人稱小柚子。</em>
-</p>
-    </div>
-<div class="slide">
-        <img src="../image/MO8/chars/3.webp"/>
-    </div>
-    <div class="slide">
-<p>
-<strong>三城 琴莉</strong><br><br>
-玩伴四人組之一<br>
-三兄妹中的小妹<br>
-是阿累的初戀情人，<br>
-和柚莉不一樣，是一個乖巧的少女。<br><br>
-<em>胸是否也更大？</em>
-</p>
-    </div>
-<div class="slide">
-        <img src="../image/MO8/chars/4.webp"/>
-    </div>
-    <div class="slide">
-<p>
-<strong>三城 莉一</strong><br><br>
-玩伴四人組之一<br>
-三兄妹中的哥哥<br>
-是阿累的好朋友，<br>
-在學校內過於妹控，<br>
-但是長相英俊所以很受女生矚目。<br>
-</p>
-    </div>
-<div class="slide">
-        <img src="../image/MO8/chars/5.webp"/>
-    </div>
-    <div class="slide">
-<p>
-<strong>志摩 壽奈櫻</strong><br><br>
-諾艾爾的摯友，<br>
-曾經爲了考上同一所學校，兩人一起努力。<br>
-家裏面開神社，<br>
-號稱有個比自己年長的男朋友。。<br><br>
-<em>人稱娜歐醬。</em>
-</p>
-    </div>
-<div class="slide">
-        <img src="../image/MO8/chars/6.webp"/>
-    </div>
-    <div class="slide">
-<p>
-<strong>楠瀨 累</strong><br><br>
-男主角<br>
-擁有着石硬的內心，<br>
-出衆的觀察力和敏銳的直覺，<br>
-以及很垃圾的體力。<br><br>
-<em>人稱累累。</em>
-</p>
-    </div>
-    <div class="slide">
-<p>
-<em>Markdown 的排版系統很傻逼，很難用</em>
-</p>
-    </div>
+
+<div class="sp-character-container">
+
+<sp-character no=1 name="嘉神川 諾艾爾">
+  日法混血兒，<br>
+  無論是以前，還是就讀於女子高中的現在，<br>
+  她始终彷徨无措。<br>
+  養了一隻小流浪貓。<br><br>
+  有時候會講法語，<em>請自備法語字典。</em>
+</sp-character>
+
+<sp-character no=2 name="三城 柚莉">
+  玩伴四人組之一<br>
+  三兄妹中的二姐<br>
+  運動全能，精力充沛，記憶力超羣，<br>
+  在學校內人氣很高。<br><br>
+  <em>人稱小柚子。</em>
+</sp-character>
+
+<sp-character no=3 name="三城 琴莉">
+  玩伴四人組之一<br>
+  三兄妹中的小妹<br>
+  是阿累的初戀情人，<br>
+  和柚莉不一樣，是一個乖巧的少女。<br><br>
+  <em>胸是否也更大？</em>
+</sp-character>
+
+<sp-character no=4 name="三城 莉一">
+  玩伴四人組之一<br>
+  三兄妹中的哥哥<br>
+  是阿累的好朋友，<br>
+  在學校內過於妹控，<br>
+  但是長相英俊所以很受女生矚目。<br>
+</sp-character>
+
+<sp-character no=5 name="志摩 壽奈櫻">
+  諾艾爾的摯友，<br>
+  曾經爲了考上同一所學校，兩人一起努力。<br>
+  家裏面開神社，<br>
+  號稱有個比自己年長的男朋友。。<br><br>
+  <em>人稱娜歐醬。</em>
+</sp-character>
+
+<sp-character no=6 name="楠瀨 累">
+  男主角<br>
+  擁有着石硬的內心，<br>
+  出衆的觀察力和敏銳的直覺，<br>
+  以及很垃圾的體力。<br><br>
+  <em>人稱累累。</em>
+</sp-character>
+
 </div>
 
 ## 遊戲 OP 動畫欣賞
@@ -215,8 +191,6 @@ excerpt: '幼時的一場大火將四人玩伴的關係燒得四分五裂。多�
 你卻要強顏歡笑地面對那四濺的鮮血。
 
 <span style="color:red"><strong>勇敢累累，戰勝困難</strong></span>
-
-
 
 ## 遊戲畫面
 
