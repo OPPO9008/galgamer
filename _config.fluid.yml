@@ -199,8 +199,8 @@ custom_js: ''
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css: 
-   - /css/my_custom.css
    - /css/fonts.css
+   - /css/my_custom.css
 
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
