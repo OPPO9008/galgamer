@@ -80,7 +80,7 @@ excerpt: '你可以對這篇文章進行隨意抄襲'
 </div>
 ```
 
-Steam 视频请用
+Steam 视频请用，数字id从地址上复制
 
 ```
 {% steam_player 256744067 %}
