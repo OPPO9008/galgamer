@@ -114,3 +114,21 @@ theme: fluid #hexo-theme-matery #landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 
+
+neat_enable: true
+
+neat_html:
+  enable: true
+
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
