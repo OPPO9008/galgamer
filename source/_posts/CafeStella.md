@@ -218,21 +218,25 @@ excerpt: '玩太多沉痛的 Galgame，大腦要降級啦。今天玩點輕鬆�
 ../image/CafeStella/cg/kan_02.webp
 ../image/CafeStella/cg/kan_05.webp
 {% endgallery %}
+<br>
 {% gallery natu %}
 ../image/CafeStella/cg/natu_01.webp
 ../image/CafeStella/cg/natu_02.webp
 ../image/CafeStella/cg/natu_05.webp
 {% endgallery %}
+<br>
 {% gallery nozo %}
 ../image/CafeStella/cg/nozo_02.webp
 ../image/CafeStella/cg/nozo_04.webp
 ../image/CafeStella/cg/nozo_08.webp
 {% endgallery %}
+<br>
 {% gallery mei %}
 ../image/CafeStella/cg/mei_01.webp
 ../image/CafeStella/cg/mei_02.webp
 ../image/CafeStella/cg/mei_06.webp
 {% endgallery %}
+<br>
 {% gallery suzu %}
 ../image/CafeStella/cg/suzu_01.webp
 ../image/CafeStella/cg/suzu_02.webp
