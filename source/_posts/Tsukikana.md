@@ -130,7 +130,7 @@ excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的�
 </style>
 
 {% template sp-character no name dark html %}
-<div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2" style=%{ $cardColor: dark ? "#141428CC" : "#FFFFFFCC" }%>
+<div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2" style=%{ $cardColor: dark ? "#141428CC" : "#FFFFFFCC" }% id={name}>
   <img src={`../image/Tsukikana/chars/${no}.webp`} width="1030" height="1100" loading="lazy" class="img-lazy card-img bg-transparent" />
   <div class="card-img-overlay">
     <div class="position-absolute sp-card">

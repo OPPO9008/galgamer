@@ -83,58 +83,52 @@ excerpt: '在紅葉紛飛之地 和有尾巴，有耳朵的少女們 展開的 �
     align: center;
 }
 </style>
+
+{% template sp-character no name width height html %}
+<div class="row">
+  <div class="imgbox col-sm-5 col-lg-4">
+    <img width={width} height={height} loading="lazy" src={`../image/YoriteKonoha/chars/${no}.webp`} />
+  </div>
+  <div class="textbox col-6 col-lg-7">
+    <span style="font-size:170%">🍁️{name}</span>
+    <hr class="my-1" />
+    <span html={html} />
+  </div>
+</div>
+{% endtemplate %}
+
 <div id="chars" class="rounded">
-<div class="row">
-    <div class="imgbox col-sm-5 col-lg-4">
-        <img width="511" height="1529" loading="lazy" src="../image/YoriteKonoha/chars/1.webp"/>
-    </div>
-    <div class="textbox col-6 col-lg-7">
-    <span style="font-size:170%">🍁️Momiji</span>
-    <hr class="my-1">
-    突然跳出來說主人！<br class="d-md-none">我是你的寵物！的失憶少女<br>
-    每天都活蹦亂跳，<br class="d-md-none">很黏人，<br>（就像是狗變的）<br><br>
-    有尾巴和大耳朵。
-    </div>
-</div>
+
+<sp-character no=1 name="Momiji" width="511" height="1529" >
+  突然跳出來說主人！<br class="d-md-none">我是你的寵物！的失憶少女<br>
+  每天都活蹦亂跳，<br class="d-md-none">很黏人，<br>（就像是狗變的）<br><br>
+  有尾巴和大耳朵。
+</sp-character>
+
 <hr>
-<div class="row">
-    <div class="imgbox col-sm-5 col-lg-4">
-        <img width="424" height="1382" loading="lazy"  src="../image/YoriteKonoha/chars/2.webp"/>
-    </div>
-    <div class="textbox col-6 col-lg-7">
-    <span style="font-size:170%">🍁️玲奈</span>
-    <hr class="my-1">
-    無比兄控的黏人妹妹，<br class="d-md-none">幹啥啥不行，<br>
-    性暗示第一名，<br class="d-md-none">天天對哥哥進行性暗示<br>（胸很大）<br><br>
-    啥事都不幹喜歡當甩手掌櫃。
-    </div>
-</div>
+
+<sp-character no=2 name="玲奈" width="424" height="1382">
+  無比兄控的黏人妹妹，<br class="d-md-none">幹啥啥不行，<br>
+  性暗示第一名，<br class="d-md-none">天天對哥哥進行性暗示<br>（胸很大）<br><br>
+  啥事都不幹喜歡當甩手掌櫃。
+</sp-character>
+
 <hr>
-<div class="row">
-    <div class="imgbox col-sm-5 col-lg-4">
-        <img width="522" height="1292" loading="lazy" src="../image/YoriteKonoha/chars/3.webp"/>
-    </div>
-    <div class="textbox col-6 col-lg-7">
-    <span style="font-size:170%">🍁️Konoha</span>
-    <hr class="my-1">
-    合法有耳朵有尾巴蘿莉，<br class="d-md-none">長者中的長者，人生的經驗<br>
-    是新家的主人，<br class="d-md-none">非常溺愛男主<br>（你猜她身高多少）<br><br>
-    喜歡自稱 Onee 醬。
-    </div>
-</div>
+
+<sp-character no=3 name="Konoha" width="522" height="1292">
+  合法有耳朵有尾巴蘿莉，<br class="d-md-none">長者中的長者，人生的經驗<br>
+  是新家的主人，<br class="d-md-none">非常溺愛男主<br>（你猜她身高多少）<br><br>
+  喜歡自稱 Onee 醬。
+</sp-character>
+
 <hr>
-<div class="row">
-    <div class="imgbox col-sm-5 col-lg-4">
-        <img width="578" height="1518" loading="lazy" src="../image/YoriteKonoha/chars/4.webp"/>
-    </div>
-    <div class="textbox col-6 col-lg-7">
-    <span style="font-size:170%">🍁️和羽</span>
-    <hr class="my-1">
-    Konoha 家的女僕，<br class="d-md-none">實際上是 JK，<br>
-    性格是無比謎之自信，<br class="d-md-none">講話非常長者，<br>（看似有很多人生經驗）<br><br>
-    實際上也是幹啥啥不行。
-    </div>
-</div>
+
+<sp-character no=4 name="和羽" width="578" height="1518">
+  Konoha 家的女僕，<br class="d-md-none">實際上是 JK，<br>
+  性格是無比謎之自信，<br class="d-md-none">講話非常長者，<br>（看似有很多人生經驗）<br><br>
+  實際上也是幹啥啥不行。
+</sp-character>
+
 </div>
 
 <p><img src="../image/YoriteKonoha/sd.webp" loading="lazy"/></p>
@@ -154,32 +148,26 @@ excerpt: '在紅葉紛飛之地 和有尾巴，有耳朵的少女們 展開的 �
 
 ## CG
 
-<p><img src="../image/YoriteKonoha/cg/2.webp" width="1920" height="1080" loading="lazy" class="img-lazy"/></p>
-
-<p><img src="../image/YoriteKonoha/cg/3.webp" width="1920" height="1080" loading="lazy" class="img-lazy"/></p>
-
-<p><img src="../image/YoriteKonoha/cg/4.webp" width="1920" height="1080" loading="lazy" class="img-lazy"/></p>
-
-<p><img src="../image/YoriteKonoha/cg/5.webp" width="1920" height="1080" loading="lazy" class="img-lazy"/></p>
-
-<p><img src="../image/YoriteKonoha/cg/6.webp" width="1920" height="1080" loading="lazy" class="img-lazy"/></p>
-
-<p><img src="../image/YoriteKonoha/cg/7.webp" width="1920" height="1080" loading="lazy" class="img-lazy"/></p>
-
-<p><img src="../image/YoriteKonoha/cg/8.webp" width="1920" height="1080" loading="lazy" class="img-lazy"/></p>
-
-<p><img src="../image/YoriteKonoha/cg/9.webp" width="1920" height="1080" loading="lazy" class="img-lazy"/></p>
-
-<p><img src="../image/YoriteKonoha/cg/10.webp" width="1920" height="1080" loading="lazy" class="img-lazy"/></p>
+{% gallery cgs %}
+../image/YoriteKonoha/cg/2.webp
+../image/YoriteKonoha/cg/3.webp
+../image/YoriteKonoha/cg/4.webp
+../image/YoriteKonoha/cg/5.webp
+../image/YoriteKonoha/cg/6.webp
+../image/YoriteKonoha/cg/7.webp
+../image/YoriteKonoha/cg/8.webp
+../image/YoriteKonoha/cg/9.webp
+../image/YoriteKonoha/cg/10.webp
+{% endgallery %}
 
 <p><img alt="Special" src="../image/YoriteKonoha/sp1.webp" width="1280" height="1000" loading="lazy" class="img-lazy"/></p>
 
 ## 屏幕截圖
 
 {% gallery screen %}
-"../image/YoriteKonoha/scn/1.webp
-"../image/YoriteKonoha/scn/2.webp
-"../image/YoriteKonoha/scn/3.webp
+../image/YoriteKonoha/scn/1.webp
+../image/YoriteKonoha/scn/2.webp
+../image/YoriteKonoha/scn/3.webp
 {% endgallery %}
 
 ## 一句話點評
