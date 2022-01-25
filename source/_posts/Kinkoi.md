@@ -229,14 +229,14 @@ Caminal le<br>Pultaia<br>Sortilège<br>Sisua
 ../image/Kinkoi/cg/5.webp
 ../image/Kinkoi/cg/6.webp
 {% endgallery %}
-
+<br>
 {% gallery hcg %}
 ../image/Kinkoi/hcg/1.webp
 ../image/Kinkoi/hcg/2.webp
 ../image/Kinkoi/hcg/3.webp
 ../image/Kinkoi/hcg/4.webp
 {% endgallery %}
-
+<br>
 {% gallery qcg %}
 ../image/Kinkoi/qcg/1.webp
 ../image/Kinkoi/qcg/2.webp
