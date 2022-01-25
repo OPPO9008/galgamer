@@ -51,10 +51,12 @@ https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_0c2417cd24464bcf4cc467
 https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_6dfdacbbc79a4288141168a9e51615cacb63e690.jpg
 https://media.st.dl.pinyuncloud.com/steam/apps/1662840/ss_056bc140c91d13ea536637be77567d76779f21b9.jpg
 {% endgallery %}
+<br>
 {% gallery suzu %}
 https://npm.elemecdn.com/galgame-oss@1.0.8/Parquet/梨乃9.jpg
 https://npm.elemecdn.com/galgame-oss@1.0.8/Parquet/梨乃9-1.jpg
 {% endgallery %}
+<br>
 {% gallery aa %}
 https://npm.elemecdn.com/galgame-oss@1.0.8/Parquet/翼4.jpg
 https://npm.elemecdn.com/galgame-oss@1.0.8/Parquet/翼4-1.jpg
