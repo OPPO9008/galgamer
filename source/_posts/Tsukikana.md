@@ -102,154 +102,100 @@ excerpt: '25 歲的黑野奏汰，發 LINE 警告高二時那不知道喜歡的�
 }
 .text-outline-black {
     text-shadow:
-    -2px -2px 0 #151550,
-    2px -2px 0 #151550,
-    -2px 2px 0 #151550,
-    2px 2px 0 #151550;
+      -1px -1px 0 #151550,
+      1px -1px 0 #151550,
+      -1px 1px 0 #151550,
+      1px 1px 0 #151550;
+      -2px -2px 0 #151550,
+      2px -2px 0 #151550,
+      -2px 2px 0 #151550,
+      2px 2px 0 #151550;
 }
 .verticaltext{
-   width:1px;
+   width: 1px;
    word-wrap: break-word;
-   white-space:pre-wrap; 
+   white-space: pre-wrap; 
+}
+.sp-name {
+  font-size: 200% !important;
+  right: 0;
+}
+.sp-desc {
+  background-color: var(--card-color);
+}
+.sp-card {
+  bottom: 0;
+  right: 0;
 }
 </style>
-<div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/1.webp" width="1030" height="1100" loading="lazy" class="img-lazy card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0;right:0">
-<h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
-新谷 燈華
-</h5>
-<p class="text-right mr-2 text-light rounded px-2 py-2" style="background-color: rgba(20, 20, 40, 0.80)">
-<mark>夜晚在街上四處徘徊的少女。</mark><br>
-是奏汰的同班同學，但是不好好上課。<br>
-雖然是個活潑的人，卻好像有什麼祕密。<br>
-喜歡捉弄男主。
-</p>
-</div>
-</div>
-</div>
 
-<div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/2.webp" width="1030" height="1100" loading="lazy" class="img-lazy card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0;right:0">
-<h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
-うぐいす學姐
-</h5>
-<p class="text-right mr-2 text-dark rounded px-2 py-2" style="background-color: rgba(255, 255, 255, 0.8)">
-<mark class="bg-dark text-light">熱愛讀書的文藝部前輩。</mark><br>
-凜然動人，沉靜優雅，很有人氣。<br>
-讀了很多書，很博學。<br>
-卻只想過着普通的日常。
-</p>
+{% template sp-character no name dark html %}
+<div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2" style=%{ $cardColor: dark ? "#141428CC" : "#FFFFFFCC" }%>
+  <img src={`../image/Tsukikana/chars/${no}.webp`} width="1030" height="1100" loading="lazy" class="img-lazy card-img bg-transparent" />
+  <div class="card-img-overlay">
+    <div class="position-absolute sp-card">
+      <h3 class="sp-name text-right mr-4 text-light text-outline-black font-italic font-weight-light" id={name}>{name}</h3>
+      <p class={`sp-desc text-right mr-2 ${dark ? "text-light" : "text-dark"} rounded px-2 py-2`} html={html} />
+    </div>
+  </div>
 </div>
-</div>
-</div>
+{% endtemplate %}
 
-</style>
-<div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/3.webp" width="1030" height="1100 " loading="lazy" class="img-lazy card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0;right:0">
-<h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
-佐倉 雨音
-</h5>
-<p class="text-right mr-2 text-light rounded px-2 py-2" style="background-color: rgba(20, 20, 40, 0.80)">
-<mark>金髮超級嗨客美少女</mark><br>
-是奏汰的同級生，電腦高級高手，<br>
-頭腦很聰明，但是有點中二<br>
-有點傲嬌，實際上是個寂寞的人。
-</p>
-</div>
-</div>
-</div>
+<sp-character no=1 name="新谷 燈華" dark="1">
+  <mark>夜晚在街上四處徘徊的少女。</mark><br>
+  是奏汰的同班同學，但是不好好上課。<br>
+  雖然是個活潑的人，卻好像有什麼祕密。<br>
+  喜歡捉弄男主。
+</sp-character>
 
-<div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/4.webp" width="1030" height="1100 " loading="lazy" class="img-lazy card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0;right:0">
-<h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
-倉橋 聖衣良
-</h5>
-<p class="text-right mr-2 text-dark rounded px-2 py-2" style="background-color: rgba(255, 255, 255, 0.8)">
-<mark class="bg-dark text-light">小惡魔 (戀愛方面上) 少女</mark><br>
-男主的遠房親戚，思維有點成熟，<br>
-講話很裝大人，很想成爲大人，<br>
-天天打着約會的旗號拉着男主亂逛
-</p>
-</div>
-</div>
-</div>
+<sp-character no=2 name="うぐいす學姐">
+  凜然動人，沉靜優雅，很有人氣。<br>
+  讀了很多書，很博學。<br>
+  卻只想過着普通的日常。
+</sp-character>
 
-<div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/5.webp" width="1030" height="1100" loading="lazy" class="img-lazy card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0;right:0">
-<h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
-Misaki Kanna
-</h5>
-<p class="text-right mr-2 text-dark rounded px-2 py-2" style="background-color: rgba(255, 255, 255, 0.8)">
-<mark class="bg-dark text-light">毫無戀愛經驗的少女漫畫家</mark><br>
-從北海道遠道而來，作畫相當專業<br>
-一直就讀女校，所以一和男人<br>
-講話就緊張。<br>
-急需戀愛經驗補充漫畫靈感。
-</p>
-</div>
-</div>
-</div>
+<sp-character no=3 name="佐倉 雨音" dark="1">
+  <mark>金髮超級嗨客美少女</mark><br>
+  是奏汰的同級生，電腦高級高手，<br>
+  頭腦很聰明，但是有點中二<br>
+  有點傲嬌，實際上是個寂寞的人。
+</sp-character>
 
-<div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/6.webp" width="1030" height="1100 " loading="lazy" class="img-lazy card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0;right:0">
-<h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
-松宮 霧子
-</h5>
-<p class="text-right mr-2 text-dark rounded px-2 py-2" style="background-color: rgba(255, 255, 255, 0.8)">
-<mark class="bg-dark text-light">毫不手軟的編輯主任</mark><br>
-無論是指工作，還是戀愛。<br>
-和男主在同一個出版公司，<br>
-天天工作工作，工作狂魔，<br>
-回過神來已經被催婚
-</p>
-</div>
-</div>
-</div>
+<sp-character no=4 name="倉橋 聖衣良">
+  <mark class="bg-dark text-light">小惡魔 (戀愛方面上) 少女</mark><br>
+  男主的遠房親戚，思維有點成熟，<br>
+  講話很裝大人，很想成爲大人，<br>
+  天天打着約會的旗號拉着男主亂逛
+</sp-character>
 
-<div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/7.webp" width="1030" height="1100 " loading="lazy" class="img-lazy card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0;right:0">
-<h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
-月ヶ洞 きらり
-</h5>
-<p class="text-right mr-2 text-dark rounded px-2 py-2" style="background-color: rgba(255, 255, 255, 0.8)">
-<mark class="bg-dark text-light">作風自由的專業作家</mark><br>
-大學就寫小說出道的超級美女，<br>
-爲人隨性，自由奔放，<br>
-玩弄男人不計其數，<br>
-但是同一個男人不玩第二次
-</p>
-</div>
-</div>
-</div>
+<sp-character no=5 name="Misaki Kanna">
+  <mark class="bg-dark text-light">毫無戀愛經驗的少女漫畫家</mark><br>
+  從北海道遠道而來，作畫相當專業<br>
+  一直就讀女校，所以一和男人<br>
+  講話就緊張。<br>
+  急需戀愛經驗補充漫畫靈感。
+</sp-character>
 
-<div class="card bg-transparent text-dark border-light col-lg-8 my-2 px-2 py-2">
-<img src="../image/Tsukikana/chars/8.webp" width="1030" height="1100 " loading="lazy" class="img-lazy card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0;right:0">
-<h5 class="text-right mr-4 text-light text-outline-black font-italic font-weight-light" style="font-size:200%;right:0">
-黑野 奏汰
-</h5>
-<p class="text-right mr-2 text-dark rounded px-2 py-2" style="background-color: rgba(255, 255, 255, 0.8)">
-<mark class="bg-dark text-light">男主角</mark><br>
-男主有什麼好介紹的，，，
-</p>
-</div>
-</div>
-</div>
+<sp-character no=6 name="松宮 霧子">
+  <mark class="bg-dark text-light">毫不手軟的編輯主任</mark><br>
+  無論是指工作，還是戀愛。<br>
+  和男主在同一個出版公司，<br>
+  天天工作工作，工作狂魔，<br>
+  回過神來已經被催婚
+</sp-character>
+
+<sp-character no=7 name="月ヶ洞 きらり">
+  <mark class="bg-dark text-light">作風自由的專業作家</mark><br>
+  大學就寫小說出道的超級美女，<br>
+  爲人隨性，自由奔放，<br>
+  玩弄男人不計其數，<br>
+  但是同一個男人不玩第二次
+</sp-character>
+
+<sp-character no=8 name="黑野 奏汰">
+  <mark class="bg-dark text-light">男主角</mark><br>
+  男主有什麼好介紹的，，，
+</sp-character>
 
 ## 遊戲 OP 動畫欣賞
 
