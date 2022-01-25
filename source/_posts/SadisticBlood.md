@@ -59,71 +59,63 @@ excerpt: '吸血鬼情侶園原由奈和七瀨靜羽逃入人工島，在吸血�
 
 ## 登場人物
 
-<div class="row">
-<div class="col-md-8 col-lg-5">
-<img class="bg-transparent img-fluid" src="../image/SadisticBlood/chars/1.webp"></img>
-</div>
-<div class="col-lg-7 col-md-11">
-<div class="row row-cols-1">
-<img class="col bg-dark border border-danger my-2" src="../image/SadisticBlood/chars/1name.webp" style="max-width:250px"></img>
-<p class="col mx-2 my-2">
-<mark>在日本各地旅行的吸血鬼.</mark><br>
-穿著紅黑洋裝的嬌小美人，性格高傲强勢，是一個捨棄人性的完完全全的吸血鬼。<br>
-必要時可以毫不猶豫的把人類轉換為吸血鬼做為棋子使用。<br><br>
-由於教會的追捕，她避免做出任何可能會被教會發覺的舉動，<br>
-將吸血頻率也壓到滿足基本需求的程度。然而在被教會獵人發現時，<br>
-她也會大範圍的吸血來增强自己的力量。<br>
-吸血鬼依靠指甲生長而成的長爪自衛，這點對由奈也是一樣。她的爪子就如同匕首一樣鋒利。<br><br>
-<mark>自從和七瀨靜羽相遇后，她們已經形影不離的相伴彼此一年了。對於兩人而言，對方都是不可或缺的存在.</mark>
-</p>
-</div>
-</div>
-</div>
-<br><br>
-<div class="row">
-<div class="col-md-7 col-lg-4">
-<img class="bg-transparent img-fluid" src="../image/SadisticBlood/chars/2.webp"></img>
-</div>
-<div class="col-lg-7 col-md-11">
-<div class="row row-cols-1">
-<img class="col bg-dark border border-danger my-2" src="../image/SadisticBlood/chars/2name.webp" style="max-width:250px"></img>
-<p class="col mx-2 my-2">
-<mark>和由奈一起周流日本各地的吸血鬼。</mark><br>
-身材豐滿的美人，性格软弱，不願意吸人血。<br>
-比起吸血鬼，靜羽表現的更像一個人類。<br><br>
-她非常讨厌战斗，每次被吸血鬼猎人发现時都会選擇逃跑，<br>
-即使被逼到绝路，也會讓由奈去面對战斗。<br>
-<mark>在故事發生的月圆之夜，靜羽的吸血冲动不停的湧上來，<br>她不斷的向由奈索求，籍由兩人的性和由奈的血來壓抑吸人血的冲动。</mark>
-</p>
-</div>
-</div>
-</div>
-<br><br>
-<div class="row">
-<div class="col-md-8 col-lg-5">
-<img class="bg-transparent img-fluid" src="../image/SadisticBlood/chars/3.webp"></img>
-</div>
-<div class="col-lg-7 col-md-11">
-<div class="row row-cols-1">
-<img class="col bg-dark border border-danger my-2" src="../image/SadisticBlood/chars/3name.webp" style="max-width:250px"></img>
-<p class="col mx-2 my-2">
-<mark>教會所屬的吸血鬼猎人之一。</mark><br>
-过去她的家人被吸血鬼杀害，因此她為仇恨所驅動，<br>
-加入教會刻苦磨練，成爲一名優秀的吸血鬼獵人。<br><br>
-教會配給她的裝備也十分優良。迄今为止，<br>
-依靠著自己的技藝和教會的資源，她已经獵杀了許許多多的吸血鬼。<br><br>
-在教會的命令下，她帶著三个教會改造的生物兵器周游全国，<br>
-獵殺或捕獲潛伏在日本的吸血鬼。<br><br>
-在故事發生的月圓之夜，她追尋著主角來到千咲楽，<br>
-出於對自己絕對的信心，她對獵殺吸血鬼二人并無憂懼。<br>
-<mark>但難以控制的生化兵器三人組卻讓她感到自己身處極大的危險之中。</mark>
-</p>
-</div>
-</div>
-</div>
-<br><br>
+<style>
+  .sp-character {
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  .sp-character p {
+    text-shadow: 1px 1px var(--shadow)
+  }
+</style>
 
-<div id="carouselExampleIndicators" class="carousel slide text-light" data-ride="false" data-interval="false" style="min-height:500px">
+{% template sp-character no md lg shadow html %}
+<div class="row bg-dark sp-character" style=%{ $shadow: shadow }%>
+  <div class={`col-md-${md} col-lg-${lg}`}>
+    <img class="bg-transparent img-fluid" src={`../image/SadisticBlood/chars/${no}.webp`} />
+  </div>
+  <div class="col-lg-7 col-md-11">
+    <div class="row row-cols-1">
+      <img class="col bg-transparent border-danger my-2" src={`../image/SadisticBlood/chars/${no}name.webp`} style="max-width:250px" />
+      <p class="col mx-2 my-2" html={html} />
+    </div>
+  </div>
+</div>
+{% endtemplate %}
+<sp-character no=1 md=8 lg=5 shadow="#951987">
+  <mark>在日本各地旅行的吸血鬼.</mark><br>
+  穿著紅黑洋裝的嬌小美人，性格高傲强勢，是一個捨棄人性的完完全全的吸血鬼。<br>
+  必要時可以毫不猶豫的把人類轉換為吸血鬼做為棋子使用。<br><br>
+  由於教會的追捕，她避免做出任何可能會被教會發覺的舉動，<br>
+  將吸血頻率也壓到滿足基本需求的程度。然而在被教會獵人發現時，<br>
+  她也會大範圍的吸血來增强自己的力量。<br>
+  吸血鬼依靠指甲生長而成的長爪自衛，這點對由奈也是一樣。她的爪子就如同匕首一樣鋒利。<br><br>
+  <mark>自從和七瀨靜羽相遇后，她們已經形影不離的相伴彼此一年了。對於兩人而言，對方都是不可或缺的存在.</mark>
+</sp-character>
+<sp-character no=2 md=7 lg=4 shadow="#151f8a">
+  <mark>和由奈一起周流日本各地的吸血鬼。</mark><br>
+  身材豐滿的美人，性格软弱，不願意吸人血。<br>
+  比起吸血鬼，靜羽表現的更像一個人類。<br><br>
+  她非常讨厌战斗，每次被吸血鬼猎人发现時都会選擇逃跑，<br>
+  即使被逼到绝路，也會讓由奈去面對战斗。<br>
+  <mark>在故事發生的月圆之夜，靜羽的吸血冲动不停的湧上來，<br>她不斷的向由奈索求，籍由兩人的性和由奈的血來壓抑吸人血的冲动。</mark>
+</sp-character>
+<sp-character no=3 md=8 lg=5 shadow="#58941a">
+  <mark>教會所屬的吸血鬼猎人之一。</mark><br>
+  过去她的家人被吸血鬼杀害，因此她為仇恨所驅動，<br>
+  加入教會刻苦磨練，成爲一名優秀的吸血鬼獵人。<br><br>
+  教會配給她的裝備也十分優良。迄今为止，<br>
+  依靠著自己的技藝和教會的資源，她已经獵杀了許許多多的吸血鬼。<br><br>
+  在教會的命令下，她帶著三个教會改造的生物兵器周游全国，<br>
+  獵殺或捕獲潛伏在日本的吸血鬼。<br><br>
+  在故事發生的月圓之夜，她追尋著主角來到千咲楽，<br>
+  出於對自己絕對的信心，她對獵殺吸血鬼二人并無憂懼。<br>
+  <mark>但難以控制的生化兵器三人組卻讓她感到自己身處極大的危險之中。</mark>
+</sp-character>
+
+<div id="carouselExampleIndicators" class="carousel slide text-light bg-dark" data-ride="false" data-interval="false" style="min-height:500px">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>

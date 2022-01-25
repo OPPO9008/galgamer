@@ -88,8 +88,9 @@ hexo.extend.tag.register(
  * 一行一个图片地址
  * {% endgallery %}
  */
-hexo.extend.tag.register("gallery", ([id = "carousel"], content) => {
+hexo.extend.tag.register("gallery", ([id = "cgs"], content) => {
   const arr = content.split("\n").map((x) => x);
+  id = `carousel-${id}`;
   let indicators = "";
   let inner = "";
   let active = " active";
