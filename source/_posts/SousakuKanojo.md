@@ -488,11 +488,11 @@ ul.closetimg > li.active { /* 抄襲 */
 我和青梅竹馬關係非常疏遠，所以希望有相關經驗的朋友講給我聽，好奇
 
 <p>
-  <img alt="CG0" src="../image/SousakuKanojo/cg/0.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/0.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <p>
-  <img alt="CG1" src="../image/SousakuKanojo/cg/1.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/1.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 
@@ -585,11 +585,11 @@ ul.closetimg > li.active { /* 抄襲 */
 </div><!-- end chara card -->
 
 <p>
-  <img alt="CG2" src="../image/SousakuKanojo/cg/2.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/2.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <p>
-  <img alt="CG3" src="../image/SousakuKanojo/cg/3.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/3.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <div class="chara-card yume">
@@ -677,11 +677,11 @@ ul.closetimg > li.active { /* 抄襲 */
 </div><!-- end chara card -->
 
 <p>
-  <img alt="CG4" src="../image/SousakuKanojo/cg/4.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/4.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <p>
-  <img alt="CG5" src="../image/SousakuKanojo/cg/5.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/5.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <div class="chara-card erena">
@@ -768,15 +768,15 @@ ul.closetimg > li.active { /* 抄襲 */
 </div><!-- end chara card -->
 
 <p>
-  <img alt="CG6" src="../image/SousakuKanojo/cg/6.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/6.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <p>
-  <img alt="CG7" src="../image/SousakuKanojo/cg/7.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/7.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <p>
-  <img alt="CG8" src="../image/SousakuKanojo/cg/8.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/8.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 ### 你
@@ -820,19 +820,19 @@ ul.closetimg > li.active { /* 抄襲 */
   <summary>點此展開（R-18 內容）</summary>
 
   <p>
-    <img alt="HCG0" src="../image/SousakuKanojo/hcg/0.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+    <img src="../image/SousakuKanojo/hcg/0.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
   </p>
 
   <p>
-    <img alt="HCG1" src="../image/SousakuKanojo/hcg/1.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+    <img src="../image/SousakuKanojo/hcg/1.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
   </p>
 
   <p>
-    <img alt="HCG2" src="../image/SousakuKanojo/hcg/2.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+    <img src="../image/SousakuKanojo/hcg/2.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
   </p>
 
   <p>
-    <img alt="HCG3" src="../image/SousakuKanojo/hcg/3.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+    <img src="../image/SousakuKanojo/hcg/3.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
   </p>
 
 </details>
@@ -848,7 +848,7 @@ ul.closetimg > li.active { /* 抄襲 */
 <hr>
 <div class="row align-items-center">
   <p class="col" style="font-size:200%;">這遊戲好！好就好在：</p>
-  <img class="align-right ml-auto bg-transparent" width="150px" src="../image/Kinkoi/yes.webp" alt=""></img>
+  <img class="align-right ml-auto bg-transparent" width="150px" src="../image/Kinkoi/yes.webp" ></img>
 </div>
 
 ## 推薦理由

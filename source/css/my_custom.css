@@ -13,7 +13,7 @@ img.img-lazy {
     background-position: center
 }
 /* 特指需要 Serif 字體的地方 */
-.font-serif {
+.font-serif, .font-serif * {
   font-family: 'Noto Serif', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif JP', sans-serif;
 } 
 
