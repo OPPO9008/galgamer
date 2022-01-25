@@ -282,39 +282,15 @@ Misaki Kanna
 
 ## 屏幕截圖
 
-<div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100 img-lazy" loading="auto" width="1920" height="1080 " src="../image/Tsukikana/scn/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080 " src="../image/Tsukikana/scn/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080 " src="../image/Tsukikana/scn/3.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080 " src="../image/Tsukikana/scn/4.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080 " src="../image/Tsukikana/scn/5.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080 " src="../image/Tsukikana/scn/6.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080 " src="../image/Tsukikana/scn/7.webp" >
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery screen %}
+../image/Tsukikana/scn/1.webp
+../image/Tsukikana/scn/2.webp
+../image/Tsukikana/scn/3.webp
+../image/Tsukikana/scn/4.webp
+../image/Tsukikana/scn/5.webp
+../image/Tsukikana/scn/6.webp
+../image/Tsukikana/scn/7.webp
+{% endgallery %}
 
 ## 一句話點評
 
@@ -376,7 +352,7 @@ magnet:?xt=urn:btih:5AD08C2DD6DAC8925940CEAD8A550448DC7CC324&tr=http://sukebei.t
 
 **如果想玩漢化版，直接將下面的漢化補丁複製到遊戲目錄運行即可。**
 
-[🔗️群友發的漢化補丁](tg://resolve?domain=KiritouKureha&post=88)
+{% telegram_channel 88 %}
 
 刪除遊戲文件夾內的 reg.ini。
 

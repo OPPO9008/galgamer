@@ -305,7 +305,7 @@ magnet:?xt=urn:btih:c70d2386bef29b55966f459b214c3d8b0537de4d
 
 遊戲有升級補丁，記得下載最新的來安裝。[點此前往官網](http://www.yuzu-soft.com/products/stella/download.html) 下載可能要翻牆。
 
-如果想玩中文 請配合這個漢化補丁使用 [🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=77)
+如果想玩中文 請配合這個漢化補丁使用 {% telegram_channel 77 %}
 
 
 ### 中文版

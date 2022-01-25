@@ -22,12 +22,12 @@ hexo.extend.tag.register(
 
 /** telegram_channel
  * 电报消息引用
- * 用法：{% telegram_channel <地址里的数字id> %}
+ * 用法：{% telegram_channel <地址里的数字id> <domain 可选> %}
  */
 hexo.extend.tag.register(
   "telegram_channel",
-  ([id]) =>
-    `<a href="tg://resolve?domain=KiritouKureha&post=${id}">🔗️前往 Telegram 頻道</a>`,
+  ([id, domain = "KiritouKureha"]) =>
+    `<a href="tg://resolve?domain=${domain}&post=${id}">🔗️前往 Telegram 頻道</a>`,
 );
 
 /** twitter

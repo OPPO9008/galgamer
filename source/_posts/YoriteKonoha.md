@@ -176,27 +176,11 @@ excerpt: '在紅葉紛飛之地 和有尾巴，有耳朵的少女們 展開的 �
 
 ## 屏幕截圖
 
-<div id="carouselExampleIndicators-screen" class="carousel slide bg-transparent" data-ride="carousel">
-  <div class="carousel-inner bg-transparent">
-    <div class="carousel-item active">
-      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080" src="../image/YoriteKonoha/scn/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080" src="../image/YoriteKonoha/scn/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100 img-lazy" loading="lazy" width="1920" height="1080" src="../image/YoriteKonoha/scn/3.webp" >
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery screen %}
+"../image/YoriteKonoha/scn/1.webp
+"../image/YoriteKonoha/scn/2.webp
+"../image/YoriteKonoha/scn/3.webp
+{% endgallery %}
 
 ## 一句話點評
 
@@ -241,7 +225,7 @@ magnet:?xt=urn:btih:af11de1152608edc668ee6e286094371837727f5
 
 文件名：	縁りて此の葉は紅に 初回限定版 + 同梱特典 + 修正パッチ
 
-升級和漢化補丁：[🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=89)
+升級和漢化補丁：{% telegram_channel 89 %}
 
 （先裝升級補丁再裝漢化補丁）
 

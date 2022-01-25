@@ -269,86 +269,25 @@ excerpt: '少女逐夢演藝圈，一步步踏入潛規則的深淵，無法回�
 
 ## 遊戲截圖
 
-<div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="5"></li>
-
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/teakamamire/scn/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/teakamamire/scn/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/teakamamire/scn/3.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/teakamamire/scn/4.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/teakamamire/scn/5.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/teakamamire/scn/6.webp" >
-    </div>
-  </div>
-
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery screen %}
+../image/teakamamire/scn/1.webp
+../image/teakamamire/scn/2.webp
+../image/teakamamire/scn/3.webp
+../image/teakamamire/scn/4.webp
+../image/teakamamire/scn/5.webp
+../image/teakamamire/scn/6.webp
+{% endgallery %}
 
 ## CG
 
 
-<div id="carouselExampleIndicators-cg" class="carousel slide" data-ride="false" data-interval="false">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/teakamamire/cg/cg1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/teakamamire/cg/cg2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/teakamamire/cg/cg3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/teakamamire/cg/cg4.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/teakamamire/cg/cg5.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-cg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-cg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery cg %}
+../image/teakamamire/cg/cg1.webp
+../image/teakamamire/cg/cg2.webp
+../image/teakamamire/cg/cg3.webp
+../image/teakamamire/cg/cg4.webp
+../image/teakamamire/cg/cg5.webp
+{% endgallery %}
 
 
 ![](../image/teakamamire/spec1.webp)
@@ -422,7 +361,7 @@ http://akabeesoft3.com/products/teakamamire/
 
 ## 資源與下載
 
-下載地址：[🔗️前往 Telegram 頻道](tg://resolve?domain=phobolo&post=10)
+下載地址：{% telegram_channel 10 phobolo %}
 
 先安裝本體，再覆蓋安裝補丁。
 

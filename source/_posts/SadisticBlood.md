@@ -193,86 +193,26 @@ Alice 是絕對的力量派，只願意服從比自己强的人。<br>
 
 ## 遊戲截圖
 
-<div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="5"></li>
-
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/SadisticBlood/scn/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/SadisticBlood/scn/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/SadisticBlood/scn/3.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/SadisticBlood/scn/4.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/SadisticBlood/scn/5.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/SadisticBlood/scn/6.webp" >
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery screen %}
+../image/SadisticBlood/scn/1.webp
+../image/SadisticBlood/scn/2.webp
+../image/SadisticBlood/scn/3.webp
+../image/SadisticBlood/scn/4.webp
+../image/SadisticBlood/scn/5.webp
+../image/SadisticBlood/scn/6.webp
+{% endgallery %}
 
 ## CG
 
 R-18G 慎滑
 
-<div id="carouselExampleIndicators-cg" class="carousel slide" data-ride="false" data-interval="false">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/SadisticBlood/cg/cg1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/SadisticBlood/cg/cg2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/SadisticBlood/cg/cg3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/SadisticBlood/cg/cg4.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/SadisticBlood/cg/cg5.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-cg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-cg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery cg %}
+../image/SadisticBlood/cg/cg1.webp
+../image/SadisticBlood/cg/cg2.webp
+../image/SadisticBlood/cg/cg3.webp
+../image/SadisticBlood/cg/cg4.webp
+../image/SadisticBlood/cg/cg5.webp
+{% endgallery %}
 
 ![特典](../image/SadisticBlood/spec1.webp)
 
@@ -339,7 +279,7 @@ R-18G 慎滑
 
 ## 資源與下載
 
-[🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=95)
+{% telegram_channel 95 %}
 
 <script>
 insertToast('success', '✒️️本文来自群友投稿', 3000);

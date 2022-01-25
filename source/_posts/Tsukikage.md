@@ -228,7 +228,7 @@ excerpt: '被表妹如月零邀請，回到故鄉如月老宅參加「儀式」�
 
 ## 資源與下載
 
-<iframe src="https://store.steampowered.com/widget/1069230/" frameborder="0" width="100%" height="200" ></iframe>
+{% steam_widget 1069230 %}
 
 Steam 商店爲官方多語言版。
 
