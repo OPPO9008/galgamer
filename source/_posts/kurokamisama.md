@@ -100,164 +100,92 @@ excerpt: '不賣座漫畫家被强迫獵殺怪異為黑髮美人回復力量'
     align: center;
 }
 </style>
+{% template sp-character no html %}
+<div class="row align-items-center">
+    <div class="imgbox col-sm-5 col-lg-4">
+        <img width="320" height="1000" loading="lazy" src={`../image/kurokamisama/chars/${no}.webp`}/>
+    </div>
+    <div class="textbox col-7 col-lg-8" html={html}>
+    </div>
+</div>
+{% endtemplate %}
+
 <div id="chars" class="rounded">
-    <div class="row align-items-center">
-        <div class="imgbox col-sm-5 col-lg-4">
-            <img width="869" height="2412" loading="lazy" src="../image/kurokamisama/chars/1.webp"/>
-        </div>
-        <div class="textbox col-7 col-lg-8">
-            <span style="font-size:170%">
-                <span style="color: #d2037a">鐮</span>倉 胴丸
-            </span>
-            <br>無配音
-            <hr class="my-1">
-            <mark>不賣座漫畫家</mark><br>
-            從高中以後就在從事漫畫行業<br>
-            卻屢屢受挫，作品次次都被腰斬<br>
-            平常的生活很受青梅竹馬那須加的照顧<br>
-            甚至想著連錢包也交給那須加好了<br>
-        </div>
-    </div>
+<sp-character no=1>
+  <span style="font-size:170%">
+      <span style="color: #d2037a">鐮</span>倉 胴丸
+  </span>
+  <br>無配音
+  <hr class="my-1">
+  <mark>不賣座漫畫家</mark><br>
+  從高中以後就在從事漫畫行業<br>
+  卻屢屢受挫，作品次次都被腰斬<br>
+  平常的生活很受青梅竹馬那須加的照顧<br>
+  甚至想著連錢包也交給那須加好了<br>
+</sp-character>
 <hr>
-    <div class="row align-items-center">
-        <div class="imgbox col-sm-5 col-lg-4">
-            <img width="969" height="2401" loading="lazy"  src="../image/kurokamisama/chars/2.webp"/>
-        </div>
-        <div class="textbox col-7 col-lg-8">
-            <span style="font-size:170%">
-                <span style="color: #d2037a">比</span>企 那須加
-            </span>
-            <br>cv: 諏訪彩花
-            <hr class="my-1">
-            <mark>胴丸的青梅竹馬</mark><br>
-            20嵗的女大學生<br>
-            愛慕著男主角胴丸，經常在生活上照顧男主<br>
-            在被黑髮大人點出自己具有妖怪血統后，堅信一定是雪女一類<br>
-            但從那須加精通格鬥技來看，顯然沒那麽羅曼蒂克<br>
-        </div>
-    </div>
+<sp-character no=2>
+  <span style="font-size:170%">
+      <span style="color: #d2037a">比</span>企 那須加
+  </span>
+  <br>cv: 諏訪彩花
+  <hr class="my-1">
+  <mark>胴丸的青梅竹馬</mark><br>
+  20嵗的女大學生<br>
+  愛慕著男主角胴丸，經常在生活上照顧男主<br>
+  在被黑髮大人點出自己具有妖怪血統后，堅信一定是雪女一類<br>
+  但從那須加精通格鬥技來看，顯然沒那麽羅曼蒂克<br>
+</sp-character>
 <hr>
-     <div class="row align-items-center">
-        <div class="imgbox col-sm-5 col-lg-4">
-            <img width="969" height="2401" loading="lazy"  src="../image/kurokamisama/chars/3.webp"/>
-        </div>
-        <div class="textbox col-7 col-lg-8">
-            <span style="font-size:170%">
-                <span style="color: #d2037a">朝</span>衣奈 鎮
-            </span>
-            <br>cv: 石谷春貴
-            <hr class="my-1">
-            <mark>怪異研究會的會長</mark><br>
-            自小就對怪異深深着迷的男人<br>
-            有著敏銳的頭腦和淵博的怪異知識<br>
-            同時也收集了大量的驅魔道具<br>
-        </div>
-    </div>
-<hr> 
- <div class="row align-items-center">
-        <div class="imgbox col-sm-5 col-lg-4">
-            <img width="969" height="2401" loading="lazy"  src="../image/kurokamisama/chars/4.webp"/>
-        </div>
-        <div class="textbox col-7 col-lg-8">
-            <span style="font-size:170%">
-                <span style="color: #d2037a">黑</span>髮大人
-            </span>
-            <br>cv: 名塚佳織
-            <hr class="my-1">
-            <mark>過去爲人復仇的”怪異“</mark><br>
-            歷史可以追隨到平安年代的妖怪<br>
-            在昭和年間被封印<br>
-            現在她正在强迫主角一行爲她獵殺怪異恢復力量<br>
-            並聲稱在破禁而出后就要為自己復仇，殺光封印她的人的子孫<br>
-        </div>
-    </div>
-<hr> 
+<sp-character no=3>
+  <span style="font-size:170%">
+      <span style="color: #d2037a">朝</span>衣奈 鎮
+  </span>
+  <br>cv: 石谷春貴
+  <hr class="my-1">
+  <mark>怪異研究會的會長</mark><br>
+  自小就對怪異深深着迷的男人<br>
+  有著敏銳的頭腦和淵博的怪異知識<br>
+  同時也收集了大量的驅魔道具<br>
+</sp-character>
+<hr>
+<sp-character no=4>
+  <span style="font-size:170%">
+      <span style="color: #d2037a">黑</span>髮大人
+  </span>
+  <br>cv: 名塚佳織
+  <hr class="my-1">
+  <mark>過去爲人復仇的”怪異“</mark><br>
+  歷史可以追隨到平安年代的妖怪<br>
+  在昭和年間被封印<br>
+  現在她正在强迫主角一行爲她獵殺怪異恢復力量<br>
+  並聲稱在破禁而出后就要為自己復仇，殺光封印她的人的子孫<br>
+</sp-character>
 </div>
 
 
 ## 遊戲截圖
 
-<div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="5"></li>
-
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/kurokamisama/scn/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/kurokamisama/scn/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/kurokamisama/scn/3.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/kurokamisama/scn/4.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/kurokamisama/scn/5.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/kurokamisama/scn/6.webp" >
-    </div>
-  </div>
-
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery screen %}
+../image/kurokamisama/scn/1.webp
+../image/kurokamisama/scn/2.webp
+../image/kurokamisama/scn/3.webp
+../image/kurokamisama/scn/4.webp
+../image/kurokamisama/scn/5.webp
+../image/kurokamisama/scn/6.webp
+{% endgallery %}
 
 ## CG
 
+![](../image/kurokamisama/cg/cg1.webp)
 
-<div id="carouselExampleIndicators-cg" class="carousel slide" data-ride="false" data-interval="false">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/kurokamisama/cg/cg1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/kurokamisama/cg/cg2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/kurokamisama/cg/cg3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/kurokamisama/cg/cg4.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/kurokamisama/cg/cg5.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-cg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-cg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+![](../image/kurokamisama/cg/cg2.webp)
 
+![](../image/kurokamisama/cg/cg3.webp)
+
+![](../image/kurokamisama/cg/cg4.webp)
+
+![](../image/kurokamisama/cg/cg5.webp)
 
 ![](../image/kurokamisama/spec1.webp)
 
@@ -332,11 +260,14 @@ CG和立繪十分微妙，主角團青梅竹馬那須加看起來十分顯老。
 
 ## 資源與下載
 
-steam有售：https://steamcommunity.com/app/1814930
+steam有售:
 
-可以于ryuugames下載：https://www.ryuugames.com/eng-kurokami-sama-no-bansan/
+{% steam_widget 1814930 %}
 
-mega地址：https://mega.nz/file/FxdDDSwa#lj64s__yz52htAvMx__nfNrqihIlzEQEJsL8P3vC7Bc
+
+可以于ryuugames下載：🔗️https://www.ryuugames.com/eng-kurokami-sama-no-bansan/
+
+mega地址：🔗️https://mega.nz/file/FxdDDSwa#lj64s__yz52htAvMx__nfNrqihIlzEQEJsL8P3vC7Bc
 
 密碼為ryuugames.com
 
