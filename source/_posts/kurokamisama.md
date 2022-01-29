@@ -298,19 +298,3 @@ details[open] summary {
     margin-bottom: .5em;
 }
 </style>
-
-```
-<style>
-  body {
-    background: url(../image/kurokamisama/spec1.webp) no-repeat fixed center;
-    background-size: cover;
-  }
-
-  // 背景透明
-  #board {
-    background-color: rgba(20, 20, 40, 0.80)
-  }
-</style>
-<!-- 暗色模式 -->
-{% force_dark_mode %}
-```
