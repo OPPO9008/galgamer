@@ -8,9 +8,10 @@ lazyload: false
 tags:
   - 悬疑
   - 奇幻
+  - 青梅竹马
 categories:
   - [R-18]
-  - [青梅竹马]
+  - [Applique]
 abbrlink: 00030
 author: 如月零
 excerpt: '被表妹如月零邀請，回到故鄉如月老宅參加「儀式」的男主角，卯月誠一，在儀式上遭遇了一個看上去和如月零長得一模一樣的活人偶。'
@@ -219,8 +220,7 @@ excerpt: '被表妹如月零邀請，回到故鄉如月老宅參加「儀式」�
 這裏有一個 5 分鐘的試玩實況。
 
 <video width="100%" controls="controls"  preload="metadata"> 
-<source src="https://bitbucket.org/sa-ya/my-static/raw/d19e1338d24101adb5cd52d0cf9ffcd235b5f15f/Tsukikage/5min-know.mkv" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/pm4WKbFw/BMAfvf-dq4xX0rpZiiOJLJtlatl9B3NcoBo4gQJCARI*" type="video/webm"/>
-<source src="https://bitbucket.org/sa-ya/my-static/raw/4f9e5f20d0c96abd0f71976ab355b0a1c4726f7d/Tsukikage/5min-know.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/lmB48dcb/Px6uB8AlWA-4iv0ERUsC6Fph-aDOehv4Jbuq9PKx8nk*" type="video/mp4"/>
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Tsukikage/5min-know.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/lmB48dcb/Px6uB8AlWA-4iv0ERUsC6Fph-aDOehv4Jbuq9PKx8nk*" type="video/mp4"/>
 <p>無法使用  JavaScript。</p>  
 </video>
 
@@ -228,7 +228,7 @@ excerpt: '被表妹如月零邀請，回到故鄉如月老宅參加「儀式」�
 
 ## 資源與下載
 
-<iframe src="https://store.steampowered.com/widget/1069230/" frameborder="0" width="100%" height="200" ></iframe>
+{% steam_widget 1069230 %}
 
 Steam 商店爲官方多語言版。
 

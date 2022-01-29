@@ -9,7 +9,7 @@
 # Guide: https://hexo.fluid-dev.com/docs/en/guide/
 # You can get more detailed help from the guide
 #---------------------------
-
+ 
 
 #---------------------------
 # 全局
@@ -18,11 +18,11 @@
 
 # 用于浏览器标签的图标
 # Icon for browser tab
-favicon: /image/favicon.png
+favicon: /favicon.ico
 
 # 用于苹果设备的图标
 # Icon for Apple touch
-apple_touch_icon: /image/favicon.png
+apple_touch_icon: /favicon.ico
 
 # 浏览器标签页中的标题分隔符，效果： 文章名 - 站点名
 # Title separator in browser tab, eg: article - site
@@ -187,7 +187,7 @@ color:
 # Font
 font:
   font_size: 16px
-  font_family:
+  font_family: "'Noto sans', 'Noto sans SC', 'Noto sans TC', 'Noto sans JP', sans-serif "
   letter_spacing: 0.02em
   code_font_size: 85%
 
@@ -199,8 +199,8 @@ custom_js: ''
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css: 
- #  - /css/bs-icons.css
- #  - /css/bootstrap-toaster.css
+   - /css/fonts.css
+   - /css/my_custom.css
 
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
@@ -211,9 +211,12 @@ custom_head: '
     <link rel="preconnect" href="https://cdn.akamai.steamstatic.com">
     <link rel="preconnect" href="https://cdn.cloudflare.steamstatic.com">
     <link rel="preconnect" href="https://media.st.dl.pinyuncloud.com">
-    <link rel="preconnect" href="https://npm.elemecdn.com">
-    <script async src="/js/mylib_async.js?1204"></script>
-    <script async src="/js/popper.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&family=Noto+Sans+SC&family=Noto+Sans+TC&family=Noto+Serif&family=Noto+Serif+JP&family=Noto+Serif+SC&family=Noto+Serif+TC&display=swap" rel="stylesheet">
+    <script src="/js/pangu.min.js"></script>
+    <script src="/js/mylib_async.js?v=0123"></script>
+    <script src="/js/popper.min.js"></script>
     <script defer src="/js/ie_code_defer.js"></script>
     '
 
@@ -400,9 +403,11 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
+  <div id="mycdn"></div><br/>
     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
     <i class="iconfont icon-love"></i>
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a><br/>
+    <a href="https://icp.gov.moe/?keyword=20211970" target="_blank">萌ICP备20211970号</a>
   '
 
   # 展示网站的 PV、UV 统计数
@@ -418,7 +423,7 @@ footer:
     # 页面显示的文本，{}是数字的占位符（必须包含)，下同
     # Displayed text, {} is a placeholder for numbers (must be included), the same below
     pv_format: "总访问量 {} 次"
-    uv_format: "总访客数 {} 人"
+    uv_format: "总lsp数 {} 人"
 
   # 国内大陆服务器的备案信息
   # For Chinese mainland website policy, other areas keep disable
@@ -441,7 +446,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://cdn.jsdelivr.net/npm/galgame-oss/hana1-hq.webp
+  banner_img: https://cdn.jsdelivr.net/npm/galgame-oss@1.0.16/%E6%B0%B8%E4%B8%8D%E6%9E%AF%E8%90%8E%E7%9A%84%E4%B8%96%E7%95%8C%E8%88%87%E7%B5%82%E7%B5%90%E4%B9%8B%E8%8A%B1/img_04.jpg.webp
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -614,7 +619,7 @@ post:
     <button id="loadingMsg" class="btn btn-outline-primary" type="button" disabled>
     <div  class="d-flex align-items-center">
     <strong>Loading...</strong>
-    <div class="spinner-border m-3" role="status" aria-hidden="true"></div>
+    <img src="/image/mona-loading.webp" class="bg-transparent"/>
     </div>
     </button>
     <p> 
@@ -622,7 +627,7 @@ post:
     </p>
     <p>
       欢迎关注 Telegram 频道
-      <a href="https://telega.one/Galgamer_Channel"> @Galgamer_Channel </a>
+      <a href="https://telega.one/Galgamer_Channel"> 🔗️@Galgamer_Channel </a>
     </p>'
 
 
@@ -943,6 +948,24 @@ links:
       link: "https://nekosc.com/",
       avatar: "https://nekosc.com/favicon.ico"
     }
+    - {
+      title: "谷歌搜索",
+      intro: "把 Galgame 名字打進去馬上就能找到遊戲的神奇網站",
+      link: "https://www.google.com.hk/",
+      avatar: "https://www.google.cn/favicon.ico"
+    }
+    - {
+      title: "真・蒸汽平臺",
+      intro: "什麼遊戲都能買到的境外勢力商店",
+      link: "https://store.steampowered.com/",
+      avatar: "https://store.steampowered.com/favicon.ico"
+    }
+    - {
+      title: "光之領域",
+      intro: "號稱要把美少女遊戲文化推向世界的不自量力日本發行商",
+      link: "https://store.hikarifield.co.jp/",
+      avatar: "https://hikarifield.co.jp/images/hfu_logo.png"
+    }
 
 
   # 当成员头像加载失败时，替换为指定图片
@@ -953,7 +976,15 @@ links:
   # Custom content at the bottom of the links
   custom:
     enable: true
-    content: '<hr><p>在频道留言申请加入我的友链，请按如下格式提供信息：</p><ul><li>博客名：Fluid</li><li>简介：Fluid 主题官方博客</li><li>链接：https://hexo.fluid-dev.com</li><li>图片：https://hexo.fluid-dev.com/img/favicon.png</li></ul>'
+    content: '
+    <hr>
+    <p>在频道留言申请加入我的友链，请按如下格式提供信息：</p>
+    <ul>
+    <li>网站名称：MOONSTONE</li>
+    <li>简介：PC 游戏制作商 MOONSTONE 官方网站</li>
+    <li>链接：https://www.moon-stone.jp/</li>
+    <li>图标：https://www.moon-stone.jp/favicon.ico</li>
+    </ul>'
 
   # 评论插件
   # Comment plugin

@@ -11,10 +11,10 @@ tags:
   - 奇幻
   - 穿越
   - 纯爱
-  - MOONSTONE
+  - 青梅竹马
 categories:
   - [R-18]
-  - [青梅竹马]
+  - [MOONSTONE]
 abbrlink: 11451
 author: 桐遠暮羽
 excerpt: 從殺人魔手中倖存的秋津圓香和青梅竹馬的慎司揭開了可怕的謎團，給身處另一個世界中深陷夢魘的櫻之杜†凈夢者小隊帶來了希望。
@@ -112,18 +112,14 @@ excerpt: 從殺人魔手中倖存的秋津圓香和青梅竹馬的慎司揭開�
 
 歌：電気式華憐音楽集団 
 
-<video controls width='100%' preload="metadata" poster="../image/SakuraNoMori-Dreamers-2/CG6.jpg" >
-<source src="https://cdn.cloudflare.steamstatic.com/steam/apps/256744846/movie480.webm" src-cn="https://media.st.dl.pinyuncloud.com/steam/apps/256744846/movie480.webm" type="video/webm"/>
-<source  src="https://cdn.cloudflare.steamstatic.com/steam/apps/256744846/movie480.mp4" src-cn="https://media.st.dl.pinyuncloud.com/steam/apps/256744846/movie480.mp4" type="video/mp4"/>
-<p> To view this video please enable JavaScript</p>
-</video>
+{% steam_player 256744846 %}
 
 動畫來自 Steam。
 
 還有，本作的 ED **さくら雫** 也是世界名曲，我是真喜歡電氣華憐的歌。
 
 <video controls width='100%' preload="metadata">
-<source src="https://bitbucket.org/sa-ya/my-static/raw/96fea2e8391e89fa19507b9905e167924b1e3ad6/SakuraNoMori-Dreamers-2/Sakura-2-Ed-Sakurashizuku-1.mp4" type="video/mp4"/>
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/SakuraNoMori-Dreamers-2/Sakura-2-Ed-Sakurashizuku-1.mp4" type="video/mp4"/>
 </video>
 
 ## 登場人物
@@ -234,7 +230,7 @@ excerpt: 從殺人魔手中倖存的秋津圓香和青梅竹馬的慎司揭開�
 
 ## 資源與下載
 
-<iframe src="https://store.steampowered.com/widget/983150/" frameborder="0" width="100%" height="200" ></iframe>
+{% steam_widget 983150 %}
 
 Steam 商店爲官方中文版，也有免費試玩版。
 

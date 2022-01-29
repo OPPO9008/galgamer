@@ -4,7 +4,7 @@
 
 function main(){
     //redirectHttps();
-    redirectNoWWW();
+    //redirectNoWWW();
     docReady(function() {
         // DOM is loaded and ready for manipulation here
         if (checkPathRoot()){
@@ -18,7 +18,16 @@ function main(){
             })
         }
         createShareBtn();
-        createNewBadge();//before 2022
+        //createNewBadge();//before 2022
+        showCDN();
+        videoWatchDog();
+        // 頁面排版: 中英之間增加空格
+        pangu.spacingElementByTagName('p');
+        pangu.spacingElementByTagName('h1');
+        pangu.spacingElementByTagName('h2');
+        pangu.spacingElementByTagName('h3');
+        pangu.spacingElementByTagName('table');
+        pangu.spacingElementByTagName('li');
     });
 }
 
@@ -155,6 +164,7 @@ async function insertToast(type, data, last){
     setTimeout(function() {
         removeFadeOut(toast, 500);
     }, last);
+    return toast;
 }
 
 class RouteMap {
@@ -281,7 +291,7 @@ class RouteMap {
         imgRow.appendChild(imgDiv);
         
         let mImg = document.createElement('img');
-        mImg.setAttribute('class', 'image-fluid');
+        mImg.setAttribute('class', 'image-fluid img-lazy');
         mImg.setAttribute('onclick', 'return false');
         imgDiv.appendChild(mImg);
         this.imageDOM = mImg;
@@ -409,7 +419,7 @@ function createShareBtn() {
     
     let mText = document.createElement('span');
     mText.setAttribute('style', 'margin: 4px;');
-    mText.innerHTML = '分享';
+    mText.innerHTML = '分享<span class="d-none d-md-inline d-lg-none">到 TG</span><span class="d-none d-lg-inline">到 Telegram</span>';
     
     btn.appendChild(logo);
     btn.appendChild(mText);
@@ -432,7 +442,7 @@ function createShareBtn() {
             }
         }
         let url = title;
-        let desc = tagStr + '\n' + window.location;
+        let desc = tagStr + '\n🔗️' + window.location;
         //nielog(url);
         //nielog(desc);
         url = encodeURIComponent(url);
@@ -457,20 +467,26 @@ function friendLink(){
         let doc = parser.parseFromString(data, 'text/html');
         let card = doc.querySelectorAll('#board')[0];
         
-        card.classList.add("mt-5");
+        //card.classList.add("mt-5");
         //card.setAttribute('id', 'friendLinkCard');
         let insertText = card.querySelectorAll('.container')[0];
+        insertText.classList.add("mt-5");
         let mText = document.createElement('h5');
         
         mText.classList.add("ml-4");
         mText.innerText = "友情链接";
         insertText.prepend(mText);
         
-        let father = document.querySelectorAll('.container.nopadding-x-md')[0];
+        //let father = document.querySelectorAll('.container.nopadding-x-md')[0];
         
-        let br = document.createElement('br');
-        father.appendChild(br);
-        father.appendChild(card);
+        //let br = document.createElement('br');
+        //father.appendChild(br);
+        //father.appendChild(card);
+        let father = document.querySelectorAll('#board')[0];
+        
+        //let br = document.createElement('br');
+        //father.appendChild(br);
+        father.appendChild(insertText);
     })
     .catch(e => console.log(e))
 }
@@ -537,7 +553,7 @@ function nielog(text) {
                 + currentdate.getHours() + ":"  
                 + currentdate.getMinutes() + ":" 
                 + currentdate.getSeconds() + "] ";
-    console.log('[nielog]' + datetime + text);
+    console.log('[mylib]' + datetime + text);
 }
 
 function checkPathRoot(){
@@ -561,6 +577,152 @@ function createNewBadge(){
         let navBtn = document.getElementById('navbar-toggler-btn');
         navBtn.parentNode.insertBefore(badge2, navBtn);
     }
+}
+
+async function showCDN(){
+    let cdns = {
+    "AMS": "Cloudflare 阿姆斯特丹",
+    "HKG": "Cloudflare 香港",
+    "MFM": "Cloudflare 澳门",
+    "BKK": "Cloudflare 曼谷",
+    "TPE": "Cloudflare 台北",
+    "NRT": "Cloudflare 东京",
+    "KIX": "Cloudflare 大阪",
+    "ICN": "Cloudflare 仁川",
+    "LHR": "Cloudflare 伦敦",
+    "SIN": "Cloudflare 新加坡",
+    "CDG": "Cloudflare 巴黎",
+    "FRA": "Cloudflare 法兰克福",
+    "KUL": "Cloudflare 马来西亚",
+    "LAX": "Cloudflare 洛杉矶",
+    "SJC": "Cloudflare 圣何塞",
+    "KBP": "Cloudflare 乌克兰",
+    "PRG": "Cloudflare 布拉格",
+    "DME": "Cloudflare 莫斯科",
+    "TSN": "百度云 天津滨海",
+    "WUH": "百度云 武汉天河",
+    "NGB": "百度云 宁波栎社",
+    "SZV": "百度云 苏州光福",
+    "XIY": "百度云 西安咸阳"
+    }
+    let trace = await fetch("/cdn-cgi/trace")
+    .then(function(resp){
+        if (resp.ok)return resp.text();
+    })
+    .catch(error=>nielog(error))
+
+    if (trace) {
+        let sip = trace.match('ip=(.*)\n')[1];
+        let colo = trace.match('colo=(.*)\n')[1];
+
+        if(colo in cdns){
+            colo = cdns[colo];
+        }
+        let mycdn = document.getElementById('mycdn');
+        mycdn.innerText = 'CDN Location: ' + colo + '\n' + 'Current IP: ' + sip;
+        if (sip.includes(':'))mycdn.innerText += '\nIPv6 Enabled';
+    } 
+}
+
+/* HTML 視頻看門狗，用來當視頻爆 error 的時候自動重啓加載。
+   對於濫用 GitHub 或者 bitbucket 存儲視頻的五分鐘連結有效期
+   有幫助。
+*/
+function videoWatchDog(){
+    /* 如果一個視頻短時間爆了很多錯誤，那可能真的有問題了 */
+    /* 應該停止重試。 */
+    function shouldRetry(videoEl){
+        let errCount = parseInt(videoEl.getAttribute('error-count'));
+        if (!errCount){
+            // 說明是第一次出錯，應該先新增那個屬性
+            videoEl.setAttribute('error-count', '1');
+            videoEl.setAttribute('last-error', '' + parseInt(Date.now()/1000));
+            return true;
+        }
+        // 表示不是第一次出錯了，先看看是否是第五次。
+        if (errCount === 5){
+            return false;
+            // 達到了最大上限
+        }
+        // 如果小於五次，則看看上次出錯是甚麼時候。
+        let lastErr = parseInt(videoEl.getAttribute('last-error'));
+        // 如果距離已經超過五秒，則表示偶發錯誤，應該清零所有計數器。
+        if (parseInt(Date.now()/1000) - lastErr > 5){
+            videoEl.setAttribute('error-count', '');
+            videoEl.setAttribute('last-error', '');
+            return true;
+        }
+        // 否則，我們應該給計數器 + 1
+        let newCount = errCount + 1;
+        videoEl.setAttribute('error-count', '' + newCount);
+        videoEl.setAttribute('last-error', '' + parseInt(Date.now()/1000));
+        return true; // 並且允許重試
+    }
+    
+    // 錯誤處理器函數
+    function handleErr(ev){
+        let target = ev.target || ev.srcElement || ev;
+        mlog('event error!');
+        // 如果超過最大嘗試次數，則作罷。
+        if(!shouldRetry(target)){
+            mlog('Too much error, cannot retry!');
+            target.removeEventListener('error', handleErr);
+            let tHtml = `
+            <h3>⚠️️ERROR!</h3>
+            <hr>
+            該視頻無法正常播放，可能是因爲視頻服務器或者網路發生了故障。
+            `
+            insertToast('danger', tHtml, 15000);
+            return;
+        }
+        // 儲存 原本的視頻地址
+        if(!target.getAttribute('origin-src')){
+            target.setAttribute('origin-src', target.currentSrc);
+        }
+        // 儲存 播放進度
+        let cTime = target.currentTime;
+        // 防止緩存，製造一個新地址
+        let newSrc = target.getAttribute('origin-src') + "?t=" + Date.now();
+        // 消除那些 <source，改用 src，這是不得已做出的犧牲，，，
+        let srcTags = target.getElementsByTagName('source');
+        for (let oneTag of srcTags) {
+            target.removeChild(oneTag);
+        }
+        // 插入 新地址
+        target.setAttribute('src', newSrc);
+        target.load();
+        target.play();
+        target.currentTime = cTime;
+        // 彈出一個 提示
+        let cSec = parseInt(cTime);
+        let minutes = Math.floor(cSec / 60);
+        let seconds = cSec % 60;
+        let tData = '正在載入視頻，<br class="d-md-none">您已經觀看到 ' + minutes + ' 分 ' +  seconds + ' 秒.';
+        let tHtml = `
+        <div class="d-flex align-items-center">
+            <div class="mr-2 spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <strong>` + tData + `</strong>
+        </div>`
+        
+        insertToast('primary', tHtml, 99000);
+        // 消除提示
+        target.addEventListener('playing', function(){
+            let toast = document.getElementById('mytoast');
+            removeFadeOut(toast, 500);
+        }, {once : true});
+    }
+    
+    let videos = document.querySelectorAll('video');
+    videos.forEach(function(video){
+        // beta 版：如果某些視頻一開始就出錯，我們應該重試一下他。
+        if(video.error){
+            mlog('該視頻一上來就出錯，應該重試。');
+            handleErr(video);
+        }
+        video.addEventListener('error', handleErr);
+    })
 }
 
 main();

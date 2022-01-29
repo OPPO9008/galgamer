@@ -7,9 +7,10 @@ index_img: '../image/Kinkoi/index.webp'
 tags:
   - 搞笑
   - 拔作
+  - 校园
 categories:
   - [R-18]
-  - [学园]
+  - [SAGA PLANETS]
 abbrlink: 70134
 author: 'Caminal le Pultaia Sortilège Sisua'
 excerpt: '輟學的男高中生，央路，劫持了正在逛街的北歐皇家公主，然後被十萬個皇家禁衛軍騎士追殺。'
@@ -81,125 +82,65 @@ text-outline-black {
     2px 2px 0 #000;
 }
 </style>
+{% template sp-character no orig html right %}
 <div class="card bg-transparent text-dark border-warning col-lg-8 my-2">
-<img src="../image/Kinkoi/chars/1.webp" class="card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0">
-<h5 class="text-danger text-outline font-italic font-weight-bold" style="font-size:200%;">
-Sylvia le<br>Cruzcrown<br>Sortilège<br>Sisua
-</h5>
-<p><mark>
-簡稱 <strong>希爾薇</strong>，是神必國家 <em>Sortilège</em> 的公主，<br>
-在日本享受國賓待遇。<br>
-但是她從來不擺架子，總是天真爛漫，<br>
-喜歡亂跑，吃東西，逃課。
-</mark></p>
+  <img src={`../image/Kinkoi/chars/${no}.webp`} class="card-img bg-transparent" />
+  <div class="card-img-overlay">
+    <div class="position-absolute" style=%{ bottom: "0", right: right ? "0" : "unset" }%>
+      <h5 class="text-danger text-outline font-italic font-weight-bold" style="font-size:200%;" html={orig.replace(/\|/g, "<br>")}/>
+      <p><mark html={html}></mark></p>
+    </div>
+  </div>
 </div>
-</div>
-</div>
+{% endtemplate %}
+<sp-character no=1 orig="Sylvia le|Cruzcrown|Sortilège|Sisua">
+  簡稱 <strong>希爾薇</strong>，是神必國家 <em>Sortilège</em> 的公主，<br>
+  在日本享受國賓待遇。<br>
+  但是她從來不擺架子，總是天真爛漫，<br>
+  喜歡亂跑，吃東西，逃課。
+</sp-character>
 
-<div class="card bg-transparent text-dark border-warning col-lg-8 my-2">
-<img src="../image/Kinkoi/chars/2.webp" class="card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0">
-<h5 class="text-primary text-outline font-italic font-weight-bold" style="font-size:250%;">
-妃<br>玲奈
-</h5>
-<p><mark>
-同班同學，<strong>是個辣妹。</strong><br><br>
-可愛，開朗，率真，人緣很好。<br>
-因爲希爾薇很好騙，<br>
-所以總是喜歡帶她<strong>亂跑，吃東西，逃課。</strong>
-</mark></p>
-</div>
-</div>
-</div>
+<sp-character no=2 orig="妃|玲奈">
+  同班同學，<strong>是個辣妹。</strong><br><br>
+  可愛，開朗，率真，人緣很好。<br>
+  因爲希爾薇很好騙，<br>
+  所以總是喜歡帶她<strong>亂跑，吃東西，逃課。</strong>
+</sp-character>
 
-<div class="card bg-transparent text-dark border-warning col-lg-8 my-2">
-<img src="../image/Kinkoi/chars/3.webp" class="card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0">
-<h5 class="text-danger text-outline font-italic font-weight-bold" style="font-size:200%;">
-Heroina di<br>Caballero istaa
-</h5>
-<p><mark>
-簡稱 <strong>艾爾</strong>，是希爾薇的專屬騎士。<br><br>
-打架很強，但是遇到黃色笑話就繃不住。<br>
-<strong>很好騙，</strong>但是很兇，<br>
-沒人敢騙她。
-</mark></p>
-</div>
-</div>
-</div>
+<sp-character no=3 orig="Heroina di|Caballero istaa">
+  簡稱 <strong>艾爾</strong>，是希爾薇的專屬騎士。<br><br>
+  打架很強，但是遇到黃色笑話就繃不住。<br>
+  <strong>很好騙，</strong>但是很兇，<br>
+  沒人敢騙她。
+</sp-character>
 
-<div class="card bg-transparent text-dark border-warning col-lg-8 my-2">
-<img src="../image/Kinkoi/chars/4.webp" class="card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0;right:0">
-<h5 class="text-primary text-outline font-italic font-weight-bold" style="font-size:250%;">
-僧間<br>　理亜
-</h5>
-<p><mark>
-隔壁班的 <strong>不良少女</strong><br><br>
-喜歡抽菸，罵人嘴臭臭，，，<br>
-<strong>挨停學</strong>，<br>
-只和玲奈講話。
-</mark></p>
-</div>
-</div>
-</div>
+<sp-character no=4 orig="僧間|　理亜" right="1">
+  隔壁班的 <strong>不良少女</strong><br><br>
+  喜歡抽菸，罵人嘴臭臭，，，<br>
+  <strong>挨停學</strong>，<br>
+  只和玲奈講話。
+</sp-character>
 
-<div class="card bg-transparent text-dark border-warning col-lg-8 my-2">
-<img src="../image/Kinkoi/chars/5.webp" class="card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0">
-<h5 class="text-primary text-outline font-italic font-weight-bold" style="font-size:250%;">
-栗生<br>茜
-</h5>
-<p><mark>
-田徑部的 <strong>學妹</strong>，性格莽撞，<br>
-二話不說直接開幹，<br><br>
-<strong>老是被玲奈捉弄，</strong>在女生宿舍裏，<br>
-被人唆使去和男主角搭訕。
-</mark></p>
-</div>
-</div>
-</div>
+<sp-character no=5 orig="栗生|茜">
+  田徑部的 <strong>學妹</strong>，性格莽撞，<br>
+  二話不說直接開幹，<br><br>
+  <strong>老是被玲奈捉弄，</strong>在女生宿舍裏，<br>
+  被人唆使去和男主角搭訕。
+</sp-character>
 
-<div class="card bg-transparent text-dark border-warning col-lg-8 my-2">
-<img src="../image/Kinkoi/chars/6.webp" class="card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0">
-<h5 class="text-danger text-outline font-italic font-weight-bold" style="font-size:200%;">
-Caminal le<br>Pultaia<br>Sortilège<br>Sisua
-</h5>
-<p><mark>
-簡稱 <strong>米娜醬</strong>，是<em>希爾薇</em>的妹妹，<br>
-態度對庶民和貴族都一視同仁。<br>
-男主天天懶懶散散，米娜並不喜歡他，<br>
-但是沒辦法，姐姐喜歡他。
-</mark></p>
-</div>
-</div>
-</div>
+<sp-character no=6 orig="Caminal le|Pultaia|Sortilège|Sisua">
+  簡稱 <strong>米娜醬</strong>，是<em>希爾薇</em>的妹妹，<br>
+  態度對庶民和貴族都一視同仁。<br>
+  男主天天懶懶散散，米娜並不喜歡他，<br>
+  但是沒辦法，姐姐喜歡他。
+</sp-character>
 
-<div class="card bg-transparent text-dark border-warning col-lg-8 my-2">
-<img src="../image/Kinkoi/chars/7.webp" class="card-img bg-transparent">
-<div class="card-img-overlay">
-<div class="position-absolute" style="bottom:0">
-<h5 class="text-primary text-outline font-italic font-weight-bold" style="font-size:250%;">
-城ヶ崎<br>絢華
-</h5>
-<p><mark>
-同班同學，是委員長。<br><br>
-家裏是家族企業，很有錢。<br>
-雖然彬彬有禮，但是罵人的時候嘴巨臭，<br>
-看不慣庶民，<strong>但是男主很喜歡她的大屁股。</strong>
-</mark></p>
-</div>
-</div>
-</div>
-
+<sp-character no=7 orig="城ヶ崎|絢華">
+  同班同學，是委員長。<br><br>
+  家裏是家族企業，很有錢。<br>
+  雖然彬彬有禮，但是罵人的時候嘴巨臭，<br>
+  看不慣庶民，<strong>但是男主很喜歡她的大屁股。</strong>
+</sp-character>
 
 ## 遊戲 OP 動畫欣賞
 
@@ -207,159 +148,41 @@ Caminal le<br>Pultaia<br>Sortilège<br>Sisua
 
 本作 OP『Golden Mission』已經收錄進 <a href="/music/?id=7" target="_blank">🔗️Galgame 金曲</a>
 
-<div class='vidcontainer'>
-   <select class='qualitypick' autocomplete='off'>
-      <option selected>480p</option>
-      <option>1080p</option>
-   </select>
-   <video controls preload="metadata" width='100%' poster="../image/Kinkoi/op.jpg">
-      <source label="480p" src="https://cdn.akamai.steamstatic.com/steam/apps/256817690/movie480_vp9.webm" type="video/webm">
-      <source label="480p" src="https://cdn.akamai.steamstatic.com/steam/apps/256817690/movie480.mp4" type="video/mp4">
-      <source label="1080p" src="https://cdn.akamai.steamstatic.com/steam/apps/256817690/movie_max_vp9.webm" type="video/webm">
-      <source label="1080p"   src="https://cdn.akamai.steamstatic.com/steam/apps/256817690/movie_max.mp4" type="video/mp4" >
-<p> To view this video please enable JavaScript</p>
-   </video>
-</div>
+{% steam_player 256817690 %}
 
 ## 屏幕截圖
 
-<div id="carouselExampleIndicators-screen" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-screen" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/3.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/screenshots/4.webp" >
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-screen" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-screen" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery screen %}
+../image/Kinkoi/screenshots/1.webp
+../image/Kinkoi/screenshots/2.webp
+../image/Kinkoi/screenshots/3.webp
+../image/Kinkoi/screenshots/4.webp
+{% endgallery %}
 
 ## CG
 
-<div id="carouselExampleIndicators-cg" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="5"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Kinkoi/cg/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/cg/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/cg/3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/cg/4.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/cg/5.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/cg/6.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-cg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-cg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery cg %}
+../image/Kinkoi/cg/1.webp
+../image/Kinkoi/cg/2.webp
+../image/Kinkoi/cg/3.webp
+../image/Kinkoi/cg/4.webp
+../image/Kinkoi/cg/5.webp
+../image/Kinkoi/cg/6.webp
+{% endgallery %}
 <br>
-
-<div id="carouselExampleIndicators-hcg" class="carousel slide" data-ride="false" data-interval="false">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-hcg" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Kinkoi/hcg/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/hcg/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/hcg/3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/hcg/4.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-hcg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-hcg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery hcg %}
+../image/Kinkoi/hcg/1.webp
+../image/Kinkoi/hcg/2.webp
+../image/Kinkoi/hcg/3.webp
+../image/Kinkoi/hcg/4.webp
+{% endgallery %}
 <br>
-
-<div id="carouselExampleIndicators-qcg" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-qcg" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Kinkoi/qcg/1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/qcg/2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/qcg/3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Kinkoi/qcg/4.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-qcg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-qcg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery qcg %}
+../image/Kinkoi/qcg/1.webp
+../image/Kinkoi/qcg/2.webp
+../image/Kinkoi/qcg/3.webp
+../image/Kinkoi/qcg/4.webp
+{% endgallery %}
 
 ## 一句話點評
 
@@ -394,13 +217,13 @@ Caminal le<br>Pultaia<br>Sortilège<br>Sisua
 試玩 10 分鐘
 
 <video controls preload="metadata" width='100%'>
-<source src="https://bitbucket.org/sa-ya/my-static/raw/2e7e511571f4604653e2553eb43bfb1f0a032375/Kinkoi/kinkoi-1k-2.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/zZWAwPSq/B4ltoyh3GAMWkA-NtqQixWlwzUvAj8lV05771MZ4kb0*" type="video/mp4" />
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Kinkoi/kinkoi-1k-2.mp4" src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/zZWAwPSq/B4ltoyh3GAMWkA-NtqQixWlwzUvAj8lV05771MZ4kb0*" type="video/mp4" />
 <p> To view this video please enable JavaScript</p>
 </video>
 
 ## 資源與下載
 
-<iframe src="https://store.steampowered.com/widget/1277940/" frameborder="0" width="100%" height="200"></iframe>
+{% steam_widget 1277940 %}
 
 Steam 商店爲官方多語言版。
 

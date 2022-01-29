@@ -6,10 +6,10 @@ banner_img: '../image/CafeStella/banner.webp'
 index_img: '../image/CafeStella/index.webp'
 tags:
   - 搞笑
-  - 柚子社
+  - 青梅竹马
 categories:
   - [R-18]
-  - [青梅竹马]
+  - [柚子社]
 abbrlink: 16729
 author: 桐遠暮羽
 excerpt: '玩太多沉痛的 Galgame，大腦要降級啦。今天玩點輕鬆愉快的，歡迎來到死神咖啡店！'
@@ -193,191 +193,54 @@ excerpt: '玩太多沉痛的 Galgame，大腦要降級啦。今天玩點輕鬆�
 
 人物插畫
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/CafeStella/chars/a1.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/chars/a2.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/chars/a3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/chars/a4.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/chars/a5.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery characters %}
+../image/CafeStella/chars/a1.webp
+../image/CafeStella/chars/a2.webp
+../image/CafeStella/chars/a3.webp
+../image/CafeStella/chars/a4.webp
+../image/CafeStella/chars/a5.webp
+{% endgallery %}
 
 ## 遊戲 OP 動畫欣賞
 
 都是萌萌人，，，
 
-<div class='vidcontainer'>
-   <select class='qualitypick' autocomplete='off'>
-      <option selected>低畫質</option>
-      <option>高畫質</option>
-   </select>
-   <video controls preload="metadata" width='100%' poster="../image/CafeStella/op.webp">
-      <source label="低畫質" src="https://bitbucket.org/sa-ya/my-static/raw/5bf816c9df4af8ab2e57fbbe9f3eb61d6e4063d4/CafeStella/op-480.mp4" type="video/mp4">
-      <source label="高畫質"   src="https://bitbucket.org/sa-ya/my-static/raw/5bf816c9df4af8ab2e57fbbe9f3eb61d6e4063d4/CafeStella/op.mp4" type="video/mp4" >
+
+<video controls preload="metadata" width='100%' poster="../image/CafeStella/op.webp">
+  <source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/CafeStella/op.mp4" type="video/mp4" >
 <p> To view this video please enable JavaScript</p>
-   </video>
-</div>
+</video>
+
 
 ## 遊戲畫面
 
-<div id="carouselExampleIndicators-kan" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-kan" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-kan" data-slide-to="1"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/CafeStella/cg/kan_02.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/kan_05.webp" >
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-kan" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-kan" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery kan %}
+../image/CafeStella/cg/kan_02.webp
+../image/CafeStella/cg/kan_05.webp
+{% endgallery %}
 <br>
-
-<div id="carouselExampleIndicators-natu" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-natu" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-natu" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-natu" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/CafeStella/cg/natu_01.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/natu_02.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/natu_05.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-natu" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-natu" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery natu %}
+../image/CafeStella/cg/natu_01.webp
+../image/CafeStella/cg/natu_02.webp
+../image/CafeStella/cg/natu_05.webp
+{% endgallery %}
 <br>
-
-<div id="carouselExampleIndicators-nozo" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-nozo" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-nozo" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-nozo" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/CafeStella/cg/nozo_02.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/nozo_04.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/nozo_08.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-nozo" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-nozo" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery nozo %}
+../image/CafeStella/cg/nozo_02.webp
+../image/CafeStella/cg/nozo_04.webp
+../image/CafeStella/cg/nozo_08.webp
+{% endgallery %}
 <br>
-
-<div id="carouselExampleIndicators-mei" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-mei" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-mei" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-mei" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/CafeStella/cg/mei_01.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/mei_02.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/mei_06.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-mei" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-mei" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery mei %}
+../image/CafeStella/cg/mei_01.webp
+../image/CafeStella/cg/mei_02.webp
+../image/CafeStella/cg/mei_06.webp
+{% endgallery %}
 <br>
-
-<div id="carouselExampleIndicators-suzu" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-suzu" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-suzu" data-slide-to="1"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/CafeStella/cg/suzu_01.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/CafeStella/cg/suzu_02.webp" >
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-suzu" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-suzu" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery suzu %}
+../image/CafeStella/cg/suzu_01.webp
+../image/CafeStella/cg/suzu_02.webp
+{% endgallery %}
 
 ## 一句話點評
 
@@ -426,7 +289,7 @@ excerpt: '玩太多沉痛的 Galgame，大腦要降級啦。今天玩點輕鬆�
 劇情大意是青梅竹馬來叫你起床，順便煮早餐。
 
 <video controls preload="metadata" width='100%' poster="../image/CafeStella/movie.webp">
-<source src="https://bitbucket.org/sa-ya/my-static/raw/c2249febf1bc146f7ea69f0e8743f35c6b2c5e67/CafeStella/8-min-know.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/P8d9v4TO/FklcOv0WChVgXIYpN7tqzgv2FCu-0Bf0DOKUk4mv3X8*" type="video/mp4" />
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/CafeStella/8-min-know.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/P8d9v4TO/FklcOv0WChVgXIYpN7tqzgv2FCu-0Bf0DOKUk4mv3X8*" type="video/mp4" />
 <p> To view this video please enable JavaScript</p>
 </video>
 
@@ -446,6 +309,7 @@ magnet:?xt=urn:btih:c70d2386bef29b55966f459b214c3d8b0537de4d
 
 遊戲有升級補丁，記得下載最新的來安裝。[點此前往官網](http://www.yuzu-soft.com/products/stella/download.html) 下載可能要翻牆。
 
+如果想玩中文 請配合這個漢化補丁使用 {% telegram_channel 77 %}
 
 
 ### 中文版
@@ -460,17 +324,10 @@ magnet:?xt=urn:btih:c70d2386bef29b55966f459b214c3d8b0537de4d
 
 onedrive下载
 
-<a class="btn btn-info" href="https://luohua-my.sharepoint.com/:u:/g/personal/kaban_luohua_onmicrosoft_com/ER0rEWouvBFBudISuDB3TgcB1HL9TFjTw4ZwNxU8nRxMEg?e=gWvLYR"> 分卷1</a>	<a class="btn btn-info" href="https://luohua-my.sharepoint.com/:u:/g/personal/kaban_luohua_onmicrosoft_com/EYtEeRFm6dBEoQMHXU_h6g8Bjhds3G9dNx7b16W0wUa5Yg?e=qkr1Ss">分卷2</a>	<a class="btn btn-info" href="https://luohua-my.sharepoint.com/:u:/g/personal/kaban_luohua_onmicrosoft_com/EQd3dWkHM5xHkrvetKc6GTUBLjcg7hgRPN350inb0yKNvw?e=sW8wb3">分卷3</a>
+<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.001"> 分卷1</a>	<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.002">分卷2</a>	<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.003">分卷3</a>
 
 分卷解压请放在一个文件夹解压
 
-漢化補丁，連結如下：
-
-```
-eb51f9ab1933b3a83f233c86417ab0d4#730b559b553b6e22a643f168f7aa70b5#1227294223#【弥生月汉化组&天之圣杯汉化组】《喫茶ステラと死神の蝶》汉化补丁.7z
-```
-
-<a class="btn btn-info" href="tg://resolve?domain=Galgamer&post=161772">直達資源</a>
 
 ------
 

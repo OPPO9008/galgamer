@@ -1,0 +1,66 @@
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+  
+https://galgamer.xyz/*
+  X-Robots-Tag: noindex
+  
+https://www.galgamer.xyz/*
+  X-Robots-Tag: noindex
+  
+https://dl.galgamer.eu.org/*
+  X-Robots-Tag: noindex
+  
+https://galgamer.eu.org/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  
+https://*.galgamer.eu.org/*
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  
+/playground/1G.gzip
+  Content-Encoding: gzip
+   
+/img/*
+  Cache-Control: public, max-age=604800
+  
+/image/*
+  Cache-Control: public, max-age=604800
+  
+/js/*
+  Cache-Control: no-cache
+
+/css/*
+  Cache-Control: no-cache
+
+
+/
+  Link: <https://unpkg.zhimg.com/galgame-oss/hana1-hq.webp>; rel="prefetch" as="image"
+  
+/article/48333*
+  Link: </img/default.png>; rel="prefetch" as="image"
+  
+/categories/
+  Link: </img/default.png>; rel="prefetch" as="image"
+  
+/archives/
+  Link: </img/default.png>; rel="prefetch" as="image"
+  
+/tags/
+  Link: </img/default.png>; rel="prefetch" as="image"
+  
+/music
+  Link: </music/banner.jpg>; rel="prefetch" as="image"
+  
+  
+/article/9668.html
+  Link: <https://media.st.dl.pinyuncloud.com/steam/apps/1506980/ss_7893e988701cc075e7187d12aaf945f2aa998606.1920x1080.jpg>; rel="prefetch"
+  
+/article/52680.html
+  Link: <https://unpkg.zhimg.com/galgame-oss@1.0.10/%E6%88%91%E7%9A%84%E7%BA%B8%E7%89%87%E4%BA%BA%E5%A5%B3%E5%8F%8B/header.jpg>; rel="prefetch"
+  Link: <https://unpkg.zhimg.com/galgame-oss@1.0.10/%E6%88%91%E7%9A%84%E7%BA%B8%E7%89%87%E4%BA%BA%E5%A5%B3%E5%8F%8B/header.webp>; rel="prefetch"
+  
+/article/52680
+  Link: <https://unpkg.zhimg.com/galgame-oss/樱花片落恋模样/mainV.png.webp>; rel="prefetch" as="image"
+  Link: <https://unpkg.zhimg.com/galgame-oss@1.0.12/樱花片落恋模样/twi_Wallpaper.jpg.webp>; rel="prefetch" as="image"
+
+/article/65530
+  Link: </image/1room/1.jpg>; rel="preload" as="image"

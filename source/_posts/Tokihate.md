@@ -9,10 +9,10 @@ tags:
   - 恐怖
   - 悬疑
   - 猎奇
-  - MOONSTONE
+  - 妹妹
 categories:
   - [R-18]
-  - [妹妹]
+  - [MOONSTONE]
 abbrlink: 67843
 author: 桐遠暮羽
 excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀惠里，和助手兩人一起回到家鄉的小島上調查一起離奇的失踪案，然而卻以失敗告終。'
@@ -215,32 +215,11 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 
 人物的印象插畫
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Tokihate/chars/chara01_illust.webp" alt="Komako">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/chars/chara02_illust.webp" alt="Yunna">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/chars/chara03_illust.webp" alt="Eri">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery character %}
+../image/Tokihate/chars/chara01_illust.webp
+../image/Tokihate/chars/chara02_illust.webp
+../image/Tokihate/chars/chara03_illust.webp
+{% endgallery %}
 
 
 ## 遊戲 OP 動畫欣賞
@@ -250,7 +229,7 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 我覺得這首歌挺不錯的。
 
 <video controls preload="metadata" width='100%' poster="../image/Tokihate/op.webp">
-<source src="https://bitbucket.org/sa-ya/my-static/raw/41f475e91b0a7782a63abf540eea2463176ff456/Tokihate/op-2.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/WXKlNmt9/Pk6MrRTkfBOFeBE4Zi-BnJIQSnmF6LnL3_LYT9jpvew*" type="video/mp4" />
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Tokihate/op-2.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/WXKlNmt9/Pk6MrRTkfBOFeBE4Zi-BnJIQSnmF6LnL3_LYT9jpvew*" type="video/mp4" />
 <track default src="../image/Tokihate/op.vtt" label="日文">
 <p> To view this video please enable JavaScript</p>
 </video>
@@ -275,46 +254,17 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 
 ## 遊戲畫面（含有 R-18 畫面）
 
-<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="5"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Tokihate/cg2.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg5.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg6.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg7.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg8.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-<br>
+{% gallery cgs %}
+../image/Tokihate/cg1.webp
+../image/Tokihate/cg2.webp
+../image/Tokihate/cg3.webp
+../image/Tokihate/cg4.webp
+../image/Tokihate/cg5.webp
+../image/Tokihate/cg6.webp
+../image/Tokihate/cg7.webp
+../image/Tokihate/cg8.webp
+../image/Tokihate/cg9.webp
+{% endgallery %}
 
 海報
 
@@ -327,7 +277,7 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 由於手上只有日文版，我嘗試加了翻譯字幕。
 
 <video controls preload="metadata" width='100%' poster="../image/Tokihate/movie.webp">
-<source src="https://bitbucket.org/sa-ya/my-static/raw/a35823475fa2d49885381eb4cbfae443d4e3698f/Tokihate/Tokihate-2.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/DoXkrDF9/K1SQ21rYo_jR-UVq12nnizti5jjCLx_BSxCzVY3Yr4E*" type="video/mp4" />
+<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Tokihate/Tokihate-2.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/DoXkrDF9/K1SQ21rYo_jR-UVq12nnizti5jjCLx_BSxCzVY3Yr4E*" type="video/mp4" />
 <track default src="../image/Tokihate/tokihate.vtt" label="繁體中文">
 <track src="../image/Tokihate/tokihate-sc.vtt" label="简体中文">
 <p> To view this video please enable JavaScript</p>
@@ -347,17 +297,18 @@ magnet:?xt=urn:btih:36718d1709a58a55fe43a92f31fa10f5afe3cd62
 
 文件名：(18禁ゲーム) [161222] [MOONSTONE] 仄暗き時の果てより (iso+mds+rr3).rar
 
-資源來自 Mikocon 論壇： https://bbs.mikocon.com/thread-27927-1-1.html
+資源來自 Mikocon 論壇：🔗️https://bbs.mikocon.com/thread-27927-1-1.html
 
 破解補丁：進入上述連結的論壇帖子，下載樓主發的附件 「仄暗き時の果てより Crack (Mai).rar」(789.33 KB)，解壓到遊戲目錄的 /data 文件夾。可能會報毒，我已經試過了，應該沒毒。
 
 ### 中文版
 
-截至目前，中文版仍未發佈。
+官方中文版已發佈到 [🔗️HIKARI FIELD 商城](https://store.hikarifield.co.jp/shop/honoguraki)，
+你也可以直接在這裏下載：{% telegram_channel 82 %}
 
-但是某個漢化組應該有漢化，我看到有群友發了資源，連結如下：
+下面是“默示漢化組”（群友說是機翻漢化組）的非官方漢化版：
 
-<a class="btn btn-info" href="tg://resolve?domain=Galgamer&post=160949">直達資源</a>
+{% telegram_channel 83 %}
 
 <br><br>
 

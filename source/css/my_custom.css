@@ -1,0 +1,92 @@
+/* 懶加載的圖片設定其高度爲自動 */
+/* 只能用在填滿左右兩側寬度的圖片！！！ */
+/* 意思是文字圖片左右擺在一起的別亂用，，， */
+img.img-lazy {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    min-width: 100px;
+    background-color: transparent;
+    background-image: url('../image/mona-loading.webp');
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center
+}
+/* 特指需要 Serif 字體的地方 */
+.font-serif, .font-serif * {
+  font-family: 'Noto Serif', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif JP', sans-serif;
+} 
+
+/* 給圖層描邊，僅限用在透明背景的圖片！！請抄襲這裏的代碼手動設定不是直接用 class */
+img.layer-border {
+     -webkit-filter: drop-shadow(5px 5px 0px #aaa) drop-shadow(-5px -5px 0px #aaa) drop-shadow(5px -5px 0px #aaa) drop-shadow(-5px 5px 0px #aaa);
+    filter: drop-shadow(5px 5px 0px #aaa) drop-shadow(-5px -5px 0px #aaa) drop-shadow(5px -5px 0px #aaa) drop-shadow(-5px 5px 0px #aaa);
+}
+
+/* 文章 video */ 
+.markdown-body video {
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    border-radius: 10px;
+}
+
+/* 圖片輪播 */
+.carousel.slide {
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* 配色 */
+:root {
+  /* 網頁背景色: 0; */
+  --body-bg-color: #eee;
+  /* 中央版面背景色: 0; */
+  --board-bg-color: #fff;
+  /* 文字顏色: 0; */
+  --text-color: #405b55;
+  /* 二級文字顏色: 0; */
+  --sec-text-color: #868686;
+  /* 文章正文顏色: 0; */
+  --post-text-color: #13201f;
+  /* 文章標題顏色: 0; */
+  --post-heading-color: #1a202c;
+  /* 鼠標指向的文章連結顏色: 0; */
+  --post-link-color: #0366d6;
+  /* 頁面頂端連結 和文章連結 鼠標指向顏色: 0; */
+  --link-hover-color: #90b44b;
+  --link-hover-bg-color: #f8f9fa;
+  /* 頂欄顏色: 0; */
+  --navbar-bg-color: #66bab7;
+  /* 頂欄文字顏色: 0; */
+  --navbar-text-color: #fff;
+}
+
+/* 夜間配色 */
+[data-user-color-scheme='dark'] {
+  --body-bg-color: #1c1c1c;
+  --board-bg-color: #333333;
+  --text-color: #c4c6c9;
+  --sec-text-color: #a7a9ad;
+  --post-text-color: #e3e3e3;
+  --post-heading-color: #d1d1d1;
+  --post-link-color: #1589e9;
+  --link-hover-color: #a5dee4;
+  --link-hover-bg-color: #364151;
+  --navbar-bg-color: #fcfaf2;
+  --navbar-text-color: #9b9a95;
+}
+.navbar.navbar-dark .navbar-brand, .navbar.navbar-dark .nav-item .nav-link {
+  color: #eee;
+}
+
+.navbar.navbar-dark .navbar-toggler .animated-icon span {
+  background-color: #eee;
+}
+
+.navbar.navbar-col-show .navbar-brand, .navbar.navbar-col-show .nav-item .nav-link {
+  color: var(--navbar-text-color);
+}
+
+.navbar.navbar-col-show .navbar-toggler .animated-icon span {
+  background-color: var(--navbar-text-color);
+}

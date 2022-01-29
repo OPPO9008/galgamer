@@ -11,6 +11,7 @@ tags:
   - 换装
 categories:
   - [R-18]
+  - [パルティア教団]
 abbrlink: 65530
 author: '木衛一'
 excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
@@ -99,43 +100,13 @@ excerpt: '恭喜你，這次撿到的似乎不是精子博物館.'
 
 ## CG
 
-<div id="carouselExampleIndicators-cg" class="carousel slide" data-ride="false" data-interval="false">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="4"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/1room/cg/cg7.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg8.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg9.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg10.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/1room/cg/cg11.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-cg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-cg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-
-<br>
+{% gallery cgs %}
+../image/1room/cg/cg7.webp
+../image/1room/cg/cg8.webp
+../image/1room/cg/cg9.webp
+../image/1room/cg/cg10.webp
+../image/1room/cg/cg11.webp
+{% endgallery %}
 
 ## 簡評
 
@@ -196,6 +167,4 @@ https://www.ryuugames.com/eng-1room-iede-shoujo-free-download/
 
 [mega 網盤點此](https://mega.nz/file/FvwXkaxT#7aK-D19Mnga0He1cL0YItLym2n9R--PJbjwHecPlKB0)
 
-<script>
-insertToast('success', '✒️️本文来自群友投稿', 3000);
-</script>
+{% contribution %}

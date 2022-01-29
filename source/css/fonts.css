@@ -1,0 +1,7 @@
+.index-header, .index-btm, h1, h2, h3, h4, h5, h6, .category-item {
+  font-family: 'Noto Serif', 'Noto Serif SC', 'Noto Serif TC', 'Noto Serif JP', sans-serif;
+} 
+/* 我覺得段落內英文應該使用 Serif */
+p, table, ul, ol, #subtitle { 
+  font-family: 'Noto Serif', 'Noto sans SC', 'Noto sans TC', 'Noto sans JP', sans-serif;
+} 
