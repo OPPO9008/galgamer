@@ -4,12 +4,12 @@ date: 2022-2-1 00:30:00
 keywords: 'みなとカーニバルworld, タカヒロ, 神鬼, 黑髮大人的晚餐, 人外, 巨乳'
 index_img: '../image/kurokamisama/index.webp'
 tags:
-  -靈異
-  -恐怖 
-  -神鬼 
-  -解謎 
+  - 灵异
+  - 恐怖
+  - 神鬼
+  - 解谜
 categories:
-  - [全年齡]
+  - [全年龄]
   - [みなとカーニバルworld]
 abbrlink: 76351
 author: '木衛一'
