@@ -192,7 +192,7 @@ excerpt: '不賣座漫畫家被迫獵殺怪異為黑髮美人回復力量'
 ## 宣傳PV
 
 <video controls preload="metadata" width='100%'>
-<source src="https://bitbucket.org/phobosloreal/galvideo/raw/e03204b7c301cb4cedcf85ce1161f8c237204109/kurokamisama/kurokamisamaPV2.mp4" type="video/mp4"/>
+<source src="https://s3static-zone0.galgamer.eu.org/file/galvideo-zone0/kurokamisama/kurokamisamaPV2.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
 
@@ -253,7 +253,7 @@ excerpt: '不賣座漫畫家被迫獵殺怪異為黑髮美人回復力量'
 這裏有一個 15分鐘的試玩。
 
 <video controls preload="metadata" width='100%'>
-<source src="https://bitbucket.org/phobosloreal/galvideo/raw/4626104167b28827b70213beb3ee226b95bd6b4e/kurokamisama/Kurokamisama%202022-01-26%2015-15-32-1.mp4" type="video/mp4"/>
+<source src="https://s3static-zone0.galgamer.eu.org/file/galvideo-zone0/kurokamisama/Kurokamisama+2022-01-26+15-15-32-1.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
 
