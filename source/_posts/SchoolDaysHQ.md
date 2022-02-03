@@ -95,17 +95,17 @@ Galgamer 聖誕節特別篇，聖誕節快樂！
 ## 人物介紹
 
 <style>
-#chars .row {
+.sp-character {
     background-color: #0f3460;
 }
-#chars .imgbox {
+.sp-character .imgbox {
     max-width:40%;
     min-width:33%;
     vertical-align: bottom;
     min-height: 275px;
     position:relative;
 }
-#chars .imgbox img{
+.sp-character .imgbox img{
     background-color: rgba(0, 0, 0, 0);
     width: auto;
     height: auto;
@@ -116,55 +116,41 @@ Galgamer 聖誕節特別篇，聖誕節快樂！
     left:0px;
 }
 </style>
-<div id="chars">
-<div class="row text-light">
+{% template sp-character name icon html %}
+<div class="sp-character row text-light">
     <div class="imgbox col-sm-4 col-lg-3">
-        <img class="i" src="../image/SchoolDaysHQ/chars/k.webp"/>
+        <img class="bg-transparent" src={`../image/SchoolDaysHQ/chars/${icon}.webp`}/>
     </div>
     <div class="textbox col-7 col-lg-8">
-    <span style="font-size:170%">桂 言葉</span>
-    <hr class="my-1">
+        <span style="font-size:170%">{name}</span>
+        <hr class="my-1" />
+        <span html={html} />
+    </div>
+</div>
+{% endtemplate %}
+
+<sp-character name="桂 言葉" icon=k>
     隔壁班的女生，<br class="d-md-none">美好的外表過於引人注目，<br>
     導致她從小性格就內向，<br class="d-md-none">甚至還被同班同學欺凌<br>（校園霸凌！）<br><br>
     屬於深閨大小姐的一種。
-    </div>
-</div>
-</div>
+</sp-character>
 
 ![](../image/SchoolDaysHQ/chars/k2.webp)
 
-<div id="chars">
-<div class="row text-light">
-    <div class="imgbox col-sm-4 col-lg-3">
-        <img class="i" src="../image/SchoolDaysHQ/chars/s.webp"/>
-    </div>
-    <div class="textbox col-7 col-lg-8">
-    <span style="font-size:170%">西園寺 世界</span>
-    <hr class="my-1">
+<sp-character name="西園寺 世界" icon=s>
     主角的同班同學，<br class="d-md-none">性格開朗，<br>
     要是嘴巴不那麼羅嗦就可愛了。<br><br>
     據說前來告白的男生全部都被狠狠拒絕了。
-    </div>
-</div>
-</div>
+</sp-character>
 
 ![](../image/SchoolDaysHQ/chars/s2.webp)
 
-<div id="chars">
-<div class="row text-light">
-    <div class="imgbox col-sm-4 col-lg-3">
-        <img class="i" src="../image/SchoolDaysHQ/chars/m.webp"/>
-    </div>
-    <div class="textbox col-7 col-lg-8">
-    <span style="font-size:170%">伊藤 誠</span>
-    <hr class="my-1">
+<sp-character name="伊藤 誠" icon=m>
     人稱誠哥，<br class="d-md-none">是個無趣的高中生，<br>
     膽小怕事，要是世界不去推動牠，<br>
     牠永遠不會和言葉說上話。<br><br>
     軟弱的性格就會猶豫不定，<br class="d-md-none">猶豫不定就會...
-    </div>
-</div>
-</div>
+</sp-character>
 
 每年的那個時候都要掛上誠哥的遺像。
 
@@ -305,17 +291,3 @@ magnet:?xt=urn:btih:245d4f68096bd3e02790eb6c5a718c98955bd42b&dn=School%20Days%20
  * 使用路線圖跳轉來嘗試不同的選項
  * 看攻略
  * 多存檔以免遊戲卡死
-
-
-<script>
-window.addEventListener('DOMContentLoaded', function() {
-    return;
-    let target = document.querySelectorAll('.row.nomargin-x')[0];
-    target.style['background'] = "url('../image/Tsukikana/night.webp') no-repeat fixed center";
-    target.style['background-size'] = 'cover';
-    let board = document.getElementById('board');
-    board.style['background-color'] = 'rgba(20, 20, 40, 0.80)';
-    setInterval(() => document.documentElement.setAttribute('data-user-color-scheme', 'dark'), 1000);
-    insertToast('dark', '已啟用暗色模式', 2000);
-});
-</script>

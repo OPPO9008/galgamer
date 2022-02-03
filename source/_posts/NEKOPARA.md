@@ -66,45 +66,14 @@ NEKOPARA Vol. 4
 cg自动轮播演示
 注意 carouselExampleIndicators-cg ，多个自动轮播 id 不能冲突
 
-<div id="carouselExampleIndicators-cg" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators-cg" data-slide-to="5"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/vo01_ga01.jpg.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/vo01_ga02.jpg.webp" >
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/vo01_ga03.jpg.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/vo01_ga04.jpg.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/5.png.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/6.png.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators-cg" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators-cg" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<br>
+{% gallery cgs %}
+https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/vo01_ga01.jpg.webp
+https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/vo01_ga02.jpg.webp
+https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/vo01_ga03.jpg.webp
+https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/vo01_ga04.jpg.webp
+https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/5.png.webp
+https://cdn.jsdelivr.net/npm/galgame-oss@1.0.18/c%E7%8C%AB1/6.png.webp
+{% endgallery %}
 
 ## 点评
 
@@ -138,7 +107,7 @@ NEKOPARA Vol. 1
 
 ## 資源與下載
 
-<iframe src="https://store.steampowered.com/widget/333600/" frameborder="0" width="100%" height="200"></iframe>
+{% steam_widget 333600 %}
 
 <a class="btn" href="https://dl.galgamer.eu.org/%E8%8D%89%E7%8C%AB/%E7%8C%AB%E5%A8%98%E4%B9%90%E5%9B%AD0.7z" title="鼠标悬停显示链接"> NEKOPARA vo.0 </a>
 

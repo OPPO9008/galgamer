@@ -488,11 +488,11 @@ ul.closetimg > li.active { /* 抄襲 */
 我和青梅竹馬關係非常疏遠，所以希望有相關經驗的朋友講給我聽，好奇
 
 <p>
-  <img alt="CG0" src="../image/SousakuKanojo/cg/0.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/0.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <p>
-  <img alt="CG1" src="../image/SousakuKanojo/cg/1.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/1.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 
@@ -585,11 +585,11 @@ ul.closetimg > li.active { /* 抄襲 */
 </div><!-- end chara card -->
 
 <p>
-  <img alt="CG2" src="../image/SousakuKanojo/cg/2.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/2.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <p>
-  <img alt="CG3" src="../image/SousakuKanojo/cg/3.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/3.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <div class="chara-card yume">
@@ -677,11 +677,11 @@ ul.closetimg > li.active { /* 抄襲 */
 </div><!-- end chara card -->
 
 <p>
-  <img alt="CG4" src="../image/SousakuKanojo/cg/4.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/4.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <p>
-  <img alt="CG5" src="../image/SousakuKanojo/cg/5.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/5.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <div class="chara-card erena">
@@ -768,15 +768,15 @@ ul.closetimg > li.active { /* 抄襲 */
 </div><!-- end chara card -->
 
 <p>
-  <img alt="CG6" src="../image/SousakuKanojo/cg/6.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/6.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <p>
-  <img alt="CG7" src="../image/SousakuKanojo/cg/7.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/7.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 <p>
-  <img alt="CG8" src="../image/SousakuKanojo/cg/8.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+  <img src="../image/SousakuKanojo/cg/8.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
 </p>
 
 ### 你
@@ -801,17 +801,11 @@ ul.closetimg > li.active { /* 抄襲 */
 ## 遊戲 OP
 
 
-<div class='vidcontainer'>
-   <select class='qualitypick' autocomplete='off'>
-      <option selected>720p</option>
-      <option>1080p（需翻牆）</option>
-   </select>
-   <video controls preload="metadata" width='100%' poster="../image/SousakuKanojo/movie-op.webp">
-      <source label="720p" src="https://bitbucket.org/sa-ya/g-static/raw/3fdf26f7a4ab49d070c68f3cb7ef95c591e9042c/SousakuKanojo/OP-720p.mp4" type="video/mp4">
-      <source label="1080p（需翻牆）" src="https://github.com/OPPO9008/galgamer/releases/download/20220115/SousakuKano-OP-1080.mp4" type="video/mp4" >
-    <p> To view this video please enable JavaScript</p>
-   </video>
-</div>
+<video controls preload="metadata" width='100%' poster="../image/SousakuKanojo/movie-op.webp">
+  <source src="https://s3static-zone0.galgamer.eu.org/file/galvideo-zone0/SousakuKanojo/SousakuKano-OP-1080.mp4" type="video/mp4" >
+<p> To view this video please enable JavaScript</p>
+</video>
+
 
 
 ## H 場景
@@ -820,19 +814,19 @@ ul.closetimg > li.active { /* 抄襲 */
   <summary>點此展開（R-18 內容）</summary>
 
   <p>
-    <img alt="HCG0" src="../image/SousakuKanojo/hcg/0.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+    <img src="../image/SousakuKanojo/hcg/0.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
   </p>
 
   <p>
-    <img alt="HCG1" src="../image/SousakuKanojo/hcg/1.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+    <img src="../image/SousakuKanojo/hcg/1.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
   </p>
 
   <p>
-    <img alt="HCG2" src="../image/SousakuKanojo/hcg/2.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+    <img src="../image/SousakuKanojo/hcg/2.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
   </p>
 
   <p>
-    <img alt="HCG3" src="../image/SousakuKanojo/hcg/3.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
+    <img src="../image/SousakuKanojo/hcg/3.webp" class="img-lazy" loading="lazy" width="1280" height="720"/>
   </p>
 
 </details>
@@ -848,7 +842,7 @@ ul.closetimg > li.active { /* 抄襲 */
 <hr>
 <div class="row align-items-center">
   <p class="col" style="font-size:200%;">這遊戲好！好就好在：</p>
-  <img class="align-right ml-auto bg-transparent" width="150px" src="../image/Kinkoi/yes.webp" alt=""></img>
+  <img class="align-right ml-auto bg-transparent" width="150px" src="../image/Kinkoi/yes.webp" ></img>
 </div>
 
 ## 推薦理由
@@ -880,17 +874,12 @@ ul.closetimg > li.active { /* 抄襲 */
 有一個試玩錄像，翻譯是我自己加的
 它的 BGM 也很好聽
 
-<div class='vidcontainer'>
-  <select class='qualitypick' autocomplete='off'>
-     <option selected>720p</option>
-     <option>1080p（需翻牆）</option>
-  </select>
-  <video controls preload="metadata" width='100%' poster="../image/SousakuKanojo/movie.webp">
-     <source label="720p" src="https://bitbucket.org/sa-ya/g-static/raw/b0bbd68d954982698fb0a73a7016bd1afed3ed08/SousakuKanojo/SousakuKanojo-720.mp4" type="video/mp4">
-     <source label="1080p（需翻牆）" src="https://github.com/OPPO9008/galgamer/releases/download/20220115/SousakuKanojo-1080.mp4" type="video/mp4" >
-   <p> To view this video please enable JavaScript</p>
-  </video>
-</div>
+
+<video controls preload="metadata" width='100%' poster="../image/SousakuKanojo/movie.webp">
+   <source src="https://s3static-zone0.galgamer.eu.org/file/galvideo-zone0/SousakuKanojo/SousakuKanojo-1080.mp4" type="video/mp4" >
+ <p> To view this video please enable JavaScript</p>
+</video>
+
 
 ## 生肉閱讀難度
 
@@ -926,7 +915,7 @@ magnet:?xt=urn:btih:c71a43b132fbb8b7e40d0cd8ebf8bb665a2f1a95
 
 文件名：1139361
 
-或者從琉璃神社下載：[🔗️前往 Telegram 頻道](tg://resolve?domain=liuli_link&post=1778)
+或者從琉璃神社下載：{% telegram_channel 1778 liuli_link %}
 
 <style>
 :root {
@@ -958,13 +947,6 @@ magnet:?xt=urn:btih:c71a43b132fbb8b7e40d0cd8ebf8bb665a2f1a95
 }
 </style>
 <script>
-let target = document.querySelectorAll('.row.nomargin-x')[0];
-//target.style['background'] = "url('../image/YoriteKonoha/bg2.webp') no-repeat fixed center";
-//target.style['background-size'] = 'cover';
-//document.documentElement.setAttribute('data-user-color-scheme', 'dark');
-window.addEventListener('DOMContentLoaded', function() {
-
-});
 // 換衣服按鈕支持
 let changeBtns = document.querySelectorAll('.change-cloth');
 changeBtns.forEach(function(aBtn){
