@@ -255,7 +255,7 @@ Just Monika
 也是ddlc粉丝包OST
 列取一首我最喜欢的『Your Reality』
 
-<audio preload="metadata" style="width: 100%" src="https://bitbucket.org/sa-ya/g-golden/raw/d6be326f4196cb7c86775e64461a185af21c27e8/DDLC_Plus/Your%20Reality%20(Credits).mp3" controls="controls">
+<audio preload="metadata" style="width: 100%" src="https://s3static-zone0.galgamer.eu.org/file/galaudio-zone0/Your%20Reality%20(Credits).mp3" controls="controls">
 </audio>
 
 
@@ -313,13 +313,13 @@ Just Monika
 
 ### 正版资源
 
-<iframe src="https://store.steampowered.com/widget/1388880/" frameborder="0" width="100%" height="200"></iframe>
+{% steam_widget 1388880 %}
 
 其他平台在 [🔗️官方网站](https://ddlc.plus/buy)
 
 ### 已破解
 
-[🔗️前往 Telegram 频道](tg://resolve?domain=KiritouKureha&post=96)
+{% telegram_channel 96 %}
 
 [🔗️毒盘](https://pan.baidu.com/s/1dtSnU-8Ukhs8Qv1N4BH1hQ)
 

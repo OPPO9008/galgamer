@@ -1,7 +1,7 @@
 ---
 title: '從陰暗的時間盡頭而來：正是這份愛，毀滅了世界'
 date: 2021-11-24 00:30:00
-keywords: '仄暗き時の果てより'
+keywords: '仄暗き時の果てより, MOONSTONE, 来自昏暗的时间尽头'
 banner_img: '../image/Tokihate/banner.webp'
 index_img: '../image/Tokihate/index.webp'
 tags:
@@ -10,6 +10,7 @@ tags:
   - 悬疑
   - 猎奇
   - 妹妹
+  - 前女友
 categories:
   - [R-18]
   - [MOONSTONE]
@@ -215,32 +216,11 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 
 人物的印象插畫
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Tokihate/chars/chara01_illust.webp" alt="Komako">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/chars/chara02_illust.webp" alt="Yunna">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/chars/chara03_illust.webp" alt="Eri">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+{% gallery character %}
+../image/Tokihate/chars/chara01_illust.webp
+../image/Tokihate/chars/chara02_illust.webp
+../image/Tokihate/chars/chara03_illust.webp
+{% endgallery %}
 
 
 ## 遊戲 OP 動畫欣賞
@@ -250,7 +230,7 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 我覺得這首歌挺不錯的。
 
 <video controls preload="metadata" width='100%' poster="../image/Tokihate/op.webp">
-<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Tokihate/op-2.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/WXKlNmt9/Pk6MrRTkfBOFeBE4Zi-BnJIQSnmF6LnL3_LYT9jpvew*" type="video/mp4" />
+<source src="https://s3static-zone0.galgamer.eu.org/file/galvideo-zone0/Tokihate/op-2.mp4" type="video/mp4" />
 <track default src="../image/Tokihate/op.vtt" label="日文">
 <p> To view this video please enable JavaScript</p>
 </video>
@@ -275,46 +255,17 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 
 ## 遊戲畫面（含有 R-18 畫面）
 
-<div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="5"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="../image/Tokihate/cg2.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg3.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg5.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg6.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg7.webp">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="../image/Tokihate/cg8.webp">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-<br>
+{% gallery cgs %}
+../image/Tokihate/cg1.webp
+../image/Tokihate/cg2.webp
+../image/Tokihate/cg3.webp
+../image/Tokihate/cg4.webp
+../image/Tokihate/cg5.webp
+../image/Tokihate/cg6.webp
+../image/Tokihate/cg7.webp
+../image/Tokihate/cg8.webp
+../image/Tokihate/cg9.webp
+{% endgallery %}
 
 海報
 
@@ -327,7 +278,7 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 由於手上只有日文版，我嘗試加了翻譯字幕。
 
 <video controls preload="metadata" width='100%' poster="../image/Tokihate/movie.webp">
-<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Tokihate/Tokihate-2.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/DoXkrDF9/K1SQ21rYo_jR-UVq12nnizti5jjCLx_BSxCzVY3Yr4E*" type="video/mp4" />
+<source src="https://s3static-zone0.galgamer.eu.org/file/galvideo-zone0/Tokihate/Tokihate-2.mp4" type="video/mp4" />
 <track default src="../image/Tokihate/tokihate.vtt" label="繁體中文">
 <track src="../image/Tokihate/tokihate-sc.vtt" label="简体中文">
 <p> To view this video please enable JavaScript</p>
@@ -354,11 +305,11 @@ magnet:?xt=urn:btih:36718d1709a58a55fe43a92f31fa10f5afe3cd62
 ### 中文版
 
 官方中文版已發佈到 [🔗️HIKARI FIELD 商城](https://store.hikarifield.co.jp/shop/honoguraki)，
-你也可以直接在這裏下載：[🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=82)
+你也可以直接在這裏下載：{% telegram_channel 82 %}
 
 下面是“默示漢化組”（群友說是機翻漢化組）的非官方漢化版：
 
-[🔗️前往 Telegram 頻道](tg://resolve?domain=KiritouKureha&post=83)
+{% telegram_channel 83 %}
 
 <br><br>
 
