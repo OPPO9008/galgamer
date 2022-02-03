@@ -125,7 +125,7 @@ function setupBtn(){
     })
     shareInfo.addEventListener('click', function(ev){
         insertToast('success', '正在調用 Telegram', 3000);
-        let link = window.location.origin + '/api/music/' + nowPlaying;
+        let link = window.location.origin + '/api/music/' + reverseL(nowPlaying);
         
         let title = document.querySelectorAll('meta[property="og:title"]')[0].content;
         let url = title;
