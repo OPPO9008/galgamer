@@ -53,7 +53,8 @@ export async function onRequest(context) {
         <meta name="twitter:image" content="` + songPoster + `">
       </head>
       <body>
-        <h1>Loading...</h1>
+        <h1>` + songTitle + ` - ` + songArtist + `</h1>
+        <h2>Loading...</h2>
         <script>
           window.location = '`+ redirectTo +`';
         </script> 
