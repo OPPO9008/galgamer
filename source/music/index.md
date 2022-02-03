@@ -44,10 +44,10 @@ banner_img: '/image/music/banner.jpg'
             <a class="dropdown-item" id="qqGo">QQ 音樂</a>
             <a class="dropdown-item" id="kugouGo">酷狗</a>
           </div>
-          <button id="shareInfo" type="button" class="my-1 ms-1 btn btn-info">
+          <button id="shareInfo" type="button" class="my-1 ml-1 btn btn-info">
             <img width=20px src='/image/TGLogo.svg'/>
             <span style='margin: 4px;'>
-              分享這首歌給<span class="d-none d-md-inline d-lg-none"> TG </span><span class="d-none d-lg-inline"> Telegram </span>好友
+              分享這首歌
             </span>
           </button>
         </div>
