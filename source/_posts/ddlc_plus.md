@@ -255,7 +255,7 @@ Just Monika
 也是ddlc粉丝包OST
 列取一首我最喜欢的『Your Reality』
 
-<audio preload="metadata" style="width: 100%" src="https://bitbucket.org/sa-ya/g-golden/raw/d6be326f4196cb7c86775e64461a185af21c27e8/DDLC_Plus/Your%20Reality%20(Credits).mp3" controls="controls">
+<audio preload="metadata" style="width: 100%" src="https://s3static-zone0.galgamer.eu.org/file/galaudio-zone0/Your%20Reality%20(Credits).mp3" controls="controls">
 </audio>
 
 
