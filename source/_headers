@@ -16,6 +16,9 @@ https://galgamer.eu.org/*
 https://*.galgamer.eu.org/*
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   
+https://galgamer.eu.org/api/*
+  X-Robots-Tag: noindex
+  
 /playground/1G.gzip
   Content-Encoding: gzip
    
