@@ -19,10 +19,37 @@ date: 2022-02-01 00:00:00
 ---
 
 <style>
-.heimu, .heimu a, a .heimu, .heimu a.new {
-    background-color: #252525;
-    color: #252525;
+.navbar.scrolling-navbar {
+    will-change: background, padding, box-shadow, backdrop-filter !important;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 0%), 0 2px 10px 0 rgb(0 0 0 / 0%);
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    backdrop-filter: blur(0px);
+}
+
+.navbar.top-nav-collapse,
+.navbar.navbar-col-show {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 12%), 0 2px 10px 0 rgb(0 0 0 / 16%);
+    background-color: #fffc !important;
+    backdrop-filter: blur(20px);
+}
+#board {
+    backdrop-filter: blur(10px);
+    background-color: #3337 !important;
+}
+#toc {
+    backdrop-filter: blur(10px);
+}
+.banner .mask {
+    background: linear-gradient(to bottom, #0003 50%, transparent) !important;
+}
+.heimu {
+    display: inline-block;
+    background-color: #25252533;
+    color: transparent;
     text-shadow: none;
+    border-radius: 8px;
+    padding: 4px 8px;
+    transition: all ease .2s;
 }
 .heimu:hover, .heimu:active,
 .heimu:hover .heimu, .heimu:active .heimu {
@@ -37,10 +64,6 @@ date: 2022-02-01 00:00:00
     color: #BA0000 !important;
 }
 </style>
-
-<span class="heimu" title="你知道的太多了">
-
-</span><br>
 
 `作者：sym1018`
 
@@ -68,10 +91,8 @@ date: 2022-02-01 00:00:00
 ## 游戏简介
 
 远野志贵(我)在八年前的意外中,眼睛获得了神奇的能力(直死之魔眼)
-<span class="heimu" title="你知道的太多了">
-那是可以看到纵横交错在事物身上的死线的能力.
-即使是以永生而闻名的吸血鬼，死线被切的部份都會坏死，不可能再还原.
-</span><br>
+<sp-heimu>那是可以看到纵横交错在事物身上的死线的能力.
+即使是以永生而闻名的吸血鬼，死线被切的部份都會坏死，不可能再还原.</sp-heimu>
 又因为此次意外,他被托付于远亲的家中过着平静的日常生活,直至父亲去世的消息传达.
 他被妹妹家主秋叶召回远野家,作为远野家的长子开始新的生活.
 戏剧般的继承了古老的氏族,又住进一个与自己不相称的豪宅里,旧日的风景慢慢唤醒了志贵记忆的碎片.
@@ -80,112 +101,121 @@ date: 2022-02-01 00:00:00
 
 ## 主要人物
 
+{% template sp-heimu html %}
+<div class="heimu" title="你知道的太多了" html={html} />
+{% endtemplate %}
+{% template sp-character name html color note %}
+<div class="sp-character" style=%{ $color: color }%>
+    <p html={html.replace(/\.\s*/g, ".<br>")}>
+        <div class="note">{note}</div>
+    </p>
+    <img class="bg-transparent" src={`../image/Tsukihime/chars/${name}.png`} />
+</div>
+{% endtemplate %}
+
+<style>
+
+.sp-character {
+    display: flex;
+}
+.sp-character > .fancybox {
+    max-width: 40%;
+    min-width: 33%;
+    filter: drop-shadow(0 0 6px #000c);
+}
+
+.sp-character > p {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-shadow:
+        1px 1px 0 var(--color),
+        -1px -1px 0 var(--color),
+        -1px 1px 0 var(--color),
+        1px -1px 0 var(--color),
+        1px 0 0 var(--color),
+        -1px 0 0 var(--color),
+        0 1px 0 var(--color),
+        0 -1px 0 var(--color);
+}
+
+.sp-character > p > strong:first-of-type {
+    display: block;
+}
+
+.sp-character > p > .note {
+    color: white;
+    font-weight: 900;
+    text-shadow: unset;
+}
+
+</style>
+
 ### 远野志贵(Tohno Shiki)
-<img src="../image/Tsukihime/chars/Tohno_Shiki.png"/>
 
-<strong>远野志贵(Tohno Shiki)</strong><br>
-本作的男主角,乍一看是个性随和的文学男孩.
-因为过去的经历,他与同年人相比有着比较奇特的生死观.
-七年前,他卷入一场交通事故,从昏迷中恢复过来时,他的眼中出现谜一般的线条.
-这些线条与事物相连,切割这些线条就会毁坏事物.
-但通过与蒼琦青子的邂逅,他获得一副可以抑制该现象眼镜.
-至此,他又回到了本该在的日常生活.<br>
-
-<em><strong>
-故事的主角, 怪异的体质总会吸引其他怪异<br>
-</em></strong>
-
-<br>
-
+<sp-character name=Tohno_Shiki note="故事的主角, 特异的体质总会吸引其他怪异" color="#6c7aa0">
+    本作的男主角,乍一看是个性随和的文学男孩.
+    因为过去的经历,他与同年人相比有着比较奇特的生死观.
+    七年前,他卷入一场交通事故,从昏迷中恢复过来时,他的眼中出现谜一般的线条.
+    这些线条与事物相连,切割这些线条就会毁坏事物.
+    但通过与蒼琦青子的邂逅,他获得一副可以抑制该现象眼镜.
+    至此,他又回到了本该在的日常生活.
+</sp-character>
 
 ### 爱尔奎特·布伦史塔德(Arcueid Brunestud)
-<img src="../image/Tsukihime/chars/Arcueid_Brunestud.png"/>
 
-<strong>爱尔奎特·布伦史塔德(Arcueid Brunestud)</strong><br>
-这部游戏的第一女主角.
-一个神秘的女人,与优雅的外表相反,她表现出天真和幼稚的个性,但在任何方面都显得无可挑剔.
-她怀揣着某种目的参观小镇,但在一次令人震惊的相遇之后,选择与志贵一起行动.
-<span class="heimu" title="你知道的太多了">
-身份是真祖,吸血鬼皇室不可或缺的存在.
-尽管她拥有压倒性的身体能力,也不畏惧阳光,但爱尔奎德并不像传说中那样吸血,也不对人类构成威胁.
-她自己也不知道是什么原因造成的.
-</span><br>
-
-<em><strong>
-号称人气绝强的白姬，在《月姬》角色人气投票中四连霸，人气之高无人可挡。<br>
-</em></strong>
+<sp-character name=Arcueid_Brunestud note="号称人气绝强的白姬，在《月姬》角色人气投票中四连霸，人气之高无人可挡。" color="#80654e">
+    这部游戏的第一女主角.
+    一个神秘的女人,与优雅的外表相反,她表现出天真和幼稚的个性,但在任何方面都显得无可挑剔.
+    她怀揣着某种目的参观小镇,但在一次令人震惊的相遇之后,选择与志贵一起行动.
+    <sp-heimu>
+        身份是真祖,吸血鬼皇室不可或缺的存在.
+        尽管她拥有压倒性的身体能力,也不畏惧阳光,但爱尔奎德并不像传说中那样吸血,也不对人类构成威胁.
+        她自己也不知道是什么原因造成的.
+    </sp-heimu>
+</sp-character>
 
 
 ### 希耶尔(Ciel)
-<img src="../image/Tsukihime/chars/Ciel.png"/>
 
-<strong>希耶尔(Ciel)</strong><br>
-志贵就读的学校的高年级学生.
-校服,眼睛和微笑是她的标志,她性格温柔,礼貌地对待每个人.
-深受身边人们的信任,她已成为一个志贵可以依靠的咨询伙伴.
-茶道部部长,午休和放学的时候进出茶道社的房间,志贵也经常光顾这间茶室吃茶点,和希耶尔一点一点的商量和交谈,加深交流.
-志贵最好的朋友有彦渴望的女人,似乎象征着平静的日常生活.
-<br>
-
-<em><strong>
-咖喱狂热者，三餐都吃咖喱，绝不允许有人说咖喱的坏话。<br>
-</em></strong>
-
-<br>
-
-
+<sp-character name=Ciel note="咖喱狂热者，三餐都吃咖喱，绝不允许有人说咖喱的坏话。" color="#3762a6">
+    志贵就读的学校的高年级学生.
+    校服,眼睛和微笑是她的标志,她性格温柔,礼貌地对待每个人.
+    深受身边人们的信任,她已成为一个志贵可以依靠的咨询伙伴.
+    茶道部部长,午休和放学的时候进出茶道社的房间,志贵也经常光顾这间茶室吃茶点,和希耶尔一点一点的商量和交谈,加深交流.
+    志贵最好的朋友有彦渴望的女人,似乎象征着平静的日常生活.
+</sp-character>
 
 ### 远野秋叶(Tohno Akiha)
-<img src="../image/Tsukihime/chars/Tohno_Akiha.png"/>
 
-<strong>远野秋叶(Tohno Akiha)</strong><br>
-志贵的妹妹.
-父亲死后继承名门远野家的年轻主人.
-她接受了代替志贵的教育,获得了适合一个有名望的家庭的知识、行为和礼仪,但代价却是秋叶失去了作为女孩的年龄.
-几乎整天都困在房中接受教育,每天只有半小时的游戏时间,也没有交朋友的时间.
-对疏远七年的哥哥志贵怀有复杂的感情,在上流社会寻求人性化生活方式的同时,也因过往的意外和结交陌生朋友留下了后遗症.
-她似乎知道了志贵的秘密……<br>
-
-<em><strong>
-傲娇姐姐谁不爱呢<br>
-</em></strong>
-
-<br>
-
+<sp-character name=Tohno_Akiha note="傲娇姐姐谁不爱呢" color="#746c6c">
+    志贵的妹妹.
+    父亲死后继承名门远野家的年轻主人.
+    她接受了代替志贵的教育,获得了适合一个有名望的家庭的知识、行为和礼仪,但代价却是秋叶失去了作为女孩的年龄.
+    几乎整天都困在房中接受教育,每天只有半小时的游戏时间,也没有交朋友的时间.
+    对疏远七年的哥哥志贵怀有复杂的感情,在上流社会寻求人性化生活方式的同时,也因过往的意外和结交陌生朋友留下了后遗症.
+    她似乎知道了志贵的秘密……
+</sp-character>
 
 ### 翡翠(Hisui)
-<img src="../image/Tsukihime/chars/Hisui.png"/>
 
-<strong>翡翠(Hisui)</strong><br>
-为远野家服务的双胞胎仆人之一,双子之妹.
-姐妹俩关系很好,琥珀是做饭,翡翠是打扫卫生,互相弥补对方的不足.
-穿着经典女仆式套装.她沉默寡言,缺乏情感表达,甚至给人一种机器的印象,但她对四季的执着却非同凡响.
-志贵回到府邸后,她担任专属的女仆照顾志贵,如果志贵的身体出现问题,她常能及早发现.<br>
-
-<em><strong>
-翡翠的另一个名字“洗脑侦探翡翠”则是因误植和同人效力催化下的产物,也算是月姬的另一种趣味.<br>
-</em></strong>
-
-
+<sp-character name=Hisui note="翡翠的另一个名字“洗脑侦探翡翠”则是因误植和同人效力催化下的产物,也算是月姬的另一种趣味." color="#cf5d68">
+    为远野家服务的双胞胎仆人之一,双子之妹.
+    姐妹俩关系很好,琥珀是做饭,翡翠是打扫卫生,互相弥补对方的不足.
+    穿着经典女仆式套装.她沉默寡言,缺乏情感表达,甚至给人一种机器的印象,但她对四季的执着却非同凡响.
+    志贵回到府邸后,她担任专属的女仆照顾志贵,如果志贵的身体出现问题,她常能及早发现.
+</sp-character>
 
 ### 琥珀(Kohaku)
-<img src="../image/Tsukihime/chars/Kohaku.png">
 
-<strong>琥珀(Kohaku)</strong><br>
-为远野家服务的双胞胎仆人之一,双子之姊.
-其他员工都被解雇了,所以现在的豪宅的所有管理都留给了她们.
-穿着和服、围裙等传统服饰,总是面带微笑的开朗女性.
-另一方面,她也有可怕的地方,那就是她会以她自己的节奏捉弄对方.
-她的主人秋叶也被这些戏弄的言行所困扰.
-宅邸中负责照顾秋叶周围环境的超级管家,除一般的家务外也管理着志贵的身体状况.<br>
-
-<em><strong>
-太惨了,不忍吐槽.<br>
-</em></strong>
-
-
-
-
+<sp-character name=Kohaku note="太惨了,不忍吐槽." color="#cf5d68">
+    为远野家服务的双胞胎仆人之一,双子之姊.
+    其他员工都被解雇了,所以现在的豪宅的所有管理都留给了她们.
+    穿着和服、围裙等传统服饰,总是面带微笑的开朗女性.
+    另一方面,她也有可怕的地方,那就是她会以她自己的节奏捉弄对方.
+    她的主人秋叶也被这些戏弄的言行所困扰.
+    宅邸中负责照顾秋叶周围环境的超级管家,除一般的家务外也管理着志贵的身体状况.
+</sp-character>
 
 ## 游戏
 
@@ -225,14 +255,12 @@ UI界面倒是感觉原版吧,不好也不差.
 新加了流程图,算是吸收了gal界的优良传统吧.
 剧本更加紧凑,仅有两条线的剧本也让选项更加直接,一定程度上降低了游戏难度.
 
-月姬的剧情可以用凄美来形容<span class="heimu" title="你知道的太多了">
-(处处体现着蘑菇的心狠手辣),
-</span><br>
+月姬的剧情可以用凄美来形容<sp-heimu>(处处体现着蘑菇的心狠手辣),</sp-heimu><br>
 游戏分为表里两线,表线较为热血,但里线的故事刻画人物的情感和过往经历描绘出一个栩栩如生的世界.虽没有优秀的立绘与cg,但角色与角色之间的情感碰撞足够令人动容.每当通过新的线路都了解到更多的心酸往事,从而了解角色是为何走上自己的道路.
 
-<span class="heimu" title="你知道的太多了">
+<sp-heimu>
 笔者个人最喜欢的是秋叶,唯一一个没有好结局的女主角,远野家族的诅咒易进让她背负了太多,尽管如此,她也一直在为志贵着想,最后牺牲了自己.
-</span><br>
+</sp-heimu><br>
 
 
 ### 攻略信息
