@@ -7,15 +7,13 @@ tags:
   - 奇幻
   - 战斗
   - 恋爱
-  - Type Moon
 categories:
   - [R-18]
-  - [奈须蘑菇]
-  - [武内崇]
+  - [Type Moon]
 abbrlink: 134
 author: sym1018
 excerpt: '重制版<月姬 -A piece of blue glass moon->已经发行,借由此次机会重新整理月姬系列部分内容.'
-date: 2022-02-01 00:00:00
+date: 2022-02-05 00:30:00
 ---
 
 <style>
@@ -268,7 +266,7 @@ UI界面倒是感觉原版吧,不好也不差.
 
 
 ### 攻略信息
-可参考UP主秋刀魚glauque[月姬2000攻略](https://www.bilibili.com/read/cv12891996)
+可参考UP主秋刀魚glauque[🔗️月姬2000攻略](https://www.bilibili.com/read/cv12891996)
 原版选项难度过高,不时就进入死亡循环,自己玩记得多存档,如果想体验主要剧情可参考攻略.
 每条线路的难度都不相同,内容较多,耗时较长,还请耐心游玩
 
@@ -284,30 +282,45 @@ UI界面倒是感觉原版吧,不好也不差.
 
 ## 资源
 
+该游戏目前只有NS和PS4版本，需要使用Switch模拟器游玩。
+
 ### 正版资源
 
-游戏内容可通过[Tsukihime wiki](https://typemoon.fandom.com/wiki/Tsukihime) 来查看更多
+游戏内容可通过[🔗️Tsukihime wiki](https://typemoon.fandom.com/wiki/Tsukihime) 来查看更多
 
-新版NS与PS4游戏购买在[官方网站](http://typemoon.com/products/tsukihime/)查看
+新版NS与PS4游戏购买在[🔗️官方网站](http://typemoon.com/products/tsukihime/)查看
 
 ### OST
 
-[OST购买地址](https://anxmusic.lnk.to/eUubpH)
+[🔗️OST购买地址](https://anxmusic.lnk.to/eUubpH)
 
-原生OST,由网易云电台带佬上传,如有侵权还请联系[sym1018](https://t.me/sym1018),会及时撤回
-链接地址:[月姫 -A piece of blue glass moon- Original Soundtrack](http://cloud.tsuasahi.com/Music/%E6%9C%88%E5%A7%AB%20-A%20piece%20of%20blue%20glass%20moon-%20Original%20Soundtrack%20FLAC.zip)
+原生OST,由网易云电台带佬上传
+链接地址:[🔗️月姫 -A piece of blue glass moon- Original Soundtrack](http://cloud.tsuasahi.com/Music/%E6%9C%88%E5%A7%AB%20-A%20piece%20of%20blue%20glass%20moon-%20Original%20Soundtrack%20FLAC.zip)
 
-### 破解
+### 远古的原版游戏
 
-原版游戏链接[google driver](https://drive.google.com/drive/folders/1YCL0KjZcflTDEpq39irOUKHoXk1JpLFZ)
-密码(终点),用的终点论坛的链接,如侵权请联系[sym1018](https://t.me/sym1018)
+原版游戏链接[🔗️google driver](https://drive.google.com/drive/folders/1YCL0KjZcflTDEpq39irOUKHoXk1JpLFZ)
+密码(终点),用的终点论坛的链接。
 
-tg频道[月姬本体plus+disc](https://t.me/sym1018Others/114)
+也可以 {% telegram_channel 191809 Galgamer %}
 
-复刻版汉化进度可查看萌娘百科大佬百科[Letdo1945/月姬REMAKE汉化进度](https://zh.moegirl.org.cn/User:Letdo1945/%E6%9C%88%E5%A7%ACREMAKE%E6%B1%89%E5%8C%96%E8%BF%9B%E5%BA%A6)
-进度查询[二线汉化中](https://www.91tvg.com/thread-260813-1-1.html)
+### 重点在此：高清重制版
 
+汉化：目前还没弄好。
+复刻版汉化进度可查看萌娘百科大佬百科[🔗️Letdo1945/月姬REMAKE汉化进度](https://zh.moegirl.org.cn/User:Letdo1945/%E6%9C%88%E5%A7%ACREMAKE%E6%B1%89%E5%8C%96%E8%BF%9B%E5%BA%A6)
+进度查询[🔗️二线汉化中](https://www.91tvg.com/thread-260813-1-1.html)
 
+啃生肉的话...
+
+```
+magnet:?xt=urn:btih:04a75cc42f3a9c989269ac1df6cf4551bf54eebc
+```
+
+文件名：Tsukihime - A piece of blue glass moon- [SWITCH].nsp
+
+上面是游戏本体，需要配合[🔗️任天堂Switch模拟器](https://yuzu-emu.org/)来运行。
+模拟器的使用教程请看一篇[🔗️B站教程](https://www.bilibili.com/read/cv7047342/)，
+文中提到的key文件在此 {% telegram_channel 208 %}
 
 <style>
 body {
