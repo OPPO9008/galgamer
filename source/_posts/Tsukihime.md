@@ -196,17 +196,17 @@ date: 2022-02-01 00:00:00
 
 下列cg为官网下载remake的全新cg,原cg因画质与画风还是不要放上来为好
 
-![cg1](../image/Tsukihime/cg/1.jfif) 
+![cg1](../image/Tsukihime/cg/1.jfif)
 
-![cg2](../image/Tsukihime/cg/2.jfif) 
+![cg2](../image/Tsukihime/cg/2.jfif)
 
-![cg3](../image/Tsukihime/cg/3.jfif) 
+![cg3](../image/Tsukihime/cg/3.jfif)
 
-![cg4](../image/Tsukihime/cg/4.jfif) 
+![cg4](../image/Tsukihime/cg/4.jfif)
 
-![cg5](../image/Tsukihime/cg/5.jfif) 
+![cg5](../image/Tsukihime/cg/5.jfif)
 
-![cg6](../image/Tsukihime/cg/6.jfif) 
+![cg6](../image/Tsukihime/cg/6.jfif)
 
 ## 总结
 
