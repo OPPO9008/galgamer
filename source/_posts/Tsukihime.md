@@ -8,10 +8,10 @@ tags:
   - 战斗
   - 恋爱
 categories:
-  - - R-18
-  - - Type Moon
-  - - 奈须蘑菇
-  - - 武内崇
+  - R-18
+  - Type Moon
+  - 奈须蘑菇
+  - 武内崇
 abbrlink: 134
 author: sym1018
 excerpt: '重制版出来了,先发个本篇,夹杂部分<月姬 -A piece of blue glass moon->内容'
