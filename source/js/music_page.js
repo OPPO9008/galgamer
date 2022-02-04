@@ -8,6 +8,7 @@ let neteaseGo = document.getElementById('neteaseGo');
 let qqGo = document.getElementById('qqGo');
 let kugouGo = document.getElementById('kugouGo');
 let mPlaylist = document.getElementById('playlist');
+let shareInfo = document.getElementById('shareInfo');
 
 let allMusic = [];
 let nowPlaying = 0;
@@ -20,7 +21,7 @@ async function main(){
     allMusic = await getAllMusic();
     initPlayer();
     buildPlaylist();
-    setupGoBtn();
+    setupBtn();
     
     // Find ID from URL
     let id = parseInt(getIdByUrl());
@@ -88,7 +89,7 @@ function initPlayer(){
     });
 }
 
-function setupGoBtn(){
+function setupBtn(){
     neteaseGo.addEventListener('click', function(ev){
         let neteaseid = allMusic[nowPlaying].netease;
         if(neteaseid){
@@ -121,6 +122,20 @@ function setupGoBtn(){
     })
     kugouGo.addEventListener('click', function(ev){
         insertToast('danger', '無法打開酷狗音樂', 3000);
+    })
+    shareInfo.addEventListener('click', function(ev){
+        insertToast('success', '正在調用 Telegram', 3000);
+        let link = window.location.origin + '/api/music/' + reverseL(nowPlaying);
+        
+        let title = document.querySelectorAll('meta[property="og:title"]')[0].content;
+        let url = title;
+        let desc = '🔗️' + link;
+        //nielog(url);
+        //nielog(desc);
+        url = encodeURIComponent(url);
+        desc = encodeURIComponent(desc);
+        // TG call
+        window.location = 'tg://msg_url?url=' + url + '&text=' + desc;
     })
 }
 
