@@ -89,7 +89,7 @@ date: 2022-02-05 00:30:00
 ## 游戏简介
 
 远野志贵(我)在八年前的意外中,眼睛获得了神奇的能力(直死之魔眼)<span class="heimu" title="你知道的太多了">那是可以看到纵横交错在事物身上的死线的能力.
-即使是以永生而闻名的吸血鬼，死线被切的部份都会坏死，不可能再还原.
+即使是以永生而闻名的吸血鬼,死线被切的部份都会坏死,不可能再还原.
 </span>
 又因为此次意外,他被托付于远亲的家中过着平静的日常生活,直至父亲去世的消息传达.
 他被妹妹家主秋叶召回远野家,作为远野家的长子开始新的生活.
@@ -164,7 +164,7 @@ date: 2022-02-05 00:30:00
 
 ### 爱尔奎特·布伦史塔德(Arcueid Brunestud)
 
-<sp-character name=Arcueid_Brunestud note="号称人气绝强的白姬，在《月姬》角色人气投票中四连霸，人气之高无人可挡。" color="#80654e">
+<sp-character name=Arcueid_Brunestud note="号称人气绝强的白姬,在《月姬》角色人气投票中四连霸,人气之高无人可挡." color="#80654e">
     这部游戏的第一女主角.
     一个神秘的女人,与优雅的外表相反,她表现出天真和幼稚的个性,但在任何方面都显得无可挑剔.
     她怀揣着某种目的参观小镇,<sp-heimu>但在被志贵杀死并复活之后,
@@ -179,7 +179,7 @@ date: 2022-02-05 00:30:00
 
 ### 希耶尔(Ciel)
 
-<sp-character name=Ciel note="咖喱狂热者，三餐都吃咖喱，绝不允许有人说咖喱的坏话。" color="#3762a6">
+<sp-character name=Ciel note="咖喱狂热者,三餐都吃咖喱,绝不允许有人说咖喱的坏话." color="#3762a6">
     志贵就读的学校的高年级学生.
     校服,眼睛和微笑是她的标志,她性格温柔,礼貌地对待每个人.
     深受身边人们的信任,她已成为一个志贵可以依靠的咨询伙伴.
@@ -281,7 +281,7 @@ UI界面倒是感觉原版吧,不好也不差.
 
 ## 资源
 
-该游戏目前只有NS和PS4版本，需要使用Switch模拟器游玩。
+该游戏目前只有NS和PS4版本,需要使用Switch模拟器游玩.
 
 ### 正版资源
 
@@ -299,13 +299,13 @@ UI界面倒是感觉原版吧,不好也不差.
 ### 远古的原版游戏
 
 原版游戏链接[🔗️google driver](https://drive.google.com/drive/folders/1YCL0KjZcflTDEpq39irOUKHoXk1JpLFZ)
-密码(终点),用的终点论坛的链接。
+密码(终点),用的终点论坛的链接.
 
 也可以 {% telegram_channel 191809 Galgamer %}
 
 ### 重点在此：高清重制版
 
-汉化：目前还没弄好。
+汉化：目前还没弄好.
 复刻版汉化进度可查看萌娘百科大佬百科[🔗️Letdo1945/月姬REMAKE汉化进度](https://zh.moegirl.org.cn/User:Letdo1945/%E6%9C%88%E5%A7%ACREMAKE%E6%B1%89%E5%8C%96%E8%BF%9B%E5%BA%A6)
 进度查询[🔗️二线汉化中](https://www.91tvg.com/thread-260813-1-1.html)
 
@@ -317,8 +317,8 @@ magnet:?xt=urn:btih:04a75cc42f3a9c989269ac1df6cf4551bf54eebc
 
 文件名：Tsukihime - A piece of blue glass moon- [SWITCH].nsp
 
-上面是游戏本体，需要配合[🔗️任天堂Switch模拟器](https://yuzu-emu.org/)来运行。
-模拟器的使用教程请看一篇[🔗️B站教程](https://www.bilibili.com/read/cv7047342/)，
+上面是游戏本体,需要配合[🔗️任天堂Switch模拟器](https://yuzu-emu.org/)来运行.
+模拟器的使用教程请看一篇[🔗️B站教程](https://www.bilibili.com/read/cv7047342/),
 文中提到的key文件在此 {% telegram_channel 208 %}
 
 <style>
