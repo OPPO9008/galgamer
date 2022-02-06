@@ -211,7 +211,14 @@ excerpt: 擁有能看見即將發生的不幸的能力的男主角，吹上慎�
 
 ![遊戲封面](../image/SakuraNoMori-Dreamers/ms22_top02.webp)
 
+## 還在猶豫是否下載？
 
+這裏有一個來自 Hikari Field 棺方中文版 的試玩錄像。
+
+<video controls preload="metadata" width='100%' poster="../image/SakuraNoMori-Dreamers/movie1.webp">
+  <source src="https://s3static-zone0.galgamer.eu.org/file/galvideo-zone0/SakuraNoMori12/skr1-movie.mp4" type="video/mp4" >
+<p> To view this video please enable JavaScript</p>
+</video>
 
 ## 資源與下載
 
