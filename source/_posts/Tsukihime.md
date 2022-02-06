@@ -240,7 +240,7 @@ date: 2022-02-05 00:30:00
 ### 遊戲 OP
 
 <video controls preload="metadata" width='100%' poster="../image/Tsukihime/op.jpg">
-<source src="https://s3static-zone0.galgamer.eu.org/file/galvideo-zone0/Tsukihime/Tsukihime-op.mp4" type="video/mp4" />
+<source src="https://s3static-zone0.galgamer.eu.org/video-2d35/Tsukihime/Tsukihime-op.mp4" type="video/mp4" />
 </video>
 
 ### CG
@@ -302,7 +302,7 @@ UI界面倒是感觉原版吧,不好也不差.
 不需要阅读文字, 请简单体会意境.
 
 <video controls preload="metadata" width='100%' poster="../image/Tsukihime/movie.webp">
-<source src="https://s3static-zone0.galgamer.eu.org/file/galvideo-zone0/Tsukihime/13min-know.mp4" type="video/mp4" />
+<source src="https://s3static-zone0.galgamer.eu.org/video-2d35/Tsukihime/13min-know.mp4" type="video/mp4" />
 </video>
 
 ## 资源
