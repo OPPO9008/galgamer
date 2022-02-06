@@ -233,7 +233,7 @@ excerpt: 從殺人魔手中倖存的秋津圓香和青梅竹馬的慎司揭開�
 這裏有一個來自 Hikari Field 棺方中文版 的試玩錄像。
 
 <video controls preload="metadata" width='100%' poster="../image/SakuraNoMori-Dreamers-2/movie2.webp">
-  <source src="https://s3static-zone0.galgamer.eu.org/file/galvideo-zone0/SakuraNoMori12/skr2-movie.mp4" type="video/mp4" >
+  <source src="https://s3static-zone0.galgamer.eu.org/video-2d35/SakuraNoMori12/skr2-movie.mp4" type="video/mp4" >
 <p> To view this video please enable JavaScript</p>
 </video>
 
