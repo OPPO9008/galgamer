@@ -71,7 +71,7 @@ date: 2022-02-05 00:30:00
 
 开头绝赞音乐复刻
 放一首最喜欢的<月姫-re>
-<audio preload="metadata" style="width: 100%" src="https://s3static-zone0.galgamer.eu.org/audio-2d3f/%E6%9C%88%E5%A7%AB%EF%BC%9Are.mp3" controls="controls">
+<audio preload="metadata" style="width: 100%" src="https://s3static-zone0.galgamer.eu.org/audio-2d35/%E6%9C%88%E5%A7%AB%EF%BC%9Are.mp3" controls="controls">
 
 </audio>
 
