@@ -562,6 +562,10 @@ border-radius: 10px;
 </p>
 
 <p>
+  <img width="1280" height="720" src='../image/WA2/3/cg/5.webp' loading=lazy class="img-lazy"/>
+</p>
+
+<p>
   <img width="1920" height="1200" src='../image/WA2/spec.webp' loading=lazy class="img-lazy"/>
 </p>
 
@@ -621,6 +625,8 @@ magnet:?xt=urn:btih:5cef07a405c77797bfb630f11b5e09c1fe0c03a8
 番外篇小故事漢化補丁 {% telegram_channel 269 %}
 
 ## 攻略
+
+這遊戲太複雜了都給我整不會了，玩不過就看攻略吧。
 
 https://www.3dmgame.com/gl/3710683.html
 
