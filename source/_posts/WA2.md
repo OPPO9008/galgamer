@@ -203,7 +203,7 @@ border-radius: 10px;
   <p> To view this video please enable JavaScript</p>
 </video>
 
-已收錄 <a href="/music/?id=14" target="_blank">🔗️Galgame 金曲</a>
+Galgame 金曲 <a href="/music/?id=16" target="_blank">🔗️届かない恋</a>
 
 ### CG
 
@@ -393,7 +393,7 @@ border-radius: 10px;
   <p> To view this video please enable JavaScript</p>
 </video>
 
-已收錄 <a href="/music/?id=13" target="_blank">🔗️Galgame 金曲</a>
+Galgame 金曲 <a href="/music/?id=15" target="_blank">🔗️幸せな記憶</a>
 
 ### CG
 
