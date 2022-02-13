@@ -445,8 +445,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  # 有緩存我直接用大圖
-  banner_img: /image/main/hana1-hq.webp
+  banner_img: https://cdn.jsdelivr.net/npm/galgame-oss@1.0.16/%E6%B0%B8%E4%B8%8D%E6%9E%AF%E8%90%8E%E7%9A%84%E4%B8%96%E7%95%8C%E8%88%87%E7%B5%82%E7%B5%90%E4%B9%8B%E8%8A%B1/img_04.jpg.webp
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
