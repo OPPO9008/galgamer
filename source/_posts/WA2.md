@@ -5,8 +5,7 @@ keywords: 'White Album, 白色相簿 2, AQUAPLUS'
 banner_img: ''
 index_img: '../image/WA2/index.webp'
 tags:
-  - 校园
-  - 社会
+  - NTR
   - 三角恋
   - 前女友
 categories:
