@@ -36,6 +36,21 @@ img.layer-border {
   overflow: hidden;
 }
 
+/* 電腦版 文章標題不要省略截斷 */
+.index-header {
+  white-space: inherit;
+}
+/* 手機版 文章標題不要限制兩行 */
+@media (max-width: 767px){
+  .index-header {
+    -webkit-line-clamp: inherit;
+  }
+}
+/* 文章摘要 不要限制三行 */
+.index-excerpt {
+  max-height: unset;
+}
+
 /* 配色 */
 :root {
   /* 網頁背景色: 0; */
