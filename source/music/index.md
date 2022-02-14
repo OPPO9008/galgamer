@@ -18,6 +18,9 @@ banner_img: '/image/music/banner.jpg'
 #shareBtn {
   display: none;
 }
+#detailsCard, #playlist img {
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
 </style>
 
 <div class="container">

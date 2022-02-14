@@ -10,6 +10,9 @@ https://www.galgamer.xyz/*
 https://dl.galgamer.eu.org/*
   X-Robots-Tag: noindex
   
+https://dl.galgamer.xyz/*
+  X-Robots-Tag: noindex
+  
 https://galgamer.eu.org/*
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   
@@ -23,20 +26,19 @@ https://galgamer.eu.org/api/*
   Content-Encoding: gzip
    
 /img/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=2500000
   
 /image/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=2500000
   
 /js/*
   Cache-Control: no-cache
 
 /css/*
   Cache-Control: no-cache
-
-
-/
-  Link: <https://unpkg.zhimg.com/galgame-oss/hana1-hq.webp>; rel="prefetch" as="image"
+  
+/music/*
+  Cache-Control: no-cache
   
 /article/48333*
   Link: </img/default.png>; rel="prefetch" as="image"
