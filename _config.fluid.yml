@@ -204,10 +204,11 @@ custom_css:
 
 # 自定义 <head> 节点中的 HTML 内容
 # Customize <head> HTML content
+#     <link rel="preconnect" href="https://fonts.googleapis.com">
+#    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 custom_head: ' 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&family=Noto+Sans+SC&family=Noto+Sans+TC&family=Noto+Serif&family=Noto+Serif+JP&family=Noto+Serif+SC&family=Noto+Serif+TC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://s3static-zone0.galgamer.eu.org">
+    <link href="/css/s3fonts-woff-woff2.css" rel="stylesheet">
     <script src="/js/pangu.min.js"></script>
     <script src="/js/mylib_async.js"></script>
     <script src="/js/popper.min.js"></script>
