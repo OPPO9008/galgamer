@@ -26,10 +26,10 @@ https://galgamer.eu.org/api/*
   Content-Encoding: gzip
    
 /img/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=2500000
   
 /image/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=2500000
   
 /js/*
   Cache-Control: no-cache
