@@ -80,8 +80,8 @@ img.layer-border {
 [data-user-color-scheme='dark'] {
   --body-bg-color: #1c1c1c;
   --board-bg-color: #333333;
-  --text-color: #c4c6c9;
-  --sec-text-color: #a7a9ad;
+  --text-color: #e3e3e3;
+  --sec-text-color: #bfbfbf;
   --post-text-color: #e3e3e3;
   --post-heading-color: #d1d1d1;
   --post-link-color: #1589e9;
