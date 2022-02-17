@@ -93,7 +93,7 @@ excerpt: '精灵女弓手苏拉尔为逆转败局，救出魔族俘虏莎莉丝�
 {% template sp-character name no cv width height html %}
 <div class="sp-character row align-items-center">
     <div class="imgbox col-sm-5 col-lg-4">
-        <img width={width} height={height} loading="lazy" src={`../image/teakamamire/chars/${no}.webp`}/>
+        <img width={width} height={height} loading="lazy" src={`../image/escapedungeon2/chars/${no}.webp`}/>
     </div>
     <div class="textbox col-7 col-lg-8">
         <span class="font-serif sp-name">{name}</span>
@@ -169,7 +169,7 @@ excerpt: '精灵女弓手苏拉尔为逆转败局，救出魔族俘虏莎莉丝�
 
 這裏有一個简短的試玩。
 
-<video controls preload="metadata" width='100%' poster="../image/teakamamire/movie.webp">
+<video controls preload="metadata" width='100%' poster="../image/escapedungeon2/movie.webp">
 <source src="https://bitbucket.org/phobosloreal/galvideo/raw/5f399de2e7523156bf47c792959a1b4487b43d7e/escapedungeon2/Escapedungeon2%202022-02-18%2003-10-52-1.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
