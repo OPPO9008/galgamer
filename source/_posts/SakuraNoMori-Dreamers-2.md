@@ -118,7 +118,7 @@ excerpt: 從殺人魔手中倖存的秋津圓香和青梅竹馬的慎司揭開�
 
 還有，本作的 ED **さくら雫** 也是世界名曲，我是真喜歡電氣華憐的歌。
 
-<video controls width='100%' preload="metadata">
+<video controls width='100%' preload="metadata" poster="../image/SakuraNoMori-Dreamers-2/ed2.webp">
 <source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/SakuraNoMori-Dreamers-2/Sakura-2-Ed-Sakurashizuku-1.mp4" type="video/mp4"/>
 </video>
 
@@ -210,23 +210,32 @@ excerpt: 從殺人魔手中倖存的秋津圓香和青梅竹馬的慎司揭開�
 
 ## 遊戲畫面（含有 R-18 畫面）
 
-![screen1](../image/SakuraNoMori-Dreamers-2/screen1.webp)
+![](../image/SakuraNoMori-Dreamers-2/screen1.webp)
 
-![screen2](../image/SakuraNoMori-Dreamers-2/screen2.webp)
+![](../image/SakuraNoMori-Dreamers-2/screen2.webp)
 
-![screen3](../image/SakuraNoMori-Dreamers-2/screen3.webp)
+![](../image/SakuraNoMori-Dreamers-2/screen3.webp)
 
-![screen4](../image/SakuraNoMori-Dreamers-2/screen4.webp)
+![](../image/SakuraNoMori-Dreamers-2/screen4.webp)
 
-![CG1](../image/SakuraNoMori-Dreamers-2/CG1.jpg)
+![](../image/SakuraNoMori-Dreamers-2/CG1.jpg)
 
-![CG2](../image/SakuraNoMori-Dreamers-2/CG2.jpg)
+![](../image/SakuraNoMori-Dreamers-2/CG2.jpg)
 
-![CG3](../image/SakuraNoMori-Dreamers-2/CG3.jpg)
+![](../image/SakuraNoMori-Dreamers-2/CG3.jpg)
 
-![CG4](../image/SakuraNoMori-Dreamers-2/CG4.webp)
+![](../image/SakuraNoMori-Dreamers-2/CG4.webp)
 
 ![圓香立繪](../image/SakuraNoMori-Dreamers-2/SKRNMRD-2.webp)
+
+## 還在猶豫是否下載？
+
+這裏有一個來自 Hikari Field 棺方中文版 的試玩錄像。
+
+<video controls preload="metadata" width='100%' poster="../image/SakuraNoMori-Dreamers-2/movie2.webp">
+  <source src="https://s3static-zone0.galgamer.eu.org/video-2d35/SakuraNoMori12/skr2-movie.mp4" type="video/mp4" >
+<p> To view this video please enable JavaScript</p>
+</video>
 
 ## 資源與下載
 

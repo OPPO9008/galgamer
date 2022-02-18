@@ -1,7 +1,7 @@
 ---
 title: '從陰暗的時間盡頭而來：正是這份愛，毀滅了世界'
 date: 2021-11-24 00:30:00
-keywords: '仄暗き時の果てより'
+keywords: '仄暗き時の果てより, MOONSTONE, 来自昏暗的时间尽头'
 banner_img: '../image/Tokihate/banner.webp'
 index_img: '../image/Tokihate/index.webp'
 tags:
@@ -10,6 +10,7 @@ tags:
   - 悬疑
   - 猎奇
   - 妹妹
+  - 前女友
 categories:
   - [R-18]
   - [MOONSTONE]
@@ -229,7 +230,7 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 我覺得這首歌挺不錯的。
 
 <video controls preload="metadata" width='100%' poster="../image/Tokihate/op.webp">
-<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Tokihate/op-2.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/WXKlNmt9/Pk6MrRTkfBOFeBE4Zi-BnJIQSnmF6LnL3_LYT9jpvew*" type="video/mp4" />
+<source src="https://s3static-zone0.galgamer.eu.org/video-2d35/Tokihate/op-2.mp4" type="video/mp4" />
 <track default src="../image/Tokihate/op.vtt" label="日文">
 <p> To view this video please enable JavaScript</p>
 </video>
@@ -277,7 +278,7 @@ excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀�
 由於手上只有日文版，我嘗試加了翻譯字幕。
 
 <video controls preload="metadata" width='100%' poster="../image/Tokihate/movie.webp">
-<source src="https://bitbucket.org/sa-ya/g-static/raw/ec69262a87ddfec8aca250a4621e2f8b7036330f/Tokihate/Tokihate-2.mp4"  src-cn="https://pan.bilnn.cn/api/v3/file/sourcejump/DoXkrDF9/K1SQ21rYo_jR-UVq12nnizti5jjCLx_BSxCzVY3Yr4E*" type="video/mp4" />
+<source src="https://s3static-zone0.galgamer.eu.org/video-2d35/Tokihate/Tokihate-2.mp4" type="video/mp4" />
 <track default src="../image/Tokihate/tokihate.vtt" label="繁體中文">
 <track src="../image/Tokihate/tokihate-sc.vtt" label="简体中文">
 <p> To view this video please enable JavaScript</p>

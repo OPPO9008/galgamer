@@ -611,17 +611,36 @@ async function showCDN(){
     })
     .catch(error=>nielog(error))
 
+    let mycdn = document.getElementById('mycdn');
     if (trace) {
         let sip = trace.match('ip=(.*)\n')[1];
         let colo = trace.match('colo=(.*)\n')[1];
+        let proto = trace.match('http=(.*)\n')[1];
+        let sni = trace.match('sni=(.*)\n')[1];
 
         if(colo in cdns){
             colo = cdns[colo];
         }
-        let mycdn = document.getElementById('mycdn');
-        mycdn.innerText = 'CDN Location: ' + colo + '\n' + 'Current IP: ' + sip;
-        if (sip.includes(':'))mycdn.innerText += '\nIPv6 Enabled';
-    } 
+        
+        mycdn.innerHTML = 'CDN Location: ' + colo + '<br>' + 'Current IP: ' + sip;
+        if (sip.includes(':')){
+            mycdn.innerHTML += '<br>IPv6: Yes';
+        } else {
+            mycdn.innerHTML += '<br>IPv6: No';
+        }
+        if (proto === 'http/3'){
+            mycdn.innerHTML += '<br>QUIC: Yes';
+        } else {
+            mycdn.innerHTML += '<br>QUIC: No';
+        }
+        if (sni === 'plaintext'){
+            mycdn.innerHTML += '<br>SNI Encryption: No';
+        } else {
+            mycdn.innerHTML += '<br>SNI Encryption: Yes';
+        }
+    } else {
+       mycdn.innerHTML = 'Unavailable'; 
+    }
 }
 
 /* HTML 視頻看門狗，用來當視頻爆 error 的時候自動重啓加載。
