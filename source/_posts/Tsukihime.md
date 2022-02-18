@@ -9,7 +9,7 @@ tags:
   - 恋爱
 categories:
   - [R-18]
-  - [Type Moon]
+  - [游戏公司, Type Moon]
 abbrlink: 134
 author: sym1018
 excerpt: '重制版<月姬 -A piece of blue glass moon->已经发行,借由此次机会重新整理月姬系列部分内容.'

@@ -10,7 +10,7 @@ tags:
   - 校园
 categories:
   - [R-18]
-  - [0verflow]
+  - [游戏公司, 0verflow]
 abbrlink: 20001
 author: '加藤乙女'
 excerpt: '甜蜜，溫暖，感人肺腑，令人嚮往的 三角戀 愛情故事.'

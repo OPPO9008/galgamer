@@ -9,7 +9,9 @@ tags:
   - 女王
   - 調教
 categories:
-  - [R-18, SLG]
+  - [R-18]
+  - [SLG]
+  - [游戏公司, 台灣香蕉王團隊BananaKing]
 abbrlink: 19031
 author: '木衛一'
 excerpt: '調教亡國女王莎恩‧凱特成爲戰勝國諾恩的公用性奴隸'

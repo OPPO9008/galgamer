@@ -11,7 +11,7 @@ tags:
   - 后宫
 categories:
   - [R-18]
-  - [hibiki works 社]
+  - [游戏公司, hibiki works 社]
 abbrlink: 20007
 author: 'Gal 编辑'
 excerpt: '因为自己的表姐和表妹太过漂亮而产生了 身体上 精神上 难以言喻的烦恼。'

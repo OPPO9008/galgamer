@@ -12,7 +12,7 @@ tags:
   - 日常
 categories:
     - [R-18]
-    - [Team Salvato]
+    - [游戏公司, Team Salvato]
 abbrlink: 25665
 author: sym1018
 excerpt: '青梅竹马的邻居纱由理邀请我加入文学俱乐部，在文学部中的日常是什么样呢'

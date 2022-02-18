@@ -14,7 +14,7 @@ tags:
   - 青梅竹马
 categories:
   - [R-18]
-  - [MOONSTONE]
+  - [游戏公司, MOONSTONE]
 abbrlink: 11451
 author: 桐遠暮羽
 excerpt: 從殺人魔手中倖存的秋津圓香和青梅竹馬的慎司揭開了可怕的謎團，給身處另一個世界中深陷夢魘的櫻之杜†凈夢者小隊帶來了希望。

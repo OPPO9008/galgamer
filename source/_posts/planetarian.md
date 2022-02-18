@@ -10,7 +10,7 @@ tags:
    - 机器人
 categories:
    - [全年龄]
-   - [Key]
+   - [游戏公司, Key]
 abbrlink: 10002
 author: 'Patchouli Knowledge'
 excerpt: '在世界的廢墟中，滿天的繁星仍在等待大家的到來……'

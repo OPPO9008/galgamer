@@ -10,7 +10,7 @@ tags:
   - 触手
 categories:
   - [R-18, R-18G]
-  - [black cyc]
+  - [游戏公司, black cyc]
 abbrlink: 19351
 author: '木衛一'
 excerpt: '吸血鬼情侶園原由奈和七瀨靜羽逃入人工島，在吸血鬼獵人和生化兵的追獵下艱難求存。'

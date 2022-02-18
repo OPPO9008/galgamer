@@ -10,7 +10,7 @@ tags:
   - 前女友
 categories:
   - [R-18]
-  - [AQUAPLUS]
+  - [游戏公司, AQUAPLUS]
 abbrlink: 20010
 author: 冬馬和紗
 excerpt: '奉行完美主義的高中生 北原春希，企圖完美地同時照顧兩位女生的感情，於是就被完美地捲進了長達六年的超級三角戀之中。'

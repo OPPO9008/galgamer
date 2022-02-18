@@ -11,7 +11,7 @@ tags:
   - 妹妹
 categories:
   - [R-18]
-  - [Lump of Sugar]
+  - [游戏公司, Lump of Sugar]
 abbrlink: 20005
 author: '和羽'
 excerpt: '在紅葉紛飛之地 和有尾巴，有耳朵的少女們 展開的 超越種族的 和風戀愛故事，，，'

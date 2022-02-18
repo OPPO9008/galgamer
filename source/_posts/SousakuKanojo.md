@@ -12,7 +12,7 @@ tags:
   - 前女友
 categories:
   - [R-18]
-  - [AinoLinks]
+  - [游戏公司, AinoLinks]
 abbrlink: 20009
 author: '桐遠暮羽'
 excerpt: '普通的 JK 普通地魅力四射，但是魅力能射殺人的 才華橫溢創作 JK 找上你，要和你 譜寫創作、戀情和青春的樂章。'

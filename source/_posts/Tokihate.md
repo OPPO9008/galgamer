@@ -13,7 +13,7 @@ tags:
   - 前女友
 categories:
   - [R-18]
-  - [MOONSTONE]
+  - [游戏公司, MOONSTONE]
 abbrlink: 67843
 author: 桐遠暮羽
 excerpt: '號稱尋人能“活必見人，死必見屍”的女偵探，真澀惠里，和助手兩人一起回到家鄉的小島上調查一起離奇的失踪案，然而卻以失敗告終。'

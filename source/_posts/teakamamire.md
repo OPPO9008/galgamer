@@ -11,6 +11,7 @@ tags:
   - 枕营业
 categories:
   - [R-18]
+  - [游戏公司, AKABEiSOFT3]
 abbrlink: 79351
 author: '木衛一'
 excerpt: '少女逐夢演藝圈，一步步踏入潛規則的深淵，無法回頭'

@@ -10,7 +10,7 @@ tags:
   - 校园
 categories:
   - [R-18]
-  - [SAGA PLANETS]
+  - [游戏公司, SAGA PLANETS]
 abbrlink: 70134
 author: 'Caminal le Pultaia Sortilège Sisua'
 excerpt: '輟學的男高中生，央路，劫持了正在逛街的北歐皇家公主，然後被十萬個皇家禁衛軍騎士追殺。'

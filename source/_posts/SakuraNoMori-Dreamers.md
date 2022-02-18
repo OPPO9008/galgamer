@@ -12,7 +12,7 @@ tags:
   - 青梅竹马
 categories:
   - [R-18]
-  - [MOONSTONE]
+  - [游戏公司, MOONSTONE]
 abbrlink: 56863
 author: 桐遠暮羽
 date: 2021-10-29 22:08:44

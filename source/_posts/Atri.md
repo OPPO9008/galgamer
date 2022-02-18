@@ -10,8 +10,8 @@ tags:
    - 机器人
 categories:
    - [全年龄]
-   - [Frontwing]
-   - [枕社]
+   - [游戏公司, Frontwing]
+   - [游戏公司, 枕社]
 abbrlink: 10003
 author: 'Patchouli Knowledge'
 excerpt: '誰不想擁有一個高性能超級機器人呢？'

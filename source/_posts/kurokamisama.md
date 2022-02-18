@@ -10,7 +10,7 @@ tags:
   - 解谜
 categories:
   - [全年龄]
-  - [みなとカーニバルworld]
+  - [游戏公司, みなとカーニバルworld]
 abbrlink: 76351
 author: '木衛一'
 excerpt: '不賣座漫畫家被迫獵殺怪異為黑髮美人回復力量'
