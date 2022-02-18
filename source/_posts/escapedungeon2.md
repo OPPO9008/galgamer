@@ -12,7 +12,7 @@ tags:
 categories:
   - [R-18]
   - [游戏公司, Hide games]
-  - [SLC]
+  - [SLG]
 abbrlink: 79357
 author: '木衛一'
 excerpt: '精灵女弓手苏拉尔为逆转败局，救出魔族俘虏莎莉丝，只身潜入魔王城'
