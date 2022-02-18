@@ -8,6 +8,7 @@ tags:
   - 凌辱
   - 女王
   - 調教
+  - SLG
 categories:
   - [R-18]
   - [SLG]
