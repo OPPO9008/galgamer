@@ -94,12 +94,19 @@ hexo.extend.tag.register("gallery", ([id = "cgs"], content) => {
   let indicators = "";
   let inner = "";
   let active = " active";
+ /*
+  * 修復了一個 輪播圖 下方 快捷跳轉按鍵失效的問題，
+  * 在生成 indicators 時，使 data-slide-to 遞增，
+  * 請看 slideto 變量。
+  */
+  let slideto = 0;
   for (const item of arr) {
     indicators +=
-      `<li data-target="#${id}" data-slide-to="0" class="${active}"></li>`;
+      `<li data-target="#${id}" data-slide-to="${slideto}" class="${active}"></li>`;
     inner +=
       `<div class="carousel-item${active}"><img class="d-block w-100" src="${item}"></div>`;
     active = "";
+    slideto++;
   }
   return `<div id="${id}" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">${indicators}</ol>
