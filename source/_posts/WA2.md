@@ -614,7 +614,8 @@ magnet:?xt=urn:btih:5cef07a405c77797bfb630f11b5e09c1fe0c03a8
 
 3. 使用備用補檔
 
-{% telegram_channel 270 %}
+抱歉，我們清除了這個 self-host 的盜版資源，請使用上面的下載方法。
+<!-- {% telegram_channel 270 %} -->
 
 ### 漢化補丁
 
