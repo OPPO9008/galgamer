@@ -123,6 +123,9 @@ excerpt: '在世界的廢墟中，滿天的繁星仍在等待大家的到來…�
 Steam 經常打折且折後價格還可以考慮購入，喜歡Key社作品的千萬不能錯過。
 
 群友發的游戲資源：{% telegram_channel 78 %}
+（注意：我們正在逐步清退 self-host 的盜版遊戲資源，請儘量自行尋找資源。）
+
+https://www.ryuugames.com/?s=planetarian
 
 群友發的OST資源：{% telegram_channel 79 %}
 
