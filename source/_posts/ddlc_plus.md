@@ -319,8 +319,12 @@ Just Monika
 
 ### 已破解
 
-{% telegram_channel 96 %}
+<!-- {% telegram_channel 96 %} -->
 
-[🔗️毒盘](https://pan.baidu.com/s/1dtSnU-8Ukhs8Qv1N4BH1hQ)
+<!-- [🔗️毒盘](https://pan.baidu.com/s/1dtSnU-8Ukhs8Qv1N4BH1hQ) -->
+
+https://www.ryuugames.com/doki-doki-literature-club-plus/
+
+漢化：https://steamcommunity.com/sharedfiles/filedetails/?id=1176221672
 
 
