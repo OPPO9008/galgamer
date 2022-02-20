@@ -105,7 +105,6 @@ excerpt: '單親家庭少女真依 跟隨父親回到了位於山中的老家四
       background-position: top 0 right 0;
       background-repeat: no-repeat;
       background-size: 250px;
-
       -webkit-backdrop-filter: unset;
     backdrop-filter: unset;
     }
@@ -267,7 +266,7 @@ Galgame 金曲: <a href="/music/?id=17" target="_blank">🔗️神匿 -カミカ
 ../image/YotsumeGod/scn/4.webp
 ../image/YotsumeGod/scn/5.webp
 {% endgallery %}
- 
+
 ## 一句話點評
 
 
@@ -316,9 +315,16 @@ Steam 商店爲官方多語言版，請考慮購買。
 
 盜版：
 我不建議你玩盜版，因爲這遊戲俄區三十多，阿根廷區才十幾，希望你能支持遊戲公司，
-非要玩的話： {% telegram_channel 392 %}
+非要玩的話：
 
-注意：遊戲 ESC 鍵是直接退出，不要隨便按，，，
+資源來自 Ryuugames：
+https://www.ryuugames.com/eng-yotsume-god-reunion/
+內含多種網盤下載，解壓密碼 `ryuugames.com`
+
+mega: https://mega.nz/file/18cgiBwT#YwvhVpb2VbqW6SSj3Hxm1ojwhs3EFvt3inniQ96dOs4
+
+
+注意：遊戲 ESC 鍵是直接退遊，不要隨便按，，，
 
 遊戲中有卡片收集內容，有些藏得比較隱蔽，請在遊戲通關後參照這裏的指南進行收集。
 https://h1g.jp/yotsume_remake/?%E3%82%AE%E3%83%A3%E3%83%A9%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89
