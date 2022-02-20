@@ -173,7 +173,10 @@ Steam 經常打折且折後價格基本爲史低51可以考慮購入。
 magnet:?xt=urn:btih:9d5e7a2978d819e402cc79e5ca3f5915dfe465eb
 ```
 
-或者：{% telegram_channel 182384 Galgamer %}
+或者前往 Ryuugames 下載，內含多種網盤。
+https://www.ryuugames.com/eng-atri-my-dear-moments-free-download/
+
+解壓密碼 ryuugames.com
 
 群友發的OST資源：{% telegram_channel 182395 Galgamer %}
 
