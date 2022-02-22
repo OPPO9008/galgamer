@@ -36,7 +36,7 @@ hexo.extend.tag.register(
  */
 hexo.extend.tag.register(
   "twitter",
-  ([id]) => `<a href="https://twitter.com/${id}">Twitter @${id}</a>`,
+  ([id]) => `<a href="https://twitter.com/${id}" target="_blank" rel="nofollow noopener">Twitter @${id}</a>`,
 );
 
 /** pixiv
@@ -46,7 +46,7 @@ hexo.extend.tag.register(
 hexo.extend.tag.register(
   "pixiv",
   ([id, name]) =>
-    `<a href="https://www.pixiv.net/users/${id}">Pixiv ID: ${name}</a>`,
+    `<a href="https://www.pixiv.net/users/${id}" target="_blank" rel="nofollow noopener">Pixiv ID: ${name}</a>`,
 );
 
 /** ruby
@@ -61,22 +61,26 @@ hexo.extend.tag.register(
 /** steam_player
  * Steam 视频播放器
  * 用法：{% steam_player <地址里的数字 id> <cdn 可留空> %}
+ * media.st.dl.pinyuncloud.com
+ * cdn.steamchina.pinyuncloud.com
+ * cdn.cloudflare.steamstatic.com
+ * cdn.akamai.steamstatic.com
  */
 hexo.extend.tag.register(
   "steam_player",
-  ([id, cdn = "media.st.dl.pinyuncloud.com"]) =>
+  ([id, cdn = "cdn.akamai.steamstatic.com"]) =>
     `<div class='vidcontainer'>
   <select class='qualitypick' autocomplete='off'>
-    <option selected>低畫質</option>
-    <option>高畫質</option>
+    <option selected>480p</option>
+    <option>HD</option>
   </select>
   <video controls preload=metadata width=100% poster="https://${cdn}/steam/apps/${id}/movie.293x165.jpg" >
-    <source label="低畫質" src="https://${cdn}/steam/apps/${id}/movie480_vp9.webm" type="video/webm">
-    <source label="低畫質" src="https://${cdn}/steam/apps/${id}/movie480.webm" type="video/webm">
-    <source label="低畫質" src="https://${cdn}/steam/apps/${id}/movie480.mp4" type="video/mp4">
-    <source label="高畫質" src="https://${cdn}/steam/apps/${id}/movie_max_vp9.webm" type="video/webm">
-    <source label="高畫質" src="https://${cdn}/steam/apps/${id}/movie_max.webm" type="video/webm">
-    <source label="高畫質"   src="https://${cdn}/steam/apps/${id}/movie_max.mp4" type="video/mp4" >
+    <source label="480p" src="https://${cdn}/steam/apps/${id}/movie480_vp9.webm" type="video/webm">
+    <source label="480p" src="https://${cdn}/steam/apps/${id}/movie480.webm" type="video/webm">
+    <source label="480p" src="https://${cdn}/steam/apps/${id}/movie480.mp4" type="video/mp4">
+    <source label="HD" src="https://${cdn}/steam/apps/${id}/movie_max_vp9.webm" type="video/webm">
+    <source label="HD" src="https://${cdn}/steam/apps/${id}/movie_max.webm" type="video/webm">
+    <source label="HD"   src="https://${cdn}/steam/apps/${id}/movie_max.mp4" type="video/mp4" >
   <p> To view this video please enable JavaScript</p>
   </video>
 </div>`,
