@@ -305,28 +305,28 @@ magnet:?xt=urn:btih:c70d2386bef29b55966f459b214c3d8b0537de4d
 
 文件名：[191220] [ゆずソフト] 喫茶ステラと死神の蝶 + Character Songs + Tokuten CD + Bonus + Update 1.1
 
-該種子來自 Anime Sharing 論壇： [點此前往](http://www.anime-sharing.com/forum/torrents-47/5-%5B191220%5D-%5B%E3%82%86%E3%81%9A%E3%82%BD%E3%83%95%E3%83%88%5D-%E5%96%AB%E8%8C%B6%E3%82%B9%E3%83%86%E3%83%A9%E3%81%A8%E6%AD%BB%E7%A5%9E%E3%81%AE%E8%9D%B6-character-songs-tokuten-cd-bonus-update-1-1-%5Bh-game%5D-901428/)
+該種子來自 Anime Sharing 論壇： [🔗️點此查看](http://www.anime-sharing.com/forum/torrents-47/5-%5B191220%5D-%5B%E3%82%86%E3%81%9A%E3%82%BD%E3%83%95%E3%83%88%5D-%E5%96%AB%E8%8C%B6%E3%82%B9%E3%83%86%E3%83%A9%E3%81%A8%E6%AD%BB%E7%A5%9E%E3%81%AE%E8%9D%B6-character-songs-tokuten-cd-bonus-update-1-1-%5Bh-game%5D-901428/)
 
-遊戲有升級補丁，記得下載最新的來安裝。[點此前往官網](http://www.yuzu-soft.com/products/stella/download.html) 下載可能要翻牆。
+遊戲有升級補丁，記得下載最新的來安裝。[🔗️點此前往官網](http://www.yuzu-soft.com/products/stella/download.html) 下載可能要翻牆。
 
 如果想玩中文 請配合這個漢化補丁使用 {% telegram_channel 77 %}
 
 
-### 中文版
+<!-- ### 中文版 -->
 
-百度网盘秒传
+<!-- 百度网盘秒传 -->
 
-```
-2ccd4f43cbeecfc9007da3c2ccb3ae40#bc726811854b44fa6411bd4fd448248d#1623056246#星光咖啡馆与死神之蝶.7z.003
-45da70412e797bb13844c2bc2afb0df7#b204e19fa1a2a5e6fc1cd8be8c9cb3b2#2621440000#星光咖啡馆与死神之蝶.7z.002
-5ad1b28a1fc8f43f85f3e4537ac520eb#5c001f3d2e0efb0a9a5384550a6754f6#2621440000#星光咖啡馆与死神之蝶.7z.001
-```
+<!-- ``` -->
+<!-- 2ccd4f43cbeecfc9007da3c2ccb3ae40#bc726811854b44fa6411bd4fd448248d#1623056246#星光咖啡馆与死神之蝶.7z.003 -->
+<!-- 45da70412e797bb13844c2bc2afb0df7#b204e19fa1a2a5e6fc1cd8be8c9cb3b2#2621440000#星光咖啡馆与死神之蝶.7z.002 -->
+<!-- 5ad1b28a1fc8f43f85f3e4537ac520eb#5c001f3d2e0efb0a9a5384550a6754f6#2621440000#星光咖啡馆与死神之蝶.7z.001 -->
+<!-- ``` -->
 
-onedrive下载
+<!-- onedrive下载 -->
 
-<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.001"> 分卷1</a>	<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.002">分卷2</a>	<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.003">分卷3</a>
+<!-- <a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.001"> 分卷1</a>	<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.002">分卷2</a>	<a class="btn btn-info" href="https://dl.galgamer.eu.org/%E6%98%9F%E5%85%89%E5%92%96%E5%95%A1%E9%A6%86%E4%B8%8E%E6%AD%BB%E7%A5%9E%E4%B9%8B%E8%9D%B6.7z.003">分卷3</a> -->
 
-分卷解压请放在一个文件夹解压
+<!-- 分卷解压请放在一个文件夹解压  -->
 
 
 ------

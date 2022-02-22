@@ -946,7 +946,7 @@ links:
       title: "零件's Blog",
       intro: "Tech Otakus Save The World",
       link: "https://nekosc.com/",
-      avatar: "https://nekosc.com/favicon.ico"
+      avatar: "/image/main/nekosc.png"
     }
     - {
       title: "Galgame 交流群",

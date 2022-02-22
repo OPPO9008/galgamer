@@ -271,6 +271,7 @@ R-18G 慎滑
 
 ## 資源與下載
 
+該資源來自 MyACGcat。
 {% telegram_channel 95 %}
 
 {% contribution %}
