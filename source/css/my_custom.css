@@ -51,6 +51,11 @@ img.layer-border {
   max-height: unset;
 }
 
+/* 文章內圖片 最大寬度 太小 */
+.markdown-body p>a>img, .markdown-body p>img {
+  max-width: 96%;
+}
+
 /* 配色 */
 :root {
   /* 網頁背景色: 0; */
