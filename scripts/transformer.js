@@ -36,7 +36,7 @@ hexo.extend.tag.register(
  */
 hexo.extend.tag.register(
   "twitter",
-  ([id]) => `<a href="https://twitter.com/${id}" target="_blank" rel="nofollow noopener">Twitter @${id}</a>`,
+  ([id]) => `<a href="https://twitter.com/${id}" target="_blank" rel="nofollow noopener">🔗️Twitter @${id}</a>`,
 );
 
 /** pixiv
@@ -46,7 +46,7 @@ hexo.extend.tag.register(
 hexo.extend.tag.register(
   "pixiv",
   ([id, name]) =>
-    `<a href="https://www.pixiv.net/users/${id}" target="_blank" rel="nofollow noopener">Pixiv ID: ${name}</a>`,
+    `<a href="https://www.pixiv.net/users/${id}" target="_blank" rel="nofollow noopener">🔗️Pixiv ID: ${name}</a>`,
 );
 
 /** ruby
