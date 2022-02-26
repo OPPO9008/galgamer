@@ -23,6 +23,15 @@ img.layer-border {
     filter: drop-shadow(5px 5px 0px #aaa) drop-shadow(-5px -5px 0px #aaa) drop-shadow(5px -5px 0px #aaa) drop-shadow(-5px 5px 0px #aaa);
 }
 
+/* Steam 嵌入式控件美化 */
+.markdown-body .steam-warp {
+  background-color: #282e39;
+  overflow: hidden;
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
 /* 文章 video */ 
 .markdown-body video {
     box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);

@@ -7,7 +7,11 @@ const jsx = require("jsx-transform");
 hexo.extend.tag.register(
   "steam_widget",
   ([id]) =>
-    `<iframe src="https://store.steampowered.com/widget/${id}/" loading=lazy frameborder=0 width="100%" height="200px"></iframe>`,
+    `
+    <div class="steam-warp">
+      <iframe src="https://store.steampowered.com/widget/${id}/" loading=lazy frameborder=0 width="100%" height="200px"></iframe>
+    </div>
+    `,
 );
 
 /** itch_widget
@@ -17,7 +21,11 @@ hexo.extend.tag.register(
 hexo.extend.tag.register(
   "itch_widget",
   ([id]) =>
-    `<iframe src="https://itch.io/embed/${id}/" loading=lazy frameborder=0 width="100%" height="177px"></iframe>`,
+    `
+    <div class="itch-warp">
+      <iframe src="https://itch.io/embed/${id}/" loading=lazy frameborder=0 width="100%" height="177px"></iframe>
+    </div>
+    `,
 );
 
 /** telegram_channel
