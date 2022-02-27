@@ -104,7 +104,7 @@ function checkSafari(){
 
 // type: https://getbootstrap.com/docs/4.6/components/alerts/ primary, dark, etc
 //
-function makeAlert(type, html, forceTop){
+function makeAlert2(type, html, forceTop){
     // insert here
     let father = document.querySelectorAll(".mask.flex-center")[0];
     father.classList.add("flex-column");
@@ -122,7 +122,7 @@ function makeAlert(type, html, forceTop){
     closeBtn.innerHTML = '<span aria-hidden="true">&times;</span>';
     bsAlert.appendChild(closeBtn);
     
-    $(".mask.flex-center.flex-column").prepend(bsAlert);
+    father.prepend(bsAlert);
     if(forceTop){
         setTimeout(function(){window.scrollTo(0, 0);}, 300);
     }
@@ -134,7 +134,9 @@ function removeFadeOut( el, speed ) {
 
     el.style.opacity = 0;
     setTimeout(function() {
+      if(el){
         el.parentNode.removeChild(el);
+      }
     }, speed);
 }
 
