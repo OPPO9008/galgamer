@@ -134,8 +134,10 @@ function removeFadeOut( el, speed ) {
 
     el.style.opacity = 0;
     setTimeout(function() {
-      if(el){
+      if(el && el.parentNode){
         el.parentNode.removeChild(el);
+      }else{
+        mlog('找不到要刪除的 toast，牠真的還在 DOM 裏面❓️');
       }
     }, speed);
 }
