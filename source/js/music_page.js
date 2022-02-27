@@ -16,6 +16,13 @@ let playerEl;
 
 let doNotNavigate = false;
 
+const beforeUnloadListener = (e) => {
+    if (playerEl.played) {
+        e.preventDefault();
+        e.returnValue = '正在播放中，確認退出嗎？';
+    }
+};
+
 async function main(){
     //showBetaAlert();
     allMusic = await getAllMusic();
@@ -87,6 +94,9 @@ function initPlayer(){
     playerEl.on('openaudio', function(ev){
         updatePage(this.nowplaypoint, true);
     });
+
+    // 增加 正在播放中的關閉頁面確認
+    window.addEventListener('beforeunload', beforeUnloadListener);
 }
 
 function setupBtn(){
@@ -94,7 +104,10 @@ function setupBtn(){
         let neteaseid = allMusic[nowPlaying].netease;
         if(neteaseid){
             insertToast('success', '正在調用網易雲', 3000);
+            // 暫停退出確認
+            window.removeEventListener('beforeunload', beforeUnloadListener);
             window.location = "orpheus://song/" + neteaseid;
+            window.addEventListener('beforeunload', beforeUnloadListener);
         }else{
             insertToast('danger', '網疑雲沒有這首歌', 3000);
         }
@@ -115,7 +128,10 @@ function setupBtn(){
             }
             let params = JSON.stringify(obj);
             insertToast('success', '正在調用 QQ 音樂', 3000);
+            // 暫停退出確認
+            window.removeEventListener('beforeunload', beforeUnloadListener);
             window.location = "qqmusic://qq.com/media/playSonglist?p=" + encodeURIComponent(params);
+            window.addEventListener('beforeunload', beforeUnloadListener);
         }else{
             insertToast('danger', 'QQ 音樂沒有這首歌', 3000);
         }
@@ -134,8 +150,14 @@ function setupBtn(){
         //nielog(desc);
         url = encodeURIComponent(url);
         desc = encodeURIComponent(desc);
+        
+        // 暫停退出確認
+        window.removeEventListener('beforeunload', beforeUnloadListener);
+        
         // TG call
         window.location = 'tg://msg_url?url=' + url + '&text=' + desc;
+        
+        window.addEventListener('beforeunload', beforeUnloadListener);
     })
 }
 
