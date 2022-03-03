@@ -1,7 +1,7 @@
 ---
 title: '地牢脱出2-银月苍狼苏拉尔：喜闻乐见的女战士送头恶魔城'
-date: 2022-2-17 00:30:00
-keywords: '嗨游戏数位工坊, HideGame, 随机迷宫探索, Roguelite, Live2D, '
+date: 2022-2-18 00:30:00
+keywords: '嗨游戏数位工坊, HideGame, 随机迷宫探索, Roguelite, Live2D'
 index_img: '../image/escapedungeon2/index.webp'
 banner_img: '../image/escapedungeon2/banner.webp'
 tags:
@@ -11,6 +11,8 @@ tags:
   - SLG
 categories:
   - [R-18]
+  - [游戏公司, Hide games]
+  - [SLG]
 abbrlink: 79357
 author: '木衛一'
 excerpt: '精灵女弓手苏拉尔为逆转败局，救出魔族俘虏莎莉丝，只身潜入魔王城'
@@ -37,9 +39,12 @@ excerpt: '精灵女弓手苏拉尔为逆转败局，救出魔族俘虏莎莉丝�
 
 暗大陆－桑迪拉斯王国，与卡伦魔君数百年来的战争，已然落幕。
 战争结局以卡伦魔君的胜利，也就是桑迪拉斯王国的崩毁结束。
+
 性高潮后便可以逆转时空的桑迪拉斯王国女王，**伊利**，失踪，
 王国最强的大法师，**莎莉丝**。沦为魔族俘虏，被关押在漆黑至极的矿坑地牢中。
+
 但即使王国陷落，但残存的反抗军依旧在某个地方蓄势待发，等待着反击的狼烟。
+
 其中，因为狙杀无数魔族而名声显赫，令魔族们闻风丧胆的精灵弓箭手「银月苍狼－苏拉尔」，
 为了逆转桑迪拉斯王国的败局，她决定孤身潜入魔都城，刺杀卡伦魔君。
 
@@ -56,30 +61,28 @@ excerpt: '精灵女弓手苏拉尔为逆转败局，救出魔族俘虏莎莉丝�
 
 ## 登場人物
 
-<br><br>
-
 <style>
-.sp-character .imgbox {
+/*.sp-character .imgbox {
     max-width:40%;
     min-width:33%;
     min-height: 450px;
-    max-height: 550px;
+    max-height: 900px;
     position:relative;
     top:0px;
     left:0px;
     overflow-y: hidden;
-    overflow-x: visible;
+    overflow-x: hidden;
 }
 .sp-character .imgbox img{
     background-color: rgba(0, 0, 0, 0);
     width: auto;
     height: auto;
-    max-height: 700px;
+    max-height: 900px;
     max-width: 100%;
     position:absolute;
     top:0px;
     align: center;
-}
+}*/
 .sp-name {
     font-size: 170%;
     font-weight: bold;
@@ -87,54 +90,65 @@ excerpt: '精灵女弓手苏拉尔为逆转败局，救出魔族俘虏莎莉丝�
     display: inline-block;
 }
 .sp-name:first-letter {
-    color: #d2037a
+   /* color: #d2037a*/
 }
 </style>
 {% template sp-character name no cv width height html %}
-<div class="sp-character row align-items-center">
-    <div class="imgbox col-sm-5 col-lg-4">
-        <img width={width} height={height} loading="lazy" src={`../image/escapedungeon2/chars/${no}.webp`}/>
+<div class="sp-character row ">
+    <div class="d-block d-md-none col-12">
+      <span class="font-serif sp-name">{name}</span>
+      <br />cv: {cv}
+      <hr class="my-1"/>
     </div>
-    <div class="textbox col-7 col-lg-8">
+    <div class="imgbox col-12 col-lg-4">
+        <img class="img-fluid" width={width} height={height} loading="lazy" src={`../image/escapedungeon2/chars/${no}.webp`}/>
+    </div>
+    <div class="textbox col-12 col-lg-8 my-2">
+      <div class="d-none d-md-block">
         <span class="font-serif sp-name">{name}</span>
         <br />cv: {cv}
         <hr class="my-1"/>
+      </div>
         <span html={html} />
     </div>
 </div>
 {% endtemplate %}
 
-<sp-character no=1 width="869" height="2412" name="苏拉尔" cv="叶月ゆう">
-    <mark>令魔族闻风丧胆的精灵弓箭手</mark><br>
+<sp-character no=1 width="531" height="943" name="苏拉尔" cv="叶月ゆう">
+    <mark>令魔族闻风丧胆的精灵弓箭手</mark><br><br>
     有着瑰紫色的双眼和一头银白的长发<br>
     也因此获得了银月苍狼的称号<br>
     性格严肃而高冷<br>
-    对妄想著蹂躪人类和精靈族的女性的魔族恨之入骨<br>
+    对妄想著蹂躪人类和精靈族的女性的魔族恨之入骨<br><br>
     <mark>在戰敗後，蘇拉爾便會遭到打倒自己的魔物侵犯</mark><br>
-  <mark>從性慾代名詞的哥布林到骷髏兵都能對蘇拉爾伸出魔爪</mark>
-
+    <mark>從性慾代名詞的哥布林到骷髏兵都能對蘇拉爾伸出魔爪</mark>
 </sp-character>
 
 <hr>
-<sp-character no=2 width="969" height="2401" name="伊利" cv="无">
-    <mark>桑迪拉斯王国的女王</mark><br>
+<sp-character no=2 width="608" height="1080" name="伊利" cv="无">
+    <mark>桑迪拉斯王国的女王</mark><br><br>
     性高潮后便可以逆转时间，回到故事开始前<br>
     当女主角苏拉尔深陷敌手惨遭凌辱之后，就会因为女王的力量回到进入魔王城前<br>
-    只在故事中蜻蜓点水的提及了一下<br>
+    只在故事中蜻蜓点水的提及了一下<br><br>
     <mark>不过应该是本系列下一作的女主角</mark>
 </sp-character>
 
 
 ## 遊戲截圖
 
-{% gallery screen %}
-../image/escapedungeon2/scn/1.webp
-../image/escapedungeon2/scn/2.webp
-../image/escapedungeon2/scn/3.webp
-../image/escapedungeon2/scn/4.webp
-../image/escapedungeon2/scn/5.webp
-../image/escapedungeon2/scn/6.webp
-{% endgallery %}
+
+![](../image/escapedungeon2/scn/1.webp)
+
+![](../image/escapedungeon2/scn/2.webp)
+
+![](../image/escapedungeon2/scn/3.webp)
+
+![](../image/escapedungeon2/scn/4.webp)
+
+![](../image/escapedungeon2/scn/5.webp)
+
+![](../image/escapedungeon2/scn/6.webp)
+
 
 ## CG
 
@@ -149,7 +163,7 @@ excerpt: '精灵女弓手苏拉尔为逆转败局，救出魔族俘虏莎莉丝�
 
 ## 簡評
 
-不知道为什么，这几年台灣的成人遊戲發展十分蓬勃，本作就是今年由台灣遊戲團隊「Hide Games 嗨遊戲數位工坊」製作的中文成人向地牢探險遊戲。其前作是2020年制作的成人遊戲**《莎莉絲．地牢脫出 Escape Dungeon》**，目前均已在[**Steam**](https://game.udn.com/game/tag/Steam)正式上架。前作和本作的CG都以Live2D無碼呈現。而相比前作，本作更加精细也更加艳情。
+不知道为什么，这几年台灣的成人遊戲發展十分蓬勃，本作就是今年由台灣遊戲團隊「Hide Games 嗨遊戲數位工坊」製作的中文成人向地牢探險遊戲。其前作是2020年制作的成人遊戲**《莎莉絲．地牢脫出 Escape Dungeon》**，目前均已在Steam正式上架。前作和本作的CG都以Live2D無碼呈現。而相比前作，本作更加精细也更加艳情。
 
 游戏CG比一般CG大三倍，超大张到可以放大你想看的任何地方。live2D微互动模式和超大张CG运镜共同作用，外加极其精美的艺术风格，绝对能让人射爆。HCG 部分因為加入了動態對應的關係，搭配聲優配音，成人要素相當實用。CG采用的是双重解锁方式，除了败北外，还可以通过积攒击杀数解锁H场景，因此不需故意死亡也可解锁CG。
 
@@ -178,9 +192,11 @@ excerpt: '精灵女弓手苏拉尔为逆转败局，救出魔族俘虏莎莉丝�
 
 ## 資源與下載
 
-可在steam上购买
+{% steam_widget 1309000 %}
 
-下載地址：https://www.ryuugames.com/eng-escape-dungeon-2-uncensored/
+請考慮 Steam 購買。
+
+盜版：https://www.ryuugames.com/eng-escape-dungeon-2-uncensored/
 
 游戏内自带多种语言
 

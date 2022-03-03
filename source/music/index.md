@@ -11,6 +11,18 @@ banner_img: '/image/music/banner.jpg'
 
 {% raw %}
 
+<style>
+#detailsCard {
+  padding: 0;
+}
+#shareBtn {
+  display: none;
+}
+#detailsCard, #playlist img {
+  box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+}
+</style>
+
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-5 mt-2 col" style="max-width:450px">
@@ -27,7 +39,7 @@ banner_img: '/image/music/banner.jpg'
     </div>
     <div class="row">
         <div class="dropdown col-sm md-auto align-self-start my-3">
-          <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+          <button type="button" class="my-1 btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
             收藏到...
           </button>
           <div class="dropdown-menu">
@@ -35,6 +47,12 @@ banner_img: '/image/music/banner.jpg'
             <a class="dropdown-item" id="qqGo">QQ 音樂</a>
             <a class="dropdown-item" id="kugouGo">酷狗</a>
           </div>
+          <button id="shareInfo" type="button" class="my-1 ml-1 btn btn-info">
+            <img width=20px src='/image/TGLogo.svg'/>
+            <span style='margin: 4px;'>
+              分享這首歌
+            </span>
+          </button>
         </div>
     </div>
     <div class="my-1">

@@ -801,17 +801,11 @@ ul.closetimg > li.active { /* 抄襲 */
 ## 遊戲 OP
 
 
-<div class='vidcontainer'>
-   <select class='qualitypick' autocomplete='off'>
-      <option selected>720p</option>
-      <option>1080p（需翻牆）</option>
-   </select>
-   <video controls preload="metadata" width='100%' poster="../image/SousakuKanojo/movie-op.webp">
-      <source label="720p" src="https://bitbucket.org/sa-ya/g-static/raw/3fdf26f7a4ab49d070c68f3cb7ef95c591e9042c/SousakuKanojo/OP-720p.mp4" type="video/mp4">
-      <source label="1080p（需翻牆）" src="https://github.com/OPPO9008/galgamer/releases/download/20220115/SousakuKano-OP-1080.mp4" type="video/mp4" >
-    <p> To view this video please enable JavaScript</p>
-   </video>
-</div>
+<video controls preload="metadata" width='100%' poster="../image/SousakuKanojo/movie-op.webp">
+  <source src="https://s3static-zone0.galgamer.eu.org/video-2d35/SousakuKanojo/SousakuKano-OP-1080.mp4" type="video/mp4" >
+<p> To view this video please enable JavaScript</p>
+</video>
+
 
 
 ## H 場景
@@ -880,17 +874,12 @@ ul.closetimg > li.active { /* 抄襲 */
 有一個試玩錄像，翻譯是我自己加的
 它的 BGM 也很好聽
 
-<div class='vidcontainer'>
-  <select class='qualitypick' autocomplete='off'>
-     <option selected>720p</option>
-     <option>1080p（需翻牆）</option>
-  </select>
-  <video controls preload="metadata" width='100%' poster="../image/SousakuKanojo/movie.webp">
-     <source label="720p" src="https://bitbucket.org/sa-ya/g-static/raw/b0bbd68d954982698fb0a73a7016bd1afed3ed08/SousakuKanojo/SousakuKanojo-720.mp4" type="video/mp4">
-     <source label="1080p（需翻牆）" src="https://github.com/OPPO9008/galgamer/releases/download/20220115/SousakuKanojo-1080.mp4" type="video/mp4" >
-   <p> To view this video please enable JavaScript</p>
-  </video>
-</div>
+
+<video controls preload="metadata" width='100%' poster="../image/SousakuKanojo/movie.webp">
+   <source src="https://s3static-zone0.galgamer.eu.org/video-2d35/SousakuKanojo/SousakuKanojo-1080.mp4" type="video/mp4" >
+ <p> To view this video please enable JavaScript</p>
+</video>
+
 
 ## 生肉閱讀難度
 
