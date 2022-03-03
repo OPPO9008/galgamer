@@ -251,7 +251,7 @@ https://whirlpool.co.jp/drapri/
 由于故事采取的是倒叙的手法，先叙述龙族回归在倒叙进入人物介绍，所以几分钟的开头录制无法表现出连贯一致的剧情，可能会显得很让人困惑。因此最终我决定录制一小段extra剧情内容。
 
 <video controls preload="metadata" width='100%'>
-<source src="" type="video/mp4"/>
+<source src="https://s3static-zone0.galgamer.eu.org/video-2d35/Dorapuri/movie.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
 
