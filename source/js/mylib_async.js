@@ -31,6 +31,54 @@ function main(){
     });
 }
 
+function standwith(){
+  let html = 
+`
+<style>
+:root {
+    --notice-bg-color: #66bab7;
+}
+[data-user-color-scheme='dark'] {
+    --notice-bg-color: #505050;
+  }
+#ukraine {
+  /*min-height: 100px;*/
+  background-color: var(--notice-bg-color);
+  box-shadow: 0px -8px 19px 5px rgb(0 0 0 / 35%);
+  transition: height 0.3s ease-out;
+}
+.notice-warp {
+    font-size: 3em;
+    line-height: normal;
+    background: linear-gradient(to bottom, blue 55%, yellow 55%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.close-notice {
+    position: absolute;
+    right: 3px;
+    top: 30%;
+    font-size: 150%;
+}
+</style>
+`
+    let style = document.createElement('div');
+    style.innerHTML = html;
+    document.body.appendChild(style);
+    let ukraine = 
+`
+<div id="ukraine" class="fixed-bottom col-lg-5 col-md-11 col-sm-10 mx-auto py-1 my-3 rounded-lg">
+<div class="row align-items-center my-1 mx-2">
+<div class="notice-warp">
+    ❤️ <span class=" font-weight-bold font-italic">PEACE!</span>
+</div> 
+</div>
+</div>
+`
+    insertToast('dark', ukraine, 4000);
+}
+
 function docReady(fn) {
     // see if DOM is already available
     if (document.readyState === "complete" || document.readyState === "interactive") {
@@ -153,7 +201,7 @@ async function insertToast(type, data, last){
         await new Promise(r => setTimeout(r, 500));
     }
 
-    let toast = document.createElement('div')
+    let toast = document.createElement('div');
     toast.setAttribute('id', 'mytoast');
     //toast.setAttribute('class', 'border border-light fixed-bottom text-light col-lg-4 col-md-10 col-sm-9 w-75 mx-auto py-2 my-2 rounded-lg' + ' bg-' + type);
     toast.setAttribute('class', 'alert border border-primary fixed-bottom col-lg-4 col-md-10 col-sm-9 w-75 mx-auto py-2 mb-5 my-2 rounded-lg' + ' alert-' + type);
