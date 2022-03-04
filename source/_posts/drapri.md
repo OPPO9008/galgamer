@@ -290,7 +290,7 @@ https://whirlpool.co.jp/drapri/
 
 因此最終我決定錄製一小段extra劇情內容。
 
-<video controls preload="metadata" width='100%'>
+<video controls preload="metadata" width='100%' poster="../image/drapri/movie.webp">
 <source src="https://s3static-zone0.galgamer.eu.org/video-2d35/Dorapuri/movie.mp4" type="video/mp4"/>
 <p> To view this video please enable JavaScript</p>
 </video>
@@ -302,15 +302,14 @@ https://whirlpool.co.jp/drapri/
 
 建議去ryuugames下載無碼版龍姬1
 
-無dlc版本
+遊戲本體（設置內可切換英語和中文）
+解壓密碼 `ryuugames.com`
 
 https://www.ryuugames.com/eng-drapri-guu-ta-life-free-download/
 
-包含dlc版本
+DLC（LOVE＋PLUS，只有日文）
 
 https://www.ryuugames.com/slobbish-dragon-princess-love-plus-uncensored-download/
-
-遊戲內置日語，英語和正體中文，進入setting設置相應語言即可
 
 
 {% contribution %}
