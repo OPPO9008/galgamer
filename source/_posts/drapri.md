@@ -1,7 +1,7 @@
 ---
-title: '龍姬~混日子：尼特族撿到龍族公主'
-date: 2022-1-17 00:30:00
-keywords: 'whirlpool, 废萌, 休闲'
+title: '龍姬混~日子：尼特族撿到龍族公主'
+date: 2022-3-4 00:30:00
+keywords: 'whirlpool, 废萌, 休闲, 龍姬'
 index_img: '../image/drapri/index.webp'
 tags:
   - 青梅竹马 
@@ -10,6 +10,7 @@ tags:
   - Dragon_girl
 categories:
   - [R-18]
+  - [游戏公司, whirlpool]
 abbrlink: 15436
 author: '木衛一'
 excerpt: '躺平尼特和龍姬和青梅竹馬的三人后宮生活'
@@ -25,7 +26,7 @@ excerpt: '躺平尼特和龍姬和青梅竹馬的三人后宮生活'
 | :----------- | :------------------------------------ |
 | **開發商**   | whirlpool |
 | **編劇**     |近江谷宥|
-| **原畫**     |鷹乃ゆき<br>またたび丸|
+| **原畫**     |鷹乃ゆき、またたび丸|
 | **遊戲時長** | 8 ~ 12 小時              |
 | **類型**     | 廢萌      |
 | **難度**     | 低 |
@@ -33,159 +34,214 @@ excerpt: '躺平尼特和龍姬和青梅竹馬的三人后宮生活'
 
 ## 故事開場
 
-主人公 **宮本武** 是小镇里恶名昭彰的武道家的养子
-由于自家经营的道场极其凋敝，养父也沉迷武道不知体恤
-所以生活一直捉襟见肘
+主人公 **宮本武** 是小鎮裏惡名昭彰的武道家的養子，
+由於自家經營的道場極其凋敝，養父也沉迷武道不知體恤，
+所以生活一直捉襟見肘。
 
-坚称武道家不应该浪费时间干活的主人公既不工作也不上学
-心安理得地向和果子屋的青梅竹马 **一之濑·铃夏** 乞食吃软饭
+堅稱武道家不應該浪費時間幹活的主人公既不工作也不上學，
+心安理得地向和果子屋的青梅竹馬 **一之瀨·鈴夏** 乞食吃軟飯。
 
-一天，主人公在路边捡到一只长翅膀的红色小蜥蜴
-大喜过望的主人公本打算把它送上砧板给自己补一补
-却被青梅竹马·铃夏阻止而作罢
-并将蜥蜴起名为**「小春」**，收养为宠物一同生活
+一天，主人公在路邊撿到一隻長翅膀的紅色小蜥蜴，
+大喜過望的主人公本打算把它送上砧板給自己補一補，
+卻被青梅竹馬· 鈴夏 阻止而作罷，
+她將蜥蜴起名爲**「小春」**，收養爲寵物一同生活。
 
-随着两人一起生活的时间越来越长，主人公和小春之间感情也越来越深厚。
-可突然有一天，无数來自宇宙的巨龍飞掠过全世界的领空
+隨着兩人一起生活的時間越來越長，主人公和小春之間感情也越來越深厚。
+可突然有一天，無數來自宇宙的巨龍飛掠過全世界的領空，
 
 ![](../image/drapri/illust1.webp)
 
-他们自称是远古就生活在地球的高等智能种族
-人类的历史中的种种神话就是他们赐下恩惠的只爪片鳞
-如今他们从漫长的旅行中归来，看到了人类支配的世界的丑陋模样
-由於對於人類感到失望，他们决定重新支配人类
+他們自稱是遠古就生活在地球的高等智能種族，
+人類的歷史中的種種神話就是他們賜下恩惠的只爪片鱗，
+如今他們從漫長的旅行中歸來，看到了人類支配的世界的醜陋模樣，
+由於對於人類感到失望，他們決定重新支配人類。
 
-“啊啊啊，这到底是怎么回事!?”
-青梅竹马铃夏被这超现实的展开吓得手足无措
-“反正都要完蛋了，不如在死之前我先...”
-看着在大庭广众之下脱衣服准备扑过来的铃夏，男主角也手足无措了起来
+「啊啊啊，這到底是怎麼回事！？」
+青梅竹馬鈴夏被這超現實的展開嚇得手足無措，
+「反正都要完蛋了，不如在死之前我先...」
+看着在大庭廣衆之下脫衣服準備撲過來的鈴夏，男主角也手足無措了起來。
 
-这時，小春突然變成少女。飞上天空向龍族展開勸說
-原来，小春其实是龍族的公主，当初因为意外降落到地球上
-出于对异议的尊重，龙族接受了小春的提议，决定观察一段时间再考虑如何处置人类
+這時，小春突然變成少女，飛上天空向龍族展開勸說。
+原來，小春其實是龍族的公主，當初因爲意外降落到地球上，
+出於對異議的尊重，龍族接受了小春的提議，決定觀察一段時間再考慮如何處置人類...
 
-万幸之中，人类总算逃过了一劫
-但小春却理所当然的以美少女的姿态，和主人公展开了闭门不出的尼特生活。
-看着两人亲昵的姿态。青梅竹马铃夏只觉得有苦难言。
-与此同时，在一般人的日常生活之中，也开始不时的出现形形色色的龙的身姿......
+萬幸之中，人類總算逃過了一劫，
+但小春卻理所當然的以美少女的姿態，和主人公展開了閉門不出的尼特生活。
+看着兩人親暱的姿態。青梅竹馬鈴夏只覺得有苦難言。
+與此同時，在一般人的日常生活之中，也開始不時的出現形形色色的龍的身姿...
 
 ## 故事梗概[涉劇透]
 
-<style>
-#letter {
-    color: var(--post-text-color);
-}
-</style>
+
 <details>
 <summary>點此展開</summary>
-你觉得废萌能有什么梗概，无外乎是捡到龙妹妹之后就天天宅在家里sex，sex，sex<br>
-然后青梅竹马来串门，看到色色，满脸通红的回家自慰了(是不是有股柚子味，怎么回事呢)<br>
-接下来青梅竹马领悟到犹豫就会败北，现在就是要白给，于是拉着男主角sex，sex，sex<br>
-最后大家过上了幸福的三人后宫生活<br>
 
-
-
+你覺得廢萌能有什麼梗概，無外乎是撿到龍妹妹之後就天天宅在家裏sex，sex，sex<br>
+然後青梅竹馬來串門，看到色色，滿臉通紅的回家自慰了(是不是有股柚子味，怎麼回事呢)<br>
+接下來青梅竹馬領悟到猶豫就會敗北，現在就是要白給，於是拉着男主角sex，sex，sex<br>
+最後大家過上了幸福的三人後宮生活<br>
 
 </details>
 
-## 登場人物
 
-<br><br>
+## 登场人物
 
 <style>
-.sp-character .imgbox {
-    max-width:40%;
-    min-width:33%;
-    min-height: 450px;
-    max-height: 550px;
-    position:relative;
-    top:0px;
-    left:0px;
-    overflow-y: hidden;
-    overflow-x: visible;
-}
-.sp-character .imgbox img{
-    background-color: rgba(0, 0, 0, 0);
-    width: auto;
-    height: auto;
-    max-height: 700px;
-    max-width: 100%;
-    position:absolute;
-    top:0px;
-    align: center;
-}
-.sp-name {
-    font-size: 170%;
-    font-weight: bold;
-    font-style: italic;
-    display: inline-block;
-}
-.sp-name:first-letter {
-    color: #d2037a
-}
+  .charname {
+    font-size: 150%;
+  }
+  .namearea hr {
+    margin: 1.5rem 0;
+  }
+  .sp-character img, .img-shade {
+    filter: drop-shadow(0 0 6px #000c);
+  }
+  .sp-character {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    
+    background-color: var(--chara-card-color);
+    /*background-color: var(--chara-card-color);
+    background-color: transparent;*/
+    background-image: var(--this-bg);
+    background-position: top 20px right -100px;
+    background-repeat: no-repeat;
+    background-size: 550px;
+
+    min-height:450px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .namearea hr {
+      margin: 1rem 0;
+    }
+    .pc-left {
+     /* border-radius: 20px;
+      -webkit-backdrop-filter: blur(1px);
+      backdrop-filter: blur(1px);*/
+      
+      background: var(--chara-card-color);
+    }
+    .sp-character {
+      background-color: unset;
+      background-position: top 20px right -70px;
+      background-size: contain;
+      -webkit-backdrop-filter: unset;
+      backdrop-filter: unset;
+    }
+  }
+  :root { /* 配色 */
+  --chara-card-color: #e5e5e58c;
+  }
+  [data-user-color-scheme='dark'] {
+    --chara-card-color: #16161673;
+  }
 </style>
-{% template sp-character name no cv width height html %}
-<div class="sp-character row align-items-center">
-    <div class="imgbox col-sm-5 col-lg-4">
-        <img width={width} height={height} loading="lazy" src={`../image/drapri/chars/${no}.webp`}/>
+
+{% template sp-character name no cv html %}
+<div class="row sp-character" style={`--this-bg: url(../image/drapri/chars/${no}.webp)`}>
+  <div class="pc-left col-12 col-md-8">
+    <div class="namearea col-12 pt-2">
+      <div class="charname font-serif font-weight-bold font-italic">
+        {name}
+      </div>
+      <div class="cv font-italic">
+        CV: {cv}
+      </div>
+      <hr />
     </div>
-    <div class="textbox col-7 col-lg-8">
-        <span class="font-serif sp-name">{name}</span>
-        <br />cv: {cv}
-        <hr class="my-1"/>
-        <span html={html} />
-    </div>
+    <div class="infoarea col-12" html={html}>
+    </div>  
+  </div>
 </div>
 {% endtemplate %}
 
-<sp-character no=1 width="869" height="2412" name="宫本 武" cv="无">
-本作的男主角
-跟随养父习武，格斗技巧相当不错
-十分貧窮，常常要去公園釣小龍蝦維生
-在龙族出现后，武道家父亲为了打倒龙而踏上修行之路
-给主角和小春腾出了宝贵的同居空间
+<sp-character no=2 name="小春" cv="飴川紫乃">
+  <p>
+    龍族的公主<br>
+    由於受到武的照顧而主動幫忙勸退龍族。<br>
+    現在正在和男主角同居
+  </p>
+  <p>
+    由於奇妙的常識，絲毫不抗拒和男主sex，還有點主動...<br>
+   她和男主十分親密，因此也越來越有男主角的neet氣質
+  </p>
 </sp-character>
-
-<hr>
-
-<sp-character no=2 width="969" height="2401" name="小春" cv="飴川紫乃">
-   龍族的公主
-   由於受到武的照顧而主動幫忙勸退龍族。
-   现在正在和男主角同居
-   由于奇妙的常识，丝毫不抗拒和男主sex，还有点主动...
-   她和男主十分亲密，因此也越来越有男主角的neet气质
+<br>
+<sp-character no=3 name="一之瀨鈴夏" cv="桃山いおん">
+  <p>
+    青梅竹馬，<br>
+    隔壁和菓子店的獨生女。
+  </p>
+  <p>
+    現在正在上大學，但還是一副不聰明的樣子<br>
+  從小就喜歡男主，對男主角的遲鈍感到惱怒<br>
+  現在更是因爲小春的出現而感到焦慮
+  </p>
+  <p>
+    看遊戲界面就知道她也可以變成龍
+  </p>
 </sp-character>
-
-<hr>
-<sp-character no=3 width="969" height="2401" name="一之瀨鈴夏" cv="桃山いおん">
-  武的青梅竹馬
-  隔壁和菓子店的獨生女
-  现在正在上大学，但还是一副不聪明的样子
-  从小就喜欢男主，对男主角的迟钝感到恼怒
-  现在更是因为小春的出现而感到焦虑
-  看游戏界面就知道她也可以变成龙
+<br>
+<sp-character no=4 name="多拉美" cv="小波すず">
+  <p>
+    趾高氣揚的龍族少女，<br>
+  龍珠教的創立者。
+  </p>
+  <p>
+    雖然一副盛氣凌人的樣子<br>
+  但力量似乎不怎麼強
+  </p>
+  <p>
+    她主要劇情在DLC中，之後會另開頁面介紹
+  </p>
 </sp-character>
-
-<hr>
-
-<sp-character no=4 width="969" height="2401" name="多拉美" cv="小波すず">
-  趾高气扬的龙族少女
-  龙珠教的创立者
-  虽然一副盛气凌人的样子
-  但力量似乎不怎么强
-  她主要剧情在DLC中，之后会另开页面介绍
-
-
-</sp-character>
-
-<hr>
-
-<sp-character no=5 width="969" height="2401" name="一之瀨秋乃" cv="鳴瀬なごみ">
-  鈴夏的母親
+<br>
+<sp-character no=5 name="一之瀨秋乃" cv="鳴瀬なごみ">
+  <p>
+    鈴夏的母親<br>
   和菓子店的老闆
-  无H内容，不可攻略角色
+  </p>
+  <p>
+    無H內容，不可攻略角色<br>
   所以不用有非分之想了
+  </p>
 </sp-character>
+
+<br>
+<sp-character no=1 name="宫本 武" cv="无">
+<p>
+本作的男主角<br>
+跟隨養父習武，格鬥技巧相當不錯
+</p>
+<p>
+十分貧窮，常常要去公園釣小龍蝦維生
+</p>
+<p>
+在龍族出現後，武道家父親爲了打倒龍而踏上修行之路<br>
+給主角和小春騰出了寶貴的同居空間
+</p>
+</sp-character>
+
+## CG
+
+
+![](../image/drapri/cg/cg1.webp)
+
+![](../image/drapri/cg/cg2.webp)
+
+![](../image/drapri/cg/cg3.webp)
+
+![](../image/drapri/cg/cg4.webp)
+
+![](../image/drapri/cg/cg5.webp)
+
+![](../image/drapri/spec1.webp)
+
 
 ## 遊戲截圖
 
@@ -198,57 +254,41 @@ excerpt: '躺平尼特和龍姬和青梅竹馬的三人后宮生活'
 ../image/drapri/scn/6.webp
 {% endgallery %}
 
-## CG
-
-
-{% gallery cg %}
-../image/drapri/cg/cg1.webp
-../image/drapri/cg/cg2.webp
-../image/drapri/cg/cg3.webp
-../image/drapri/cg/cg4.webp
-../image/drapri/cg/cg5.webp
-{% endgallery %}
-
-
-![](../image/drapri/spec1.webp)
-
 
 ## OP
 
-<video controls preload="metadata" width='100%' poster="../image/drapri/movie-op.webp">
-<source src="{% steam_player 256817295 %}" type="video/mp4"/>
-<p> To view this video please enable JavaScript</p>
-</video>
+{% steam_player 256817295 %}
 
 
 ## 簡評
-总体上看，龙姬是非常优秀的作品。毕竟whirlpool是老牌会社，系统用起来相比其他很多gal都舒服的多。立绘也非常精致。总体上有龙形态，家居服，外出便服，和服四种形态。画师在人物服装设计上非常用心，可能是因为女画师的天性，衣服都很有设计感也很亮眼，比如青梅竹马的豹纹内裤，这种内裤好像还挺少出现在gal中的。总体很精致也很愿意露出大片肌肤，不像千恋万花一样包的比粽子还厚。
 
-有点令人无语的是游戏直接将青梅竹马的龙形态立绘放在界面上了，这似乎有点剧透的嫌疑了...好在游戏剧情大多是无厘头搞笑，并没有什么悬念，所以提前知道青梅竹马会变成龙并不影响游戏体验。
+總體上看，龍姬是非常優秀的作品。畢竟whirlpool是老牌會社，系統用起來相比其他很多gal都舒服的多。立繪也非常精緻。總體上有龍形態，家居服，外出便服，和服四種形態。畫師在人物服裝設計上非常用心，可能是因爲女畫師的天性，衣服都很有設計感也很亮眼，比如青梅竹馬的豹紋內褲，這種內褲好像還挺少出現在gal中的。總體很精緻也很願意露出大片肌膚，不像千戀萬花一樣包的比糉子還厚。
 
-虽然游戏的长度只有12h左右，但总体剧情还是很完整的。我有点怀疑本作可能还是因为武汉肺炎冲击导致一部分内容没有放上去，所以虽然表面上有一个选项，但是并没有分支路线。也就是说不过是可选的让你看两个不同的小剧情的选项，小剧情结束后还是回到固定三人后宫结局。游戏在发行几个月之后补充了一个DLC，我还没有玩过，不过看介绍应该是添加了多拉美的内容和H，DLC内容很短，只有20min左右。如果可能之后会另开一个页面介绍DLC。
+有點令人無語的是遊戲直接將青梅竹馬的龍形態立繪放在界面上了，這似乎有點劇透的嫌疑了...好在遊戲劇情大多是無厘頭搞笑，並沒有什麼懸念，所以提前知道青梅竹馬會變成龍並不影響遊戲體驗。
 
-附带一提，我很喜欢选项中选择青梅竹马选项的小剧情，有机会请务必读读看。
+雖然遊戲的長度只有12h左右，但總體劇情還是很完整的。我有點懷疑本作可能還是因爲武漢肺炎衝擊導致一部分內容沒有放上去，所以雖然表面上有一個選項，但是並沒有分支路線。也就是說不過是可選的讓你看兩個不同的小劇情的選項，小劇情結束後還是回到固定三人後宮結局。遊戲在發行幾個月之後補充了一個DLC，我還沒有玩過，不過看介紹應該是添加了多拉美的內容和H，DLC內容很短，只有20min左右。如果可能之後會另開一個頁面介紹DLC。
 
-CG很精美，但我要悄悄讲点坏话。总所周知日本的法律要求acg作品中出现的性器官是要打码的，所以很多gal的Hcg里，性器官部分不会画的特别精致。但是台湾的法律是不要求打码的，在台湾能发售的gal大多都会使用无码版本的cg。这时候偷工减料就表现出来了......
+附帶一提，我很喜歡選項中選擇青梅竹馬選項的小劇情，有機會請務必讀讀看。
 
-龙姬1就遇到了这个尴尬的问题。细心观察无码版本的Hcg，我们会发现女主角们的阴户都画得相当简约。而男主角的阴茎简直都违反人体解剖学了。众所周知，男性的阴茎有三条海绵体，除了两条阴茎海绵体以外，还有一条尿道海绵体，在日语里又叫做里筋。而龙姬里，男主角的阴茎居然只有两条阴茎海绵体，在本该有尿道海绵体的地方，居然内陷变成了一条凹陷......
+CG很精美，但我要悄悄講點壞話。總所周知日本的法律要求acg作品中出現的性器官是要打碼的，所以很多gal的Hcg裏，性器官部分不會畫的特別精緻。但是臺灣的法律是不要求打碼的，在臺灣能發售的gal大多都會使用無碼版本的cg。這時候偷工減料就表現出來了......
 
-我看到男主角这畸形的阴茎一下就懵逼了，不由得想到一个传言。那就是在gal界有一些virgin女画师，这辈子都没见过真实的dick，所以在画dick的时候都是凭借想象随便画两笔。
+龍姬1就遇到了這個尷尬的問題。細心觀察無碼版本的Hcg，我們會發現女主角們的陰戶都畫得相當簡約。而男主角的陰莖簡直都違反人體解剖學了。衆所周知，男性的陰莖有三條海綿體，除了兩條陰莖海綿體以外，還有一條尿道海綿體，在日語裏又叫做裏筋。而龍姬裏，男主角的陰莖居然只有兩條陰莖海綿體，在本該有尿道海綿體的地方，居然內陷變成了一條凹陷......
 
-果不其然，查找了wiki后我发现，龙姬的画师鷹乃ゆき，就是一个妹子...
+我看到男主角這畸形的陰莖一下就懵逼了，不由得想到一個傳言。那就是在gal界有一些virgin女畫師，這輩子都沒見過真實的dick，所以在畫dick的時候都是憑藉想象隨便畫兩筆。
 
-龙姬1的官方網站：
+果不其然，查找了wiki後我發現，龍姬的畫師鷹乃ゆき，就是一個妹子...
+
+龍姬1的官方網站：
 https://whirlpool.co.jp/drapri/
-
-
 
 
 ## 還在猶豫是否下載？
 
 這裏有一個 8分鐘的試玩。
 
-由于故事采取的是倒叙的手法，先叙述龙族回归在倒叙进入人物介绍，所以几分钟的开头录制无法表现出连贯一致的剧情，可能会显得很让人困惑。因此最终我决定录制一小段extra剧情内容。
+由於故事採取的是倒敘的手法，先敘述龍族迴歸再倒敘進入人物介紹，所以幾分鐘的開頭錄製無法表現出連貫一致的劇情，可能會顯得很讓人困惑。
+
+因此最終我決定錄製一小段extra劇情內容。
 
 <video controls preload="metadata" width='100%'>
 <source src="https://s3static-zone0.galgamer.eu.org/video-2d35/Dorapuri/movie.mp4" type="video/mp4"/>
@@ -257,9 +297,10 @@ https://whirlpool.co.jp/drapri/
 
 
 ## 資源與下載
-建议去ryuugames下载无码版龙姬1
 
-无dlc版本
+建議去ryuugames下載無碼版龍姬1
+
+無dlc版本
 
 https://www.ryuugames.com/eng-drapri-guu-ta-life-free-download/
 
@@ -267,11 +308,11 @@ https://www.ryuugames.com/eng-drapri-guu-ta-life-free-download/
 
 https://www.ryuugames.com/slobbish-dragon-princess-love-plus-uncensored-download/
 
-游戏内置日语，英语和正体中文，进入setting设置相应语言即可
+遊戲內置日語，英語和正體中文，進入setting設置相應語言即可
 
-<script>
-insertToast('success', '✒️️本文来自群友投稿', 3000);
-</script>
+
+{% contribution %}
+
 <!--- 摺疊部分的邊框樣式 --->
 
 <style>
@@ -292,17 +333,27 @@ details[open] {
 }
 
 details[open] summary {
-    border-bottom: 1px solid #aaa;
-    margin-bottom: .5em;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
 }
-body {
-    background: url(../image/drapri/background.webp) no-repeat fixed center;
-    background-size: cover;
-  }
 
-  // 背景透明
-  #board {
-    background-color: rgba(20, 20, 40, 0.80)
-  }
+body {
+  background: url(../image/drapri/background.webp) no-repeat fixed center;
+  background-size: cover;
+}
+
+.full-bg-img > .mask, #banner {
+  background: rgba(0,0,0,0) !important;
+}
+.page-header  {
+  background-color: rgba(0,0,0,0.5);
+  padding: 3px;
+  border-radius: 5px;
+}
+#toc {
+    background-color: var(--board-bg-color);
+    padding: 20px 10px 20px 20px;
+    border-radius: 10px;
+}
 
 </style>
