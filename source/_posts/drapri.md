@@ -298,16 +298,20 @@ https://whirlpool.co.jp/drapri/
 
 ## 資源與下載
 
+### 遊戲本體
+
 {% steam_widget 1469910 %}
 
 建議去ryuugames下載無碼版龍姬1
 
-遊戲本體（設置內可切換英語和中文）
+設置內可切換英語和中文
 解壓密碼 `ryuugames.com`
 
 https://www.ryuugames.com/eng-drapri-guu-ta-life-free-download/
 
-DLC（LOVE＋PLUS，只有日文）
+### DLC（LOVE＋PLUS）
+
+{% steam_widget 1620110 %}
 
 https://www.ryuugames.com/slobbish-dragon-princess-love-plus-uncensored-download/
 
