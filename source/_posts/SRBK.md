@@ -102,13 +102,13 @@ excerpt: '高中生少年 有地將臣 把老家神社裏的遠古文物寶刀�
     backdrop-filter: blur(1px);
     
     background-color: var(--chara-card-color);*/
-
+    
     background-color: transparent;
     background-image: var(--this-bg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
   }
   .sp-character .char-overlay {
     background-color: var(--chara-card-color);
@@ -330,16 +330,17 @@ Galgame 金曲: <a href="/music/?id=24" target="_blank">🔗️恋ひ恋ふ縁</
 但是那個劇情太沉重了，所以歡樂的千戀萬花給我留下了非常好的第一印象。
 
 又見柚子社，小 心 柚 子 廚，我才不是柚子廚，我只玩過兩部柚子的遊戲，
-都說柚子劇情太白開水，<br class="d-md-none">從我對千戀萬花和咖啡館兩部作品的印象上看，
-咖啡館就像是在開倒車，還是千戀萬花的故事比較有趣。
+一部是星光咖啡館，一部就是千戀萬花。
+比較一下千戀萬花和咖啡館兩部作品，咖啡館每天打工打爆，才是真白開水，
+還是千戀萬花的故事比較有趣，算是加了糖的日本抹茶。
 
 千戀萬花的故事節奏舒服，
 每一個章節都不拖沓，都有及時給玩家新的刺激來保持興趣。
-與此相對，之前玩的另一個 Galgame，<br class="d-md-none">開局大量專有名詞直接突臉，連續三十分鐘，
+與此相對，之前玩的另一個 Galgame，<br class="d-md-none">開局大量專有名詞直接突臉，連講三十分鐘，
 把我人都沖傻了，，，
 
 輕鬆的氛圍，美麗的作畫，令人憐愛的角色，是我喜歡千戀萬花的理由。
-
+（別誤會，我依然不是柚子廚）
 
 ## 還在猶豫是否下載？
 
