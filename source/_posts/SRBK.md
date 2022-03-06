@@ -270,9 +270,9 @@ excerpt: '高中生少年 有地將臣 把老家神社裏的遠古文物寶刀�
 
 {% steam_player 256772151 %}
 
-Galgame 金曲: <a href="/music/?id=" target="_blank">🔗️</a>
+Galgame 金曲: <a href="/music/?id=24" target="_blank">🔗️恋ひ恋ふ縁</a>
 
-我會告訴你我在聽說千戀萬花之前，就已經聽過這首歌了嗎？
+我會告訴你在聽說過千戀萬花之前，我就已經聽過這首歌了嗎？
 
 ## 遊戲 CG
 
@@ -473,8 +473,122 @@ magnet:?xt=urn:btih:8223a51b7d60e9837f87f1afe27ad87863b48537
 
 漢化：別漢化了，請直接玩日文，中文版直接找 Hikari Field，，，
 
+
 ## 花絮
 
+柚子社太出圈了，不僅是 Galgame 玩家，就連一般通過路人都知道柚子社，
+所以千戀萬花知名度也高到離譜，看看 Steam 上的盛況就知道了，，，
+
+接下來我要放一些在收集本文素材的時候偶遇的文件👀️
+
+### Analog 作畫
+
+<div class="row">
+  <div class="col-12 col-md-9">
+    {% gallery misc1 %}
+    ../image/SRBK/misc/Bonus01.webp
+    ../image/SRBK/misc/Bonus02.webp
+    ../image/SRBK/misc/Bonus03.webp
+    ../image/SRBK/misc/Bonus04.webp
+    {% endgallery %}
+  </div>
+</div>
+<br>
+
+和風就是要有曼珠沙華，沒有彼岸花就不叫和風，，，（圖 3）
+
+### 掛畫
+
+<p>
+  <img src="../image/SRBK/misc/024.webp" loading="lazy"/>
+</p>
+
+<p>
+  <img src="../image/SRBK/misc/c895010table6.webp" loading="lazy"/>
+</p>
+
+快看芳乃的貓耳，遊戲裏就沒出現過幾次，柚子社就是喜歡放着重要的設定不用。
+
+### Galgame 聯動
+
+<p>
+  <img src="../image/SRBK/misc/senflo_top.webp" loading="lazy"/>
+</p>
+
+太搞了，我就沒見過幾次 Galgame 聯動，但是千戀萬花已經是聯動麻了屬於是。
+
+### 角色歌光盤
+
+連聲優訪談都附在裏面
+
+<p>
+  <img src="../image/SRBK/misc/Cover02.webp" loading="lazy"/>
+</p>
+
+還有
+
+<div class="row">
+  <div class="col-6">
+    <img class="my-2 img-shade" src="../image/SRBK/misc/Disk0.webp" loading="lazy"/>
+  </div>
+  <div class="col-6">
+    <img class="my-2 img-shade" src="../image/SRBK/misc/Disk1.webp" loading="lazy"/>
+  </div>
+  <div class="col-6">
+    <img class="my-2 img-shade" src="../image/SRBK/misc/Disk2.webp" loading="lazy"/>
+  </div>
+  <div class="col-6">
+    <img class="my-2 img-shade" src="../image/SRBK/misc/Disk3.webp" loading="lazy"/>
+  </div>
+</div>
+
+角色歌我有傳到 <a href="/music/?id=23" target="_blank">🔗️Galgame 金曲</a>（在新頁面打開）
+
+然後光盤後面還附有一些遊戲裏面沒有的小故事，
+比如說神社的各位在討論要去哪裏賞花或者泡溫泉之類的。
+
+那些光盤在上面的 BT 種子裏面有。
+
+### 系統提示音，推特頭像，千戀萬花時鐘 APP...
+
+啥都有我就不發這裏了，群裏有群友發過，，，
+
+### 二次創作
+
+多如牛毛！上 e-hentai 簡單查查就能找到，有漫畫有小說啥都有
+
+### 聊天室貼紙
+
+阿這其實是官方放 Line 上面賣的，但是 Telegram 的也有，都被群友用爆了
+
+<a href="tg://addstickers?set=senrenbanka_sticker">🔗️直達 Telegram 貼紙</a>
+
+### 迫害小叢雨
+
+你看那個綠色頭髮的，有沒有覺得眼熟？
+沒錯，就是那個...就是那個曾經在 YouTube 上做直播的，，，
+
+> 開始進行 AI 識圖。。。
+> 頭髮顏色：綠色
+> 眼睛顏色：紅色
+> 胸部：未發現
+> 髮飾：蝴蝶
+> 識別成功！準確率 89.64%
+> 結果：
+
+結果是什麼❓️❓️❓️
+
+這就導致我一個不玩 Galgame 的二次元朋友，一提到千戀萬花，就是那個
+
+~~粽子精...~~
+
+### 熱愛小叢雨❤️
+
+別煉啦別煉辣！人家已經 500 歲辣！！
+甚麼你說你更興奮了？沒救啦！！！
+
+突開ムラサメ角色歌的網易雲音樂評論區，一下子噴出 5,000 多條評論，
+嚇得我閉上眼睛趕緊退出😅
 
 <style>
 .ar16x9{
