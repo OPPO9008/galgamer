@@ -270,7 +270,7 @@ excerpt: '高中生少年 有地將臣 把老家神社裏的遠古文物寶刀�
 
 {% steam_player 256772151 %}
 
-Galgame 金曲: <a href="/music/?id=24" target="_blank">🔗️恋ひ恋ふ縁</a>
+Galgame 金曲: <a href="/music/?id=25" target="_blank">🔗️恋ひ恋ふ縁</a>
 
 我會告訴你在聽說過千戀萬花之前，我就已經聽過這首歌了嗎？
 
@@ -433,7 +433,7 @@ BGM 曲名叫做：***今昔の街***
       </div>
     </div>
     <div class="col-7 col-md-9 textwrap">
-      <span class="text-danger font-weight-bold">請最後再來攻略</span><br>實現小叢雨 500 年的心願吧！
+      <span class="text-danger font-weight-bold">請最後再來攻略</span><br>實現小叢雨五百年來的心願吧！
     </div>
   </div>
 </div>
@@ -543,7 +543,7 @@ magnet:?xt=urn:btih:8223a51b7d60e9837f87f1afe27ad87863b48537
   </div>
 </div>
 
-角色歌我有傳到 <a href="/music/?id=23" target="_blank">🔗️Galgame 金曲</a>（在新頁面打開）
+角色歌我有傳到 <a href="/music/?id=24" target="_blank">🔗️Galgame 金曲</a>（在新頁面打開）
 
 然後光盤後面還附有一些遊戲裏面沒有的小故事，
 比如說神社的各位在討論要去哪裏賞花或者泡溫泉之類的。
