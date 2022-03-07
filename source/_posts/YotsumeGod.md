@@ -370,7 +370,7 @@ https://apps.apple.com/jp/app/sitsu-mu-shen-mi-jieki-tuo/id1120022246
 先來看個遊戲 PV，裏面也有遊戲畫面和玩法的介紹（我插入了 YouTube 視頻，你可能需要翻牆）
 
 <style>
-  #y2b {
+  iframe.y2b {
     box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
     border-radius: 10px;
     aspect-ratio: 16 / 9;
@@ -383,7 +383,7 @@ https://apps.apple.com/jp/app/sitsu-mu-shen-mi-jieki-tuo/id1120022246
     background-position: center
   }
 </style>
-<iframe id='y2b' loading="lazy" src="https://www.youtube-nocookie.com/embed/o3gW5HGMCXM" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+<iframe class="y2b" loading="lazy" src="https://www.youtube-nocookie.com/embed/o3gW5HGMCXM" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
 
 你也可以複製這個視頻的連結：https://youtu.be/o3gW5HGMCXM
 
@@ -403,6 +403,16 @@ https://apps.apple.com/jp/app/sitsu-mu-shen-mi-jieki-tuo/id1120022246
 </div>
 
 要被 ***古都に咲く花*** 洗腦了嗎 :D
+
+### 二次創作
+
+我又來了我在 YouTube 上找到一個超棒的二創動畫，
+作者親自演唱和作畫。
+即將自動跳轉到 44 秒正片開始。
+
+<iframe class="y2b" loading="lazy" src="https://www.youtube-nocookie.com/embed/Gz3cyDEwASc?start=44" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+你也可以複製這個視頻的連結：https://youtu.be/Gz3cyDEwASc
 
 <style>
 body {
