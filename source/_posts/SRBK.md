@@ -24,7 +24,7 @@ excerpt: '高中生少年 有地將臣 把老家神社裏的遠古文物寶刀�
 高中生少年 有地將臣 把老家神社裏的遠古文物寶刀給弄斷了，於是他被判處肉償。
 
 <p id="coverimage-warp">
-  <img id="coverimage" src="../image/SRBK/cover.jpg" loading="lazy" class="img-lazy" alt="Cover" big-src="https://s3static-zone0.galgamer.eu.org/video-2d35/SRBK/yoshino.png" style="aspect-ratio: 16 / 10;">
+  <img id="coverimage" src="../image/SRBK/cover.jpg" loading="lazy" class="img-lazy" alt="Cover" originimg="https://s3static-zone0.galgamer.eu.org/video-2d35/SRBK/yoshino.png" style="aspect-ratio: 16 / 10;">
 </p>
 <p id="changesrc">
   <a href="javascript:loadbigimg();" id="changebtn" class="btn btn-primary btn-sm" role="button">加載原圖（2560x1600, 3.3M）⬆️️</a>
@@ -215,7 +215,7 @@ excerpt: '高中生少年 有地將臣 把老家神社裏的遠古文物寶刀�
   <p>
     表面上活潑開朗平易近人，<br>
     實際上暗地裏看了很多（色情的）少女漫畫，<br>
-    性經驗在六人之間最豐富。
+    明明是處女，卻擁有六人之間最豐富的性經驗。
   </p>
 </sp-character>
 <br>
@@ -223,12 +223,12 @@ excerpt: '高中生少年 有地將臣 把老家神社裏的遠古文物寶刀�
   <p>
     自稱是神刀的管理員，<br>
     已經在小鎮上存活了 500 多年，<br>
-    是神一般的存在。
+    是神一般的存在，但是男主把妹的時候毫不含糊。
   </p>
   <p>
     自從男主拔出了神刀，<br>
     她就順理成章地把男主認作自己的主人，<br>
-    要永遠效忠於他。
+    要永遠效忠於他（誘騙成功）
   </p>
   <p>
     她沒有真正的身體，就如同幽靈一般，<br>
@@ -329,7 +329,7 @@ Galgame 金曲: <a href="/music/?id=25" target="_blank">🔗️恋ひ恋ふ縁</
 之前介紹過的四目之神雖然也和風，
 但是那個劇情太沉重了，所以歡樂的千戀萬花給我留下了非常好的第一印象。
 
-又見柚子社，小 心 柚 子 廚，我才不是柚子廚，我只玩過兩部柚子的遊戲，
+又見柚子社，小心柚子廚，不過我才不是柚子廚，我只玩過兩部柚子的遊戲，
 一部是星光咖啡館，一部就是千戀萬花。
 比較一下千戀萬花和咖啡館兩部作品，咖啡館每天打工打爆，才是真白開水，
 還是千戀萬花的故事比較有趣，算是加了糖的日本抹茶。
@@ -644,7 +644,7 @@ body {
   function loadbigimg(){
     let cover = document.getElementById('coverimage');
     let btn =  document.getElementById('changesrc');
-    let bigurl = cover.getAttribute('big-src');
+    let bigurl = cover.getAttribute('originimg');
     cover.setAttribute('src', '');
     cover.setAttribute('src', bigurl);
     cover.parentElement.setAttribute('href', bigurl);
