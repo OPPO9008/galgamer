@@ -1,6 +1,6 @@
 ---
 title: '千恋＊万花：誘騙和風少女'
-date: 2022-3-8 00:30:00
+date: 2022-3-11 00:30:00
 keywords: "千恋 万花, Yuzu Soft, 柚子社, Senren Banka" 
 banner_img: ''
 index_img: '../image/SRBK/index.webp'
