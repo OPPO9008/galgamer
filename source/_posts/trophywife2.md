@@ -295,6 +295,5 @@ details[open] summary {
         el.classList.remove('touch');
       })
     });
-    setTimeout(() => document.documentElement.setAttribute('data-user-color-scheme', 'light'), 1000)
   })
 </script>
