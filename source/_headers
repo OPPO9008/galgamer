@@ -1,3 +1,7 @@
+/*
+  X-Frame-Options: DENY
+  Access-Control-Allow-Origin: *.hikarifield.eu.org
+  
 https://:project.pages.dev/*
   X-Robots-Tag: noindex
   
