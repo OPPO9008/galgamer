@@ -209,6 +209,7 @@ custom_css:
 custom_head: ' 
     <link rel="preconnect" href="https://s3static-zone0.galgamer.eu.org">
     <link href="/css/s3fonts-woff-woff2.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/0.5.14/hls.min.js" ></script>
     <script src="/js/pangu.min.js"></script>
     <script src="/js/mylib_async.js"></script>
     <script src="/js/popper.min.js"></script>

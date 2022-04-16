@@ -132,3 +132,8 @@ neat_js:
   compress:
   exclude:
     - '*.min.js'
+    
+hexo-tag-dplayer:
+  cdn:
+    - https://code.bdstatic.com/npm/dplayer@1.26.0/dist/DPlayer.min.js
+    - https://code.bdstatic.com/npm/dplayer@1.26.0/dist/DPlayer.min.css
