@@ -133,7 +133,14 @@ neat_js:
   exclude:
     - '*.min.js'
     
-hexo-tag-dplayer:
+hexo-tag-cbplayer:
   cdn:
-    - https://code.bdstatic.com/npm/dplayer@1.26.0/dist/DPlayer.min.js
-    - https://code.bdstatic.com/npm/dplayer@1.26.0/dist/DPlayer.min.css
+    - https://cdn.jsdelivr.net/npm/cbplayer2@latest/dist/CBPlayer.min.js
+    - https://cdn.jsdelivr.net/npm/cdnbye@latest/dist/hlsjs-p2p-engine.min.js
+    - https://code.bdstatic.com/npm/hls.js@0.14.13/dist/hls.min.js
+  default: 
+    api: https://api.prprpr.me/dplayer/
+    loop: false
+    screenshot: yes
+    lang: zh-cn
+    preload: metadata
