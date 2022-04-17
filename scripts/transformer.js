@@ -94,6 +94,39 @@ hexo.extend.tag.register(
 </div>`,
 );
 
+hexo.extend.tag.register(
+  "steam_cbplayer",
+  ([id, cdn = "cdn.akamai.steamstatic.com"]) =>
+    `
+<div id="dplayer${id}" class="dplayer " style="margin-bottom:20px"></div>
+<script src="https://cdn.jsdelivr.net/npm/cbplayer2@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/cdnbye-mp4@latest"></script>
+<script>
+    var dp = new CBPlayer({
+        container: document.getElementById('dplayer${id}'),
+        playState: false,   // 记忆播放
+        autoplay: false,
+	theme: '#39c5bb',
+        playState: true,
+        lang: 'zh-cn',
+        video: {
+			pic: 'https://${cdn}/steam/apps/${id}/movie.293x165.jpg',
+			quality: [
+            {
+                name: 'HD',
+                url: 'https://${cdn}/steam/apps/${id}/movie_max.mp4',
+            },
+            {
+                name: 'SD',
+                url: 'https://${cdn}/steam/apps/${id}/movie480.mp4',
+            },
+        ],
+        defaultQuality: 1,
+        },
+    });
+</script>`,
+);
+
 /** gallery
  * 便捷轮播图
  * 用法：{% gallery %}
