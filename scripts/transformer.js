@@ -94,6 +94,14 @@ hexo.extend.tag.register(
 </div>`,
 );
 
+/** steam_player
+ * 更好看的Steam 视频播放器
+ * 用法：{% steam_cbplayer <地址里的数字 id> <cdn 可留空> %}
+ * media.st.dl.pinyuncloud.com
+ * cdn.steamchina.pinyuncloud.com
+ * cdn.cloudflare.steamstatic.com
+ * cdn.akamai.steamstatic.com
+ */
 hexo.extend.tag.register(
   "steam_cbplayer",
   ([id, cdn = "cdn.akamai.steamstatic.com"]) =>
