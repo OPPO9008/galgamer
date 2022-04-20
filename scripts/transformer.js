@@ -121,11 +121,11 @@ hexo.extend.tag.register(
 			pic: 'https://${cdn}/steam/apps/${id}/movie.293x165.jpg',
 			quality: [
             {
-                name: 'HD',
+                name: '高清',
                 url: 'https://${cdn}/steam/apps/${id}/movie_max.mp4',
             },
             {
-                name: 'SD',
+                name: '流畅',
                 url: 'https://${cdn}/steam/apps/${id}/movie480.mp4',
             },
         ],
