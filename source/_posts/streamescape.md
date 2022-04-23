@@ -121,7 +121,7 @@ excerpt: '美少女主播深入靈異鬼宅，遭遇豬頭人偶追杀'
 {% template sp-character name no cv width height html %}
 <div class="sp-character row align-items-center">
     <div class="imgbox col-sm-5 col-lg-4">
-        <img width={width} height={height} loading="lazy" src={`../image/drapri/chars/${no}.webp`}/>
+        <img width={width} height={height} loading="lazy" src={`../image/streamescape/chars/${no}.webp`}/>
     </div>
     <div class="textbox col-7 col-lg-8">
         <span class="font-serif sp-name">{name}</span>
