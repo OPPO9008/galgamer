@@ -22,7 +22,7 @@
     "hexo-neat": "^1.0.9",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^5.0.0",
-    "hexo-renderer-stylus": "^2.0.0",
+    "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
     "hexo-tag-cbplayer": "^0.1.3",
     "hexo-theme-fluid": "github:codehz/hexo-theme-fluid#fork",
